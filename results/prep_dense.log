@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 24708.16it/s]
+android bge kb=22001 asks=1696 68s
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 17407.26it/s]
+android minilm kb=22001 asks=1696 40s
+english bge kb=38026 asks=3765 78s
+english minilm kb=38026 asks=3765 41s
+gaming bge kb=44633 asks=2263 92s
+gaming minilm kb=44633 asks=2263 46s
+gis bge kb=37408 asks=1114 150s
+gis minilm kb=37408 asks=1114 56s
+mathematica bge kb=16151 asks=1358 91s
+mathematica minilm kb=16151 asks=1358 29s
+physics bge kb=37422 asks=1933 175s
+physics minilm kb=37422 asks=1933 59s
+programmers bge kb=31377 asks=1675 101s
+programmers minilm kb=31377 asks=1675 39s
+stats bge kb=42008 asks=913 179s
+stats minilm kb=42008 asks=913 56s
+tex bge kb=65936 asks=5154 288s
+tex minilm kb=65936 asks=5154 97s
+unix bge kb=46761 asks=1693 151s
+unix minilm kb=46761 asks=1693 56s
+webmasters bge kb=16516 asks=1395 46s
+webmasters minilm kb=16516 asks=1395 18s
+wordpress bge kb=48402 asks=744 152s
+wordpress minilm kb=48402 asks=744 54s

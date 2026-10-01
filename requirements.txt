@@ -1,0 +1,7 @@
+huggingface-hub==1.33.0
+matplotlib==3.11.2
+numpy==2.4.6
+scikit-learn==1.9.1
+scipy==1.17.1
+sentence-transformers==6.1.0
+torch==2.14.1

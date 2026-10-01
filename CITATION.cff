@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the preprint."
+title: "When Accepted Answers Become Evidence: Feedback Loops in Self-Updating Retrieval"
+authors:
+  - family-names: Guthikonda
+    given-names: Pavan Kumar
+date-released: 2026-10-02
+doi: 10.5281/zenodo.23089818
+license: MIT

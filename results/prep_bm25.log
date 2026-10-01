@@ -1,0 +1,12 @@
+android bm25 kb=22001 asks=1696 1s
+english bm25 kb=38026 asks=3765 2s
+gaming bm25 kb=44633 asks=2263 1s
+gis bm25 kb=37408 asks=1114 1s
+mathematica bm25 kb=16151 asks=1358 1s
+physics bm25 kb=37422 asks=1933 1s
+programmers bm25 kb=31377 asks=1675 1s
+stats bm25 kb=42008 asks=913 1s
+tex bm25 kb=65936 asks=5154 5s
+unix bm25 kb=46761 asks=1693 2s
+webmasters bm25 kb=16516 asks=1395 1s
+wordpress bm25 kb=48402 asks=744 1s

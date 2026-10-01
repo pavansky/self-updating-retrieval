@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/
+cache/
+results/sim_*.json
+tex/*.aux
+tex/*.log
