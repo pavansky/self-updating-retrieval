@@ -1,0 +1,43 @@
+askdoc android bm25 pairs=8480 1s
+askdoc english bm25 pairs=18825 1s
+askdoc gaming bm25 pairs=11315 1s
+askdoc gis bm25 pairs=5570 1s
+askdoc mathematica bm25 pairs=6790 1s
+askdoc physics bm25 pairs=9665 1s
+askdoc programmers bm25 pairs=8375 1s
+askdoc stats bm25 pairs=4565 1s
+askdoc tex bm25 pairs=25770 3s
+askdoc unix bm25 pairs=8465 2s
+askdoc webmasters bm25 pairs=6975 1s
+askdoc wordpress bm25 pairs=3720 2s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6180.33it/s]
+askdoc android bge pairs=8480 35s
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6166.95it/s]
+askdoc android minilm pairs=8480 17s
+askdoc english bge pairs=18825 41s
+askdoc english minilm pairs=18825 22s
+askdoc gaming bge pairs=11315 25s
+askdoc gaming minilm pairs=11315 13s
+askdoc gis bge pairs=5570 21s
+askdoc gis minilm pairs=5570 9s
+askdoc mathematica bge pairs=6790 40s
+askdoc mathematica minilm pairs=6790 12s
+askdoc physics bge pairs=9665 40s
+askdoc physics minilm pairs=9665 14s
+askdoc programmers bge pairs=8375 28s
+askdoc programmers minilm pairs=8375 12s
+askdoc stats bge pairs=4565 22s
+askdoc stats minilm pairs=4565 7s
+askdoc tex bge pairs=25770 122s
+askdoc tex minilm pairs=25770 38s
+askdoc unix bge pairs=8465 27s
+askdoc unix minilm pairs=8465 11s
+askdoc webmasters bge pairs=6975 21s
+askdoc webmasters minilm pairs=6975 8s
+askdoc wordpress bge pairs=3720 16s
+askdoc wordpress minilm pairs=3720 5s
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 10858.04it/s]
+rerank android n=1696 473s
+rerank unix n=1693 449s
+rerank webmasters n=1395 304s
+rerank mathematica n=1358 362s

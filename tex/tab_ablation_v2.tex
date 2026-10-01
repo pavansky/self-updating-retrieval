@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrrrrr}\toprule Retriever & Entry content & $\Delta$ @0.3 & $\Delta$ @0.95 & sig.\ $<0$ @0.95 & median $p^*$ & self-share @0.95 & capture & steal\\\midrule
+bge & ask text (v1) & -0.21 & -1.89 & 12/12 & 0.15 & 56\% & 74\% & 26.3\%\\
+ & shown thread text & +0.00 & +0.00 & 0/12 & $>$0.95 & 0\% & 51\% & 0.0\%\\
+ & ask + thread text & +0.14 & -0.02 & 1/12 & 0.75 & 14\% & 52\% & 2.7\%\\
+\addlinespace[2pt]
+MiniLM & ask text (v1) & +0.29 & -0.58 & 10/12 & 0.43 & 33\% & 58\% & 12.2\%\\
+ & shown thread text & +0.00 & +0.00 & 0/12 & $>$0.95 & 0\% & 47\% & 0.0\%\\
+ & ask + thread text & +0.20 & -0.02 & 4/12 & 0.80 & 18\% & 53\% & 3.5\%\\
+\addlinespace[2pt]
+BM25 & ask text (v1) & +0.03 & -0.00 & 4/12 & $>$0.95 & 4\% & 30\% & 0.6\%\\
+ & shown thread text & +0.00 & +0.00 & 0/12 & $>$0.95 & 0\% & 47\% & 0.0\%\\
+ & ask + thread text & +0.07 & +0.01 & 2/12 & $>$0.95 & 13\% & 52\% & 1.6\%\\
+\bottomrule\end{tabular}
