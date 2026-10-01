@@ -1,5 +1,8 @@
 # When Accepted Answers Become Evidence: Feedback Loops in Self-Updating Retrieval
 
+Preprint on Zenodo, all versions: https://doi.org/10.5281/zenodo.23089817 (version 2: https://doi.org/10.5281/zenodo.23091483). Code is MIT licensed, the paper is CC BY 4.0.
+
+
 Code for the preprint (tex/main.pdf). All data is public CQADupStack (BEIR format, MTEB mirror on Hugging Face).
 
     uv venv -p 3.11 .venv && uv pip install -p .venv -r requirements.txt
