@@ -1,0 +1,58 @@
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 14607.51it/s]
+wrote ./results/sim_v3_main.json 263s missing CE pairs: 130140 missing askdoc pairs: 17
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 10781.74it/s]
+cepairs android pairs=28176 new=8627 12s
+cepairs english pairs=68029 new=20186 26s
+cepairs gaming pairs=26979 new=2272 3s
+cepairs gis pairs=14591 new=1939 4s
+cepairs mathematica pairs=26295 new=9786 21s
+cepairs physics pairs=31138 new=8961 16s
+cepairs programmers pairs=28639 new=8440 15s
+cepairs stats pairs=14046 new=3178 6s
+cepairs tex pairs=110299 new=46289 91s
+cepairs unix pairs=26211 new=5993 20s
+cepairs webmasters pairs=29929 new=12954 43s
+cepairs wordpress pairs=10400 new=1515 6s
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8658.99it/s]
+askdoc android bge pairs=8651 10s
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5400.10it/s]
+askdoc android minilm pairs=8687 5s
+askdoc english bge pairs=19473 3s
+askdoc english minilm pairs=19239 2s
+askdoc english bm25 pairs=19797 2s
+askdoc physics bge pairs=9776 2s
+askdoc physics minilm pairs=9760 1s
+askdoc tex minilm pairs=26128 2s
+askdoc webmasters bge pairs=7242 1s
+askdoc webmasters minilm pairs=7183 0s
+wrote ./results/sim_v3_main.json 437s missing CE pairs: 9385 missing askdoc pairs: 0
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 7302.79it/s]
+cepairs android pairs=28617 new=441 1s
+cepairs english pairs=69487 new=1458 3s
+cepairs gaming pairs=26999 new=20 0s
+cepairs gis pairs=14629 new=38 0s
+cepairs mathematica pairs=26858 new=563 1s
+cepairs physics pairs=31725 new=587 1s
+cepairs programmers pairs=29150 new=511 1s
+cepairs stats pairs=14195 new=149 0s
+cepairs tex pairs=114464 new=4165 9s
+cepairs unix pairs=26476 new=265 1s
+cepairs webmasters pairs=31077 new=1148 2s
+cepairs wordpress pairs=10440 new=40 0s
+wrote ./results/sim_v3_main.json 314s missing CE pairs: 264 missing askdoc pairs: 0
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6570.71it/s]
+cepairs android pairs=28629 new=12 0s
+cepairs english pairs=69534 new=47 0s
+cepairs mathematica pairs=26861 new=3 0s
+cepairs physics pairs=31747 new=22 0s
+cepairs programmers pairs=29167 new=17 0s
+cepairs stats pairs=14196 new=1 0s
+cepairs tex pairs=114574 new=110 0s
+cepairs unix pairs=26479 new=3 0s
+cepairs webmasters pairs=31126 new=49 0s
+wrote ./results/sim_v3_main.json 293s missing CE pairs: 10 missing askdoc pairs: 0
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 6674.68it/s]
+cepairs english pairs=69539 new=5 0s
+cepairs tex pairs=114576 new=2 0s
+cepairs webmasters pairs=31129 new=3 0s
+wrote ./results/sim_v3_main.json 290s missing CE pairs: 0 missing askdoc pairs: 0

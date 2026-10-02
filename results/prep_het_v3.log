@@ -1,0 +1,1 @@
+{'families_available': 9797, 'families': 2500, 'asks': 5578, 'kb': 86942, 'neighbours': 24848, 'background': 60000, 'asks_per_family': Counter({2: 2120, 3: 280, 4: 60, 5: 26, 8: 3, 7: 3, 6: 3, 13: 2, 10: 1, 14: 1, 15: 1}), 'mean_ask_words': 6.220867694514163, 'mean_kb_words': 56.00126521129029}

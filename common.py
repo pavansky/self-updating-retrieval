@@ -8,6 +8,10 @@ RETRIEVERS = ["bge", "minilm", "bm25"]
 MAX_CHARS = 1200
 
 def load(sub):
+    if sub.startswith("msmarco"):        # v3 heterogeneous corpus built by prep_het_v3.py
+        kb = [json.loads(l) for l in open(os.path.join(HERE, "data_het", sub, "kb.jsonl"))]
+        ak = [json.loads(l) for l in open(os.path.join(HERE, "data_het", sub, "asks.jsonl"))]
+        return [d["text"] for d in kb], np.array([d["fam"] for d in kb]), [d["text"] for d in ak], np.array([d["fam"] for d in ak])
     corpus = {}
     for line in open(os.path.join(DATA, sub, "corpus.jsonl")):
         d = json.loads(line); corpus[d["_id"]] = (d.get("title", ""), d.get("text", ""))

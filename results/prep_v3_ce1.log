@@ -1,0 +1,13 @@
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 13682.18it/s]
+cepairs android pairs=19549 new=19549 24s
+cepairs english pairs=47843 new=47843 51s
+cepairs gaming pairs=24707 new=24707 29s
+cepairs gis pairs=12652 new=12652 23s
+cepairs mathematica pairs=16509 new=16509 34s
+cepairs physics pairs=22177 new=22177 40s
+cepairs programmers pairs=20199 new=20199 35s
+cepairs stats pairs=10868 new=10868 21s
+cepairs tex pairs=64010 new=64010 109s
+cepairs unix pairs=20218 new=20218 33s
+cepairs webmasters pairs=16975 new=16975 26s
+cepairs wordpress pairs=8885 new=8885 17s

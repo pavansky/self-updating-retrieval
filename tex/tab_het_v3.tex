@@ -1,0 +1,13 @@
+\begin{tabular}{llrlllll}\toprule Retriever & Entry content & Top-1 & $\Delta$@0.1 & $\Delta$@0.3 & $\Delta$@0.95 & $p^*$ & self-share @0.95\\\midrule
+bge & ask text & 47.2 & +2.19 $\pm$ 0.22 & +1.06 $\pm$ 0.22 & -1.43 $\pm$ 0.20 & 0.58 [0.55, 0.61] & 54\%\\
+ & ask + thread text &  & +1.29 $\pm$ 0.10 & +1.00 $\pm$ 0.12 & +0.33 $\pm$ 0.13 & $>$0.95 & 33\%\\
+ & shown thread text &  & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 & 0\%\\
+\addlinespace[2pt]
+MiniLM & ask text & 44.4 & +1.94 $\pm$ 0.14 & +1.27 $\pm$ 0.17 & -0.42 $\pm$ 0.23 & 0.78 [0.74, 0.86] & 50\%\\
+ & ask + thread text &  & +0.78 $\pm$ 0.06 & +0.60 $\pm$ 0.09 & +0.13 $\pm$ 0.09 & $>$0.95 & 29\%\\
+ & shown thread text &  & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 & 0\%\\
+\addlinespace[2pt]
+BM25 & ask text & 17.7 & +0.59 $\pm$ 0.09 & +0.43 $\pm$ 0.06 & -0.07 $\pm$ 0.10 & 0.86 [0.69, 0.95] & 21\%\\
+ & ask + thread text &  & +0.87 $\pm$ 0.11 & +0.61 $\pm$ 0.10 & +0.01 $\pm$ 0.15 & $>$0.95 & 42\%\\
+ & shown thread text &  & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 & 0\%\\
+\bottomrule\end{tabular}

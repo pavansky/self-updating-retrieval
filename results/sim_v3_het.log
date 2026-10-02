@@ -1,0 +1,7 @@
+wrote ./results/sim_v2_het.json 693s missing askdoc pairs: 565
+wrote ./results/sim_v2_het.json 507s missing askdoc pairs: 42
+wrote ./results/sim_v2_het.json 388s missing askdoc pairs: 1
+wrote ./results/sim_v2_het.json 672s missing askdoc pairs: 0
+wrote ./results/sim_v3_het.json 125s missing CE pairs: 2001 missing askdoc pairs: 1
+wrote ./results/sim_v3_het.json 128s missing CE pairs: 7 missing askdoc pairs: 0
+wrote ./results/sim_v3_het.json 132s missing CE pairs: 0 missing askdoc pairs: 0

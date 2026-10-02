@@ -33,3 +33,19 @@ v1 outputs are unchanged; v2 writes `*_v2` files.
 sim_v2.py reproduces sim.py exactly for question entries with constant acceptance, and adds entry-content variants
 (ask / doc / askdoc), confidence-dependent acceptance, a confidence gate, a footprint retention rule, a cross-encoder
 reranker and capture/steal diagnostics. analyze_v2.py also runs the split-order (5/5) out-of-sample test of the plug-in estimate.
+## Version 3 (October 2026, tex/main_v3.pdf)
+
+v1/v2 outputs are unchanged; v3 writes `*_v3` files (and `sim_v2_het.json`, the v2 loop run on the new corpus).
+
+    # Doc2Query-- style cross-encoder filter and semantic-cache baselines on CQADupStack
+    ./run_v3_main.sh          # prep_v3.py cepairs + prep_v2.py askdoc + sim_v3.py, iterated until no pair is missing
+    # MS MARCO query families (heterogeneous corpus); needs data_het/raw/{queries.jsonl,corpus.jsonl.part}
+    #   from https://huggingface.co/datasets/mteb/msmarco (see prep_het_v3.py: only the first 4.3M passage ids are used)
+    ./run_v3_het.sh           # build, index, then sim_v2.py and sim_v3.py on msmarcoh, iterated
+    .venv/bin/python analyze_v3.py   # tables_v3.json, tex/*_v3.tex, tex/macros_v3.tex, figs/rules_v3.pdf
+    cd tex && tectonic main_v3.tex
+
+sim_v3.py adds two write-back rules to the v2 loop (same random streams; its naive runs reproduce sim_v2 exactly):
+`filter` drops accepted (ask, thread) pairs whose ms-marco-MiniLM-L-6-v2 cross-encoder score is below the q-quantile
+of round-1 scores; `cache` serves a stored question's thread when the ask's similarity to it is >= tau, else answers
+from the original KB. prep_het_v3.py builds families of distinct real Bing queries sharing one relevant MS MARCO passage.

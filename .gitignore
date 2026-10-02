@@ -5,3 +5,5 @@ cache/
 results/sim_*.json
 tex/*.aux
 tex/*.log
+data_het/raw/
+data_het/msmarcoh/*.jsonl

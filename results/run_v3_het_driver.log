@@ -1,0 +1,38 @@
+{'families_available': 9797, 'families': 2500, 'asks': 5578, 'kb': 86942, 'neighbours': 24848, 'background': 60000, 'asks_per_family': Counter({2: 2120, 3: 280, 4: 60, 5: 26, 8: 3, 7: 3, 6: 3, 13: 2, 10: 1, 14: 1, 15: 1}), 'mean_ask_words': 6.220867694514163, 'mean_kb_words': 56.00126521129029}
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6173.93it/s]
+neighbour check 0.7225566892656883 0.4200431099891663
+msmarcoh bge 86942 5578
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5959.63it/s]
+msmarcoh minilm 86942 5578
+msmarcoh bm25 86942 5578
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5883.57it/s]
+askdoc msmarcoh bge pairs=27890 79s
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2041.01it/s]
+askdoc msmarcoh minilm pairs=27890 46s
+askdoc msmarcoh bm25 pairs=27890 3s
+wrote ./results/sim_v2_het.json 693s missing askdoc pairs: 565
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5821.24it/s]
+askdoc msmarcoh bge pairs=27976 14s
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5424.78it/s]
+askdoc msmarcoh minilm pairs=27983 7s
+askdoc msmarcoh bm25 pairs=28276 3s
+wrote ./results/sim_v2_het.json 507s missing askdoc pairs: 42
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10015.68it/s]
+askdoc msmarcoh bge pairs=27987 11s
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11863.28it/s]
+askdoc msmarcoh minilm pairs=27991 6s
+askdoc msmarcoh bm25 pairs=28299 1s
+wrote ./results/sim_v2_het.json 388s missing askdoc pairs: 1
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 388.62it/s]
+askdoc msmarcoh bge pairs=27988 10s
+wrote ./results/sim_v2_het.json 672s missing askdoc pairs: 0
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 10771.46it/s]
+cepairs msmarcoh pairs=50979 new=50979 1699s
+wrote ./results/sim_v3_het.json 125s missing CE pairs: 2001 missing askdoc pairs: 1
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 28088.65it/s]
+cepairs msmarcoh pairs=52980 new=2001 2s
+askdoc msmarcoh bm25 pairs=28300 1s
+wrote ./results/sim_v3_het.json 128s missing CE pairs: 7 missing askdoc pairs: 0
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 16403.53it/s]
+cepairs msmarcoh pairs=52987 new=7 0s
+wrote ./results/sim_v3_het.json 132s missing CE pairs: 0 missing askdoc pairs: 0
