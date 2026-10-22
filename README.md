@@ -67,3 +67,20 @@ google/gemma-4-26b-a4b-qat (LM Studio).
 - Azure needs `AZURE_AI_ENDPOINT` and a key file at `AZURE_AI_KEY_FILE`; the Stack Exchange key is read from `SE_KEY` or `SE_KEY_FILE`.
 
 Stack Exchange content in `data_gen/` is licensed CC BY-SA 4.0 by its authors (https://stackoverflow.com/help/licensing).
+
+### Paper 2, revised version (TMLR submission, October 2026)
+
+Retitled "Self-Written Evidence: Error Propagation When Accepted LLM Answers Are Written Back to a Retrieval Corpus".
+Preprint PDF: `paper2_tmlr/Self_Written_Evidence_preprint.pdf`. The revision adds:
+
+- `judge_gen.py`: every generated answer judged against the source thread's human answer by an independent model
+  (DeepSeek-V4.1-Flash), and a content-aware simulated user that accepts according to that label.
+- `embed_control.py`: same-source, length-matched human-answer controls for the source-bias test.
+- `sim_gen.py`: delayed and noisy reopen, depth cap, regenerate-from-root and depth-scaled down-weighting; per-question
+  outcome bits for family-level bootstrap.
+- `analyze_gen3.py`, `write_tex_gen3.py`, `make_figs_gen3.py`: effect sizes against the fixable ceiling, joint
+  order-and-family bootstrap, paired tests with Holm correction, out-of-sample crossover estimates, all tables and figures.
+- `run_gen_v3.sh`: generate, judge, embed and simulate until no served answer is missing.
+- `human_audit.py`: 200-answer sheet for a human check of the judge.
+- `data_gen/`: all generated answers (main prompt, open prompt, open-weight generator), all judge labels, the
+  900-answer three-judge audit and the result tables.

@@ -29,12 +29,17 @@ BACKEND = os.environ.get("GEN_BACKEND", "local")          # local (LM Studio) | 
 TAG = os.environ.get("GEN_TAG", "")                       # suffix of the generator's cache files ("" = local gemma, "_az" = azure)
 GEN_MODEL = os.environ.get("GEN_MODEL", "google/gemma-4-26b-a4b-qat" if BACKEND == "local" else "gpt-5.4-mini")
 GEN_URL = os.environ.get("GEN_URL", "http://localhost:1234/v1/chat/completions")
-AZ_EP = os.environ.get("AZURE_AI_ENDPOINT", "")   # your Azure AI Foundry endpoint
+AZ_EP = os.environ.get("AZURE_AI_ENDPOINT", "")
 AZ_KEY_FILE = os.path.expanduser(os.environ.get("AZURE_AI_KEY_FILE", "~/.config/azure_ai.key"))
 ANS_CHARS = 1500; GEN_WORDS = 120
 SYSTEM = ("You are a technical support assistant. Answer the user's question using only the evidence provided. "
           "If the evidence does not fully answer the question, say what it does cover and give the closest guidance it supports. "
           f"At most {GEN_WORDS} words. Plain text, no headings, no mention of the evidence or of these instructions.")
+# Prompt variant for the external-validity check (GEN_PROMPT=open, cache tag e.g. _az_open): the model may use its own
+# knowledge, has no length limit beyond the token cap, and is not told to stay within the evidence.
+SYSTEM_OPEN = ("You are a technical support assistant. Answer the user's question as helpfully as you can. "
+               "A previously resolved case or thread is provided as context; use it where it helps. Plain text.")
+if os.environ.get("GEN_PROMPT") == "open": SYSTEM = SYSTEM_OPEN
 _ST = {}
 
 def st(r):
@@ -161,7 +166,7 @@ def call_llm(question, evidence):
     msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": "Question: " + question + "\n\nEvidence:\n" + evidence}]
     if BACKEND == "azure":
         url = f"{AZ_EP}/openai/deployments/{GEN_MODEL}/chat/completions?api-version=2024-12-01-preview"
-        body = {"messages": msgs, "max_completion_tokens": 400, "reasoning_effort": "minimal", "seed": 0}
+        body = {"messages": msgs, "max_completion_tokens": 900 if os.environ.get("GEN_PROMPT") == "open" else 400, "reasoning_effort": "minimal", "seed": 0}
         hdr = {"Content-Type": "application/json", "api-key": open(AZ_KEY_FILE).read().strip()}
     else:
         url = GEN_URL; hdr = {"Content-Type": "application/json"}
@@ -227,14 +232,14 @@ def bm25_matrix(kb, asks_txt, entries, k1=1.2, b=0.75):
     M = cv.transform(entries).tocsr(); l = np.asarray(M.sum(1)).ravel(); rows = np.repeat(np.arange(M.shape[0]), np.diff(M.indptr))
     tf = M.data; M.data = tf * (k1 + 1) / (tf + k1 * (1 - b + b * l[rows] / avg)) * idf[M.indices]
     Q = cv.transform(asks_txt).tocsr(); Q.data[:] = 1.0
-    return (Q @ M.T).toarray().astype(np.float16)
+    return (Q @ M.T).toarray().astype(np.float32)        # float32: entry scores on the same precision as base scores
 
 def embed(subs):
     for sub in subs:
         kb, kfam, ask, afam = load(sub); ids = kb_ids(sub); g = load_gen(sub)
         ans = json.load(open(os.path.join(G, f"{sub}_answers.json")))
         keys = sorted(g); out = os.path.join(G, f"{sub}_entries{TAG}.npz")
-        if os.path.exists(out) and np.load(out)["keys"].tolist() == keys: continue
+        if os.path.exists(out) and np.load(out)["keys"].tolist() == keys and np.load(out)[f"BM_{VARIANTS[0]}"].dtype == np.float32: continue
         t0 = time.time(); save = dict(keys=np.array(keys))
         root = np.array([parse_ev(k.split("|", 1)[1])[0] for k in keys]); depth = np.array([parse_ev(k.split("|", 1)[1])[1] for k in keys])
         save["root"] = root; save["depth"] = depth
