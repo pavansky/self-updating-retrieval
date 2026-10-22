@@ -52,6 +52,8 @@ from the original KB. prep_het_v3.py builds families of distinct real Bing queri
 
 ## Paper 2: When Generated Answers Become Evidence
 
+Preprint: https://doi.org/10.5281/zenodo.23574324
+
 Follow-up study where the stored entry is a generated answer that becomes the evidence for the next generation.
 Draft: `tex/main_gen.pdf`. Generator: gpt-5.4-mini (Azure AI Foundry); open-weight replication on android with
 google/gemma-4-26b-a4b-qat (LM Studio).
