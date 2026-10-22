@@ -1,0 +1,53 @@
+\begin{tabular}{lllrrr}
+\toprule
+forum & retriever & entry & observed $p^*$ & first-order estimate & depth-aware estimate \\
+\midrule
+android & bge & generated answer & 0.74 & 0.67 & 0.57 \\
+android & bge & ask + generated answer & $>$0.95 & 1.00 & 0.91 \\
+android & bge & generated answer + cited thread & 0.89 & 0.93 & 0.75 \\
+\midrule
+android & MiniLM & generated answer & $>$0.95 & 1.00 & 1.00 \\
+android & MiniLM & ask + generated answer & $>$0.95 & 1.00 & 1.00 \\
+android & MiniLM & generated answer + cited thread & 0.38 & 0.43 & 0.39 \\
+\midrule
+android & BM25 & generated answer & $>$0.95 & 1.00 & 1.00 \\
+android & BM25 & ask + generated answer & $>$0.95 & -- & -- \\
+android & BM25 & generated answer + cited thread & $>$0.95 & -- & -- \\
+\midrule
+unix & bge & generated answer & 0.83 & 0.90 & 0.81 \\
+unix & bge & ask + generated answer & $>$0.95 & 1.00 & 1.00 \\
+unix & bge & generated answer + cited thread & $>$0.95 & 1.00 & 1.00 \\
+\midrule
+unix & MiniLM & generated answer & 0.84 & 0.76 & 0.72 \\
+unix & MiniLM & ask + generated answer & $>$0.95 & 1.00 & 1.00 \\
+unix & MiniLM & generated answer + cited thread & $>$0.95 & 1.00 & 1.00 \\
+\midrule
+unix & BM25 & generated answer & 0.40 & 0.87 & 0.84 \\
+unix & BM25 & ask + generated answer & $>$0.95 & 1.00 & 1.00 \\
+unix & BM25 & generated answer + cited thread & $>$0.95 & 1.00 & 1.00 \\
+\midrule
+webmasters & bge & generated answer & 0.36 & 0.15 & 0.12 \\
+webmasters & bge & ask + generated answer & 0.58 & 0.58 & 0.52 \\
+webmasters & bge & generated answer + cited thread & 0.40 & 0.27 & 0.21 \\
+\midrule
+webmasters & MiniLM & generated answer & $>$0.95 & 1.00 & 1.00 \\
+webmasters & MiniLM & ask + generated answer & $>$0.95 & 1.00 & 1.00 \\
+webmasters & MiniLM & generated answer + cited thread & $>$0.95 & 1.00 & 1.00 \\
+\midrule
+webmasters & BM25 & generated answer & $>$0.95 & -- & -- \\
+webmasters & BM25 & ask + generated answer & $>$0.95 & -- & -- \\
+webmasters & BM25 & generated answer + cited thread & $>$0.95 & -- & -- \\
+\midrule
+mathematica & bge & generated answer & 0.29 & 0.32 & 0.30 \\
+mathematica & bge & ask + generated answer & $<$0.10 & 0.20 & 0.20 \\
+mathematica & bge & generated answer + cited thread & 0.64 & 0.72 & 0.67 \\
+\midrule
+mathematica & MiniLM & generated answer & $>$0.95 & 0.88 & 0.82 \\
+mathematica & MiniLM & ask + generated answer & 0.70 & 0.72 & 0.65 \\
+mathematica & MiniLM & generated answer + cited thread & $>$0.95 & -- & -- \\
+\midrule
+mathematica & BM25 & generated answer & 0.50 & 0.29 & 0.28 \\
+mathematica & BM25 & ask + generated answer & 0.52 & 0.37 & 0.35 \\
+mathematica & BM25 & generated answer + cited thread & 0.50 & 0.28 & 0.27 \\
+\bottomrule
+\end{tabular}

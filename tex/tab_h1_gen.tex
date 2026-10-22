@@ -1,0 +1,77 @@
+\begin{tabular}{lllrrrr}
+\toprule
+forum & retriever & entry & $p^*$ & $\Delta$ at 0.95 & self 0.95 & steal 0.95 \\
+\midrule
+android & bge & ask text (paper 1) & 0.47 & -1.87 $\pm$ 0.65 & 65\% & 34\% \\
+android & bge & ask + thread (paper 1) & 0.77 & -0.04 $\pm$ 0.14 & 19\% & 3\% \\
+android & bge & generated answer & 0.74 & -0.19 $\pm$ 0.21 & 27\% & 10\% \\
+android & bge & ask + generated answer & $>$0.95 & +0.14 $\pm$ 0.24 & 19\% & 6\% \\
+android & bge & generated answer + cited thread & 0.89 & -0.04 $\pm$ 0.21 & 25\% & 9\% \\
+\midrule
+android & MiniLM & ask text (paper 1) & 0.67 & -0.29 $\pm$ 0.24 & 34\% & 10\% \\
+android & MiniLM & ask + thread (paper 1) & $>$0.95 & +0.25 $\pm$ 0.14 & 24\% & 3\% \\
+android & MiniLM & generated answer & $>$0.95 & +0.15 $\pm$ 0.12 & 10\% & 2\% \\
+android & MiniLM & ask + generated answer & $>$0.95 & +0.25 $\pm$ 0.17 & 15\% & 3\% \\
+android & MiniLM & generated answer + cited thread & 0.38 & -0.14 $\pm$ 0.14 & 9\% & 3\% \\
+\midrule
+android & BM25 & ask text (paper 1) & $>$0.95 & +0.03 $\pm$ 0.10 & 7\% & 2\% \\
+android & BM25 & ask + thread (paper 1) & $>$0.95 & +0.02 $\pm$ 0.19 & 19\% & 4\% \\
+android & BM25 & generated answer & $>$0.95 & +0.05 $\pm$ 0.07 & 6\% & 1\% \\
+android & BM25 & ask + generated answer & $>$0.95 & +0.20 $\pm$ 0.08 & 10\% & 1\% \\
+android & BM25 & generated answer + cited thread & $>$0.95 & +0.29 $\pm$ 0.11 & 9\% & 0\% \\
+\midrule
+unix & bge & ask text (paper 1) & 0.26 & -2.68 $\pm$ 0.57 & 56\% & 30\% \\
+unix & bge & ask + thread (paper 1) & 0.81 & -0.04 $\pm$ 0.14 & 11\% & 3\% \\
+unix & bge & generated answer & 0.83 & -0.08 $\pm$ 0.20 & 16\% & 6\% \\
+unix & bge & ask + generated answer & $>$0.95 & +0.25 $\pm$ 0.15 & 8\% & 2\% \\
+unix & bge & generated answer + cited thread & $>$0.95 & +0.22 $\pm$ 0.13 & 12\% & 3\% \\
+\midrule
+unix & MiniLM & ask text (paper 1) & 0.63 & -0.47 $\pm$ 0.24 & 27\% & 11\% \\
+unix & MiniLM & ask + thread (paper 1) & $>$0.95 & +0.10 $\pm$ 0.16 & 16\% & 3\% \\
+unix & MiniLM & generated answer & 0.84 & -0.05 $\pm$ 0.12 & 8\% & 3\% \\
+unix & MiniLM & ask + generated answer & $>$0.95 & +0.11 $\pm$ 0.13 & 10\% & 3\% \\
+unix & MiniLM & generated answer + cited thread & $>$0.95 & +0.32 $\pm$ 0.08 & 6\% & 1\% \\
+\midrule
+unix & BM25 & ask text (paper 1) & $>$0.95 & +0.04 $\pm$ 0.05 & 2\% & 0\% \\
+unix & BM25 & ask + thread (paper 1) & $>$0.95 & +0.09 $\pm$ 0.05 & 9\% & 0\% \\
+unix & BM25 & generated answer & 0.40 & -0.03 $\pm$ 0.07 & 5\% & 2\% \\
+unix & BM25 & ask + generated answer & $>$0.95 & +0.04 $\pm$ 0.07 & 7\% & 3\% \\
+unix & BM25 & generated answer + cited thread & $>$0.95 & +0.13 $\pm$ 0.04 & 7\% & 1\% \\
+\midrule
+webmasters & bge & ask text (paper 1) & 0.14 & -1.79 $\pm$ 0.28 & 72\% & 31\% \\
+webmasters & bge & ask + thread (paper 1) & 0.32 & -0.12 $\pm$ 0.09 & 24\% & 4\% \\
+webmasters & bge & generated answer & 0.36 & -0.36 $\pm$ 0.14 & 31\% & 8\% \\
+webmasters & bge & ask + generated answer & 0.58 & -0.15 $\pm$ 0.09 & 18\% & 5\% \\
+webmasters & bge & generated answer + cited thread & 0.40 & -0.32 $\pm$ 0.11 & 29\% & 9\% \\
+\midrule
+webmasters & MiniLM & ask text (paper 1) & 0.77 & -0.32 $\pm$ 0.26 & 42\% & 14\% \\
+webmasters & MiniLM & ask + thread (paper 1) & 0.90 & -0.04 $\pm$ 0.14 & 28\% & 6\% \\
+webmasters & MiniLM & generated answer & $>$0.95 & +0.25 $\pm$ 0.14 & 11\% & 2\% \\
+webmasters & MiniLM & ask + generated answer & $>$0.95 & +0.16 $\pm$ 0.19 & 17\% & 3\% \\
+webmasters & MiniLM & generated answer + cited thread & $>$0.95 & +0.22 $\pm$ 0.11 & 10\% & 1\% \\
+\midrule
+webmasters & BM25 & ask text (paper 1) & $<$0.10 & -0.08 $\pm$ 0.03 & 7\% & 1\% \\
+webmasters & BM25 & ask + thread (paper 1) & $<$0.10 & -0.27 $\pm$ 0.07 & 17\% & 5\% \\
+webmasters & BM25 & generated answer & $>$0.95 & +0.11 $\pm$ 0.06 & 10\% & 2\% \\
+webmasters & BM25 & ask + generated answer & $>$0.95 & +0.16 $\pm$ 0.07 & 14\% & 2\% \\
+webmasters & BM25 & generated answer + cited thread & $>$0.95 & +0.09 $\pm$ 0.09 & 12\% & 2\% \\
+\midrule
+mathematica & bge & ask text (paper 1) & $<$0.10 & -2.58 $\pm$ 0.30 & 65\% & 39\% \\
+mathematica & bge & ask + thread (paper 1) & 0.70 & -0.02 $\pm$ 0.06 & 11\% & 2\% \\
+mathematica & bge & generated answer & 0.29 & -0.46 $\pm$ 0.20 & 22\% & 11\% \\
+mathematica & bge & ask + generated answer & $<$0.10 & -0.14 $\pm$ 0.06 & 10\% & 3\% \\
+mathematica & bge & generated answer + cited thread & 0.64 & -0.07 $\pm$ 0.12 & 17\% & 5\% \\
+\midrule
+mathematica & MiniLM & ask text (paper 1) & 0.23 & -1.15 $\pm$ 0.27 & 46\% & 22\% \\
+mathematica & MiniLM & ask + thread (paper 1) & $<$0.10 & -0.49 $\pm$ 0.11 & 17\% & 7\% \\
+mathematica & MiniLM & generated answer & $>$0.95 & +0.01 $\pm$ 0.19 & 12\% & 4\% \\
+mathematica & MiniLM & ask + generated answer & 0.70 & -0.14 $\pm$ 0.21 & 13\% & 6\% \\
+mathematica & MiniLM & generated answer + cited thread & $>$0.95 & +0.13 $\pm$ 0.11 & 9\% & 2\% \\
+\midrule
+mathematica & BM25 & ask text (paper 1) & $>$0.95 & +0.00 $\pm$ 0.00 & 3\% & 0\% \\
+mathematica & BM25 & ask + thread (paper 1) & $<$0.10 & -0.04 $\pm$ 0.04 & 11\% & 1\% \\
+mathematica & BM25 & generated answer & 0.50 & -0.07 $\pm$ 0.11 & 7\% & 4\% \\
+mathematica & BM25 & ask + generated answer & 0.52 & -0.06 $\pm$ 0.09 & 10\% & 5\% \\
+mathematica & BM25 & generated answer + cited thread & 0.50 & -0.08 $\pm$ 0.10 & 9\% & 4\% \\
+\bottomrule
+\end{tabular}

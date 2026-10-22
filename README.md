@@ -1,6 +1,6 @@
 # When Accepted Answers Become Evidence: Feedback Loops in Self-Updating Retrieval
 
-Preprint on Zenodo, all versions: https://doi.org/10.5281/zenodo.23089817 (version 2: https://doi.org/10.5281/zenodo.23091483). Code is MIT licensed, the paper is CC BY 4.0.
+Preprint on Zenodo, all versions: https://doi.org/10.5281/zenodo.23089817 (version 2: https://doi.org/10.5281/zenodo.23091483; version 3: https://doi.org/10.5281/zenodo.23096885). Code is MIT licensed, the paper is CC BY 4.0.
 
 
 Code for the preprint (tex/main.pdf). All data is public CQADupStack (BEIR format, MTEB mirror on Hugging Face).
@@ -49,3 +49,19 @@ sim_v3.py adds two write-back rules to the v2 loop (same random streams; its nai
 `filter` drops accepted (ask, thread) pairs whose ms-marco-MiniLM-L-6-v2 cross-encoder score is below the q-quantile
 of round-1 scores; `cache` serves a stored question's thread when the ask's similarity to it is >= tau, else answers
 from the original KB. prep_het_v3.py builds families of distinct real Bing queries sharing one relevant MS MARCO passage.
+
+## Paper 2: When Generated Answers Become Evidence
+
+Follow-up study where the stored entry is a generated answer that becomes the evidence for the next generation.
+Draft: `tex/main_gen.pdf`. Generator: gpt-5.4-mini (Azure AI Foundry); open-weight replication on android with
+google/gemma-4-26b-a4b-qat (LM Studio).
+
+- `prep_gen.py` fetches accepted answers (Stack Exchange API), generates answers per (question, evidence) key, embeds entries.
+- `sim_gen.py` replays the loop; `run_gen.sh` (local) and `run_gen_az.sh` (Azure) iterate generate, embed, simulate until no key is missing.
+- `analyze_gen.py` writes `tex/tab_h*_gen*.tex` and `tex/macros_gen*.tex`; `audit_gen.py` writes the faithfulness audit.
+- `data_gen/` holds every generated answer, the fetched Stack Exchange answers, the audit judgements and the result tables.
+  To reproduce without regenerating, copy `data_gen/*_answers.json` and `data_gen/*_gen_az.jsonl` into `cache/gen/`
+  (and `android_gen_local.jsonl` as `cache/gen/android_gen.jsonl`), then run `prep_gen.py embed` and `sim_gen.py`.
+- Azure needs `AZURE_AI_ENDPOINT` and a key file at `AZURE_AI_KEY_FILE`; the Stack Exchange key is read from `SE_KEY` or `SE_KEY_FILE`.
+
+Stack Exchange content in `data_gen/` is licensed CC BY-SA 4.0 by its authors (https://stackoverflow.com/help/licensing).

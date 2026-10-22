@@ -1,0 +1,77 @@
+\begin{tabular}{lllrrrr}
+\toprule
+forum & retriever & rule & $\Delta$ at 0.10 & $\Delta$ at 0.60 & $\Delta$ at 0.95 & $p^*$ \\
+\midrule
+android & bge & none & +0.64 $\pm$ 0.15 & +0.23 $\pm$ 0.24 & +0.14 $\pm$ 0.24 & $>$0.95 \\
+android & bge & reopen demotion & +0.55 $\pm$ 0.20 & +0.46 $\pm$ 0.19 & +0.29 $\pm$ 0.25 & $>$0.95 \\
+android & bge & store with cited thread & +0.81 $\pm$ 0.12 & +0.20 $\pm$ 0.20 & -0.04 $\pm$ 0.21 & 0.89 \\
+android & bge & provenance $\lambda$=0.5 & +0.25 $\pm$ 0.09 & +0.11 $\pm$ 0.13 & +0.11 $\pm$ 0.09 & $>$0.95 \\
+android & bge & provenance $\lambda$=1.0 & +0.11 $\pm$ 0.05 & +0.08 $\pm$ 0.04 & +0.09 $\pm$ 0.05 & $>$0.95 \\
+\midrule
+android & MiniLM & none & +0.64 $\pm$ 0.14 & +0.39 $\pm$ 0.20 & +0.25 $\pm$ 0.17 & $>$0.95 \\
+android & MiniLM & reopen demotion & +0.69 $\pm$ 0.14 & +0.52 $\pm$ 0.16 & +0.48 $\pm$ 0.18 & $>$0.95 \\
+android & MiniLM & store with cited thread & +0.12 $\pm$ 0.06 & -0.05 $\pm$ 0.11 & -0.14 $\pm$ 0.14 & 0.38 \\
+android & MiniLM & provenance $\lambda$=0.5 & +0.09 $\pm$ 0.06 & +0.01 $\pm$ 0.06 & -0.03 $\pm$ 0.06 & 0.73 \\
+android & MiniLM & provenance $\lambda$=1.0 & +0.02 $\pm$ 0.03 & -0.01 $\pm$ 0.04 & -0.04 $\pm$ 0.04 & 0.30 \\
+\midrule
+android & BM25 & none & +0.15 $\pm$ 0.07 & +0.17 $\pm$ 0.05 & +0.20 $\pm$ 0.08 & $>$0.95 \\
+android & BM25 & reopen demotion & +0.14 $\pm$ 0.07 & +0.18 $\pm$ 0.09 & +0.21 $\pm$ 0.11 & $>$0.95 \\
+android & BM25 & store with cited thread & +0.24 $\pm$ 0.08 & +0.25 $\pm$ 0.08 & +0.29 $\pm$ 0.11 & $>$0.95 \\
+android & BM25 & provenance $\lambda$=0.5 & +0.04 $\pm$ 0.02 & +0.02 $\pm$ 0.05 & +0.04 $\pm$ 0.04 & $>$0.95 \\
+android & BM25 & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\midrule
+unix & bge & none & +0.44 $\pm$ 0.08 & +0.28 $\pm$ 0.12 & +0.25 $\pm$ 0.15 & $>$0.95 \\
+unix & bge & reopen demotion & +0.43 $\pm$ 0.06 & +0.37 $\pm$ 0.12 & +0.40 $\pm$ 0.11 & $>$0.95 \\
+unix & bge & store with cited thread & +0.48 $\pm$ 0.07 & +0.34 $\pm$ 0.09 & +0.22 $\pm$ 0.13 & $>$0.95 \\
+unix & bge & provenance $\lambda$=0.5 & +0.18 $\pm$ 0.05 & +0.15 $\pm$ 0.08 & +0.16 $\pm$ 0.06 & $>$0.95 \\
+unix & bge & provenance $\lambda$=1.0 & +0.02 $\pm$ 0.02 & +0.02 $\pm$ 0.02 & +0.02 $\pm$ 0.02 & $>$0.95 \\
+\midrule
+unix & MiniLM & none & +0.35 $\pm$ 0.10 & +0.19 $\pm$ 0.11 & +0.11 $\pm$ 0.13 & $>$0.95 \\
+unix & MiniLM & reopen demotion & +0.39 $\pm$ 0.09 & +0.40 $\pm$ 0.12 & +0.29 $\pm$ 0.14 & $>$0.95 \\
+unix & MiniLM & store with cited thread & +0.37 $\pm$ 0.08 & +0.27 $\pm$ 0.07 & +0.32 $\pm$ 0.08 & $>$0.95 \\
+unix & MiniLM & provenance $\lambda$=0.5 & +0.02 $\pm$ 0.03 & -0.03 $\pm$ 0.04 & -0.03 $\pm$ 0.07 & 0.26 \\
+unix & MiniLM & provenance $\lambda$=1.0 & +0.01 $\pm$ 0.03 & -0.01 $\pm$ 0.03 & +0.01 $\pm$ 0.05 & 0.57 \\
+\midrule
+unix & BM25 & none & +0.14 $\pm$ 0.09 & +0.12 $\pm$ 0.10 & +0.04 $\pm$ 0.07 & $>$0.95 \\
+unix & BM25 & reopen demotion & +0.15 $\pm$ 0.08 & +0.09 $\pm$ 0.05 & +0.09 $\pm$ 0.08 & $>$0.95 \\
+unix & BM25 & store with cited thread & +0.17 $\pm$ 0.06 & +0.15 $\pm$ 0.05 & +0.13 $\pm$ 0.04 & $>$0.95 \\
+unix & BM25 & provenance $\lambda$=0.5 & +0.05 $\pm$ 0.04 & +0.06 $\pm$ 0.03 & +0.05 $\pm$ 0.04 & $>$0.95 \\
+unix & BM25 & provenance $\lambda$=1.0 & +0.02 $\pm$ 0.02 & +0.02 $\pm$ 0.02 & +0.02 $\pm$ 0.02 & $>$0.95 \\
+\midrule
+webmasters & bge & none & +0.18 $\pm$ 0.07 & -0.01 $\pm$ 0.09 & -0.15 $\pm$ 0.09 & 0.58 \\
+webmasters & bge & reopen demotion & +0.22 $\pm$ 0.09 & +0.09 $\pm$ 0.07 & +0.00 $\pm$ 0.13 & 0.88 \\
+webmasters & bge & store with cited thread & +0.14 $\pm$ 0.09 & -0.16 $\pm$ 0.10 & -0.32 $\pm$ 0.11 & 0.40 \\
+webmasters & bge & provenance $\lambda$=0.5 & +0.02 $\pm$ 0.02 & -0.04 $\pm$ 0.04 & -0.06 $\pm$ 0.03 & 0.23 \\
+webmasters & bge & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\midrule
+webmasters & MiniLM & none & +0.34 $\pm$ 0.15 & +0.29 $\pm$ 0.21 & +0.16 $\pm$ 0.19 & $>$0.95 \\
+webmasters & MiniLM & reopen demotion & +0.30 $\pm$ 0.13 & +0.32 $\pm$ 0.19 & +0.26 $\pm$ 0.12 & $>$0.95 \\
+webmasters & MiniLM & store with cited thread & +0.24 $\pm$ 0.09 & +0.20 $\pm$ 0.14 & +0.22 $\pm$ 0.11 & $>$0.95 \\
+webmasters & MiniLM & provenance $\lambda$=0.5 & +0.11 $\pm$ 0.06 & +0.10 $\pm$ 0.06 & +0.10 $\pm$ 0.07 & $>$0.95 \\
+webmasters & MiniLM & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\midrule
+webmasters & BM25 & none & +0.14 $\pm$ 0.05 & +0.16 $\pm$ 0.07 & +0.16 $\pm$ 0.07 & $>$0.95 \\
+webmasters & BM25 & reopen demotion & +0.14 $\pm$ 0.07 & +0.14 $\pm$ 0.06 & +0.15 $\pm$ 0.07 & $>$0.95 \\
+webmasters & BM25 & store with cited thread & +0.09 $\pm$ 0.02 & +0.07 $\pm$ 0.06 & +0.09 $\pm$ 0.09 & $>$0.95 \\
+webmasters & BM25 & provenance $\lambda$=0.5 & +0.00 $\pm$ 0.00 & +0.01 $\pm$ 0.02 & +0.01 $\pm$ 0.02 & $>$0.95 \\
+webmasters & BM25 & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\midrule
+mathematica & bge & none & -0.00 $\pm$ 0.09 & -0.06 $\pm$ 0.04 & -0.14 $\pm$ 0.06 & $<$0.10 \\
+mathematica & bge & reopen demotion & +0.02 $\pm$ 0.07 & -0.01 $\pm$ 0.06 & -0.06 $\pm$ 0.07 & 0.17 \\
+mathematica & bge & store with cited thread & +0.15 $\pm$ 0.07 & +0.03 $\pm$ 0.12 & -0.07 $\pm$ 0.12 & 0.64 \\
+mathematica & bge & provenance $\lambda$=0.5 & +0.00 $\pm$ 0.00 & +0.01 $\pm$ 0.02 & +0.04 $\pm$ 0.03 & $>$0.95 \\
+mathematica & bge & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.01 $\pm$ 0.02 & +0.04 $\pm$ 0.03 & $>$0.95 \\
+\midrule
+mathematica & MiniLM & none & +0.33 $\pm$ 0.11 & +0.05 $\pm$ 0.21 & -0.14 $\pm$ 0.21 & 0.70 \\
+mathematica & MiniLM & reopen demotion & +0.30 $\pm$ 0.12 & +0.18 $\pm$ 0.11 & +0.14 $\pm$ 0.19 & $>$0.95 \\
+mathematica & MiniLM & store with cited thread & +0.18 $\pm$ 0.08 & +0.17 $\pm$ 0.12 & +0.13 $\pm$ 0.11 & $>$0.95 \\
+mathematica & MiniLM & provenance $\lambda$=0.5 & +0.07 $\pm$ 0.04 & +0.02 $\pm$ 0.08 & -0.04 $\pm$ 0.08 & 0.29 \\
+mathematica & MiniLM & provenance $\lambda$=1.0 & +0.04 $\pm$ 0.03 & +0.04 $\pm$ 0.04 & +0.04 $\pm$ 0.04 & $>$0.95 \\
+\midrule
+mathematica & BM25 & none & +0.08 $\pm$ 0.09 & -0.06 $\pm$ 0.12 & -0.06 $\pm$ 0.09 & 0.52 \\
+mathematica & BM25 & reopen demotion & +0.10 $\pm$ 0.11 & +0.01 $\pm$ 0.12 & +0.05 $\pm$ 0.11 & 0.84 \\
+mathematica & BM25 & store with cited thread & +0.04 $\pm$ 0.10 & -0.04 $\pm$ 0.08 & -0.08 $\pm$ 0.10 & 0.50 \\
+mathematica & BM25 & provenance $\lambda$=0.5 & +0.03 $\pm$ 0.05 & +0.05 $\pm$ 0.03 & +0.08 $\pm$ 0.04 & $>$0.95 \\
+mathematica & BM25 & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\bottomrule
+\end{tabular}

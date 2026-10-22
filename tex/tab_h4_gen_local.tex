@@ -1,0 +1,23 @@
+\begin{tabular}{lllrrrr}
+\toprule
+forum & retriever & rule & $\Delta$ at 0.10 & $\Delta$ at 0.60 & $\Delta$ at 0.95 & $p^*$ \\
+\midrule
+android & bge & none & +0.66 $\pm$ 0.13 & +0.20 $\pm$ 0.13 & +0.08 $\pm$ 0.19 & $>$0.95 \\
+android & bge & reopen demotion & +0.63 $\pm$ 0.14 & +0.48 $\pm$ 0.20 & +0.25 $\pm$ 0.17 & $>$0.95 \\
+android & bge & store with cited thread & +0.48 $\pm$ 0.13 & +0.03 $\pm$ 0.18 & -0.11 $\pm$ 0.13 & 0.68 \\
+android & bge & provenance $\lambda$=0.5 & +0.28 $\pm$ 0.12 & +0.22 $\pm$ 0.16 & +0.22 $\pm$ 0.17 & $>$0.95 \\
+android & bge & provenance $\lambda$=1.0 & +0.06 $\pm$ 0.05 & +0.03 $\pm$ 0.07 & +0.04 $\pm$ 0.07 & $>$0.95 \\
+\midrule
+android & MiniLM & none & +0.38 $\pm$ 0.14 & +0.16 $\pm$ 0.14 & +0.04 $\pm$ 0.11 & $>$0.95 \\
+android & MiniLM & reopen demotion & +0.45 $\pm$ 0.09 & +0.28 $\pm$ 0.14 & +0.31 $\pm$ 0.14 & $>$0.95 \\
+android & MiniLM & store with cited thread & +0.08 $\pm$ 0.09 & -0.04 $\pm$ 0.07 & -0.05 $\pm$ 0.09 & 0.54 \\
+android & MiniLM & provenance $\lambda$=0.5 & +0.09 $\pm$ 0.10 & -0.01 $\pm$ 0.09 & -0.07 $\pm$ 0.08 & 0.58 \\
+android & MiniLM & provenance $\lambda$=1.0 & -0.04 $\pm$ 0.02 & -0.11 $\pm$ 0.05 & -0.14 $\pm$ 0.05 & $<$0.10 \\
+\midrule
+android & BM25 & none & +0.22 $\pm$ 0.06 & +0.15 $\pm$ 0.08 & +0.18 $\pm$ 0.06 & $>$0.95 \\
+android & BM25 & reopen demotion & +0.20 $\pm$ 0.06 & +0.19 $\pm$ 0.06 & +0.20 $\pm$ 0.04 & $>$0.95 \\
+android & BM25 & store with cited thread & +0.19 $\pm$ 0.08 & +0.17 $\pm$ 0.10 & +0.20 $\pm$ 0.11 & $>$0.95 \\
+android & BM25 & provenance $\lambda$=0.5 & +0.00 $\pm$ 0.00 & -0.02 $\pm$ 0.02 & -0.02 $\pm$ 0.03 & 0.30 \\
+android & BM25 & provenance $\lambda$=1.0 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & +0.00 $\pm$ 0.00 & $>$0.95 \\
+\bottomrule
+\end{tabular}

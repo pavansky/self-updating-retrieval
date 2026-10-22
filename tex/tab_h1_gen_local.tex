@@ -1,0 +1,23 @@
+\begin{tabular}{lllrrrr}
+\toprule
+forum & retriever & entry & $p^*$ & $\Delta$ at 0.95 & self 0.95 & steal 0.95 \\
+\midrule
+android & bge & ask text (paper 1) & 0.47 & -1.87 $\pm$ 0.65 & 65\% & 34\% \\
+android & bge & ask + thread (paper 1) & 0.77 & -0.04 $\pm$ 0.14 & 19\% & 3\% \\
+android & bge & generated answer & 0.61 & -0.21 $\pm$ 0.22 & 25\% & 9\% \\
+android & bge & ask + generated answer & $>$0.95 & +0.08 $\pm$ 0.19 & 20\% & 7\% \\
+android & bge & generated answer + cited thread & 0.68 & -0.11 $\pm$ 0.13 & 23\% & 7\% \\
+\midrule
+android & MiniLM & ask text (paper 1) & 0.67 & -0.29 $\pm$ 0.24 & 34\% & 10\% \\
+android & MiniLM & ask + thread (paper 1) & $>$0.95 & +0.25 $\pm$ 0.14 & 24\% & 3\% \\
+android & MiniLM & generated answer & 0.93 & -0.02 $\pm$ 0.11 & 10\% & 2\% \\
+android & MiniLM & ask + generated answer & $>$0.95 & +0.04 $\pm$ 0.11 & 16\% & 3\% \\
+android & MiniLM & generated answer + cited thread & 0.54 & -0.05 $\pm$ 0.09 & 8\% & 2\% \\
+\midrule
+android & BM25 & ask text (paper 1) & $>$0.95 & +0.03 $\pm$ 0.10 & 7\% & 2\% \\
+android & BM25 & ask + thread (paper 1) & $>$0.95 & +0.02 $\pm$ 0.19 & 19\% & 4\% \\
+android & BM25 & generated answer & $>$0.95 & +0.03 $\pm$ 0.06 & 5\% & 1\% \\
+android & BM25 & ask + generated answer & $>$0.95 & +0.18 $\pm$ 0.06 & 10\% & 1\% \\
+android & BM25 & generated answer + cited thread & $>$0.95 & +0.20 $\pm$ 0.11 & 9\% & 1\% \\
+\bottomrule
+\end{tabular}
