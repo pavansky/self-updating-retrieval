@@ -1,0 +1,1693 @@
+{"i": 0, "text": "Why does `last` display `{` and `|` in the TTY field?"}
+{"i": 1, "text": "How can I move Debian to the second position in the GRUB menu at startup?"}
+{"i": 2, "text": "How can I display hard errors, transport errors, and soft errors when they are above 2?"}
+{"i": 3, "text": "What\u2019s the easiest way to install prebuilt binary packages of glibc?"}
+{"i": 4, "text": "How can I set up SSH tunneling through multiple intermediate hosts?"}
+{"i": 5, "text": "How can I access a private network behind a router when I can\u2019t use port forwarding?"}
+{"i": 6, "text": "What does a high load with an empty top mean?"}
+{"i": 7, "text": "What is the correct escape sequence for a non-standard file name?"}
+{"i": 8, "text": "How do I use `grep` on files whose names start with `-`?"}
+{"i": 9, "text": "What does `--` (the bare double dash) mean, and what is it used for?"}
+{"i": 10, "text": "How can I safely handle a filename in the shell that looks like an option (for example, starts with a hyphen)?"}
+{"i": 11, "text": "Why are single-character options written with single dashes `-`, while word-based options use double dashes `--`?"}
+{"i": 12, "text": "How do I create an empty file whose name starts with a dash (`-`)?"}
+{"i": 13, "text": "What are the purposes of the `-` (minus) signs in Linux/UNIX commands?"}
+{"i": 14, "text": "I accidentally created a file named `-X`; how can I delete it?"}
+{"i": 15, "text": "How can I rename a file in Linux when the filename starts with `--`?"}
+{"i": 16, "text": "In Linux/Unix command-line usage, what does `--` mean?"}
+{"i": 17, "text": "Why do so many CLI applications use a single `--` argument?"}
+{"i": 18, "text": "What does \u201c-\u201d mean in relation to Linux files and directories?"}
+{"i": 19, "text": "How can I remove or rename a file from the command line when its name contains special characters, for example `-x`?"}
+{"i": 20, "text": "How do I handle file names that begin with \"-\" on Linux?"}
+{"i": 21, "text": "How do I delete a file named `--help.tgz`?"}
+{"i": 22, "text": "How do I delete a file named `--help` from the bash command line?"}
+{"i": 23, "text": "How do I delete a file literally named `-f` from the command line?"}
+{"i": 24, "text": "Why do `cat`, `grep`, and similar commands fail to handle files whose names begin with a minus sign?"}
+{"i": 25, "text": "How do I zip a directory whose name starts with `-`?"}
+{"i": 26, "text": "How can I delete a folder with an unfortunate name?"}
+{"i": 27, "text": "Why does `tar` use a double hyphen in `--anchored` but a single hyphen in `-b`?"}
+{"i": 28, "text": "How do I set a static IP address on CentOS 6.4?"}
+{"i": 29, "text": "How do I tell apt-get dist-upgrade to keep one package installed instead of upgrading it to another package, using pinning or hold?"}
+{"i": 30, "text": "Why doesn\u2019t the `halt` command actually power off the machine?"}
+{"i": 31, "text": "How can I determine the number of files in a directory from the output of `ls -ld`?"}
+{"i": 32, "text": "How can I split a large directory tree into chunks of a specified size?"}
+{"i": 33, "text": "How do I configure xorg.conf to make Xorg use only part of the screen?"}
+{"i": 34, "text": "How can I log the execution time and other details for all bash commands?"}
+{"i": 35, "text": "How can I time all executions in bash?"}
+{"i": 36, "text": "Why am I getting \"Cannot expand asterisk without proper permission\" when trying to use an asterisk, and what permission is required to fix it?"}
+{"i": 37, "text": "How can I lay out a list of items in columns with minimal width?"}
+{"i": 38, "text": "How can I set up dual-boot with Linux (BackBox) and Windows on the same computer?"}
+{"i": 39, "text": "How can I list installed packages on Debian similar to `dpkg -l`, but also show the package origin/source?"}
+{"i": 40, "text": "I keep getting a GRUB error every time I reinstall Linux Mint\u2014how can I fix this?"}
+{"i": 41, "text": "What does `init [2]` mean in the `COMMAND` column of `ps`?"}
+{"i": 42, "text": "How can I recover data from a RAID5 array if one of the three hard drives has failed?"}
+{"i": 43, "text": "Which is more efficient in terms of speed and disk usage: hard links or symbolic links?"}
+{"i": 44, "text": "How can I find my current public IP address as seen from the internet?"}
+{"i": 45, "text": "How can I retrieve the IP address in a shell script?"}
+{"i": 46, "text": "What does a dot after the file permission bits in `ls -l` output mean?"}
+{"i": 47, "text": "How do I use regex and pattern matching on a ksh command line?"}
+{"i": 48, "text": "Why can\u2019t I execute a file even though the execute permission bit is set?"}
+{"i": 49, "text": "Why am I unable to install new applications?"}
+{"i": 50, "text": "How does the Linux desktop carry out system actions?"}
+{"i": 51, "text": "How can I remove a specific character from a string?"}
+{"i": 52, "text": "How can I check the current bandwidth speed of a network interface from the terminal?"}
+{"i": 53, "text": "How can I change the font size and the number of rows and columns in a terminal?"}
+{"i": 54, "text": "What can happen if I yank a USB key during a file move operation?"}
+{"i": 55, "text": "How can I undelete files from a local file server?"}
+{"i": 56, "text": "How can I recover a file I just deleted?"}
+{"i": 57, "text": "How can I restore files that were accidentally overwritten in `/usr/local/bin`?"}
+{"i": 58, "text": "How can I undelete or restore files that were deleted in Ubuntu Linux?"}
+{"i": 59, "text": "I accidentally ran `rm -rf`; how can I recover the deleted files?"}
+{"i": 60, "text": "How can I recover files from an external hard drive formatted as ext3?"}
+{"i": 61, "text": "How can I recover files that rsync deleted?"}
+{"i": 62, "text": "How can I undelete or recover files that were deleted on a Unix/Linux system?"}
+{"i": 63, "text": "How can I undo a file deleted by the `rm` command in the Mac Terminal?"}
+{"i": 64, "text": "How can I recover the only file that was just deleted from an otherwise empty disk?"}
+{"i": 65, "text": "How can I recover important files that I accidentally deleted?"}
+{"i": 66, "text": "How can I recover files after accidentally running `rm -rf /home/`?"}
+{"i": 67, "text": "How can I recover files I just deleted by running `rm *`?"}
+{"i": 68, "text": "How can I recover a directory structure along with the files inside it?"}
+{"i": 69, "text": "How can I recover deleted directories on CentOS?"}
+{"i": 70, "text": "How can I recover deleted directories in \"/home/pi\"?"}
+{"i": 71, "text": "How can I restore a deleted MySQL directory on Linux?"}
+{"i": 72, "text": "How can I recover an overwritten file?"}
+{"i": 73, "text": "How can I recover deleted files on a Raspberry Pi?"}
+{"i": 74, "text": "How can I recover a file from a previous installation?"}
+{"i": 75, "text": "How can I recover data on Linux Mint \u201cQuiana\u201d?"}
+{"i": 76, "text": "How can I securely use EncFS with Git and a remote repository?"}
+{"i": 77, "text": "How can I run a command asynchronously so I don\u2019t have to wait for it to finish?"}
+{"i": 78, "text": "How do I get the command prompt back after launching an application?"}
+{"i": 79, "text": "How can I loop through the output of one command and pass each item to another command?"}
+{"i": 80, "text": "What\u2019s the fastest way to process a file line by line in bash?"}
+{"i": 81, "text": "How can I set the dynamic window title based on command input?"}
+{"i": 82, "text": "How do I change the title of an xterm window?"}
+{"i": 83, "text": "How can I delete files that contain spaces in their names in a Bash script?"}
+{"i": 84, "text": "How do I calculate power draw in watts?"}
+{"i": 85, "text": "How can I edit a file with root privileges?"}
+{"i": 86, "text": "How can I disable the eject button on my CD/DVD drive?"}
+{"i": 87, "text": "Why does the HDD activity LED blink when I run out of RAM, even though I don\u2019t have any swap configured?"}
+{"i": 88, "text": "How can I free up space on the /boot partition in CentOS when it\u2019s almost full?"}
+{"i": 89, "text": "How can I enable Bash syntax colouring in my terminal/editor?"}
+{"i": 90, "text": "Why is learning the command line important?"}
+{"i": 91, "text": "How can I reset the password for another user on a Linux system?"}
+{"i": 92, "text": "How can I configure Linux to display user passwords in clear text?"}
+{"i": 93, "text": "How can I intentionally store Linux user passwords in plain text?"}
+{"i": 94, "text": "How can I add timestamps to the logs generated by a crontab job?"}
+{"i": 95, "text": "Why does `/dev/disk/` list disks, but `/dev/net/` doesn\u2019t seem to list network interfaces?"}
+{"i": 96, "text": "Why did my GPS stop working, and when I run `gpsctl` I get `gpsctl:ERROR: packet recognition timed out`?"}
+{"i": 97, "text": "When upgrading an operating system, which file systems are affected?"}
+{"i": 98, "text": "How do I add a user to the sudoers file?"}
+{"i": 99, "text": "Why am I seeing `nohup: ignoring input and redirecting stderr to stdout` when I run my command with `nohup`?"}
+{"i": 100, "text": "How can I make `top` display `meminfo` in megabytes instead of kilobytes?"}
+{"i": 101, "text": "How do nested POSIX groups work in Linux?"}
+{"i": 102, "text": "How can I reattach to a lost X11 session?"}
+{"i": 103, "text": "Can I switch the X server without killing the client applications?"}
+{"i": 104, "text": "Why is my Arch Linux system no longer booting after a system update?"}
+{"i": 105, "text": "How can I route traffic to different network interfaces based on different ports?"}
+{"i": 106, "text": "How can I route SOCKS proxy traffic through a wireless client interface?"}
+{"i": 107, "text": "How can I repeat a Unix command every x seconds indefinitely?"}
+{"i": 108, "text": "How can I use xargs input inside an eval command?"}
+{"i": 109, "text": "How can I invert the colors on just one window without affecting the rest of the screen?"}
+{"i": 110, "text": "How do I get `which` to display aliases?"}
+{"i": 111, "text": "How can I find where a bash command is defined or sourced from?"}
+{"i": 112, "text": "What do vi and emacs editing modes mean?"}
+{"i": 113, "text": "How can I find files system-wide that were created within a specific date range?"}
+{"i": 114, "text": "How can I move files to a different folder based on their creation date?"}
+{"i": 115, "text": "How can I print a line when a user logs in?"}
+{"i": 116, "text": "What\u2019s the practical difference between `command` and `$(command)` in shell scripting?"}
+{"i": 117, "text": "Why do `$()` and `` `...` `` behave differently in shell command substitution?"}
+{"i": 118, "text": "What\u2019s the difference between `` (backticks) and $() in shell command substitution?"}
+{"i": 119, "text": "What\u2019s the difference between capturing command output using `command` and `$(command)` in shell?"}
+{"i": 120, "text": "In bash, when declaring a variable with command substitution, which syntax is considered better practice: `var=$(command)` or `var=\\`command\\``?"}
+{"i": 121, "text": "How can I extract a date from a variable when it's in a different format?"}
+{"i": 122, "text": "How do I handle file operations correctly when using multiple simultaneous SSH connections?"}
+{"i": 123, "text": "What\u2019s the best way to chain SSH connections?"}
+{"i": 124, "text": "How can I add an SSH user with minimum privileges for backups?"}
+{"i": 125, "text": "How can I use `ldd` output to check whether the listed libraries exist on another system or not?"}
+{"i": 126, "text": "How can I modify the shell prompt?"}
+{"i": 127, "text": "Can I customize or change the `$` or `#` prompt symbols for users?"}
+{"i": 128, "text": "How can I keep an app running after closing the terminal that started it?"}
+{"i": 129, "text": "How can I send a command to a running screen session from a shell script on Linux?"}
+{"i": 130, "text": "How can I get cron to run a command inside a detached GNU Screen session?"}
+{"i": 131, "text": "Why am I unable to stuff commands into a newly created screen session immediately after creating it?"}
+{"i": 132, "text": "How can I send a message in Minecraft before rebooting the server?"}
+{"i": 133, "text": "How can I remember a half-typed command while I check something else?"}
+{"i": 134, "text": "How can I save the current command in zsh?"}
+{"i": 135, "text": "How can I save a command I\u2019ve typed without actually running it?"}
+{"i": 136, "text": "How can I pass the output of a previous command as an argument to the next command?"}
+{"i": 137, "text": "What did Ken Thompson mean when he said, \u201cI\u2019d spell create with an \u2018e\u2019\u201d?"}
+{"i": 138, "text": "How do I resume a process after suspending it with Ctrl+Z?"}
+{"i": 139, "text": "Why am I getting `#!/bin/bash: No such file or directory` when trying to run my shell script?"}
+{"i": 140, "text": "How can I determine the amount of time since the system was last booted?"}
+{"i": 141, "text": "What is the maximum number of source files the copy utility can take as arguments?"}
+{"i": 142, "text": "How can I write a command sequence to move files from one directory to another based on a specific year?"}
+{"i": 143, "text": "How do I add Postgres binaries to my PATH\u2014should I use `export`?"}
+{"i": 144, "text": "Why can\u2019t I call a program without specifying the full path even though its path is already set?"}
+{"i": 145, "text": "I installed a program in `/home/username/bin` and added it to my `PATH`, but it still won\u2019t launch\u2014what am I missing?"}
+{"i": 146, "text": "What\u2019s the difference between setting `PATH` and exporting `PATH` in `~/.bash_profile`?"}
+{"i": 147, "text": "Why does the order of execution in my shell\u2019s redirection occasionally seem to be wrong, happening about 1 time in 1000 runs on my system?"}
+{"i": 148, "text": "Why do forked processes sometimes show up with brackets [] around their name in ps?"}
+{"i": 149, "text": "Why does `ps` on AIX show the process name in square brackets?"}
+{"i": 150, "text": "What do the process names shown in square brackets by `ps`, such as `[cgroup]`, mean?"}
+{"i": 151, "text": "How do I use the bash `&` operator together with the `;` delimiter correctly?"}
+{"i": 152, "text": "How do I use SSH from a device on my local network to connect to and interact with my home router?"}
+{"i": 153, "text": "Can someone explain how reverse SSH tunneling works?"}
+{"i": 154, "text": "How can I access my Apache server over the Internet?"}
+{"i": 155, "text": "How can I set up a reverse SSH connection to an SSH server?"}
+{"i": 156, "text": "What is SSH port forwarding, and how does local port forwarding differ from remote port forwarding?"}
+{"i": 157, "text": "How can I connect via SSH through an intermediary server in a single step using a forwarded port?"}
+{"i": 158, "text": "How can I route an application\u2019s traffic through different network interfaces?"}
+{"i": 159, "text": "What are the key stages in the evolution of the shell?"}
+{"i": 160, "text": "What is Unix nowadays?"}
+{"i": 161, "text": "Which Unix implementation is considered the \u201cvanilla Unix,\u201d and which systems are actual Unix variants rather than just Unix-like?"}
+{"i": 162, "text": "How can I redirect the output of any command?"}
+{"i": 163, "text": "Why is my Windows partition hidden?"}
+{"i": 164, "text": "How do I configure Wireshark so it has the correct permissions?"}
+{"i": 165, "text": "How do I terminate a `<defunct>` process when its parent is `init`?"}
+{"i": 166, "text": "How can I map a key combination using xmodmap?"}
+{"i": 167, "text": "How can I run a command in bash without blocking the console?"}
+{"i": 168, "text": "What Linux tools can I use to treat files as sets and perform set operations on them?"}
+{"i": 169, "text": "How can I set longer key bindings with `stty`?"}
+{"i": 170, "text": "How do I concatenate every file in a directory into a single file using one command-line command?"}
+{"i": 171, "text": "Why am I getting \u201cPermission denied\u201d when trying to change the gid (group) of a file I own?"}
+{"i": 172, "text": "How can I edit a file inside an image created with `dd`?"}
+{"i": 173, "text": "How can I mount a disk image in RAW format?"}
+{"i": 174, "text": "What\u2019s the best way to search through file contents?"}
+{"i": 175, "text": "Why am I seeing weird behavior on my Debian machine?"}
+{"i": 176, "text": "Why is my init script not being called during shutdown?"}
+{"i": 177, "text": "How can I make `ls` display file sizes with thousand separators?"}
+{"i": 178, "text": "How can I determine which init system my system is using?"}
+{"i": 179, "text": "How can I write a Bash script to detect which init system the current system is using?"}
+{"i": 180, "text": "What\u2019s a convenient way to detect in Bash whether the system is using systemd or sysvinit?"}
+{"i": 181, "text": "How can I automatically mount USB drives without requiring a GUI, as a replacement for halevt?"}
+{"i": 182, "text": "How do I automount a USB drive?"}
+{"i": 183, "text": "Is it possible to use `sed` to replace newline characters?"}
+{"i": 184, "text": "What are third-level domains, and how do they differ from second-level and subdomains?"}
+{"i": 185, "text": "How can I route a single IP address to different interfaces?"}
+{"i": 186, "text": "How do I grant write permissions to a group for a folder?"}
+{"i": 187, "text": "Which kernel version is appropriate for an Intel i7-4770K CPU?"}
+{"i": 188, "text": "How can I recursively delete all files with a specific extension?"}
+{"i": 189, "text": "How can I list the file permissions for only the current directory?"}
+{"i": 190, "text": "How can I display a directory\u2019s permissions without needing list permission on its contents?"}
+{"i": 191, "text": "What is the maximum amount of RAM that Linux can support?"}
+{"i": 192, "text": "How can I intercept or monitor the communication between a process and a serial port?"}
+{"i": 193, "text": "How can I use glob patterns to match every hidden file except `.` and `..`?"}
+{"i": 194, "text": "Why does `lsmod` show `Not tainted`, and what does that indicate about the kernel state?"}
+{"i": 195, "text": "Why is the system load high even though neither the CPU nor the disk is being overused?"}
+{"i": 196, "text": "Why don\u2019t the size, used, and available values in `df -h` correspond to each other?"}
+{"i": 197, "text": "How can I create a complete ISO image from a damaged DVD by repeatedly reading the bad sectors multiple times?"}
+{"i": 198, "text": "How can I allow a normal user to run reboot without being prompted for a password?"}
+{"i": 199, "text": "What\u2019s the most efficient way to purge 10TB of data from a SAN?"}
+{"i": 200, "text": "How can I permanently set environment variables?"}
+{"i": 201, "text": "How can I capture the LS error output into a file?"}
+{"i": 202, "text": "How can I prompt for a password at boot time to mount an encrypted swap on Linux Mint 16 using initramfs-tools?"}
+{"i": 203, "text": "How can I check whether the same process is already running?"}
+{"i": 204, "text": "How do I use the lockfile-progs utilities?"}
+{"i": 205, "text": "How do I disable login for a user created with `useradd`?"}
+{"i": 206, "text": "How can I disable mail notifications when a user logs in?"}
+{"i": 207, "text": "How can I free up disk space from a JBoss log file that is still actively being written to?"}
+{"i": 208, "text": "Is BusyBox cpio really that different from GNU cpio?"}
+{"i": 209, "text": "How can I create a wrapper command that runs a program inside a temporary directory and automatically deletes that directory after the program finishes executing?"}
+{"i": 210, "text": "What does the `s` mean in `ls` file permissions?"}
+{"i": 211, "text": "How can I paste the current X selection, not the clipboard contents, using the keyboard?"}
+{"i": 212, "text": "What do the numbers in the file metadata mean?"}
+{"i": 213, "text": "In `ls -l` output, what does the second column represent?"}
+{"i": 214, "text": "How can I share configuration among multiple SSH aliases in my SSH config?"}
+{"i": 215, "text": "What\u2019s the best way to extract images from a PDF file?"}
+{"i": 216, "text": "How do I update the last modified time of a file?"}
+{"i": 217, "text": "How can I make a specific command think it\u2019s running on a different date?"}
+{"i": 218, "text": "How can I change the date and time for only one non-root user on Linux?"}
+{"i": 219, "text": "Is it possible to speed up grep by indexing the words in files first?"}
+{"i": 220, "text": "How can I find out when a file was created?"}
+{"i": 221, "text": "Can a superuser with root access manipulate the data in a database installed on the server?"}
+{"i": 222, "text": "Why is GParted showing an empty partition as using 43.90 GB?"}
+{"i": 223, "text": "Why does `df` report about 20G more disk usage than `du` on my system?"}
+{"i": 224, "text": "Why does `du -sh` show a different used size than `df -h` on the same filesystem?"}
+{"i": 225, "text": "Why do `df` and `du` report such different disk usage values?"}
+{"i": 226, "text": "GPT Partition: why does the used space show up immediately after creating a partition?"}
+{"i": 227, "text": "Why does `df` show disk space as used when `du` doesn\u2019t account for it?"}
+{"i": 228, "text": "Why are there so many different ways to measure disk usage?"}
+{"i": 229, "text": "What\u2019s the most accurate way to get a disk usage report?"}
+{"i": 230, "text": "My SSD appears full, but the file system reports plenty of free space\u2014what could be causing this?"}
+{"i": 231, "text": "Why does `df -h` show disk space usage that seems out of sync?"}
+{"i": 232, "text": "Why does `df` show the wrong free disk space when I run the command?"}
+{"i": 233, "text": "Why does `df` report `Available` as 0 when `1K-blocks - Used` is still greater than 0?"}
+{"i": 234, "text": "What are the alternatives to adding an entry in /etc/hosts?"}
+{"i": 235, "text": "How can I override the /etc/hosts file on a per-user basis?"}
+{"i": 236, "text": "Why are user-defined host aliases not being created?"}
+{"i": 237, "text": "How can I set one environment variable based on the value of another environment variable?"}
+{"i": 238, "text": "How can I hide a command-line process from tools like `top` and `htop`?"}
+{"i": 239, "text": "How do I boot an installed Linux Mint partition?"}
+{"i": 240, "text": "How can I install GRUB from a 32-bit rescue disk onto a disk that has a 64-bit Linux installation?"}
+{"i": 241, "text": "What causes my system to boot into a GRUB rescue console instead of loading the operating system?"}
+{"i": 242, "text": "How can I use `sed` to replace text while putting back the matched part of the pattern?"}
+{"i": 243, "text": "How can I copy files without changing the owner?"}
+{"i": 244, "text": "How can I use quick substitution to replace all the strings from the previous command?"}
+{"i": 245, "text": "What does \"Terminal data flows\" refer to, and how can I manage or debug them?"}
+{"i": 246, "text": "How can I configure a cron job to log activity every minute?"}
+{"i": 247, "text": "How can I make an SSH banner show up before the \"login as:\" prompt?"}
+{"i": 248, "text": "What are the best books or tutorials for very advanced shell scripting?"}
+{"i": 249, "text": "How can I comment out multiple lines at once?"}
+{"i": 250, "text": "What is the logic behind deleting files when a user does not have write permission?"}
+{"i": 251, "text": "How can I delete a file without having permission?"}
+{"i": 252, "text": "Why am I able to delete a file owned by `root` while logged in as a non-root user?"}
+{"i": 253, "text": "What are the minimum file permissions required to delete a file?"}
+{"i": 254, "text": "Why does Bash invoked via PHP exec not colorize PNG and MP3 files on Linux?"}
+{"i": 255, "text": "What\u2019s the difference between `ls -alR /` and `ls -alR / &`?"}
+{"i": 256, "text": "Why am I getting an authentication failure when connecting to my FTP server?"}
+{"i": 257, "text": "How can I identify genes from a list of genes?"}
+{"i": 258, "text": "What shell script shebang/header should I use for the best compatibility across different systems?"}
+{"i": 259, "text": "Why am I getting \"unable to open X server\" and how can I fix it?"}
+{"i": 260, "text": "How do I set up SSH tunneling itself for remote access from a third machine?"}
+{"i": 261, "text": "How can I SSH into a LAN host from outside the network without setting up port forwarding?"}
+{"i": 262, "text": "How can I log into a machine through an intermediate host, with compression/decompression happening only at the two endpoints?"}
+{"i": 263, "text": "What are some good tools besides SeleniumRC that can fetch webpages, including content rendered after JavaScript runs?"}
+{"i": 264, "text": "How do I assign the output of a command to a variable?"}
+{"i": 265, "text": "How do I store the output of a command in a shell variable?"}
+{"i": 266, "text": "How can I assign the output of a command to a variable?"}
+{"i": 267, "text": "How can I store the output of echo, pipe, and netcat commands into a variable?"}
+{"i": 268, "text": "How do I capture the output of a command into a variable?"}
+{"i": 269, "text": "How can I store the output of a `curl` command in a variable?"}
+{"i": 270, "text": "Why do I get the \"rsync: failed to set permissions on ...\" error when using rsync with the -a or -p option?"}
+{"i": 271, "text": "How can I fix `rsync: failed to set permissions on \"/path/to/file.txt\": Operation not permitted (1)` during a sync?"}
+{"i": 272, "text": "Why is `install-recommends` set to `true` by default?"}
+{"i": 273, "text": "What are the best resources for learning Bash scripting?"}
+{"i": 274, "text": "Where can I find the system value for the current \u201cIn USE\u201d keyboard layout?"}
+{"i": 275, "text": "Why did my Kali desktop get messed up after I tried replacing Login-Background.png in /usr/share/images?"}
+{"i": 276, "text": "What\u2019s the difference in Unix between a path that starts with `/` and one that starts with `//`?"}
+{"i": 277, "text": "What\u2019s the difference between `cd //` and `cd /` in a shell or terminal?"}
+{"i": 278, "text": "Why am I getting a \u201cbreaking ordering cycle\u201d error with Debian and systemd?"}
+{"i": 279, "text": "Why am I unable to open Windows disk partitions in Solaris 11?"}
+{"i": 280, "text": "How can I log and control changes made to the system?"}
+{"i": 281, "text": "What are the major UNIX offshoots or descendants?"}
+{"i": 282, "text": "Where can I find more information about /dev/pts/*, /dev/ptmx, tty, and pseudo terminals?"}
+{"i": 283, "text": "How can I copy files from a remote server to my local machine when I don't have read permission on the remote directory?"}
+{"i": 284, "text": "What is the ` character or symbol called, and what significance does it have outside of Stack Exchange code formatting?"}
+{"i": 285, "text": "I upgraded OpenSSL via apt-get, but `openssl version` still shows the old version\u2014why isn't it updating?"}
+{"i": 286, "text": "What\u2019s the difference between a library\u2019s version number and its build time/version suffix, for example OpenSSL 1.0.1e versus 1.0.1h?"}
+{"i": 287, "text": "How can I measure the actual execution time of a program when other programs are running at the same time?"}
+{"i": 288, "text": "How can I measure how long a command took to run?"}
+{"i": 289, "text": "Why can other processes influence the timings reported by `time`?"}
+{"i": 290, "text": "How can I limit a specific user's RAM usage on Ubuntu?"}
+{"i": 291, "text": "Does Linux handle misbehaving programs poorly?"}
+{"i": 292, "text": "Why does fstrim end up trimming all free space on my mdraid mirror after I reboot?"}
+{"i": 293, "text": "How can I transfer files between a client and server while inside an SSH session?"}
+{"i": 294, "text": "How can I copy a file over an existing SSH session?"}
+{"i": 295, "text": "How can I download a file to my local machine after I\u2019ve already SSHed into a remote computer?"}
+{"i": 296, "text": "Is it possible to download files while in an SSH interactive session?"}
+{"i": 297, "text": "How can I download a file from a remote machine while logged into it over SSH?"}
+{"i": 298, "text": "What's the best way to copy files from one machine to another over SSH?"}
+{"i": 299, "text": "How do I use scp to copy files to my local machine after SSHing into a remote server?"}
+{"i": 300, "text": "How do I patch the Heartbleed bug on CentOS?"}
+{"i": 301, "text": "How can I create a TAR backup on a remote server?"}
+{"i": 302, "text": "How can I use iptables to prevent specific processes from accessing the network?"}
+{"i": 303, "text": "How can I use iptables to block a specific application?"}
+{"i": 304, "text": "How can I install two versions of glibc side by side on Debian/Ubuntu?"}
+{"i": 305, "text": "How can I move pacman from the root filesystem to the /home partition?"}
+{"i": 306, "text": "How can I rename files within a directory?"}
+{"i": 307, "text": "How can I rename all files that have a specific name?"}
+{"i": 308, "text": "How can I use the `rename` command to rename multiple files at once?"}
+{"i": 309, "text": "How can I rename multiple files at once?"}
+{"i": 310, "text": "How can I rename multiple files in a Unix directory?"}
+{"i": 311, "text": "How can I use bash to replace part of a string based on its position or index?"}
+{"i": 312, "text": "How can I rename multiple files at once?"}
+{"i": 313, "text": "How do I mass move files and rename the filenames at the same time?"}
+{"i": 314, "text": "How can I rename a file using a substring of the same file name?"}
+{"i": 315, "text": "How can I determine when an application was installed, and when the applications/libraries it depends on were installed?"}
+{"i": 316, "text": "How can I check when a package was installed?"}
+{"i": 317, "text": "How can I determine my server\u2019s time offset?"}
+{"i": 318, "text": "How can I unrar local files onto a remote server?"}
+{"i": 319, "text": "How can I access my web server from the host machine?"}
+{"i": 320, "text": "Can I host a LAMP stack in VirtualBox and make it accessible as a public internet site?"}
+{"i": 321, "text": "What VPN client should I use on a Linux machine that supports a Check Point gateway?"}
+{"i": 322, "text": "What is the origin of the name of the \u201cwheel\u201d group?"}
+{"i": 323, "text": "Why is passwordless sudo not working?"}
+{"i": 324, "text": "How can I get the NOPASSWD sudo option working on Fedora 15?"}
+{"i": 325, "text": "Why is `sudo` still prompting for a password even though I\u2019ve set `NOPASSWD` in sudoers?"}
+{"i": 326, "text": "How can I configure sudo to automatically accept the password and not prompt me for it?"}
+{"i": 327, "text": "How can I give sudo permission for copy operations?"}
+{"i": 328, "text": "I edited /etc/sudoers but I\u2019m still not getting sudo privileges\u2014what am I missing?"}
+{"i": 329, "text": "How can I run a fixed command as root without being prompted for a password?"}
+{"i": 330, "text": "How can I disable commands for certain users?"}
+{"i": 331, "text": "After my last upgrade, I\u2019m getting a low disk space warning\u2014what could be causing this?"}
+{"i": 332, "text": "How do I enable a wired internet connection with DHCP during Arch Linux installation?"}
+{"i": 333, "text": "Can someone explain how sudo really works under the hood?"}
+{"i": 334, "text": "How can I determine which process scheduler my Linux system is using?"}
+{"i": 335, "text": "How can I determine which process scheduler my Linux system is using?"}
+{"i": 336, "text": "Why are service accounts used in Linux and Unix systems?"}
+{"i": 337, "text": "How do I build the `lc` tool on Linux?"}
+{"i": 338, "text": "How do I delete all files in a directory whose names do not match any line in a file list?"}
+{"i": 339, "text": "How can I delete all files except for a specific list of filenames?"}
+{"i": 340, "text": "Is ransomware like BitCrypt dangerous for a Linux system?"}
+{"i": 341, "text": "Is Linux actually safe from malware, or is it just that attackers don\u2019t bother writing malware for Linux?"}
+{"i": 342, "text": "How can I log SSH access attempts?"}
+{"i": 343, "text": "How do I forward X11 over SSH from an Ubuntu machine?"}
+{"i": 344, "text": "Why can\u2019t I open GUI applications over an SSH connection?"}
+{"i": 345, "text": "During an ext4 to btrfs conversion, how many times will the entire volume be read?"}
+{"i": 346, "text": "How can I find the specific path of an installed program?"}
+{"i": 347, "text": "Why does `which` report one command, but the actual command being run is a different one?"}
+{"i": 348, "text": "What command can I use instead of `which`?"}
+{"i": 349, "text": "What\u2019s the difference between `command` and `type` for locating a program file in the user\u2019s `PATH`?"}
+{"i": 350, "text": "How can I filter the partial output of a script as it runs?"}
+{"i": 351, "text": "How does Linux implement case sensitivity, and what are the advantages of this over Windows?"}
+{"i": 352, "text": "How do regular expressions work in a shell environment?"}
+{"i": 353, "text": "In shell scripting, what is the difference between `$@` and `$*`?"}
+{"i": 354, "text": "In shell scripting, what\u2019s the difference between `$*` and `$@`?"}
+{"i": 355, "text": "When should I use `$*` versus `$@` in a shell script?"}
+{"i": 356, "text": "In a shell script, what does `*$` mean?"}
+{"i": 357, "text": "In shell scripting, what does `$*` mean?"}
+{"i": 358, "text": "How can I redirect the output of a command to two different files at the same time?"}
+{"i": 359, "text": "How do I use `tail` to display the entire file first and then only the appended changes afterward?"}
+{"i": 360, "text": "Why does `sudo` fail when used with a redirection operator, like `sudo nt` not passing after `>`?"}
+{"i": 361, "text": "How do I close file descriptors in sh or bash?"}
+{"i": 362, "text": "How can I move 100 files out of a folder that contains thousands of files?"}
+{"i": 363, "text": "What\u2019s the best way to duplicate the partition table and layout of an entire disk using standard tools?"}
+{"i": 364, "text": "What is the format of /etc/hosts on Linux, and how does it differ from the Windows hosts file?"}
+{"i": 365, "text": "Why does a login failure take longer than a successful login?"}
+{"i": 366, "text": "Why is there a slight delay after a failed login in a TTY?"}
+{"i": 367, "text": "Can I disable the delay that happens after entering a wrong password?"}
+{"i": 368, "text": "What\u2019s the difference between `all` and `default` in a kernel setting?"}
+{"i": 369, "text": "What is the difference between \".\" and \"./\" when setting environment variables with `export`?"}
+{"i": 370, "text": "What\u2019s the difference between running `./script` and sourcing it with `. ./script`?"}
+{"i": 371, "text": "What is the difference between running a script with `. myscript` versus `./myscript`?"}
+{"i": 372, "text": "Why is there an extra dot at the beginning of some command I\u2019m supposed to run?"}
+{"i": 373, "text": "How can I route traffic between eth0:0 and eth0?"}
+{"i": 374, "text": "Why isn\u2019t setuid working?"}
+{"i": 375, "text": "How can I allow a user to execute a root-owned script? Setuid doesn't seem to work anymore"}
+{"i": 376, "text": "How can I rename multiple files so they increment in order?"}
+{"i": 377, "text": "How can I rename all files in a folder so that each filename is prefixed with \"Unix_\"?"}
+{"i": 378, "text": "How can I rename a bunch of files in bulk?"}
+{"i": 379, "text": "How can I set up routing based on the source IP address?"}
+{"i": 380, "text": "How can I rename multiple files based on their contents?"}
+{"i": 381, "text": "What are some free DNS clients I can use?"}
+{"i": 382, "text": "What\u2019s the difference between `useradd` and `adduser`?"}
+{"i": 383, "text": "Can zcat be made to output plain text even when the input file is not compressed?"}
+{"i": 384, "text": "How do I determine the GCC installation prefix on Linux?"}
+{"i": 385, "text": "How can I determine what is causing my notebook to wake up?"}
+{"i": 386, "text": "What\u2019s the best shell or Python script to transpose rows into columns?"}
+{"i": 387, "text": "What command can I use to transpose a text file, swapping its rows and columns?"}
+{"i": 388, "text": "What is the maximum number of files that can be stored in a single directory on Linux?"}
+{"i": 389, "text": "How can I fix the error \"error while loading shared libraries: libopenal.so.1\" when installing Drox Operative?"}
+{"i": 390, "text": "How do I enable bash completion when Bash is running in POSIX mode?"}
+{"i": 391, "text": "What are the standard naming conventions for variables in bash shell scripting?"}
+{"i": 392, "text": "How can I batch delete EXIF metadata from a set of image files?"}
+{"i": 393, "text": "How can I run a command automatically at startup in Linux?"}
+{"i": 394, "text": "How can I run a command at system startup for all users?"}
+{"i": 395, "text": "How can I prevent NSCD from being used for DNS lookups?"}
+{"i": 396, "text": "What is `bitwise.c~`?"}
+{"i": 397, "text": "What does the tilde (~) at the end of a filename indicate?"}
+{"i": 398, "text": "What does a trailing ~ at the end of a filename mean, for example httpd.conf~?"}
+{"i": 399, "text": "How can I write a shell script in Ubuntu to process multiple layers into a single animated GIF file?"}
+{"i": 400, "text": "What file system should I use for an SSD drive?"}
+{"i": 401, "text": "What\u2019s a good alternative to OpenWRT?"}
+{"i": 402, "text": "How can I use a shell script to convert multiple EPS files into a single-page PDF or PS file?"}
+{"i": 403, "text": "Is there any tool that offers a consistent interface for working with multiple archive types?"}
+{"i": 404, "text": "How can I keep the password hidden when it\u2019s prompted during a `su` command?"}
+{"i": 405, "text": "Why is my Ethernet interface named enp0s10 instead of eth0?"}
+{"i": 406, "text": "Why is my MySQL database showing \u201cno space available,\u201d and how can I free up or increase storage?"}
+{"i": 407, "text": "What does \u201cdirectory order\u201d mean for files in a directory, as used by `ls -U`?"}
+{"i": 408, "text": "ACL is not enabled, but why is it still working?"}
+{"i": 409, "text": "Why is `-exec` not receiving all of the files returned by `find`?"}
+{"i": 410, "text": "Why does `find -exec` not behave the way the `find` output suggests?"}
+{"i": 411, "text": "What are the advantages and disadvantages of the Linux file hierarchy compared to other operating systems?"}
+{"i": 412, "text": "How can I use AWK to select a nested conditional subset of rows?"}
+{"i": 413, "text": "Can I use SSH to log in and unlock LUKS encrypted drives remotely?"}
+{"i": 414, "text": "How can I execute a snippet of code when a key is pressed?"}
+{"i": 415, "text": "How can I disallow users from changing their passwords?"}
+{"i": 416, "text": "How can I disconnect from an SSH session after starting a process with output so it keeps running in the background?"}
+{"i": 417, "text": "How do I start a process over SSH so that it keeps running after the SSH session ends?"}
+{"i": 418, "text": "How can I keep a process running after closing PuTTY or the terminal?"}
+{"i": 419, "text": "How can I run a script over SSH from a remote machine and make sure it keeps running even if the remote machine goes offline?"}
+{"i": 420, "text": "How can I run a \"service\" as a non-root user?"}
+{"i": 421, "text": "How can I keep a process running on a server after the SSH session is closed?"}
+{"i": 422, "text": "How do I include files in `fstab`?"}
+{"i": 423, "text": "How can I hide the GRUB 2 startup screen on Debian during boot?"}
+{"i": 424, "text": "How do I set directory permissions so a user can read/write the directory and its child files and subdirectories?"}
+{"i": 425, "text": "What does the \"execute\" permission on a folder mean?"}
+{"i": 426, "text": "How can I combine Bash `read` with a here-document when `shopt -s errexit` is enabled?"}
+{"i": 427, "text": "Why do I get a grey background when using remote access on Debian 7?"}
+{"i": 428, "text": "How can I use a `sed` command to replace `$` with `\u00a3`?"}
+{"i": 429, "text": "How can I extract values from a simple HTML file using grep or awk?"}
+{"i": 430, "text": "Why is all the text invisible in IntelliJ?"}
+{"i": 431, "text": "How can I extract lines 10 through 100 from a 200-line file into a new file?"}
+{"i": 432, "text": "What\u2019s the easiest way to copy specific lines from one file to another?"}
+{"i": 433, "text": "What\u2019s the most efficient way to print specific lines from a massive file using awk, sed, or another tool?"}
+{"i": 434, "text": "How do I read a specific line from a file?"}
+{"i": 435, "text": "How can I print a specific range of lines from one file to another specific line?"}
+{"i": 436, "text": "How can I split a file into multiple files based on selected lines?"}
+{"i": 437, "text": "What command can I use to print a few consecutive lines from the middle of a file?"}
+{"i": 438, "text": "How can I read specific lines from a file?"}
+{"i": 439, "text": "Is there a way to administrate multiple computers at the same time?"}
+{"i": 440, "text": "How can I clone an existing Debian installation to another machine or disk?"}
+{"i": 441, "text": "I\u2019m getting a new server\u2014what\u2019s the best way to migrate everything over from the old one?"}
+{"i": 442, "text": "How can I copy an existing working Linux installation instead of doing a fresh install?"}
+{"i": 443, "text": "How can I dynamically configure monitors on Debian with the Intel i915 driver?"}
+{"i": 444, "text": "Why am I getting a tmux protocol mismatch error when there has been no tmux upgrade?"}
+{"i": 445, "text": "Why does extracting text with `sed` not work as expected?"}
+{"i": 446, "text": "How do I make `sed` output only the matched string?"}
+{"i": 447, "text": "How can I configure ToggleShowDesktop in Openbox so it only affects a specified layer?"}
+{"i": 448, "text": "How can I use grep to show output only when both words match?"}
+{"i": 449, "text": "How can I determine which user started a process?"}
+{"i": 450, "text": "Why am I getting an HTTP 403 error when using wget to download the OpenSSH PET file?"}
+{"i": 451, "text": "Why does my terminal sometimes fail to find executables in the local directory?"}
+{"i": 452, "text": "Why are environment variables I export in `.bashrc` on a Fedora 7 server not being set?"}
+{"i": 453, "text": "How can I get out of an SSH session that has frozen or crashed?"}
+{"i": 454, "text": "How can I recover a frozen bash or vim session after an SSH timeout disconnects the terminal?"}
+{"i": 455, "text": "What are the advantages of using a partitionless filesystem?"}
+{"i": 456, "text": "Is it possible to use a disk without creating any partitions on it?"}
+{"i": 457, "text": "Is a partition table always necessary?"}
+{"i": 458, "text": "Why do I need to run bash scripts with `./` instead of just typing the filename?"}
+{"i": 459, "text": "Why do I need to use \"./\" to run an executable in the current directory?"}
+{"i": 460, "text": "Why do I need to use `./` when running compiled code from the current directory?"}
+{"i": 461, "text": "Why do I need to use `./filename` to run an executable script?"}
+{"i": 462, "text": "What does `./` mean in a command or file path?"}
+{"i": 463, "text": "What\u2019s the difference between executing `bash script.sh` and `./script.sh`?"}
+{"i": 464, "text": "How can I back up data from a Linux PC?"}
+{"i": 465, "text": "How can I stop i3 from mirroring my laptop display to an external monitor instead of extending it, since the duplicate setup wastes screen space?"}
+{"i": 466, "text": "What are the archives commonly used for software packaging and distribution?"}
+{"i": 467, "text": "In a terminal, what happens when I type a single apostrophe (`'`)?"}
+{"i": 468, "text": "How can I automate SCP in a production environment?"}
+{"i": 469, "text": "How can I use regex with `locate`?"}
+{"i": 470, "text": "How do I choose the right distribution for my data?"}
+{"i": 471, "text": "How can I check under Linux whether my CPU supports 64-bit operating systems?"}
+{"i": 472, "text": "How can I determine whether a specific processor is 64-bit or 32-bit?"}
+{"i": 473, "text": "What\u2019s the difference between `~` and `/` in file paths?"}
+{"i": 474, "text": "How can I make sure my bandwidth isn\u2019t being hijacked?"}
+{"i": 475, "text": "How can I split a text file into multiple files with 100 lines each?"}
+{"i": 476, "text": "How do permission changes work on a symbolic link?"}
+{"i": 477, "text": "In bash, what does the term \"built-in\" command mean?"}
+{"i": 478, "text": "What does the command type \"hashed\" mean?"}
+{"i": 479, "text": "How can I calculate the total disk I/O performed by a single process?"}
+{"i": 480, "text": "How can I `cd` into the most recently created directory from the command line?"}
+{"i": 481, "text": "Unix: How do I correctly handle a filename with spaces in a shell script?"}
+{"i": 482, "text": "How can I modify a Bash script so it skips waiting for the user to press Enter?"}
+{"i": 483, "text": "What\u2019s a lightweight SMTP server for sending outgoing mail only?"}
+{"i": 484, "text": "How can I search for and list files and folders that match a specific pattern?"}
+{"i": 485, "text": "What\u2019s the best way to search for a file that contains a specific string?"}
+{"i": 486, "text": "After upgrading to Mint 17, my keyboard is stuck on a non-English layout and I can't log in because the keys don't match\u2014how do I fix the keyboard layout?"}
+{"i": 487, "text": "How can I cap CPU and RAM usage for a specific process to reduce its resource consumption?"}
+{"i": 488, "text": "What\u2019s the best way to recover data from a failing SD card?"}
+{"i": 489, "text": "What are the paths used for searching executables?"}
+{"i": 490, "text": "Why isn\u2019t the first executable in my `$PATH` being used?"}
+{"i": 491, "text": "How do I fix a missing repository error that returns 404 Not Found?"}
+{"i": 492, "text": "How can I determine which application is creating a specific file in a given path?"}
+{"i": 493, "text": "How can I identify which process is modifying a file?"}
+{"i": 494, "text": "How can I determine which process created a file?"}
+{"i": 495, "text": "How can I make my bash PS1 color reset so the prompt coloring doesn\u2019t continue after the prompt and into the command line?"}
+{"i": 496, "text": "Why does Vim keep auto-indenting even after I set the `noai` option?"}
+{"i": 497, "text": "Why does diff on two files with switched lines report the same line as missing twice?"}
+{"i": 498, "text": "How do you apply a patch to a kernel?"}
+{"i": 499, "text": "Why does Bash return an error for `n=0; ((n++));`?"}
+{"i": 500, "text": "How can I use the `find` command with a wildcard when the current directory already contains a matching path?"}
+{"i": 501, "text": "`find` doesn't seem to match `*.sh` at a certain directory level\u2014how can I make it work?"}
+{"i": 502, "text": "How do I create and use directory shortcuts in bash?"}
+{"i": 503, "text": "How do I perform a kill softly, without forcing termination?"}
+{"i": 504, "text": "After compiling code in a source folder, can I move that source folder without breaking anything?"}
+{"i": 505, "text": "When installing from source, do I need to keep the extracted tarball directory after installation?"}
+{"i": 506, "text": "How can I use `chown` as a non-root user?"}
+{"i": 507, "text": "Why is the file owner unable to renounce ownership to root, while root is able to do it?"}
+{"i": 508, "text": "Why can't I use `chown` to change a file's ownership from my `$user` to another `$user`?"}
+{"i": 509, "text": "How do I compare two strings in a shell script?"}
+{"i": 510, "text": "How can I automatically pass a password to ssh?"}
+{"i": 511, "text": "How can I determine the number of installed RAM sticks on a server and their individual sizes?"}
+{"i": 512, "text": "How can I set IPTables rules that apply only to specific processes?"}
+{"i": 513, "text": "What does \u201creserved space\u201d mean in a Unix filesystem?"}
+{"i": 514, "text": "How do I process child and descendant nodes?"}
+{"i": 515, "text": "How can I display the error messages and notice when a program is killed from another terminal?"}
+{"i": 516, "text": "Can I attach a running process to my terminal?"}
+{"i": 517, "text": "Can I detach a process that was started in one SSH session by using a different SSH session?"}
+{"i": 518, "text": "How do I bring a process that\u2019s running in the background back to the foreground?"}
+{"i": 519, "text": "How can I get control of an existing terminal session over SSH without using screen?"}
+{"i": 520, "text": "Is there any way to undo `disown` and re-attach an interactive process to the tty?"}
+{"i": 521, "text": "How can I make a process detach itself from its parent process?"}
+{"i": 522, "text": "How can I recover a backgrounded job from a previous shell session?"}
+{"i": 523, "text": "How can I attach an already running session to screen?"}
+{"i": 524, "text": "Is it possible to transfer a running process from a dead SSH session to a new one?"}
+{"i": 525, "text": "How can I move a terminal emulator process from Xorg to a tty?"}
+{"i": 526, "text": "How can I transfer process ownership to another shell?"}
+{"i": 527, "text": "How can I resume an existing bash session inside a new tmux or screen session?"}
+{"i": 528, "text": "How can I connect to a pseudoterminal from a lost session as the same user?"}
+{"i": 529, "text": "How can I make a process continue running after the session is closed?"}
+{"i": 530, "text": "How do I capture or save tmux log output?"}
+{"i": 531, "text": "How do I cancel a job?"}
+{"i": 532, "text": "How can I scroll through command output with `less` or `tail -f` while keeping the header visible?"}
+{"i": 533, "text": "How do I search for a term within man pages?"}
+{"i": 534, "text": "How can I efficiently read and search long man pages?"}
+{"i": 535, "text": "How do I highlight certain text in a man page?"}
+{"i": 536, "text": "How can I use `/usr/bin/env sed -f` in a shebang line?"}
+{"i": 537, "text": "How can I calculate values from two files and save the result to an output file?"}
+{"i": 538, "text": "How can I audit or list the users that were added to a Unix system using `useradd`?"}
+{"i": 539, "text": "How can I use a shell variable inside sed\u2019s s command?"}
+{"i": 540, "text": "How do I move a running process to the foreground and background in the shell?"}
+{"i": 541, "text": "How can I install R in my own directory instead of the system-wide location?"}
+{"i": 542, "text": "Why is automatic sleep not working in GNOME?"}
+{"i": 543, "text": "How can I search for a specific string across multiple files?"}
+{"i": 544, "text": "Why aren\u2019t these values appending correctly when I add them to the pipeline?"}
+{"i": 545, "text": "Why does piping the output of a `for` loop prevent modification of a local variable?"}
+{"i": 546, "text": "Why is my while-loop logic producing an error?"}
+{"i": 547, "text": "Why is my Bash script variable not updated after a loop?"}
+{"i": 548, "text": "How do I create a .vimrc file?"}
+{"i": 549, "text": "How can I customize Linux without having sudo/root access?"}
+{"i": 550, "text": "How can I install dependencies as a non-root user?"}
+{"i": 551, "text": "How can I compile programs on a Linux system if I don\u2019t have sudo privileges to install the required development dependencies?"}
+{"i": 552, "text": "Is there a file manager that can display the bit rate for MP3 files?"}
+{"i": 553, "text": "How can I run a GUI application on my server over SSH?"}
+{"i": 554, "text": "How can I read a file that may have different formats?"}
+{"i": 555, "text": "How can I determine whether the current terminal is using a dark or light theme?"}
+{"i": 556, "text": "How do I change the primary group?"}
+{"i": 557, "text": "Why do characters stick at the CLI?"}
+{"i": 558, "text": "Why does this PS1 value cause unexpected behavior?"}
+{"i": 559, "text": "Why does Bash history overlap the prompt when I scroll up through the command history?"}
+{"i": 560, "text": "How can I display the signals received by processes?"}
+{"i": 561, "text": "In a Unix shell, what happens when I run `mv *`?"}
+{"i": 562, "text": "How can I use `cp` with a single argument that contains wildcards?"}
+{"i": 563, "text": "How can I pass a filename that contains percent signs (%) as an argument to a shell script from a cron job?"}
+{"i": 564, "text": "Why doesn't my MPlayer cronjob work?"}
+{"i": 565, "text": "Why does cron logging work for some commands but not for others?"}
+{"i": 566, "text": "How do I edit my crontab using `crontab -e`?"}
+{"i": 567, "text": "How can I determine why my cron job didn\u2019t run?"}
+{"i": 568, "text": "Why are `seq` and Bash brace expansion not working as expected?"}
+{"i": 569, "text": "How can I combine arithmetic expansion and brace expansion in shell?"}
+{"i": 570, "text": "How do I use Bash variables in a for loop range?"}
+{"i": 571, "text": "How can I disable the beep sound in the CentOS 7 Linux command line?"}
+{"i": 572, "text": "How can I use a `.bashrc` file from a custom folder instead of the default location?"}
+{"i": 573, "text": "How can I check and analyze memory usage in Linux?"}
+{"i": 574, "text": "How do I set memory allocation limits for applications in Ubuntu?"}
+{"i": 575, "text": "Why are none of my dotfiles being sourced when bash is launched over ssh, part II?"}
+{"i": 576, "text": "How can I look at the contents of a character device file?"}
+{"i": 577, "text": "How can I store whitespace in a shell script variable?"}
+{"i": 578, "text": "Why does my shell script break when filenames or arguments contain spaces or other special characters?"}
+{"i": 579, "text": "How can I preserve formatting when sending command output to a variable?"}
+{"i": 580, "text": "How do I get the basename of files with complicated names?"}
+{"i": 581, "text": "Why am I getting `expr: syntax error on index`?"}
+{"i": 582, "text": "How can I assign a string containing spaces as a single variable value in a shell script?"}
+{"i": 583, "text": "How can I dynamically rename a file when the filename contains spaces?"}
+{"i": 584, "text": "Why am I having trouble copying files with spaces in their names in a bash script?"}
+{"i": 585, "text": "How do I pass an argument containing spaces to a shell script function?"}
+{"i": 586, "text": "Can an SSH session take complete control of the client machine?"}
+{"i": 587, "text": "How do I assign an environment variable and then run a command immediately afterward in the same line?"}
+{"i": 588, "text": "How can I create an SSH user that is restricted to accessing only a specific folder?"}
+{"i": 589, "text": "How does `newgrp` interact with supplementary groups assigned by `pam_group.so`?"}
+{"i": 590, "text": "How can I export only a subset of the output from `less`?"}
+{"i": 591, "text": "How can I automatically add an alias to ~/.bashrc or ~/.zshrc?"}
+{"i": 592, "text": "How do I prevent `sed` from appending a newline character?"}
+{"i": 593, "text": "How can I repeat the last N commands in my shell?"}
+{"i": 594, "text": "How can I repeat the last N commands in Bash?"}
+{"i": 595, "text": "How can I perform operations only on complete files?"}
+{"i": 596, "text": "How can I `cat` files in real time as they are created?"}
+{"i": 597, "text": "How can I use `nohup` to keep a script running indefinitely?"}
+{"i": 598, "text": "How can I obtain information about the system hardware?"}
+{"i": 599, "text": "How can I use SFTP through a proxy when netcat is not installed?"}
+{"i": 600, "text": "Can I run binvox, or any X11 application, on a Linux server with no display attached?"}
+{"i": 601, "text": "How do I understand the different bin locations?"}
+{"i": 602, "text": "Why does Linux have multiple directories for executable binaries?"}
+{"i": 603, "text": "How do I recursively move files of a specific type from a directory and all its subdirectories to another directory?"}
+{"i": 604, "text": "What\u2019s the difference between `su -` and `su root`?"}
+{"i": 605, "text": "When would I use `su` without `-` instead of `su -`, and what\u2019s the practical difference between the two?"}
+{"i": 606, "text": "What does the hyphen in the `su` command do when parsing it?"}
+{"i": 607, "text": "How can I add a new user in SVN?"}
+{"i": 608, "text": "Can I continuously follow a command and have it run repeatedly, similar to how `tail -f` follows a file?"}
+{"i": 609, "text": "How can I display the contents of a DataFrame every 30 seconds?"}
+{"i": 610, "text": "How do I change the color of my Bash command prompt?"}
+{"i": 611, "text": "How can I add color to my command prompt?"}
+{"i": 612, "text": "What are the differences between the Open Group Base Specifications, the Single UNIX Specification, and POSIX?"}
+{"i": 613, "text": "How can I bind the tmux prefix key to the Super key?"}
+{"i": 614, "text": "Is `some_program <some_file` generally faster than `cat some_file | some_program`?"}
+{"i": 615, "text": "What exactly does `DISPLAY=:0.0` mean in Linux/X11?"}
+{"i": 616, "text": "How can I make a machine accessible on the LAN using its hostname?"}
+{"i": 617, "text": "How can I get simple hostname resolution working on a LAN?"}
+{"i": 618, "text": "How can I set up passwordless login to work properly?"}
+{"i": 619, "text": "How can I log in via SSH to a Synology DiskStation as a regular user using an SSH key only, without being prompted for a password?"}
+{"i": 620, "text": "Why can\u2019t a non-root user log in with a key using PuTTY?"}
+{"i": 621, "text": "How can I connect to a remote host in Linux without being prompted for a password?"}
+{"i": 622, "text": "Why don\u2019t Ctrl + arrow keys work properly in Vim, and how can I fix them?"}
+{"i": 623, "text": "What does the \".d\" in \"init.d\" stand for, and why is that naming used?"}
+{"i": 624, "text": "Can I install just the Linux kernel by itself?"}
+{"i": 625, "text": "How do I launch an application from the terminal?"}
+{"i": 626, "text": "How can I run normal programs as daemons or services?"}
+{"i": 627, "text": "How can I make a running process ignore SIGHUP?"}
+{"i": 628, "text": "How do I launch an independent process?"}
+{"i": 629, "text": "How can I ensure a command keeps running without interruption even if the terminal window is closed?"}
+{"i": 630, "text": "Is there a way to keep a session alive even after logging out?"}
+{"i": 631, "text": "Does installing and using Wine expose my Linux system to Windows viruses?"}
+{"i": 632, "text": "What\u2019s the correct way to compile and install a program from source code?"}
+{"i": 633, "text": "I\u2019ve downloaded and untarred zsh\u2014what are the next steps to compile and install it?"}
+{"i": 634, "text": "How can I check whether a process is already running on WebFaction?"}
+{"i": 635, "text": "How can I install a .deb package from my home directory?"}
+{"i": 636, "text": "In what situations do `su` and `sudo` require different passwords?"}
+{"i": 637, "text": "Why does `sudo su` work, but plain `su` does not?"}
+{"i": 638, "text": "I accidentally moved the bin and other folders\u2014how can I restore them to their original locations?"}
+{"i": 639, "text": "How can I create a custom Linux distribution for running a simple web browser?"}
+{"i": 640, "text": "What lightweight Linux distro should I use without a desktop environment or window manager, just to run a single graphical application?"}
+{"i": 641, "text": "What\u2019s the difference between a computer terminal and a virtual console?"}
+{"i": 642, "text": "In Unix, what\u2019s the difference between a terminal and a console?"}
+{"i": 643, "text": "What is the difference between `pts` and `tty`?"}
+{"i": 644, "text": "What is the concept of a pseudo-terminal (pty) in Linux?"}
+{"i": 645, "text": "How do TTYs and PTYs work in CentOS 6.5?"}
+{"i": 646, "text": "What\u2019s the difference between running a script with `. ` and with `source`?"}
+{"i": 647, "text": "How do I determine which package installed a specific executable?"}
+{"i": 648, "text": "What are the differences between `grep`, `egrep`, and `fgrep`?"}
+{"i": 649, "text": "How can I define a custom autocomplete for certain commands?"}
+{"i": 650, "text": "How do I create a custom bash tab completion script?"}
+{"i": 651, "text": "How can I follow hyperlinks in Linux man pages?"}
+{"i": 652, "text": "What is the correct way to add a user to the sudoers file?"}
+{"i": 653, "text": "Why do some commands have man pages while others only use `--help`?"}
+{"i": 654, "text": "Why doesn\u2019t my PATH show up in my .bashrc file?"}
+{"i": 655, "text": "How can I access the history of a file?"}
+{"i": 656, "text": "Why is it important to add a newline at the end of a file?"}
+{"i": 657, "text": "Why isn\u2019t my code removing the last line of a file?"}
+{"i": 658, "text": "How does the `tail` command\u2019s `-f` option work?"}
+{"i": 659, "text": "What\u2019s the best way to strip a file extension from a string?"}
+{"i": 660, "text": "How can I batch rename multiple files to remove their extensions?"}
+{"i": 661, "text": "How do I extract the filename without its extension in a shell script?"}
+{"i": 662, "text": "How can I apply newly added user group changes without having to reboot?"}
+{"i": 663, "text": "Why are my group permissions in Linux incompatible, and could this be a bug?"}
+{"i": 664, "text": "How can I measure the RAM usage of a program?"}
+{"i": 665, "text": "How can I use `ps` to see the total RAM used by a program?"}
+{"i": 666, "text": "What is a handy tool for measuring the memory consumption of a program?"}
+{"i": 667, "text": "What is the correct sudoers syntax for adding a user?"}
+{"i": 668, "text": "Why do most Unix systems not include an undelete function?"}
+{"i": 669, "text": "How does Linux handle multiple path separators like `/home////username///file`?"}
+{"i": 670, "text": "When is it appropriate to include a trailing slash when referring to a directory?"}
+{"i": 671, "text": "What\u2019s the difference between `command directory` and `command directory/`?"}
+{"i": 672, "text": "Does Linux Mint include apport-bug for reporting bugs?"}
+{"i": 673, "text": "Where can I find the official Filesystem Hierarchy Standard for UNIX?"}
+{"i": 674, "text": "How can I configure the boot loader to boot into an encrypted partition?"}
+{"i": 675, "text": "How do I create a service in Linux so it starts automatically on startup?"}
+{"i": 676, "text": "Can I duplicate STDOUT so it writes to two different destinations?"}
+{"i": 677, "text": "How can I split stdin into different outputs in bash?"}
+{"i": 678, "text": "How can I change the file extension for multiple files at once?"}
+{"i": 679, "text": "How do I rename every file in the current directory with one extension to a different extension?"}
+{"i": 680, "text": "How can I search for multiple files and change their file extension?"}
+{"i": 681, "text": "How can I rename all files in a directory while preserving the same beginning part of each filename?"}
+{"i": 682, "text": "How can I open Sakura terminal in the home directory?"}
+{"i": 683, "text": "Why do I have to type the full path every time to run an application in OS X?"}
+{"i": 684, "text": "Why does my directory size calculation differ from expected values?"}
+{"i": 685, "text": "How can I mount a block of memory as a filesystem in Linux?"}
+{"i": 686, "text": "How can I make a package explicitly installed in pacman?"}
+{"i": 687, "text": "What does a \u201cBroken pipe\u201d message mean during an SSH session?"}
+{"i": 688, "text": "Is using `sudo` without a password secure, and what are the security implications?"}
+{"i": 689, "text": "How can I configure PuTTY so it doesn\u2019t drop my session after being idle for a while?"}
+{"i": 690, "text": "How do I play media with GStreamer from the command line?"}
+{"i": 691, "text": "How can I make `cd` automatically run `ls` after changing directories?"}
+{"i": 692, "text": "How can I run `cd` and `ls` in the same shell command call?"}
+{"i": 693, "text": "How can I recall a previous bash command by typing just a few characters of it?"}
+{"i": 694, "text": "How can I reformat output so the columns are aligned properly?"}
+{"i": 695, "text": "What is the best Linux distribution for low-end hardware if I mainly want to use it for internet browsing?"}
+{"i": 696, "text": "What Linux/UNIX distribution would you recommend for an older Pentium 4 laptop?"}
+{"i": 697, "text": "Why does using brackets in a grep pattern make the grep process disappear from `ps` output?"}
+{"i": 698, "text": "How can I determine the privilege rights on a file in Linux?"}
+{"i": 699, "text": "What are the best practices for managing disk space on servers?"}
+{"i": 700, "text": "How can I configure Vi for note-taking and outlining so that, on startup, tags are highlighted and shown in a preview window?"}
+{"i": 701, "text": "Which characters have to be escaped in a regular expression?"}
+{"i": 702, "text": "Why is tmux not scaling to fill the full terminal window?"}
+{"i": 703, "text": "What are the best reverse firewall applications for Linux?"}
+{"i": 704, "text": "What\u2019s the best KDE-based Linux distribution to use?"}
+{"i": 705, "text": "How can I use the system Compose database in Gtk applications?"}
+{"i": 706, "text": "What application is repeatedly creating the same directory over and over again, and how can I identify the process responsible?"}
+{"i": 707, "text": "How can I get the position of hard drives in a RAID array?"}
+{"i": 708, "text": "How do I stop apt-get from automatically removing packages with autoremove?"}
+{"i": 709, "text": "Why isn\u2019t SSH output line-buffered?"}
+{"i": 710, "text": "How can I make `tail -f` output for log files look prettier or more readable?"}
+{"i": 711, "text": "How can I print all lines matching a pattern along with the 4 lines before each match?"}
+{"i": 712, "text": "How can I copy a file to xclip and then paste it into Firefox?"}
+{"i": 713, "text": "How can I bulk convert all files in a directory tree between Unix and Windows line ending formats?"}
+{"i": 714, "text": "How can I write a shell script to move the oldest files first?"}
+{"i": 715, "text": "How can I grant regular users write access to an external drive?"}
+{"i": 716, "text": "How can I handle newlines in filenames?"}
+{"i": 717, "text": "When should I use a hard link instead of a soft link, and vice versa?"}
+{"i": 718, "text": "What is the purpose of a hard link versus a soft link in a file system?"}
+{"i": 719, "text": "Is it possible to change the background image on the Linux Mint 11 login screen?"}
+{"i": 720, "text": "Why do I keep seeing a \u201c*\u201d when people mention Unix all over the internet?"}
+{"i": 721, "text": "What are the main differences between various shells?"}
+{"i": 722, "text": "How can I check which Linux version I\u2019m running?"}
+{"i": 723, "text": "How can multiple file descriptors refer to the same file in the open file table?"}
+{"i": 724, "text": "How can I remotely control an Xorg session?"}
+{"i": 725, "text": "How can I access the X display from a cron job when using gdm3?"}
+{"i": 726, "text": "How can I call `xrandr` over SSH?"}
+{"i": 727, "text": "How do I fix the Xlib error \u201cNo protocol specified\u201d?"}
+{"i": 728, "text": "Why does a script run from cron fail to display GUI notifications?"}
+{"i": 729, "text": "Why does `notify-send` not work when it is run from Apache?"}
+{"i": 730, "text": "Why am I unable to forward X11 applications?"}
+{"i": 731, "text": "How can I launch an X program on the local display?"}
+{"i": 732, "text": "How do I connect to a new Wi\u2011Fi network from the command line?"}
+{"i": 733, "text": "How can I retrieve a file\u2019s created/creation time?"}
+{"i": 734, "text": "On Ubuntu Server, why does my `$PYTHONPATH` get reset to blank after a reboot?"}
+{"i": 735, "text": "How can I completely disable swap on my system?"}
+{"i": 736, "text": "What\u2019s the difference between `/sbin/nologin` and `/bin/false`?"}
+{"i": 737, "text": "What\u2019s the proper way to install g++ on RHEL6?"}
+{"i": 738, "text": "How can I use regex with AWK for string replacement in this example?"}
+{"i": 739, "text": "How can I close a terminal session without saving the command history?"}
+{"i": 740, "text": "What are some ways to prevent Bash from logging commands to shell history?"}
+{"i": 741, "text": "Which Run dialog do I need to open this command?"}
+{"i": 742, "text": "How can I print only specific columns by their names?"}
+{"i": 743, "text": "Why doesn\u2019t alias expansion work when I use the `watch` command?"}
+{"i": 744, "text": "How can I turn off buffering in a pipe?"}
+{"i": 745, "text": "How can I flush data to a file frequently while a long-running command is running?"}
+{"i": 746, "text": "What are the main differences between Linux and Unix?"}
+{"i": 747, "text": "What\u2019s the difference between UNIX and UNIX-like operating systems?"}
+{"i": 748, "text": "Can someone explain the difference between Unix and Linux?"}
+{"i": 749, "text": "Does Linux use original Unix code, or is it just based on the same Unix ideas?"}
+{"i": 750, "text": "How can I update a tar.gz archive daily so it only includes files that have changed?"}
+{"i": 751, "text": "How can I keep a script running even after the shell exits?"}
+{"i": 752, "text": "How can I move files and display the progress, such as with a progress bar?"}
+{"i": 753, "text": "Is there a command-line utility for copying files that shows progress information?"}
+{"i": 754, "text": "How can I copy a folder and show a progress bar while it\u2019s being copied?"}
+{"i": 755, "text": "How can I back up files with the `tar` command and show a progress bar?"}
+{"i": 756, "text": "How can I parallelize a for loop?"}
+{"i": 757, "text": "Is there a root password on OS X and Ubuntu?"}
+{"i": 758, "text": "Which Linux distros are best suited for an Asus Eee PC 701 4G?"}
+{"i": 759, "text": "How can I change the size of my main partition so I can install another Linux distribution?"}
+{"i": 760, "text": "What are all the items shown on the cover of the \"Linux Administration Handbook\"?"}
+{"i": 761, "text": "How can I determine the list of required libraries when installing software from source?"}
+{"i": 762, "text": "Why does building from source on Linux result in a mess in the installed packages?"}
+{"i": 763, "text": "Why is my ISO file read-only, and how can I make it writable?"}
+{"i": 764, "text": "What\u2019s the difference between `Mail` and `mail`?"}
+{"i": 765, "text": "How can I use the command line to download a file that is only accessible within a specific session?"}
+{"i": 766, "text": "What command-line tools are available for testing a Web Service?"}
+{"i": 767, "text": "Which scripting language or platform should I use for downloading web pages and automating screen interactions?"}
+{"i": 768, "text": "Why does the system use swap even when there is plenty of free RAM available?"}
+{"i": 769, "text": "How do I increase the inode count on an ext4 filesystem?"}
+{"i": 770, "text": "Can I resize an ext4 partition to create more inodes?"}
+{"i": 771, "text": "How can I determine whether a shell is login, interactive, or batch?"}
+{"i": 772, "text": "Is there an `if` statement I can use to detect whether `bash` or `dash` is running interactively?"}
+{"i": 773, "text": "Should I install the 32-bit or 64-bit version?"}
+{"i": 774, "text": "How can I use SFTP to transfer an entire directory?"}
+{"i": 775, "text": "What *nix distribution is the most lightweight for running virtual machines?"}
+{"i": 776, "text": "How can I create or name a file at the deepest level of a directory tree?"}
+{"i": 777, "text": "In Vim, how can I use `:s` to replace only the first N occurrences of a pattern on a line, instead of all occurrences?"}
+{"i": 778, "text": "How can I perform a simple file transfer?"}
+{"i": 779, "text": "Why does `ssh` combined with `nohup` not work for keeping a process running after disconnecting?"}
+{"i": 780, "text": "How can I determine which file system contains my file?"}
+{"i": 781, "text": "How can I determine which device a given directory is located on?"}
+{"i": 782, "text": "How can I iterate through a `for` loop in reverse order?"}
+{"i": 783, "text": "Why does sed behave differently depending on which output file I write to?"}
+{"i": 784, "text": "Why should I use `visudo` rather than editing the `sudoers` file directly?"}
+{"i": 785, "text": "How can I get `notify-send` to work from a daemon application?"}
+{"i": 786, "text": "Why do I get \u201cX11: Client not authorized\u201d when running a command with sudo?"}
+{"i": 787, "text": "Why am I getting \"Can't open display: :0\" even though my DISPLAY variable is set correctly?"}
+{"i": 788, "text": "How can I run a shell script from udev that needs to access an X display?"}
+{"i": 789, "text": "Is it possible to run a graphical application on one host and display it on a different host/user?"}
+{"i": 790, "text": "How can I make SSH sessions act on a different display?"}
+{"i": 791, "text": "What does `serial=${serial##*.}` do in Bash?"}
+{"i": 792, "text": "What does the shell syntax `${i%.avi}.mp4` mean?"}
+{"i": 793, "text": "In `sh`, what is the meaning of `${x%% *}`?"}
+{"i": 794, "text": "How does the Bash parameter expansion syntax `${foo##*.}` work to extract a file extension?"}
+{"i": 795, "text": "How can I query the special parameter to get the command name when multiple are used?"}
+{"i": 796, "text": "What do the symbols *, #, and % mean in this context?"}
+{"i": 797, "text": "What can I understand about this part of code?"}
+{"i": 798, "text": "What does the Bash expression `echo \"${1##*.}\"` do?"}
+{"i": 799, "text": "How can I get root access from within vi?"}
+{"i": 800, "text": "What\u2019s the difference between the `s` and `S` file mode bits shown by `ls -la`?"}
+{"i": 801, "text": "What\u2019s the correct way to install Grub2 onto a USB stick?"}
+{"i": 802, "text": "How can I redirect traffic through a VPN on an as-needed basis?"}
+{"i": 803, "text": "How can I dynamically use the network\u2019s default gateway?"}
+{"i": 804, "text": "How can I prevent commands I type in a Linux shell from being shown?"}
+{"i": 805, "text": "How can I accept a password-style hidden input in a shell script?"}
+{"i": 806, "text": "How can I remove the last component from a path in bash?"}
+{"i": 807, "text": "What is the correct textual name for <<?"}
+{"i": 808, "text": "What does the cron expression `* */1 * * *` mean?"}
+{"i": 809, "text": "In a shell session inside GNU Screen, how do I move the cursor to the beginning of the current line?"}
+{"i": 810, "text": "How can I keep a script running over SSH?"}
+{"i": 811, "text": "Why is my `.bash_profile` not being sourced when I run `su`?"}
+{"i": 812, "text": "How can I configure two prefix commands in tmux?"}
+{"i": 813, "text": "How can I recursively grep text with BusyBox 1.0?"}
+{"i": 814, "text": "How do I manually build a DEB file?"}
+{"i": 815, "text": "How can I execute remote commands and have them continue running after completely detaching from the SSH session?"}
+{"i": 816, "text": "Why do I get permission issues when doing a system backup with rsync?"}
+{"i": 817, "text": "What does `:-` mean in a shell script?"}
+{"i": 818, "text": "What\u2019s the difference between `filename=${1:-/etc/hosts}` and `filename=/etc/hosts` in shell scripting?"}
+{"i": 819, "text": "How can I run a command for X seconds?"}
+{"i": 820, "text": "How can I use `cat` to display a file only for a specified number of seconds?"}
+{"i": 821, "text": "How can I run a command with a fixed time limit and automatically kill it once that time expires?"}
+{"i": 822, "text": "How can I make `nc` terminate automatically after 2 seconds?"}
+{"i": 823, "text": "How can I block internet access for a single user account while keeping access available for everyone else?"}
+{"i": 824, "text": "How do I create a new user with restricted network access?"}
+{"i": 825, "text": "How can I block all network traffic from a currently running user?"}
+{"i": 826, "text": "In Bash, when should I use an alias, when should I write a script, and when is a function the better choice?"}
+{"i": 827, "text": "What\u2019s the best way to decide whether a command should be implemented as a shell script or as an alias?"}
+{"i": 828, "text": "How do I make an alias or command \u201csticky\u201d so it persists and keeps working across sessions?"}
+{"i": 829, "text": "How can I access data stored in a guest operating system (virtual machine) from the host system?"}
+{"i": 830, "text": "How can I enable crash reports, core dumps, and stack trace logging globally?"}
+{"i": 831, "text": "How do I install Firefox on Ubuntu Server edition?"}
+{"i": 832, "text": "Why is the PS1 environment variable not behaving as expected?"}
+{"i": 833, "text": "In Bash, why does `PROMPT_COMMAND` appear to be set to an invisible value?"}
+{"i": 834, "text": "Can someone explain what these commands mean?"}
+{"i": 835, "text": "How can I capture stdout, stderr, and logging output when using the `script` command?"}
+{"i": 836, "text": "How can I selectively capture stdout, stderr, and logging output when using the `script` command?"}
+{"i": 837, "text": "How do I handle authentication for an SSH connection in OneLine?"}
+{"i": 838, "text": "How can I automate SSH login without being prompted for a password?"}
+{"i": 839, "text": "In bash, when should I use single brackets `[` vs double brackets `[[` for conditional tests?"}
+{"i": 840, "text": "In Bash scripts, when should I use `[` versus `[[` for conditionals, and what are the practical differences between them?"}
+{"i": 841, "text": "What do square brackets mean when there\u2019s no `if` on the left side?"}
+{"i": 842, "text": "Why does my shell script run correctly when I execute the commands directly in the terminal, but fail when I put the same commands in a shell script file and run that file?"}
+{"i": 843, "text": "How can I set environment variables from a shell script?"}
+{"i": 844, "text": "Why is Firefox running on a remote CentOS 5.6 server so slow when I connect to it over SSH?"}
+{"i": 845, "text": "How can I replay commands executed on one machine on a different machine?"}
+{"i": 846, "text": "How can I insert a multiline string into another string?"}
+{"i": 847, "text": "How can I process files in a directory as soon as they appear?"}
+{"i": 848, "text": "How do I implement an FTP upload hook?"}
+{"i": 849, "text": "How can I monitor specific files in Unix?"}
+{"i": 850, "text": "How can I run a script automatically when a file is created?"}
+{"i": 851, "text": "How can I run a bash script every time a file is uploaded?"}
+{"i": 852, "text": "Can I trigger a script when the number of files in a directory changes?"}
+{"i": 853, "text": "How can I monitor the progress of a disk clone while using `dd`?"}
+{"i": 854, "text": "How does load average work on modern CPUs?"}
+{"i": 855, "text": "How do I change directory using `-d` in a shell script?"}
+{"i": 856, "text": "How can I make X less sensitive when I right-click?"}
+{"i": 857, "text": "What is the output format of `free`?"}
+{"i": 858, "text": "How can I convert rows into columns using awk or sed?"}
+{"i": 859, "text": "How does TCP keepalive work over SSH connections?"}
+{"i": 860, "text": "How do I get started learning Unix and Linux?"}
+{"i": 861, "text": "How can I throttle the output rate of stdout?"}
+{"i": 862, "text": "How can I autocomplete files from a different directory in bash?"}
+{"i": 863, "text": "What should I use to harden a Linux box: AppArmor, SELinux, grsecurity, SMACK, or chroot?"}
+{"i": 864, "text": "What\u2019s the best book that every Unix or Linux user should read?"}
+{"i": 865, "text": "Why is the top command showing CPU usage greater than 100% in the output?"}
+{"i": 866, "text": "How do I interpret the %CPU column when running the top command?"}
+{"i": 867, "text": "How can I create a man page for a script?"}
+{"i": 868, "text": "How can I clean up unused dependencies with yum?"}
+{"i": 869, "text": "What does \u201crc\u201d in `.bashrc` stand for?"}
+{"i": 870, "text": "Can an interrupt be handled entirely in software, without any hardware support?"}
+{"i": 871, "text": "How can I determine where a specific global parameter is being configured?"}
+{"i": 872, "text": "How can I determine where `JAVA_HOME` is being set?"}
+{"i": 873, "text": "Why are there 31 Debian CDs, and which ones do I actually need for a plain desktop installation?"}
+{"i": 874, "text": "How can I combine two grep commands and show both of their results together?"}
+{"i": 875, "text": "How can I record terminal output and turn it into a video using TypeScript?"}
+{"i": 876, "text": "What\u2019s the difference between `su`, `sudo -s`, and `sudo bash`?"}
+{"i": 877, "text": "What is the difference between `sudo -i` and `sudo su`?"}
+{"i": 878, "text": "How can I run four tasks in parallel?"}
+{"i": 879, "text": "How can I make Bash wait for background jobs to finish while also limiting the number of concurrent jobs to a fixed count?"}
+{"i": 880, "text": "How can I expand the KDE Activities concept to the shell, so activities are integrated at the desktop shell level?"}
+{"i": 881, "text": "What\u2019s the difference between `$var` and `\"$var\"` in shell scripting?"}
+{"i": 882, "text": "What\u2019s the difference between `\"$var\"` and `\"${var}\"`?"}
+{"i": 883, "text": "When should I use double quotes around a variable in a shell script?"}
+{"i": 884, "text": "In bash, what\u2019s the difference between using double quotes and not using quotes at all?"}
+{"i": 885, "text": "How can I easily execute text from `tail` at the command line?"}
+{"i": 886, "text": "How do I change the root password?"}
+{"i": 887, "text": "How do I determine which shell I\u2019m currently running?"}
+{"i": 888, "text": "How can I determine the current shell name from the command line?"}
+{"i": 889, "text": "How can I detect the command interpreter being used from within a shell script?"}
+{"i": 890, "text": "How can I find out which shell is currently running in a general way?"}
+{"i": 891, "text": "How do I use `ls` to show only the directories inside a given directory?"}
+{"i": 892, "text": "Why does SSH still ask me for a password even though I\u2019ve set up public key authentication?"}
+{"i": 893, "text": "Why does SSH public key authentication work for root but not for a regular user on the same system?"}
+{"i": 894, "text": "Why does my SSH key work with one server but fail to authenticate to another server?"}
+{"i": 895, "text": "Why is my SSH key not working?"}
+{"i": 896, "text": "How can I make grep print every line of the input, instead of only the lines that match the pattern?"}
+{"i": 897, "text": "How can I highlight a specific word in the output of `cat`?"}
+{"i": 898, "text": "How can I highlight matching patterns in command output, like grep does, but without filtering out or excluding the non-matching lines?"}
+{"i": 899, "text": "How can I do color matching while still printing the other lines too?"}
+{"i": 900, "text": "How can I use grep to display both matched and unmatched lines?"}
+{"i": 901, "text": "How can I print files as PDF from the terminal while preserving syntax highlighting?"}
+{"i": 902, "text": "How can I find the network traffic per IP address?"}
+{"i": 903, "text": "Where is the correct place to put a local executable?"}
+{"i": 904, "text": "How can I use grep to search for multiple patterns at once?"}
+{"i": 905, "text": "How can I make Alt-Left on macOS behave the same way as Alt-Left on Ubuntu?"}
+{"i": 906, "text": "How can I change keyboard shortcuts in bash?"}
+{"i": 907, "text": "What does the exclamation mark (!) mean in bash?"}
+{"i": 908, "text": "Why is the `!` character used in shell scripts?"}
+{"i": 909, "text": "What does `!$` mean exactly?"}
+{"i": 910, "text": "How can I find the disk space usage of a directory and all its files?"}
+{"i": 911, "text": "How can I disable interactive SSH login for normal users like oracle on Linux while still allowing them to use scp and sftp?"}
+{"i": 912, "text": "How do I make a program executable from anywhere on the system?"}
+{"i": 913, "text": "How can I make unzip/zip extract files without creating a subdirectory?"}
+{"i": 914, "text": "Why don\u2019t 256 terminal colors work when I\u2019m using tmux?"}
+{"i": 915, "text": "How do I resolve a conflict between Vim and tmux?"}
+{"i": 916, "text": "Why isn\u2019t zsh autocomplete updating when new executables are added to my PATH?"}
+{"i": 917, "text": "How do I scroll through the output of the `watch` command?"}
+{"i": 918, "text": "How can I numerically sort files?"}
+{"i": 919, "text": "How can I quit `less` without it clearing the terminal screen?"}
+{"i": 920, "text": "Is there a way to do SSH login with the clear-text password passed as a parameter?"}
+{"i": 921, "text": "What\u2019s the difference between `nohup`, `disown`, and `&` in shell job control?"}
+{"i": 922, "text": "Does Cygwin really not include the `watch` command?"}
+{"i": 923, "text": "How can I pipe stdin into the clipboard?"}
+{"i": 924, "text": "When cron executes a job, what is the default working directory?"}
+{"i": 925, "text": "How can I execute a command in a remote active terminal?"}
+{"i": 926, "text": "How can I get the last command's stdout in bash?"}
+{"i": 927, "text": "What\u2019s the difference between FISH and SFTP?"}
+{"i": 928, "text": "How can I get `cat` to colorize source and script files?"}
+{"i": 929, "text": "How can I `cat` a file and keep syntax highlighting in the terminal?"}
+{"i": 930, "text": "How can I disable my laptop\u2019s built-in keyboard automatically when I plug in a USB keyboard?"}
+{"i": 931, "text": "How can I determine the exact CPU model, mainboard, RAM, and server model?"}
+{"i": 932, "text": "How can I list all hardware details on Linux?"}
+{"i": 933, "text": "How can I get information about devices in Linux?"}
+{"i": 934, "text": "How can I determine whether /dev/sdX is a connected USB drive or an HDD?"}
+{"i": 935, "text": "How can I find which installed software packages are using the most disk space on Debian?"}
+{"i": 936, "text": "How can I remove duplicate `$PATH` entries using an `awk` command?"}
+{"i": 937, "text": "How do I fix apt-get on Debian 6.0.4 when it keeps prompting for a \u201cmedia change\u201d and asks for the CD-ROM?"}
+{"i": 938, "text": "How can I clear RAM that\u2019s being used as cache memory?"}
+{"i": 939, "text": "What\u2019s a good tool for syncing files between two computers?"}
+{"i": 940, "text": "What happens to the existing files if I mount a drive on top of a folder that already has files in it?"}
+{"i": 941, "text": "What happens to the contents of a directory when a file system is mounted on top of that directory?"}
+{"i": 942, "text": "How do I get the correct file permissions when accessing files from a USB disk?"}
+{"i": 943, "text": "Why am I unable to remove a file?"}
+{"i": 944, "text": "Why am I still unable to delete a file after changing its ownership and permissions?"}
+{"i": 945, "text": "How do I set the base permissions on a USB drive using umask?"}
+{"i": 946, "text": "How do I SSH into a server through another server?"}
+{"i": 947, "text": "How can I SSH into a specific machine on a network?"}
+{"i": 948, "text": "Why can\u2019t I change file permissions?"}
+{"i": 949, "text": "How do I copy a file while also creating any missing target directories at the same time?"}
+{"i": 950, "text": "How do I reassign, specifically increment, a variable in a bash script?"}
+{"i": 951, "text": "How do I multiply two array index variables in shell scripting?"}
+{"i": 952, "text": "How do I divide a variable by a number?"}
+{"i": 953, "text": "How can I set the JAVA_HOME environment variable so it persists after I exit the shell?"}
+{"i": 954, "text": "How can I make environment variables persist across login sessions?"}
+{"i": 955, "text": "How do I permanently update the Linux PATH environment variable?"}
+{"i": 956, "text": "How can I permanently change an environment variable like PATH?"}
+{"i": 957, "text": "How can I permanently set environment variables for a single user?"}
+{"i": 958, "text": "How can I make a .sh script run automatically every time I log in on Debian without having sudo privileges?"}
+{"i": 959, "text": "How can I permanently remove a directory from the PATH environment variable?"}
+{"i": 960, "text": "How do I find the Chromium OS source compile path?"}
+{"i": 961, "text": "How can I enable bash completion for command aliases?"}
+{"i": 962, "text": "How can I recursively find all archive files in various archive formats and search inside them for matching file name patterns?"}
+{"i": 963, "text": "How can I restrict a user to only use specific programs?"}
+{"i": 964, "text": "How can I use bash to get a file's name and extension?"}
+{"i": 965, "text": "How can I automatically run a script whenever I change into a specific directory?"}
+{"i": 966, "text": "How can I write a zsh function that responds to a `cd` command?"}
+{"i": 967, "text": "How can I create a custom xkb layout where pressing one key generates two Unicode code points?"}
+{"i": 968, "text": "How can I configure a directory so that any files and subdirectories created inside it inherit group write permissions?"}
+{"i": 969, "text": "How can I send an X11 notification to all users across all DISPLAYs?"}
+{"i": 970, "text": "How can I batch rename a bunch of files so that the date modified timestamp gets appended to the end of each filename?"}
+{"i": 971, "text": "What is the default sort order of the Linux `sort` command?"}
+{"i": 972, "text": "Why am I getting a \"File not found\" error for a file that definitely exists?"}
+{"i": 973, "text": "Why does `sh` report \"not found\" even though the command definitely exists?"}
+{"i": 974, "text": "Why am I getting a spurious \"command not found\" error?"}
+{"i": 975, "text": "What are some tools for visualizing file size distributions?"}
+{"i": 976, "text": "Why does my disk space keep disappearing unexpectedly?"}
+{"i": 977, "text": "What are the best command-line Linux alternatives to Windirstat or SpaceMonger for analyzing disk usage?"}
+{"i": 978, "text": "Why does this compound command throw errors when I try to copy directories?"}
+{"i": 979, "text": "How can I update environment variables without logging out and back into the UI?"}
+{"i": 980, "text": "How can I reload `~/.profile` for my desktop session?"}
+{"i": 981, "text": "How can I monitor the file system for changes or activity?"}
+{"i": 982, "text": "How can I log which user creates a directory?"}
+{"i": 983, "text": "How can I log hidden file creations?"}
+{"i": 984, "text": "How can I audit directory contents for removing or deletion events?"}
+{"i": 985, "text": "Can someone explain what a superblock, inode, dentry, and file are in a filesystem?"}
+{"i": 986, "text": "How can I save my command line history without logging out?"}
+{"i": 987, "text": "What\u2019s the standard tool or command to convert a byte count into human-readable KiB, MiB, etc., like `du` or `ls -l`?"}
+{"i": 988, "text": "How can I use a shell variable to execute a command?"}
+{"i": 989, "text": "Is GNU coreutils `sort` behaving incorrectly?"}
+{"i": 990, "text": "Why does the `-` character in a filename affect sorting order differently depending on the platform?"}
+{"i": 991, "text": "How can I access the original contents of a directory after it has been used as a mount point?"}
+{"i": 992, "text": "After I used `sudo mount` to mount a Windows Samba share over a directory that already had files in it, where did the original files go?"}
+{"i": 993, "text": "How do I run a GUI application on startup?"}
+{"i": 994, "text": "How do I compile Unix with a custom application included?"}
+{"i": 995, "text": "How can I create a browser-only session on Ubuntu?"}
+{"i": 996, "text": "How can I configure RHEL 6 to launch only a single application at boot?"}
+{"i": 997, "text": "How can I set up kiosk-mode functionality in Linux Mint Cinnamon?"}
+{"i": 998, "text": "How can I run a program at Linux startup instead of launching a desktop manager like GNOME or KDE?"}
+{"i": 999, "text": "How do I set up a Linux web kiosk?"}
+{"i": 1000, "text": "How can I use one machine with two keyboards, two mice, and two monitors?"}
+{"i": 1001, "text": "How do I configure multiseat or separate X sessions in GNOME 3?"}
+{"i": 1002, "text": "How can I determine the execution time of a command after it has already finished?"}
+{"i": 1003, "text": "Why won't a process start from inittab?"}
+{"i": 1004, "text": "How can I suspend a background process and then bring it back to the foreground?"}
+{"i": 1005, "text": "Why doesn\u2019t Fedora have a separate server edition like Ubuntu does?"}
+{"i": 1006, "text": "How do I format an external hard drive to a Linux-compatible file system?"}
+{"i": 1007, "text": "What file system should I format an external hard drive with so it works well on Linux?"}
+{"i": 1008, "text": "Given a git patch ID, how can I determine which kernel release includes it?"}
+{"i": 1009, "text": "How can I list Windows shared folders (Samba) available on my local network?"}
+{"i": 1010, "text": "Why am I getting NIS and autofs errors, and how can I fix them?"}
+{"i": 1011, "text": "How do I load a custom library?"}
+{"i": 1012, "text": "How can I synchronize servers so they all share the same configuration?"}
+{"i": 1013, "text": "How can I do bulk or remote administration on Linux systems?"}
+{"i": 1014, "text": "What is the best way to deploy programs across multiple machines?"}
+{"i": 1015, "text": "How can I replicate basic configuration tasks?"}
+{"i": 1016, "text": "How can I determine which hard disks are installed in my system?"}
+{"i": 1017, "text": "How can I check which HDD is installed in my computer?"}
+{"i": 1018, "text": "How can I continuously output a file\u2019s contents as it changes?"}
+{"i": 1019, "text": "How can I change the default names of tabs in Guake?"}
+{"i": 1020, "text": "How do I set group permissions on the public_html directory?"}
+{"i": 1021, "text": "Looking for a command-line tagging tool for MP3 and OGG files that also supports embedded pictures\u2014any recommendations?"}
+{"i": 1022, "text": "How can I get this find-and-rename command to work recursively on subdirectories?"}
+{"i": 1023, "text": "How do I use variables in the `find` command, and what are the common shell-related issues that might affect it?"}
+{"i": 1024, "text": "How can I switch to superuser privileges while a shell script is already running?"}
+{"i": 1025, "text": "How can I recreate an EXT4 partition without losing the data already on it?"}
+{"i": 1026, "text": "How do I manage packages in my project?"}
+{"i": 1027, "text": "How can I use bash as my login shell if my sysadmin won\u2019t let me change it?"}
+{"i": 1028, "text": "Why is piping from `grep` to `awk` not working?"}
+{"i": 1029, "text": "How can I find and delete many files based on specific content?"}
+{"i": 1030, "text": "How can I pass a variable to an sh child process?"}
+{"i": 1031, "text": "How can I duplicate keystrokes to a remote computer in real time?"}
+{"i": 1032, "text": "How do I sort a file by one column?"}
+{"i": 1033, "text": "How can I make `du` display file sizes in a human-readable format?"}
+{"i": 1034, "text": "What\u2019s the difference between `>` and `>>`, especially when using them with the `cat` command?"}
+{"i": 1035, "text": "How do I do input and output redirection in Bash?"}
+{"i": 1036, "text": "How can I combine two different `cut` outputs into a single command?"}
+{"i": 1037, "text": "Can someone explain what Linux kernel headers actually are?"}
+{"i": 1038, "text": "What is the purpose of the `yes` command?"}
+{"i": 1039, "text": "How do I associate a function in Emacs after finding the code with `M-x describe-key`?"}
+{"i": 1040, "text": "How do I use rsync to include only files whose names end with a specific string?"}
+{"i": 1041, "text": "How should I handle quoting in SSH commands like `ssh $host $FOO` and `ssh $host \"sudo su user -c $FOO\"`?"}
+{"i": 1042, "text": "How can I run SSH inside an SSH session while executing SQL inside the second SSH connection, and handle the quoting correctly?"}
+{"i": 1043, "text": "How can I rescale a PDF file while preserving its contents and layout?"}
+{"i": 1044, "text": "How can I use grep to match a specific line and also the first line of a file?"}
+{"i": 1045, "text": "What is wrong with these two cron jobs?"}
+{"i": 1046, "text": "How can I construct a command by putting a string into a tty?"}
+{"i": 1047, "text": "Why does a file descriptor in /proc appear as a socket or pipe, and how can I identify what it is linked to?"}
+{"i": 1048, "text": "How can I fix scrolling in nano when it\u2019s running inside tmux in mate-terminal?"}
+{"i": 1049, "text": "Is there a quiesce mechanism available on Linux?"}
+{"i": 1050, "text": "How can I display the first few and last few lines of a file from the command line?"}
+{"i": 1051, "text": "How can I convert a PDF booklet back into a normal PDF with pages in the original order?"}
+{"i": 1052, "text": "Shouldn't there be more free RAM than this?"}
+{"i": 1053, "text": "How can I correctly determine memory usage in Linux?"}
+{"i": 1054, "text": "Why is the \u201cfree\u201d command reporting a huge amount of used memory?"}
+{"i": 1055, "text": "How can I find the memory usage of a process on Red Hat?"}
+{"i": 1056, "text": "Is there a better way to read MemFree from /proc and convert it to decimal?"}
+{"i": 1057, "text": "How can I check and understand memory usage on a Linux server?"}
+{"i": 1058, "text": "Why won\u2019t MySQL start on Linux?"}
+{"i": 1059, "text": "How can I check whether my Linux system supports PAE?"}
+{"i": 1060, "text": "Why does `find` with the `-print0` option produce less output than expected?"}
+{"i": 1061, "text": "How can I get internet access on RHEL 5 through an Android smartphone connected over USB LAN?"}
+{"i": 1062, "text": "What\u2019s the best MP3 tagging tool for Linux?"}
+{"i": 1063, "text": "How can I prevent duplicate entries from being added to `$PATH` when sourcing a script?"}
+{"i": 1064, "text": "Is it possible to change the font used by the terminal?"}
+{"i": 1065, "text": "How can I increase the font size in a Debian tty terminal in text mode?"}
+{"i": 1066, "text": "What distribution is best suited for modeling data about elderly people?"}
+{"i": 1067, "text": "How can I build a console text editor that supports Windows-style keyboard shortcuts like Ctrl+Z, Ctrl+X, Ctrl+C, and Ctrl+V?"}
+{"i": 1068, "text": "How can I create a simple jail for a user over OpenSSH?"}
+{"i": 1069, "text": "How can I create a user that can only access a single directory?"}
+{"i": 1070, "text": "How can I configure SSH so a user can only use rsync to download a single specific directory?"}
+{"i": 1071, "text": "How do I use a script parameter in awk?"}
+{"i": 1072, "text": "Why isn\u2019t this variable being passed to awk?"}
+{"i": 1073, "text": "Where can I locate \"sockets\"?"}
+{"i": 1074, "text": "How can I remap Caps Lock so it performs one action when pressed by itself and a different action when used together with another key?"}
+{"i": 1075, "text": "How can I use Unicode characters in a home folder name?"}
+{"i": 1076, "text": "How can a script change the working directory of the shell that invokes it?"}
+{"i": 1077, "text": "Would adding a progress indicator to running commands go against the Linux ethos?"}
+{"i": 1078, "text": "What\u2019s the most elegant way to perform an action on every file with a specific extension inside subfolders?"}
+{"i": 1079, "text": "How can I delete a specific grep output string from a text file?"}
+{"i": 1080, "text": "How can I reuse an SSH session for repeated rsync commands?"}
+{"i": 1081, "text": "How can I copy files over SSH and execute commands in the same session?"}
+{"i": 1082, "text": "Why am I unable to change file permissions?"}
+{"i": 1083, "text": "How can I SSH through two servers using a single command line with one user account?"}
+{"i": 1084, "text": "How can I make a bash alias or function SSH twice in a row?"}
+{"i": 1085, "text": "Can I define multiple SSH host aliases for the same machine in my SSH config?"}
+{"i": 1086, "text": "What is a good web-based SSH/Telnet client?"}
+{"i": 1087, "text": "How can I generate SHA512 password hashes from the command line?"}
+{"i": 1088, "text": "Why is it considered a bad idea to run programs as root?"}
+{"i": 1089, "text": "Is there a pacman option to automatically answer \u201cyes\u201d to every prompt?"}
+{"i": 1090, "text": "How do I use a Bash `while` loop to read input from a pipe?"}
+{"i": 1091, "text": "How can I compile a C program without exiting the editor?"}
+{"i": 1092, "text": "How can I fix a hard disk error when the drive is connected via USB?"}
+{"i": 1093, "text": "Which `smartctl -d` option should I use for this hard disk: `scsi` or `ata`?"}
+{"i": 1094, "text": "How can I combine two *.avi files into a single video file?"}
+{"i": 1095, "text": "Why am I getting \u201c/ is out of blocks,\u201d and how can I figure out what\u2019s causing it?"}
+{"i": 1096, "text": "How can I set this .ttf file as the font for my terminal?"}
+{"i": 1097, "text": "How can I set a custom TTF font for the Ubuntu Server terminal?"}
+{"i": 1098, "text": "How can I combine two text files into one?"}
+{"i": 1099, "text": "How do I change into a directory whose name is just a hyphen (`-`)?"}
+{"i": 1100, "text": "What\u2019s the best Linux distro for programming?"}
+{"i": 1101, "text": "What is the difference between the `passwd` and `passwd-` files?"}
+{"i": 1102, "text": "Why are there two different shadow files preconfigured in /etc?"}
+{"i": 1103, "text": "How can I move a file and update all symlinks pointing to it so they still work?"}
+{"i": 1104, "text": "How can I block access to the HTTPS Facebook site using iptables?"}
+{"i": 1105, "text": "What package managers are best for local installations under my home directory?"}
+{"i": 1106, "text": "How can I install a Linux distribution into my home directory on an older Linux system?"}
+{"i": 1107, "text": "How can I read the messages during power off?"}
+{"i": 1108, "text": "How can I change PS1 in the shell without pressing Enter?"}
+{"i": 1109, "text": "How can I enable Vim-style command-line editing?"}
+{"i": 1110, "text": "How can I identify the filesystem type on an unmounted device?"}
+{"i": 1111, "text": "How can I detect the filesystem type of an unmounted partition from a script?"}
+{"i": 1112, "text": "How can I display the filesystem type from the terminal?"}
+{"i": 1113, "text": "How can I determine which filesystem is being used?"}
+{"i": 1114, "text": "How can I determine the file system used by a storage medium such as a hard disk, CD/DVD, or USB flash drive?"}
+{"i": 1115, "text": "Can I change the colors used by bash?"}
+{"i": 1116, "text": "How can I send e-mail from the command line?"}
+{"i": 1117, "text": "How can I send an email with an attachment from the command line using `mail`?"}
+{"i": 1118, "text": "How can I configure the up-arrow key to cycle only through previous commands that start with the same initial characters, instead of browsing all previous commands?"}
+{"i": 1119, "text": "What impact, if any, does reaping zombie processes have?"}
+{"i": 1120, "text": "How can I select which OS GRUB will boot into before I actually reboot?"}
+{"i": 1121, "text": "How can I determine which process created this X11 window?"}
+{"i": 1122, "text": "Which process created this window that has no associated PID?"}
+{"i": 1123, "text": "How can I check which network interface a daemon is listening on?"}
+{"i": 1124, "text": "How can I remove a block of lines between two patterns?"}
+{"i": 1125, "text": "Why does `kill -9` hang and fail to terminate a process that seems effectively unkillable (\"murder-proof\" process)?"}
+{"i": 1126, "text": "Why is `kill <pid>` not working to terminate a process?"}
+{"i": 1127, "text": "Unable to boot Scientific Linux after installation; system fails to start."}
+{"i": 1128, "text": "How can I remove color codes from command output?"}
+{"i": 1129, "text": "How do I handle redirecting without color output?"}
+{"i": 1130, "text": "How can I strip ANSI color codes from STDIN before writing the output to a file?"}
+{"i": 1131, "text": "How can I redirect a program\u2019s output to a file when it is built using the ncurses library?"}
+{"i": 1132, "text": "How can I prevent PowerShell command output from being limited to 80 bytes only?"}
+{"i": 1133, "text": "How can I loop through each file in an FTP directory using a bash script?"}
+{"i": 1134, "text": "How can I make a program read from a pipe first and then continue reading from the keyboard?"}
+{"i": 1135, "text": "Why isn\u2019t Xmodmap in my .bashrc taking effect?"}
+{"i": 1136, "text": "Why does my filesystem show used space even when it\u2019s completely empty?"}
+{"i": 1137, "text": "Why does my SD card still show 129 MB used space after formatting it with mkfs.ext4?"}
+{"i": 1138, "text": "Why does `df` show `free_space + used_space` not equal to `total_size`?"}
+{"i": 1139, "text": "Why does the `df` output look wrong?"}
+{"i": 1140, "text": "How do I build a custom kernel from source?"}
+{"i": 1141, "text": "How do I configure, compile, and install a custom Linux kernel?"}
+{"i": 1142, "text": "How do I set up a Time Machine Server on Fedora?"}
+{"i": 1143, "text": "What is the correct place to put a Bash shell redirection on a command?"}
+{"i": 1144, "text": "How can I remove the line containing a certain string along with the line immediately following it?"}
+{"i": 1145, "text": "How can I make screen titles permanently fixed so they don\u2019t change or disappear?"}
+{"i": 1146, "text": "How can I replace semicolons with commas only between the quotes?"}
+{"i": 1147, "text": "How do I use the gsub function in awk?"}
+{"i": 1148, "text": "How can I print every line after a matching pattern until the end of the file?"}
+{"i": 1149, "text": "Why does Linux seem unsure whether a file exists or not?"}
+{"i": 1150, "text": "Why are executable files not being detected correctly?"}
+{"i": 1151, "text": "Why is Skype \u201cnot found\u201d on Oneiric 64-bit even though it\u2019s clearly installed?"}
+{"i": 1152, "text": "Why am I getting \"No such file or directory\" even though the file is clearly listed and has the correct permissions?"}
+{"i": 1153, "text": "Why does `/bin/sh` report `./check-dependencies.pl: not found` even though `check-dependencies.pl` exists?"}
+{"i": 1154, "text": "I'm running into a problem during the installation of Moses scripts\u2014has anyone seen this before?"}
+{"i": 1155, "text": "In Linux From Scratch, why am I getting \u201cmake: No such file or directory\u201d and \u201cbad interpreter\u201d errors?"}
+{"i": 1156, "text": "Why am I getting \u201cExisting file can not be found\u201d when trying to access the file?"}
+{"i": 1157, "text": "How do I fix a \u201cNo such file or directory\u201d error?"}
+{"i": 1158, "text": "Why would an executable lie about its own existence?"}
+{"i": 1159, "text": "Debian Wheezy 7.1 \u2014 why won\u2019t Skype or Firefox launch?"}
+{"i": 1160, "text": "Why am I getting \"No such file or directory\" for files that definitely exist?"}
+{"i": 1161, "text": "Why do I get `bash: ...: No such file or directory` when running an executable that definitely exists?"}
+{"i": 1162, "text": "Why am I getting \"No such file or directory\" even though the file is definitely present?"}
+{"i": 1163, "text": "Why do I get `make: arm-elf-gcc: Command not found` when building, and how can I fix it?"}
+{"i": 1164, "text": "Why does the executable exist for everything except bash and the file manager?"}
+{"i": 1165, "text": "How do I move a file to the trash from Bash on Linux?"}
+{"i": 1166, "text": "How can I make `rm` behave like a command such as `mv ~/ .trash`?"}
+{"i": 1167, "text": "What\u2019s the difference between running a program as a daemon versus starting it in the background with `&`?"}
+{"i": 1168, "text": "What does \"etc.\" stand for?"}
+{"i": 1169, "text": "Why is the UNIX system settings directory named `/etc`?"}
+{"i": 1170, "text": "How can I force a user to log out of my application?"}
+{"i": 1171, "text": "How do I specify an enclosure for cut?"}
+{"i": 1172, "text": "How can I parse a CSV file using awk?"}
+{"i": 1173, "text": "How can I extract a specific column from CSV data where fields may contain inner commas and quotation marks?"}
+{"i": 1174, "text": "How do I handle commas inside string values when working with a CSV file?"}
+{"i": 1175, "text": "How can I modify an environment variable in a running process?"}
+{"i": 1176, "text": "How do I prepend a line to a file from the command line?"}
+{"i": 1177, "text": "How can I use `sed` in the Linux terminal to insert text at the beginning of a file?"}
+{"i": 1178, "text": "How do I color a shell command and its output differently?"}
+{"i": 1179, "text": "How can I remotely log in to a Linux machine with a GUI from a Windows machine?"}
+{"i": 1180, "text": "Why does the root directory `/` contain a `..` entry?"}
+{"i": 1181, "text": "How can I use `cp` with a wildcard on Unix and preserve the directory structure?"}
+{"i": 1182, "text": "How can I connect to an SSH server from outside my LAN?"}
+{"i": 1183, "text": "What is the difference between the three commands used to execute a shell script?"}
+{"i": 1184, "text": "In a shell, what does it mean to \u201csource\u201d a file?"}
+{"i": 1185, "text": "How do I connect to a remote server over SSH?"}
+{"i": 1186, "text": "Why does my Upstart script create a folder with a question mark at the end?"}
+{"i": 1187, "text": "Why am I running into a mounting problem while installing Arch Linux on a Dell XPS One?"}
+{"i": 1188, "text": "How do I fix the error `dpkg-buildpackage: command not found`?"}
+{"i": 1189, "text": "Is there a `avisplit` utility somewhere, and if so, where can I find it?"}
+{"i": 1190, "text": "How can I determine which package provides a given executable?"}
+{"i": 1191, "text": "How can I adjust keyboard sensitivity in a command-line terminal?"}
+{"i": 1192, "text": "How do I assign an IP address to an environment variable?"}
+{"i": 1193, "text": "How can I recursively run chmod on directories only without changing the files?"}
+{"i": 1194, "text": "Why can Vim edit root-owned files, and how does it handle permissions to do that?"}
+{"i": 1195, "text": "How can I write a script to convert filenames to lowercase based on their extension?"}
+{"i": 1196, "text": "How can I recursively rename all files from `filename.JPG` to `filename.jpg`?"}
+{"i": 1197, "text": "How can I access, with read and write permissions, a Linux filesystem from a Windows machine on the same network?"}
+{"i": 1198, "text": "Why isn\u2019t `cd` a file in `/bin`?"}
+{"i": 1199, "text": "What is the location of the `cd` command?"}
+{"i": 1200, "text": "What actually happens when you enter a simple command in a shell?"}
+{"i": 1201, "text": "How can I implement a patch to change the CPU frequency governor?"}
+{"i": 1202, "text": "How can I pause and later resume an rsync transfer?"}
+{"i": 1203, "text": "Is there a way to interrupt a process in bash without quitting the shell?"}
+{"i": 1204, "text": "How can I create a sequence with leading zeroes using brace expansion?"}
+{"i": 1205, "text": "Can someone explain whether `less` is essentially just a more featureful version of `more`?"}
+{"i": 1206, "text": "How can I manipulate filenames piped from a `find` command?"}
+{"i": 1207, "text": "How can I make Bash display the prompt on a new line after running the `cat` command?"}
+{"i": 1208, "text": "How can I match a word that contains characters beyond a-zA-Z?"}
+{"i": 1209, "text": "How can I allow SSH access for a user, but restrict it so they can only execute a specific script and nothing else?"}
+{"i": 1210, "text": "How can I configure an SSH user with minimal privileges so they can only use `su` and nothing else?"}
+{"i": 1211, "text": "How can I automatically open screen in the terminal after the user logs in?"}
+{"i": 1212, "text": "Why can\u2019t I boot into Windows 7 after deleting the Linux partitions?"}
+{"i": 1213, "text": "How can I recover ext3 files from a hard disk that has bad sectors?"}
+{"i": 1214, "text": "How can I write a shell script to delete all files older than a certain date?"}
+{"i": 1215, "text": "How do I filter files by filename and then delete the oldest file from the filtered set?"}
+{"i": 1216, "text": "After an unauthorized access incident, what should I check?"}
+{"i": 1217, "text": "Is configuring fstab like this risky or potentially dangerous?"}
+{"i": 1218, "text": "How can I rename files based on a specific pattern?"}
+{"i": 1219, "text": "How can I batch rename a few files at once?"}
+{"i": 1220, "text": "How can I use variable substitution with Bash globbing patterns?"}
+{"i": 1221, "text": "How can I batch rename filenames that contain spaces and specific patterns?"}
+{"i": 1222, "text": "How can I append text to the name of each file in a directory?"}
+{"i": 1223, "text": "How can I batch rename a group of files?"}
+{"i": 1224, "text": "How can I remove a specific string from a file name?"}
+{"i": 1225, "text": "Why does `~/` give me a permission denied error in Csh?"}
+{"i": 1226, "text": "How can I determine which USB hub a device is connected to on a Linux OS?"}
+{"i": 1227, "text": "Why do `.so` files have executable permissions?"}
+{"i": 1228, "text": "How can I rename a command in Linux?"}
+{"i": 1229, "text": "How can I change tmux so it uses different .bash_profile behavior when starting shells?"}
+{"i": 1230, "text": "How can I use `exec` to redirect `stderr` for all subsequent commands?"}
+{"i": 1231, "text": "How can I use `exec` and `tee` to redirect logs to both `stdout` and a log file at the same time?"}
+{"i": 1232, "text": "How do I move files so they replace the destination files if they already exist?"}
+{"i": 1233, "text": "How can I install Mercurial on openSUSE?"}
+{"i": 1234, "text": "How can I recover my Ubuntu system after accidentally running `chmod -R 777 /`?"}
+{"i": 1235, "text": "I accidentally changed the permissions on / \u2014 how can I fix them?"}
+{"i": 1236, "text": "How do I fix the wrong permissions on the /etc folder?"}
+{"i": 1237, "text": "Why won\u2019t the terminal open in Linux after I accidentally overwrote some permissions?"}
+{"i": 1238, "text": "How can I run an executable that's in my PATH when it has the same name as an existing function?"}
+{"i": 1239, "text": "How do I check the number of threads a process is using?"}
+{"i": 1240, "text": "How do I find functions, commands, and builtins?"}
+{"i": 1241, "text": "Is there a tool or website that lets me compare the package status across different Linux distributions?"}
+{"i": 1242, "text": "Why am I getting \u201cerror setting up gummiboot-efi\u201d during an Archboot UEFI install?"}
+{"i": 1243, "text": "Can I change the username of an existing Unix user account?"}
+{"i": 1244, "text": "What\u2019s the proper way to read from `/proc/$pid/mem` on Linux?"}
+{"i": 1245, "text": "What is a good replacement for TCT\u2019s pcat utility?"}
+{"i": 1246, "text": "How can I use `mv * folder` to move all files into a folder without getting the `cannot move` error when the destination is inside the source directory?"}
+{"i": 1247, "text": "How can I move all files into a new directory while excluding that directory itself?"}
+{"i": 1248, "text": "Why am I unable to rename a subdirectory when the parent directory is owned by a different user?"}
+{"i": 1249, "text": "How can I remove only the whitespace characters that appear inside square brackets `[]` using bash?"}
+{"i": 1250, "text": "How can I avoid using temporary files in zsh?"}
+{"i": 1251, "text": "What is the purpose of the root user group?"}
+{"i": 1252, "text": "Which tasks or commands are not allowed on Linux when a process has gid=0 but not uid=0?"}
+{"i": 1253, "text": "How can I move all files, including hidden ones, from one directory to another?"}
+{"i": 1254, "text": "How does the Linux kernel compare with microkernel architectures?"}
+{"i": 1255, "text": "How can I get lighter, more white themes for Xfce?"}
+{"i": 1256, "text": "Why don\u2019t inode-based file systems require a reboot after updating library versions?"}
+{"i": 1257, "text": "How can I select a field from a text line by counting fields from the end instead of the beginning?"}
+{"i": 1258, "text": "How can I convert a shell script into a binary executable?"}
+{"i": 1259, "text": "How can I display numbers in reverse order using `seq(1)`?"}
+{"i": 1260, "text": "How do I upgrade SVN on CentOS?"}
+{"i": 1261, "text": "Why am I no longer getting coredumps after migrating to systemd?"}
+{"i": 1262, "text": "What\u2019s the difference between total and listed directories?"}
+{"i": 1263, "text": "What does the \u201ctotal\u201d line in the output of the `ls` command mean?"}
+{"i": 1264, "text": "How can I continuously monitor `wc -l` using GNU textutils/tools?"}
+{"i": 1265, "text": "Why doesn't `head` work for trimming a file?"}
+{"i": 1266, "text": "Why does piping `cat` from a file into the same file make it get erased?"}
+{"i": 1267, "text": "How can I configure zsh to tell me where I can get an executable instead of just saying \u201cfile not found\u201d?"}
+{"i": 1268, "text": "How do I set environment variables so KDE will recognize them?"}
+{"i": 1269, "text": "What are the reasons to choose primary partitions over logical partitions?"}
+{"i": 1270, "text": "How can I find all files that start with a Python shebang?"}
+{"i": 1271, "text": "Why does `top` show contradictory information?"}
+{"i": 1272, "text": "How can I upgrade OpenSSL from 0.9.8w to 1.0.0i or 1.0.1a on a Linux server?"}
+{"i": 1273, "text": "What is the best way to update OpenSSL on a Linux machine?"}
+{"i": 1274, "text": "How can I select the filename with the greatest number in it?"}
+{"i": 1275, "text": "How do I re-hardlink old rsnapshot backups?"}
+{"i": 1276, "text": "How do I clean up a directory after accidentally extracting an archive into the root of it?"}
+{"i": 1277, "text": "How do I undo an unrar operation?"}
+{"i": 1278, "text": "How can I remove files that were accidentally extracted from an archive?"}
+{"i": 1279, "text": "How can I make grep match a special character at the beginning of each word?"}
+{"i": 1280, "text": "How can I run a program automatically at startup after the display services have started?"}
+{"i": 1281, "text": "How do I grep text inside PDF files?"}
+{"i": 1282, "text": "How can I make sure a terminal stays scrollable?"}
+{"i": 1283, "text": "Why is the Linux kernel not locating the initrd correctly?"}
+{"i": 1284, "text": "How can I move all files with a specific extension from multiple subdirectories into a single directory?"}
+{"i": 1285, "text": "How do I move a directory whose name is a single backtick (`) character?"}
+{"i": 1286, "text": "What's the best way to clean up file extensions?"}
+{"i": 1287, "text": "How can I change the file extensions of all files in a single directory with one command?"}
+{"i": 1288, "text": "How does file extension case sensitivity work on CentOS?"}
+{"i": 1289, "text": "How can I rename files in a directory?"}
+{"i": 1290, "text": "How can I rename multiple files with a single command or script in Unix?"}
+{"i": 1291, "text": "How can I search for files that contain two different words?"}
+{"i": 1292, "text": "How can I execute a .sh script from cron?"}
+{"i": 1293, "text": "Are there any limitations in cron on the types of commands it can run and the privileges under which they execute?"}
+{"i": 1294, "text": "How can I get `pwd` to show the actual directory path without resolving symlinks?"}
+{"i": 1295, "text": "Why do the `.` and `..` directory entries show file sizes of 4 KB and 12 KB, respectively?"}
+{"i": 1296, "text": "What is the size of a folder entry?"}
+{"i": 1297, "text": "Why does `ls -ld /dir` behave differently on Solaris?"}
+{"i": 1298, "text": "What are the reasons to put directories other than /home on separate partitions?"}
+{"i": 1299, "text": "Is there a way to identify my RAM in Linux without shutting the system down?"}
+{"i": 1300, "text": "What is the recommended location for user configuration files?"}
+{"i": 1301, "text": "How does [0-9] work?"}
+{"i": 1302, "text": "What Unix commands can I use to implement a semaphore or lock?"}
+{"i": 1303, "text": "How can I parse `ls -Al` output to extract the file or directory name?"}
+{"i": 1304, "text": "How can I sort data when the first column has inconsistent spacing or unequal whitespace?"}
+{"i": 1305, "text": "How can I determine the current shell in a script at runtime?"}
+{"i": 1306, "text": "How can I find duplicate files on a disk?"}
+{"i": 1307, "text": "How can I use `find` to delete both `*.py~` and `*.pyc` files in one command?"}
+{"i": 1308, "text": "How do file extensions and program associations work in Linux?"}
+{"i": 1309, "text": "How do I read a file record by record, transform each subsequent record based on the previous record, and write the results to another file?"}
+{"i": 1310, "text": "How can I convert `ls -l` output into `chmod`-style permission format?"}
+{"i": 1311, "text": "How do I convert the permissions shown in `ls -l` output into octal notation?"}
+{"i": 1312, "text": "What does the `@` symbol mean in a directory listing?"}
+{"i": 1313, "text": "What does the `@` symbol mean in `ls` output on Mac OS X Lion Terminal?"}
+{"i": 1314, "text": "Why do file permission modes on my system sometimes end with `@` or `+`, and what do those symbols mean?"}
+{"i": 1315, "text": "What does the \u201c@\u201d symbol mean in `ls` output on macOS?"}
+{"i": 1316, "text": "What does the \"@\" symbol mean in this permissions example?"}
+{"i": 1317, "text": "Is there a website that provides a Linux command-line environment for practicing commands?"}
+{"i": 1318, "text": "How can I grab text from a detached screen session?"}
+{"i": 1319, "text": "How can I delete all files in a folder except for files X, Y, and Z?"}
+{"i": 1320, "text": "How do I set a process\u2019s CPU affinity on Linux?"}
+{"i": 1321, "text": "How can I synchronize machines on a LAN to a GPS-based NTP server that is also on the LAN?"}
+{"i": 1322, "text": "How do I do input/output with a file.txt in bash shell?"}
+{"i": 1323, "text": "In bash, how can I remove an alias without logging out?"}
+{"i": 1324, "text": "How do I list all my variables?"}
+{"i": 1325, "text": "Why do `.` and `..` show up when I run `ls -a`?"}
+{"i": 1326, "text": "What is the difference between declaring `function foo() {}` and just writing `foo() {}`?"}
+{"i": 1327, "text": "Why am I getting a \u201cFailed to sign CSR with the CA root key\u201d error when trying to sign a certificate signing request?"}
+{"i": 1328, "text": "Why do Unix man pages use double backticks instead of double quotes?"}
+{"i": 1329, "text": "How can I set a permanent environment variable so it applies to all users on the system?"}
+{"i": 1330, "text": "Why is `resolv.conf` spelled without the \u201ce\u201d?"}
+{"i": 1331, "text": "How can I reconnect a USB device that has been logically disconnected?"}
+{"i": 1332, "text": "How can I safely undo a \u201cremove device\u201d action?"}
+{"i": 1333, "text": "Can Thunar remount a USB drive after I\u2019ve unmounted it?"}
+{"i": 1334, "text": "On Linux, how can I determine whether an entry is a file or directory and what permissions it grants to the user, group, and others/world?"}
+{"i": 1335, "text": "My watch face goes blank when I refresh it\u2014has anyone seen this issue?"}
+{"i": 1336, "text": "How can I tail a newly created file if it has the same name as an old file that was deleted or rotated?"}
+{"i": 1337, "text": "Why does `tail -f` keep showing the old file after the log file has been rotated?"}
+{"i": 1338, "text": "What\u2019s a good way to remember how to use redirection?"}
+{"i": 1339, "text": "Is there a way to bridge \u201cbackwards\u201d from an SSH connection to my local emacs-server?"}
+{"i": 1340, "text": "Why does the US international keyboard layout on Debian differ from the standard one?"}
+{"i": 1341, "text": "How can I blacklist a specific bad RAM sector identified by MemTest86+ error reports?"}
+{"i": 1342, "text": "What is the difference between the non-builtin `test` command and `[` in shell?"}
+{"i": 1343, "text": "How do I copy a SAS file from a previous version directory into a new version directory?"}
+{"i": 1344, "text": "What are some online courses that cover Unix/Linux systems programming?"}
+{"i": 1345, "text": "Why did my network interfaces get renamed, and how can I prevent or control the interface renaming behavior?"}
+{"i": 1346, "text": "How can I remove a random string from a specific position in file names?"}
+{"i": 1347, "text": "How can I use `sed` to remove whitespace and parentheses from filenames?"}
+{"i": 1348, "text": "In korn shell, how can I use `tee` while also capturing the command\u2019s return status?"}
+{"i": 1349, "text": "How do I pipe the output of one process into another while still preserving the first process\u2019s exit/error status?"}
+{"i": 1350, "text": "How can I check whether a piped command failed?"}
+{"i": 1351, "text": "How can I get the exit status of the command before the last command in a shell pipeline or command sequence?"}
+{"i": 1352, "text": "How can I get the return code of a command in a pipeline?"}
+{"i": 1353, "text": "How can I capture and view the test execution output of a command before it gets piped to another command?"}
+{"i": 1354, "text": "Why does `ps | grep | kill` cause my script to abort prematurely?"}
+{"i": 1355, "text": "Custom-compiled kernel 2.6.37 on Ubuntu 10.04 fails to boot with \u201cgave up waiting on root device\u201d \u2014 how can I fix this?"}
+{"i": 1356, "text": "Why does my kernel fail to find the /dev/sda device during boot?"}
+{"i": 1357, "text": "Can someone explain what this code is doing?"}
+{"i": 1358, "text": "Why do I get \"No such file or directory\" when running an executable that definitely exists, and `ldd` shows all required libraries are present?"}
+{"i": 1359, "text": "Why do I get `chroot: failed to run command \u2018/bin/bash\u2019: No such file or directory` when trying to enter a chroot environment?"}
+{"i": 1360, "text": "Linux: How can I write a watchdog to monitor multiple processes?"}
+{"i": 1361, "text": "What\u2019s the actual difference between `apt-get` and `aptitude`? And where does `wajig` fit in?"}
+{"i": 1362, "text": "How can I run a script during the installation of an RPM package?"}
+{"i": 1363, "text": "How can I read a log file and filter the entries between two specific dates?"}
+{"i": 1364, "text": "How can I cat all files in the current directory and every subdirectory?"}
+{"i": 1365, "text": "Why am I getting a \u201cnice\u201d error when trying to use the conservative governor on CentOS?"}
+{"i": 1366, "text": "What is a special file that causes an I/O error when accessed?"}
+{"i": 1367, "text": "Is there a tool that can watch two directories and keep them synchronized immediately whenever a change occurs?"}
+{"i": 1368, "text": "How can I execute a command when a file changes?"}
+{"i": 1369, "text": "How do I run a script automatically when a file or directory changes on Linux, similar to Mac OS X\u2019s launchd?"}
+{"i": 1370, "text": "How can I trigger an action every time a file is modified?"}
+{"i": 1371, "text": "How can I detect changes to a log file using standard Linux tools?"}
+{"i": 1372, "text": "How can I recover after accidentally running `chmod -R 000 /bin`?"}
+{"i": 1373, "text": "What are the parameters of a script?"}
+{"i": 1374, "text": "How do I write a shell script that accepts command-line arguments like `-la`?"}
+{"i": 1375, "text": "What\u2019s the canonical way to implement order-independent options in bash scripts?"}
+{"i": 1376, "text": "Why am I getting a \u201cTraceback (most recent call last)\u201d error in the terminal?"}
+{"i": 1377, "text": "How can I prevent the `screen` utility from taking control of the display?"}
+{"i": 1378, "text": "How do I get vmblock working on Arch Linux?"}
+{"i": 1379, "text": "How can I configure my system to lock a user account after 5 unsuccessful login attempts?"}
+{"i": 1380, "text": "How can I determine the currently running GUI environment from the terminal?"}
+{"i": 1381, "text": "How can I determine the name of the display manager running on Linux?"}
+{"i": 1382, "text": "How do I pass arguments to `find -exec`?"}
+{"i": 1383, "text": "How can I start tmux so it doesn\u2019t get killed when I exit the last window?"}
+{"i": 1384, "text": "How can I SSH into a box, run a command, save the output to a file, and then continue to the next IP address?"}
+{"i": 1385, "text": "How can I log in to multiple remote servers and run a script on each one?"}
+{"i": 1386, "text": "How can I use SSH to connect to multiple hosts and run the same command on each one?"}
+{"i": 1387, "text": "How can I run commands on multiple servers at the same time?"}
+{"i": 1388, "text": "What does the `+` in the `find` command do?"}
+{"i": 1389, "text": "How do I set up Helvetica with fontconfig?"}
+{"i": 1390, "text": "How can I determine how long a process has been running?"}
+{"i": 1391, "text": "How can I recursively rename all files with one extension to another extension?"}
+{"i": 1392, "text": "How do I use LVM to extend a partition?"}
+{"i": 1393, "text": "What\u2019s the best way to sort by multiple columns?"}
+{"i": 1394, "text": "How does the `-k` flag work in the `sort` command?"}
+{"i": 1395, "text": "How do I sort a dataset by only the second column?"}
+{"i": 1396, "text": "Why does `yum list installed` show some package entries in bold?"}
+{"i": 1397, "text": "Can multiple Linux virtual machines share a single swap partition?"}
+{"i": 1398, "text": "How can I perform swap separation for multiple distributions?"}
+{"i": 1399, "text": "How can I handle spaces in a variable?"}
+{"i": 1400, "text": "Why are my directories being listed twice?"}
+{"i": 1401, "text": "Where are the definitions implemented for the kernel header files?"}
+{"i": 1402, "text": "Where can I locate the system call implementations in Linux/Android 2.6.29?"}
+{"i": 1403, "text": "How do I delete a directory named `:q!`?"}
+{"i": 1404, "text": "What exactly did `mv /tmp/folder/* /*` do to my filesystem?"}
+{"i": 1405, "text": "Which bash version can expand `{1..$VAR}` the same way zsh does?"}
+{"i": 1406, "text": "How can I search for files based on the timestamp or time portion embedded in their filename?"}
+{"i": 1407, "text": "What\u2019s a cleaner way to delete files on Linux when the filenames include a datestamp?"}
+{"i": 1408, "text": "How can I install Cinnamon with SLiM on Arch Linux?"}
+{"i": 1409, "text": "What does the `<<<` operator mean?"}
+{"i": 1410, "text": "How do I run an hdparm command automatically after boot and after resume on Fedora 19?"}
+{"i": 1411, "text": "How can I make Debian use bleeding-edge packages or a bleeding-edge release?"}
+{"i": 1412, "text": "What\u2019s the proper way to upgrade Debian stable (Wheezy) to testing (Jessie)?"}
+{"i": 1413, "text": "How can I disable screen blanking on a text console?"}
+{"i": 1414, "text": "How do I refer to an item in `dirs`?"}
+{"i": 1415, "text": "Is it possible to create RAID1 by simply adding a second HDD?"}
+{"i": 1416, "text": "How can I append a suffix string to the end of each line?"}
+{"i": 1417, "text": "How do I implement a horizontal cat?"}
+{"i": 1418, "text": "Why am I getting `/usr/ucb/cc: language optional software package not installed` when trying to compile, and how do I fix it?"}
+{"i": 1419, "text": "In C shell, what is the correct syntax for declaring an array: `()` or `{}`?"}
+{"i": 1420, "text": "How can I set up user accounts that automatically expire after a certain period?"}
+{"i": 1421, "text": "What tool can I use to identify the Linux distribution running on a system when `uname` only returns a generic result?"}
+{"i": 1422, "text": "How can I identify the Linux distribution from the command line?"}
+{"i": 1423, "text": "How can I determine which Linux distribution I'm running?"}
+{"i": 1424, "text": "How can I determine which Linux distribution is currently running?"}
+{"i": 1425, "text": "How do I determine which Unix/Linux variant I\u2019m running from the shell?"}
+{"i": 1426, "text": "How can I detect which Linux distro I'm using from a Zsh script?"}
+{"i": 1427, "text": "How can I read the Linux distribution name from the filesystem or via a command?"}
+{"i": 1428, "text": "How can I switch back to the previous working directory in the terminal?"}
+{"i": 1429, "text": "What\u2019s the correct way to build a dev package from source?"}
+{"i": 1430, "text": "Why is my readline script not working correctly in Cygwin?"}
+{"i": 1431, "text": "What\u2019s a good alternative to `tail -f` that supports convenient scrolling?"}
+{"i": 1432, "text": "How do I set up networking on a minimal CentOS 6.4 installation?"}
+{"i": 1433, "text": "Why does a fresh CentOS install in VirtualBox using NAT show \u201cNetwork is unreachable\u201d when I try to access the network?"}
+{"i": 1434, "text": "How do I change the default network interface name from \"ens33\" back to the old \"eth0\" on Fedora 19?"}
+{"i": 1435, "text": "What\u2019s the difference between `bash`, `-bash`, and `/bin/bash` in `ps` output?"}
+{"i": 1436, "text": "What are the differences between interactive shells, login shells, and non-login shells, and when should each be used?"}
+{"i": 1437, "text": "Why does `ps -f` show bash with a different representation, and how can I get the expected bash process name?"}
+{"i": 1438, "text": "What is the Portage equivalent of `apt-file`, if there is one?"}
+{"i": 1439, "text": "How can I determine the type of an IMG file and mount it?"}
+{"i": 1440, "text": "How can I determine which client is accessing a Unix system?"}
+{"i": 1441, "text": "How do I filter out \"Permission denied\" messages from the output of `find`?"}
+{"i": 1442, "text": "How can I make `find` in Linux ignore \"permission denied\" errors and keep running?"}
+{"i": 1443, "text": "I installed Windows 7 after Ubuntu, and now the Ubuntu boot option is gone from the boot menu\u2014how can I restore it?"}
+{"i": 1444, "text": "How can I use `mv` and append the current date to the filename at the same time?"}
+{"i": 1445, "text": "Why do I get a \u201cfile modified\u201d error while using `scp` or `cp` to copy a file?"}
+{"i": 1446, "text": "Why isn\u2019t Fedora\u2019s command-not-found working?"}
+{"i": 1447, "text": "How can I inspect the contents of a symbolic link itself, rather than following it to its destination?"}
+{"i": 1448, "text": "What file systems or services support self-updating, variable symbolic links?"}
+{"i": 1449, "text": "iptables: how do I permit traffic that was redirected from another port?"}
+{"i": 1450, "text": "How do I set Ubuntu directory permissions with the sticky bit so users can\u2019t delete a file they don\u2019t own?"}
+{"i": 1451, "text": "What does the kernel message `EDAC MC0: UE page 0x0` indicate\u2014does it mean faulty RAM, a driver issue, or something else?"}
+{"i": 1452, "text": "How can I diagnose a faulty onboard network adapter?"}
+{"i": 1453, "text": "How can I stagger the authentication delay after failed `su` or `sudo` attempts?"}
+{"i": 1454, "text": "How can I correctly visualize ANSI color escape codes in log files in Emacs?"}
+{"i": 1455, "text": "What is the best way to build a wrapper for package managers?"}
+{"i": 1456, "text": "How can I show the last command\u2019s exit status in my Bash prompt?"}
+{"i": 1457, "text": "How do I create a symbolic link using a path relative to the current directory?"}
+{"i": 1458, "text": "Why is the first-line comment in a .sh file necessary?"}
+{"i": 1459, "text": "How can I create a nested directory hierarchy with a single command?"}
+{"i": 1460, "text": "Can I create a multi-level directory structure?"}
+{"i": 1461, "text": "What keyboard shortcut can I use to copy the current command in the terminal to the clipboard?"}
+{"i": 1462, "text": "How can I sync the shell yank buffer with the system clipboard?"}
+{"i": 1463, "text": "How many clipboards are available in the system?"}
+{"i": 1464, "text": "How can I delete all empty directories within a subtree?"}
+{"i": 1465, "text": "How can I remove the last character from every line in a text file?"}
+{"i": 1466, "text": "How can I post Twitter status updates from the command line using cURL?"}
+{"i": 1467, "text": "How can I map a single key, like F1, to trigger multiple keys, such as Ctrl+C, in GNOME?"}
+{"i": 1468, "text": "Is it recommended to put /usr and /home on separate partitions?"}
+{"i": 1469, "text": "Is it possible to run Objective-C on a UNIX operating system?"}
+{"i": 1470, "text": "How can I remove everything between the 2nd and 3rd tab characters in each row of a CSV file?"}
+{"i": 1471, "text": "In shell, how can I concatenate two strings to reference a third variable by name?"}
+{"i": 1472, "text": "How can I use one variable\u2019s value as the name of another variable?"}
+{"i": 1473, "text": "In Bash scripting, what does `$!` mean?"}
+{"i": 1474, "text": "Is there a POSIX-standard way to do what `tac` does?"}
+{"i": 1475, "text": "How can I create an alias so that `sudo !!` works?"}
+{"i": 1476, "text": "How can I parse XML, JSON, and newer data file formats in UNIX using command-line utilities?"}
+{"i": 1477, "text": "How can I insert text into a file using the `echo` command?"}
+{"i": 1478, "text": "How can I add text to a file owned by root using sudo?"}
+{"i": 1479, "text": "How can I use shell redirection with sudo?"}
+{"i": 1480, "text": "How can I combine a `sudo` command with a here-document, or use concatenation correctly when piping input into a privileged command?"}
+{"i": 1481, "text": "In this command, where is the correct place to put `sudo`?"}
+{"i": 1482, "text": "Why am I able to copy files into this directory, but unable to create new files there?"}
+{"i": 1483, "text": "Why do I get \u201cpermission denied\u201d when I try to redirect the output of `sudo sed`?"}
+{"i": 1484, "text": "How can I append text to a write-protected file?"}
+{"i": 1485, "text": "How can I run a script with root permission?"}
+{"i": 1486, "text": "Why can't the root user do everything on my system?"}
+{"i": 1487, "text": "Why can\u2019t I edit /proc/sys/net/core/wmem_max?"}
+{"i": 1488, "text": "How can I run a whole command with `sudo` when it includes redirection or a pipe?"}
+{"i": 1489, "text": "How do I write a file in `/var/lib/sysnews/`?"}
+{"i": 1490, "text": "Why does `sudo echo \"xyz\" > file` give me \"Permission denied\" when I try to redirect the output to a file?"}
+{"i": 1491, "text": "Why do I get \u201cPermission denied\u201d when trying to write to a file under the /sys directory?"}
+{"i": 1492, "text": "Why does emptying a file as root not work?"}
+{"i": 1493, "text": "How do I switch into command mode while editing in a text editor?"}
+{"i": 1494, "text": "How can I store the Wi\u2011Fi password as a hash in wpa_supplicant.conf?"}
+{"i": 1495, "text": "How do I enable TRIM/Discard support when using LVM on top of dm-crypt?"}
+{"i": 1496, "text": "How can I make apt recognize a package I installed from a tar archive?"}
+{"i": 1497, "text": "How can I use rsync to account for file name and path changes?"}
+{"i": 1498, "text": "Is there a backup tool that can recognize renamed or moved files and directories?"}
+{"i": 1499, "text": "How can I use rsync to synchronize the same files when they have different filenames on the source and destination?"}
+{"i": 1500, "text": "How can I prevent rsync from deleting and recopying folders that have only been moved?"}
+{"i": 1501, "text": "How can I use the same arguments with a different command?"}
+{"i": 1502, "text": "How can I make shell arguments persistent across sessions?"}
+{"i": 1503, "text": "Does the shell save the IP address of a host I ping?"}
+{"i": 1504, "text": "Why is bash interpreting characters that I\u2019ve escaped with backslashes?"}
+{"i": 1505, "text": "How can I have several guests behind one IP address all using the same SSH port 22?"}
+{"i": 1506, "text": "Is it safe and appropriate to keep `/var/tmp` on an SSD?"}
+{"i": 1507, "text": "Which shells require masking the `{}` placeholders with GNU `find`?"}
+{"i": 1508, "text": "What\u2019s the difference between `find -exec {} ...` and `find -exec '{}' ...`?"}
+{"i": 1509, "text": "Why do file permissions change when transferring a file from Windows to Unix?"}
+{"i": 1510, "text": "Why does using quotation marks change the behavior of the `find` command?"}
+{"i": 1511, "text": "How can I update a folder\u2019s modified date to match the most recently changed file inside it?"}
+{"i": 1512, "text": "Is it possible to pass multiple pipelines as a single argument?"}
+{"i": 1513, "text": "Is there a user-level autostart mechanism as flexible as crontab?"}
+{"i": 1514, "text": "How can I download files from a remote Ubuntu Linux server?"}
+{"i": 1515, "text": "Why is my system booting into a shell instead of the graphical interface?"}
+{"i": 1516, "text": "How can I customize the appearance of the console?"}
+{"i": 1517, "text": "How can I enable colored output for `ls`?"}
+{"i": 1518, "text": "How do I delete all files in a directory except for one specific subfolder?"}
+{"i": 1519, "text": "How do I use a bash string variable reference inside a sed command?"}
+{"i": 1520, "text": "Should I run this on a physical host or in a VM?"}
+{"i": 1521, "text": "How can I determine which hypervisor my VM is running on from inside the guest?"}
+{"i": 1522, "text": "How can I identify a Linux container?"}
+{"i": 1523, "text": "How can I determine which virtualization technology is being used on a Linux VPS server?"}
+{"i": 1524, "text": "What is the shortest way to copy files using `cp`?"}
+{"i": 1525, "text": "How does the `/long/path/to/{multiple, files}` brace syntax work?"}
+{"i": 1526, "text": "What is the minimal command to make a copy of a file?"}
+{"i": 1527, "text": "How can I reference multiple files in a directory without having to type out the full path each time?"}
+{"i": 1528, "text": "How can I rename a file in a different directory without having to repeat the full path?"}
+{"i": 1529, "text": "What\u2019s the easiest way to duplicate a file in its original directory?"}
+{"i": 1530, "text": "What\u2019s the quickest way to rename files without having to retype the full directory path?"}
+{"i": 1531, "text": "How can I combine `rsync --files-from` with `--delete` correctly?"}
+{"i": 1532, "text": "How can I make sure a process is always running?"}
+{"i": 1533, "text": "How can I build a process watchdog?"}
+{"i": 1534, "text": "How can I duplicate the values in each row under each row n times?"}
+{"i": 1535, "text": "How do I concatenate two variables with an underscore between them?"}
+{"i": 1536, "text": "How can I use the VLOOKUP function in Unix?"}
+{"i": 1537, "text": "Why does `scp` from a remote host fail when my `.bashrc` prints a login greeting, and how can I prevent that?"}
+{"i": 1538, "text": "How can I check whether `df -k` is hanging because of NFS mount issues?"}
+{"i": 1539, "text": "How do I set up a shared folder with group ACLs so new files are created with the correct permissions?"}
+{"i": 1540, "text": "How can I set a predefined umask for a specific path or directory?"}
+{"i": 1541, "text": "How do I empty the contents of a file without deleting the file itself?"}
+{"i": 1542, "text": "What command is best to determine whether the OS is 32-bit or 64-bit?"}
+{"i": 1543, "text": "What\u2019s the most efficient Linux command to determine whether a system is 32-bit or 64-bit?"}
+{"i": 1544, "text": "How can I take an existing Linux distribution like Fedora or Ubuntu and customize it into my own Linux distro?"}
+{"i": 1545, "text": "What\u2019s the proper way to fork a Linux distro?"}
+{"i": 1546, "text": "How can I build a Linux distribution for Raspberry Pi?"}
+{"i": 1547, "text": "What\u2019s the easiest way to build my own Linux distribution?"}
+{"i": 1548, "text": "How can I create my own Linux distribution?"}
+{"i": 1549, "text": "What pitfalls or compatibility issues should I watch out for when installing Linux on a Mac?"}
+{"i": 1550, "text": "How does proc get updated about the devices?"}
+{"i": 1551, "text": "Can `rm .*` ever end up deleting the parent directory?"}
+{"i": 1552, "text": "What happens to an argument in an alias after it\u2019s been used once?"}
+{"i": 1553, "text": "What does the `who` command output `root :0` indicate?"}
+{"i": 1554, "text": "How can I run a command in the background in bash and capture its PID?"}
+{"i": 1555, "text": "How can I get the PID of a command and send it to another process?"}
+{"i": 1556, "text": "How do I pipe a colored `tree` output into `less` or `more` without losing the colors?"}
+{"i": 1557, "text": "How can I enable 256-color support in a login shell TTY?"}
+{"i": 1558, "text": "On Ubuntu 10.10, why does `xdg-open` fail even though `xdg-mime query default` succeeds?"}
+{"i": 1559, "text": "Why are the first characters of a command repeated in the display when I use command completion?"}
+{"i": 1560, "text": "What does the error `(standard_in) 1: parse error` mean, and how can I fix it?"}
+{"i": 1561, "text": "How can I make ssh-add run automatically without prompting for a passphrase?"}
+{"i": 1562, "text": "How can I disable authentication for SSH?"}
+{"i": 1563, "text": "Can I run a system with pure GNU only?"}
+{"i": 1564, "text": "Why does `find -name *.jks` fail to return some `.jks` files?"}
+{"i": 1565, "text": "How can I run Firefox on Linux in headless mode without needing libgtk-x11-2.0.so.0?"}
+{"i": 1566, "text": "Is there a one-liner that creates a directory and then changes into it immediately afterward?"}
+{"i": 1567, "text": "How can I combine `mkdir` and `cd` into a single command?"}
+{"i": 1568, "text": "How do I create a directory and immediately navigate into it in one command?"}
+{"i": 1569, "text": "How can I search for a specific text string in a file across multiple subfolders?"}
+{"i": 1570, "text": "Which option(s) should I use to sort a file named `foo` in place, meaning replace the original file with the sorted version?"}
+{"i": 1571, "text": "Why isn\u2019t my mail working?"}
+{"i": 1572, "text": "What\u2019s the cheapest way to run AIX 6\u20137 at home?"}
+{"i": 1573, "text": "What are the main differences between AIX and other Unix flavors?"}
+{"i": 1574, "text": "Why are multiple media conversions failing?"}
+{"i": 1575, "text": "Can anyone recommend a good Linux OS tutorial?"}
+{"i": 1576, "text": "What are the best resources for understanding the Linux kernel and device drivers?"}
+{"i": 1577, "text": "How can I access an NTFS external drive on CentOS?"}
+{"i": 1578, "text": "How can I replace the target value of a symbolic link?"}
+{"i": 1579, "text": "How do I change the target that a symlink points to?"}
+{"i": 1580, "text": "What is the proper way to delete the contents of a directory without deleting the directory itself?"}
+{"i": 1581, "text": "What Linux distro is best for a low-RAM system but still has the most recent package versions?"}
+{"i": 1582, "text": "How can I create an alias to kill processes that are running on a specific TCP/IP port?"}
+{"i": 1583, "text": "Why am I getting an error when trying to create an alias for the `find` command?"}
+{"i": 1584, "text": "How can I create a Unix alias that accepts parameters?"}
+{"i": 1585, "text": "How can I pass arguments to a Bash alias?"}
+{"i": 1586, "text": "Can I use a parameter inside an alias command?"}
+{"i": 1587, "text": "How can I create an alias in KornShell that accepts an argument?"}
+{"i": 1588, "text": "How can I create an alias that lets me enter different arguments each time I run the command?"}
+{"i": 1589, "text": "Why does command substitution inside an alias defined in my `.bash_profile` get resolved immediately in Bash?"}
+{"i": 1590, "text": "What alias can I use to redirect both standard output and standard error, and also send the command to the background?"}
+{"i": 1591, "text": "How can I create an alias that runs a command and performs string replacement on the arguments passed to it?"}
+{"i": 1592, "text": "How can I create a shell alias to shorten the `grep` command?"}
+{"i": 1593, "text": "How can I create an alias that can accept and interact with arguments?"}
+{"i": 1594, "text": "What do the numbers after program names mean in Linux/GNU documentation?"}
+{"i": 1595, "text": "What do the section numbers in man pages mean?"}
+{"i": 1596, "text": "What\u2019s the difference between the man1, man2, man3, etc. manual page sections?"}
+{"i": 1597, "text": "Why does the command notation `ls(1)` include the `1`, and what does it signify?"}
+{"i": 1598, "text": "What does the command and the number in the man page mean?"}
+{"i": 1599, "text": "What does \u201cinteger argument\u201d mean in system call descriptions?"}
+{"i": 1600, "text": "In a man page, what does the number in the header mean?"}
+{"i": 1601, "text": "What does the \u201c2\u201d in `STAT(2)` mean in the man page title?"}
+{"i": 1602, "text": "How can I copy multiple files while preserving their original file extensions?"}
+{"i": 1603, "text": "How can I print all dates between two given dates?"}
+{"i": 1604, "text": "How can I use the command bar in bash without any I/O?"}
+{"i": 1605, "text": "Why am I getting `-bash: syntax error near unexpected token ';'` in Bash, and what usually causes this error?"}
+{"i": 1606, "text": "How can I find all commands that contain \u201cwh\u201d or search by part of a keyword in a man page?"}
+{"i": 1607, "text": "What are the tradeoffs of using LVM versus not using LVM for my storage setup?"}
+{"i": 1608, "text": "How can I resize an extended partition to use the entire drive?"}
+{"i": 1609, "text": "Why isn\u2019t resizing the VDI size working as expected?"}
+{"i": 1610, "text": "What does \"-\" mean when passed as an argument to a command?"}
+{"i": 1611, "text": "How is a driver specified for a device?"}
+{"i": 1612, "text": "How can I prove that an SSD is faulty?"}
+{"i": 1613, "text": "How can I prevent an input/output error from occurring again after it has already recovered successfully?"}
+{"i": 1614, "text": "How can I tell if my SSD is failing or broken?"}
+{"i": 1615, "text": "Why is SSH connection establishment so slow?"}
+{"i": 1616, "text": "Why does SSH hang in a \u201csleeping\u201d state for a long time before connecting?"}
+{"i": 1617, "text": "How do I install squashfs-tools on Ubuntu?"}
+{"i": 1618, "text": "How can I use ksh to get the files created on a specific date in a directory?"}
+{"i": 1619, "text": "Can I use the `&` variable in `sed` to perform operations inside `$()`?"}
+{"i": 1620, "text": "How do I remove something in interactive mode?"}
+{"i": 1621, "text": "How can I list all the commands that my shell knows about?"}
+{"i": 1622, "text": "What are the alternatives to shell scripting, like JavaScript or Ruby?"}
+{"i": 1623, "text": "Why am I having trouble uncompressing a few files?"}
+{"i": 1624, "text": "How can I loop through files whose names contain spaces?"}
+{"i": 1625, "text": "How can I write a for loop in Unix to include files from subdirectories?"}
+{"i": 1626, "text": "How does key mapping work in Linux?"}
+{"i": 1627, "text": "How can I tell whether my shell session is being controlled over SSH?"}
+{"i": 1628, "text": "What does the `*` next to a filename mean in `ls` output?"}
+{"i": 1629, "text": "How can I make changes from the `usermod` command take effect without logging out and back in?"}
+{"i": 1630, "text": "How can I give a specific group full access to `/var/www/html`?"}
+{"i": 1631, "text": "How can I fix the Wireshark error \u201cCouldn't run /usr/sbin/dumpcap in child process\u201d?"}
+{"i": 1632, "text": "Is there a way to add my user to supplementary groups in the current shell process without logging out and back in?"}
+{"i": 1633, "text": "How do I initialize `/etc/group`?"}
+{"i": 1634, "text": "Why does `su` not work immediately after adding a user to the appropriate group, and how can I make the change take effect right away?"}
+{"i": 1635, "text": "I added a user to a supplementary group, but `groups(1)` still isn\u2019t showing the change\u2014why?"}
+{"i": 1636, "text": "Why does logging out of a session cause a newly added supplementary group to take effect?"}
+{"i": 1637, "text": "Why are permissions not being extended to a user in a Minecraft group?"}
+{"i": 1638, "text": "Why am I unable to change the default group for a user with `sudo usermod -g`?"}
+{"i": 1639, "text": "How do I troubleshoot joining a group in Mint running inside VirtualBox?"}
+{"i": 1640, "text": "As which user does a command actually execute?"}
+{"i": 1641, "text": "Why does the `id` command not display all of a user's groups?"}
+{"i": 1642, "text": "Why is root unable to send a fatal signal to PID 1/init?"}
+{"i": 1643, "text": "How do I configure my syslog.conf so that iptables messages are written to a separate log file?"}
+{"i": 1644, "text": "My BIOS doesn\u2019t recognize my bootable USB drive\u2014how can I fix this?"}
+{"i": 1645, "text": "What\u2019s the difference between single quotes (`'`) and double quotes (`\"`) ?"}
+{"i": 1646, "text": "How can I reset the admin password on Mac OS X Darwin?"}
+{"i": 1647, "text": "What\u2019s the modern equivalent of `iwlist` for scanning nearby Wi\u2011Fi networks and seeing who is around?"}
+{"i": 1648, "text": "How can I find all IP addresses associated with the wireless LAN on Ubuntu 14.04?"}
+{"i": 1649, "text": "How can I use variable substitution in `sed`?"}
+{"i": 1650, "text": "How do I extract a single file from a tar archive and place it in a different directory?"}
+{"i": 1651, "text": "Why does the `who` command show my own login session twice?"}
+{"i": 1652, "text": "How can I write a Bash script to detect the Linux distribution/vendor and choose the appropriate package manager for installation, such as apt-get, yum, or similar?"}
+{"i": 1653, "text": "How can I delete all JPG files in a folder that are smaller than a specific width/height?"}
+{"i": 1654, "text": "How can I search for files by file size or dimensions?"}
+{"i": 1655, "text": "How can I determine the source or origin of my users?"}
+{"i": 1656, "text": "How can I use the `grep` command to match a pattern and also capture some additional characters after it?"}
+{"i": 1657, "text": "Why am I getting a syntax error in my shell script?"}
+{"i": 1658, "text": "How can I fix a broken apt situation where I get `insserv: Service killprocs has to be enabled to start service single`?"}
+{"i": 1659, "text": "Why does this sort command produce an empty file?"}
+{"i": 1660, "text": "How can I read from and write to the same file in Linux without overwriting the existing contents?"}
+{"i": 1661, "text": "How can I redirect `tr` stdout to a file?"}
+{"i": 1662, "text": "How can I redirect the output of a head command when updating the hosts file?"}
+{"i": 1663, "text": "What does the command line \"buffer\" mean?"}
+{"i": 1664, "text": "How can I log violations of rules defined in limits.conf?"}
+{"i": 1665, "text": "Ubuntu: How can I change the CPU clock speed from the terminal?"}
+{"i": 1666, "text": "What are the startup commands in Lubuntu?"}
+{"i": 1667, "text": "How do I extract a downloaded tar.bz2 archive?"}
+{"i": 1668, "text": "How can I write a shell script that sends me an email once every 20 days?"}
+{"i": 1669, "text": "How do hard links work for directories?"}
+{"i": 1670, "text": "How do I get the path of a symbolic link?"}
+{"i": 1671, "text": "Why does my executable not appear visible when I run it with `sudo`?"}
+{"i": 1672, "text": "Why does SoX return an error when I try to process MP3 files?"}
+{"i": 1673, "text": "How can I call `getaddrinfo()` from a shell or command line?"}
+{"i": 1674, "text": "What\u2019s the Bash command to launch a system terminal?"}
+{"i": 1675, "text": "How can I choose a terminal emulator from Java?"}
+{"i": 1676, "text": "Why does a standalone nested function/script that works on its own stop working when I put it inside a larger script?"}
+{"i": 1677, "text": "Why is my self-compiled GCC version overwriting the GCC package installed by my package manager?"}
+{"i": 1678, "text": "How can I uninstall a program I compiled from source?"}
+{"i": 1679, "text": "How do I properly uninstall software that I built and installed from source?"}
+{"i": 1680, "text": "What do you call the language that appears on the first line of a script?"}
+{"i": 1681, "text": "How can I write udev rules to identify a USB storage device?"}
+{"i": 1682, "text": "How do I extract the text between tags in a text file?"}
+{"i": 1683, "text": "How do I extract the information between tags?"}
+{"i": 1684, "text": "How do I grep for a string that includes regex metacharacters such as $ and ? without them being treated as special characters?"}
+{"i": 1685, "text": "Is it possible to redirect stdout from a background application after it has already been started?"}
+{"i": 1686, "text": "How can I automatically save bash command history when using a screen session?"}
+{"i": 1687, "text": "Is there an easy way to search my command history across multiple screen windows?"}
+{"i": 1688, "text": "How can I keep bash history shared and preserved across multiple terminal windows?"}
+{"i": 1689, "text": "How do you manage your shell history?"}
+{"i": 1690, "text": "How can I determine how long ago a Linux system was installed?"}
+{"i": 1691, "text": "How long have people typically been using Linux?"}
+{"i": 1692, "text": "Where can I find good resources for portable shell programming?"}

@@ -39,7 +39,12 @@ SYSTEM = ("You are a technical support assistant. Answer the user's question usi
 # knowledge, has no length limit beyond the token cap, and is not told to stay within the evidence.
 SYSTEM_OPEN = ("You are a technical support assistant. Answer the user's question as helpfully as you can. "
                "A previously resolved case or thread is provided as context; use it where it helps. Plain text.")
-if os.environ.get("GEN_PROMPT") == "open": SYSTEM = SYSTEM_OPEN
+# 2x2 factorial (instruction x length limit): GEN_INSTR=evidence|open, GEN_LIMIT=120|none. GEN_PROMPT=open = open + none.
+if os.environ.get("GEN_PROMPT") == "open": os.environ.setdefault("GEN_INSTR", "open"); os.environ.setdefault("GEN_LIMIT", "none")
+_INSTR = os.environ.get("GEN_INSTR", "evidence"); _LIMIT = os.environ.get("GEN_LIMIT", "120")
+if _INSTR == "open": SYSTEM = SYSTEM_OPEN + (f" At most {GEN_WORDS} words." if _LIMIT != "none" else "")
+elif _LIMIT == "none": SYSTEM = SYSTEM.replace(f"At most {GEN_WORDS} words. ", "")
+LONG_ANSWERS = _LIMIT == "none"
 _ST = {}
 
 def st(r):
@@ -51,6 +56,7 @@ def st(r):
 def kb_ids(sub):
     """corpus ids in the same order as common.load() builds the KB."""
     import csv
+    if sub.endswith("L") and sub[:-1] in FORUMS: sub = sub[:-1]
     corpus = [json.loads(l)["_id"] for l in open(os.path.join(DATA, sub, "corpus.jsonl"))]
     rel = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(DATA, sub, "qrels", "test.tsv")), delimiter="\t"):
@@ -88,7 +94,8 @@ def answers(subs):
             chunk = need[b:b + B]; found = {}
             page = 1
             while True:
-                q = dict(site=sub if sub != "programmers" else "softwareengineering", filter="withbody", sort="votes", pagesize=100, page=page)
+                site = sub[:-1] if sub.endswith("L") and sub[:-1] in FORUMS else sub
+                q = dict(site=site if site != "programmers" else "softwareengineering", filter="withbody", sort="votes", pagesize=100, page=page)
                 if key: q["key"] = key
                 url = f"https://api.stackexchange.com/2.3/questions/{';'.join(chunk)}/answers?" + urllib.parse.urlencode(q)
                 req = urllib.request.Request(url, headers={"Accept-Encoding": "gzip"})
@@ -166,7 +173,7 @@ def call_llm(question, evidence):
     msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": "Question: " + question + "\n\nEvidence:\n" + evidence}]
     if BACKEND == "azure":
         url = f"{AZ_EP}/openai/deployments/{GEN_MODEL}/chat/completions?api-version=2024-12-01-preview"
-        body = {"messages": msgs, "max_completion_tokens": 900 if os.environ.get("GEN_PROMPT") == "open" else 400, "reasoning_effort": "minimal", "seed": 0}
+        body = {"messages": msgs, "max_completion_tokens": 900 if LONG_ANSWERS else 400, "reasoning_effort": "minimal", "seed": 0}
         hdr = {"Content-Type": "application/json", "api-key": open(AZ_KEY_FILE).read().strip()}
     else:
         url = GEN_URL; hdr = {"Content-Type": "application/json"}
@@ -270,6 +277,34 @@ def embed(subs):
         print(f"embed {sub}: {len(new_i)} new keys, {len(old_i)} reused", flush=True)
         np.savez(out, **save); print(f"embed {sub} keys={len(keys)} {time.time()-t0:.0f}s", flush=True)
 
+def paraphrase(subs, workers=int(os.environ.get("GEN_WORKERS", 8))):
+    """one paraphrase of every ask title (gpt-5.4-mini), cached in cache/gen/{sub}_paraphrase.jsonl, for the long stream."""
+    import concurrent.futures as cf
+    for sub in subs:
+        kb, kfam, ask, afam = load(sub); p = os.path.join(G, f"{sub}_paraphrase.jsonl")
+        have = {json.loads(l)["i"] for l in open(p)} if os.path.exists(p) else set()
+        need = [i for i in range(len(ask)) if i not in have]; out = open(p, "a")
+        sysmsg = ("Rewrite the user's question as a different person with the same problem might ask it on a technical forum. "
+                  "Keep the meaning and the key technical terms that identify the problem, change the wording. Reply with the question only, one line.")
+        url = f"{AZ_EP}/openai/deployments/gpt-5.4-mini/chat/completions?api-version=2024-12-01-preview"
+        def work(i):
+            body = {"messages": [{"role": "system", "content": sysmsg}, {"role": "user", "content": ask[i]}], "max_completion_tokens": 120,
+                    "reasoning_effort": "minimal", "seed": 0}
+            hdr = {"Content-Type": "application/json", "api-key": open(AZ_KEY_FILE).read().strip()}
+            for t in range(30):
+                try:
+                    d = json.load(urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), hdr), timeout=120))
+                    return i, d["choices"][0]["message"]["content"].strip().splitlines()[0]
+                except urllib.error.HTTPError as e:
+                    if e.code == 429: time.sleep(min(float(e.headers.get("Retry-After", 0) or 5), 30) + random.random()); continue
+                    if e.code == 400: return i, ask[i]
+                    time.sleep(3)
+                except Exception: time.sleep(3)
+            return i, ask[i]
+        with cf.ThreadPoolExecutor(workers) as ex:
+            for i, t in ex.map(work, need): out.write(json.dumps(dict(i=i, text=t)) + "\n"); out.flush()
+        print(f"paraphrase {sub}: {len(need)} new", flush=True)
+
 if __name__ == "__main__":
     cmd = sys.argv[1]; subs = sys.argv[2].split(",") if len(sys.argv) > 2 else FORUMS
-    {"answers": answers, "asks": asks, "gen": gen, "embed": embed}[cmd](subs)
+    {"answers": answers, "asks": asks, "gen": gen, "embed": embed, "paraphrase": paraphrase}[cmd](subs)

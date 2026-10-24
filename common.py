@@ -8,6 +8,10 @@ RETRIEVERS = ["bge", "minilm", "bm25"]
 MAX_CHARS = 1200
 
 def load(sub):
+    if sub.endswith("L") and sub[:-1] in FORUMS:     # long stream: original asks, then one paraphrase of each (same family)
+        kb, kfam, asks, afam = load(sub[:-1])
+        P = {json.loads(l)["i"]: json.loads(l)["text"] for l in open(os.path.join(CACHE, "gen", f"{sub[:-1]}_paraphrase.jsonl"))}
+        return kb, kfam, asks + [P[i] for i in range(len(asks))], np.concatenate([afam, afam])
     if sub.startswith("msmarco"):        # v3 heterogeneous corpus built by prep_het_v3.py
         kb = [json.loads(l) for l in open(os.path.join(HERE, "data_het", sub, "kb.jsonl"))]
         ak = [json.loads(l) for l in open(os.path.join(HERE, "data_het", sub, "asks.jsonl"))]

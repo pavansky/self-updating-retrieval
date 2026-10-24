@@ -173,3 +173,48 @@ for i, s in enumerate(subs8):
 fig.legend(*axs[0, 0].get_legend_handles_labels(), loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(0.5, -0.03))
 fig.tight_layout(rect=(0, 0.05, 1, 1)); save(fig, "g3_generators.pdf")
 print("figures written")
+
+# Fig 9. Prompt factorial: share stating the root solution by depth, and Delta, for the four prompt cells
+CELLS = [("main", "", "evidence-only\n120 words"), ("enl", "_enl", "evidence-only\nno limit"), ("ol", "_ol", "open\n120 words"), ("open", "_open", "open\nno limit")]
+TF = {}
+for c, suf, lab in CELLS:
+    p = os.path.join(RES, f"tables_gen3{suf}.json")
+    if os.path.exists(p): TF[c] = json.load(open(p))
+if len(TF) == 4 and all(len(t["meta"]["subs"]) == 4 for t in TF.values()):
+    fig, axs = plt.subplots(1, 2, figsize=(7.0, 2.5))
+    for k, (c, suf, lab) in enumerate(CELLS):
+        pool = TF[c]["h2_pool"]["0.95"]; L4 = ("YES", "PARTLY", "NO", "ABSTAIN")
+        ys = [100 * pool[str(d)].get("YES", 0) / max(sum(pool[str(d)].get(x, 0) for x in L4), 1) for d in (0, 1, 2)]
+        axs[0].plot([0, 1, 2], ys, "-o", ms=3, color=OI[k], label=lab.replace("\n", ", "))
+        us = TF[c]["users"]; d = [np.mean([v["content"][f"d{p}"][0] for v in us.values()]) for p in ("01", "95")]
+        axs[1].bar(np.arange(2) + (k - 1.5) * 0.2, d, 0.19, color=OI[k], label=lab.replace("\n", ", "))
+    axs[0].set_xticks([0, 1, 2]); axs[0].set_xticklabels(["thread", "depth 1", r"depth $\geq2$"]); axs[0].set_ylabel("served answers stating the solution (%)")
+    axs[0].set_title("Drift along chains, by prompt"); axs[0].legend(frameon=False, fontsize=5.5)
+    axs[1].set_xticks([0, 1]); axs[1].set_xticklabels([r"$p_w=0.1$", r"$p_w=0.95$"]); axs[1].axhline(0, color="k", lw=0.5)
+    axs[1].set_ylabel(r"mean $\Delta$ (points)"); axs[1].set_title("Effect of write-back, by prompt")
+    fig.tight_layout(); save(fig, "g3_factorial.pdf")
+
+# Fig 10. Long stream: answers served from deep entries over twice the horizon
+pl = os.path.join(RES, "tables_gen3_long.json")
+if os.path.exists(pl):
+    TLg = json.load(open(pl)); fig, axs = plt.subplots(1, 2, figsize=(7.0, 2.4))
+    for r_i, r in enumerate(RETS):
+        for tab, ls, lab in ((T, "--", "one pass"), (TLg, "-", "with paraphrased repeats")):
+            rows = [v for k, v in tab["h2"].items() if k.split("|")[1] == r and k.endswith("|0.95") and k.split("|")[0].rstrip("L") in ("android", "unix", "webmasters", "mathematica")]
+            if not rows: continue
+            if tab is T: rows = [v for k, v in tab["h2"].items() if k.split("|")[1] == r and k.endswith("|0.95") and (k.split("|")[0] + "L") in [kk.split("|")[0] for kk in TLg["h2"]]]
+            b = np.mean([x["self_d2_by_round"] for x in rows], 0) * 100
+            x = np.linspace(0.5, 1.0, len(b)) if tab is T else np.linspace(0.5 / len(b) * 2, 1.0, len(b))
+            xx = (np.arange(1, len(b) + 1) / len(b)) * (1.0 if tab is TLg else 0.5)
+            axs[0].plot(xx, b, ls, color=OI[r_i], lw=1, label=f"{NAME[r]}, {lab}")
+    axs[0].set_xlabel("position in the long stream (fraction)"); axs[0].set_ylabel(r"answers from depth $\geq2$ entries (%)")
+    axs[0].set_title(r"Deep entries over twice the horizon, $p_w=0.95$"); axs[0].legend(frameon=False, fontsize=5)
+    hp = TLg["h2_harm_pool"]; e = np.array(hp["est"]); lo = np.array(hp["lo"]); hi = np.array(hp["hi"])
+    hp1 = T["h2_harm_pool"]; e1 = np.array(hp1["est"]); lo1 = np.array(hp1["lo"]); hi1 = np.array(hp1["hi"])
+    for k, (E, LO, HI, lab, col) in enumerate(((e1, lo1, hi1, "one pass", OI[7]), (e, lo, hi, "with paraphrased repeats", OI[0]))):
+        xs = np.arange(3) + (k - 0.5) * 0.25
+        axs[1].errorbar(xs, E, yerr=[E - LO, HI - E], fmt="o", ms=4, capsize=2, color=col, label=lab)
+    axs[1].axhline(0, color="k", lw=0.5); axs[1].set_xticks(range(3)); axs[1].set_xticklabels(["depth 1", "depth 2", "depth 3+"])
+    axs[1].set_ylabel("change per 1,000 questions"); axs[1].set_title("Change in correct answers by depth, 95% intervals"); axs[1].legend(frameon=False, fontsize=5.5)
+    fig.tight_layout(); save(fig, "g3_long.pdf")
+print("extra figures written")

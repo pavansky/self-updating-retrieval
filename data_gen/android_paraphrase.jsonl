@@ -1,0 +1,1696 @@
+{"i": 0, "text": "Has anyone else had problems with Google Talk for Android constantly \u201closing connection to server\u201d?"}
+{"i": 1, "text": "What can I do to stop my HTC Desire from overheating?"}
+{"i": 2, "text": "Where does the Amazon Appstore store the downloaded APK files on Android?"}
+{"i": 3, "text": "Where are Amazon Appstore downloads stored on the device?"}
+{"i": 4, "text": "What\u2019s the proper way to break in a new cell phone battery?"}
+{"i": 5, "text": "How can I grant root access to apps that don\u2019t prompt for it?"}
+{"i": 6, "text": "How can I stop certain apps from using mobile data on a non-rooted Android phone?"}
+{"i": 7, "text": "How can I assign a custom SMS tone to just one specific contact?"}
+{"i": 8, "text": "How can I selectively make certain contact groups silent?"}
+{"i": 9, "text": "Is there an app that lets me send and receive text messages from my PC using the same phone number?"}
+{"i": 10, "text": "Is there a desktop app that lets me send and read SMS over the internet?"}
+{"i": 11, "text": "How can I capture the video stream from an Android phone\u2019s screen and display it on a laptop?"}
+{"i": 12, "text": "How can I connect an Android tablet and mirror its screen on a PC or laptop for a training session?"}
+{"i": 13, "text": "How can I mirror my phone screen to a computer in real time?"}
+{"i": 14, "text": "How can I stream my Android screen to my Mac?"}
+{"i": 15, "text": "How can I capture screenshots or record video directly from my screen?"}
+{"i": 16, "text": "How can I mirror an Android phone to a Mac or Windows PC for app presentations?"}
+{"i": 17, "text": "How can I block all sound from coming out of the speaker when headphones are connected?"}
+{"i": 18, "text": "Why is Donut/Froyo behaving like this?"}
+{"i": 19, "text": "What are the different version names for the Android OS, and how are those names selected?"}
+{"i": 20, "text": "What is the name of this Android version?"}
+{"i": 21, "text": "How can I inspect what network requests my Android app is making, like using Wireshark on Android?"}
+{"i": 22, "text": "Why are my SMS messages showing up as just \"null\"?"}
+{"i": 23, "text": "On an Android phone, where are downloaded .apk files stored?"}
+{"i": 24, "text": "Where on an Android device are the .apk files for currently installed apps stored?"}
+{"i": 25, "text": "How can I set app installations to go to Internal/External SD instead of phone storage?"}
+{"i": 26, "text": "How can I get Adobe Flash working in Firefox?"}
+{"i": 27, "text": "Is it possible to make Ubuntu in an Android chroot recognize USB devices?"}
+{"i": 28, "text": "How do I customize the list of services that appears when I tap \u201cshare\u201d in an app?"}
+{"i": 29, "text": "Samsung Kies says \u201cThis version of the device can not be updated\u201d \u2014 does that mean it can never be updated?"}
+{"i": 30, "text": "How do I fix a device upgrade issue when using Samsung Kies?"}
+{"i": 31, "text": "Is a Class 10 microSDHC card ever worth using in a smartphone like the Samsung Galaxy S II?"}
+{"i": 32, "text": "Is a Class 10 microSD card overkill, or is Class 6 sufficient?"}
+{"i": 33, "text": "Does the class rating of a microSD card matter for performance or compatibility?"}
+{"i": 34, "text": "How can I stream video from my PC to an Android device?"}
+{"i": 35, "text": "How can I stream videos I own to an Android device?"}
+{"i": 36, "text": "How can I use an Android device as a Bluetooth USB dongle?"}
+{"i": 37, "text": "Is there an email application that can use standard SMTP/POP3/IMAP and only show notifications for messages from specified contacts?"}
+{"i": 38, "text": "How can I import user data from a ROM Manager backup?"}
+{"i": 39, "text": "Is there any browser that lets you view the source code of a page?"}
+{"i": 40, "text": "How can I customize vibration patterns?"}
+{"i": 41, "text": "How can I change the vibrate settings on Android?"}
+{"i": 42, "text": "Why do I get a WiFi error when I turn it on?"}
+{"i": 43, "text": "How do I turn off mobile data on an Android phone?"}
+{"i": 44, "text": "What Android software or device can I use to present an application on a screen?"}
+{"i": 45, "text": "How can I record the Android screen?"}
+{"i": 46, "text": "What is an SNS app?"}
+{"i": 47, "text": "Why is the \"Android OS\" process using such a high percentage of battery?"}
+{"i": 48, "text": "How do I change the Google account on a Nexus S?"}
+{"i": 49, "text": "How can I back up data from an unrooted phone?"}
+{"i": 50, "text": "How do I configure background images?"}
+{"i": 51, "text": "How do I say a command to insert a new line when using voice recognition?"}
+{"i": 52, "text": "What exactly is Flash ClockworkMod Recovery?"}
+{"i": 53, "text": "How can I disable the corporate Exchange security policy on a Samsung Galaxy S2?"}
+{"i": 54, "text": "Why doesn\u2019t \u201cMove to SD Card\u201d move all my files/data?"}
+{"i": 55, "text": "What is a good application for viewing or managing call lists?"}
+{"i": 56, "text": "Will a factory reset help restore performance, and what are the downsides?"}
+{"i": 57, "text": "How can I improve the performance of the Android emulator?"}
+{"i": 58, "text": "How can I re-enable ADB on an Android device with a broken screen when USB debugging was previously disabled?"}
+{"i": 59, "text": "How can I back up data like SMS and contacts from a phone with a broken screen?"}
+{"i": 60, "text": "Is it possible to back up the ROM on a non-rooted Android 4.0.3 smartphone?"}
+{"i": 61, "text": "How can I perform a full backup of a non-rooted device?"}
+{"i": 62, "text": "How can I reset a Nexus 4 if the screen is cracked and the device is locked?"}
+{"i": 63, "text": "How can I back up my app data on an Android phone without root access?"}
+{"i": 64, "text": "How can I create a backup before rooting my device?"}
+{"i": 65, "text": "How can I extract SMS messages from an unrooted Android device with a broken touchscreen?"}
+{"i": 66, "text": "What\u2019s the best way to back up a Nexus 7 before performing a hard reset?"}
+{"i": 67, "text": "How can I restore SMS messages from a phone with a broken screen?"}
+{"i": 68, "text": "Can I make a Nandroid backup directly to my PC and then restore it directly from the PC as well?"}
+{"i": 69, "text": "How can I put an HTC Wildfire with a blank screen into debug mode?"}
+{"i": 70, "text": "How can I retrieve text messages from a phone with a dead screen that still powers on?"}
+{"i": 71, "text": "Can I root JB without wiping all my data and settings?"}
+{"i": 72, "text": "How can I copy SMS messages from my phone to a computer when the phone screen is broken?"}
+{"i": 73, "text": "Are there any backup apps that can still perform a full backup of paid apps on newer Android versions, since My Backup Pro no longer does this?"}
+{"i": 74, "text": "How can I enable debug mode on a Sony Xperia V if the touchscreen is broken?"}
+{"i": 75, "text": "How can I get read access to `/data/data/com.android.chrome/app_chrome/profile` on a Nexus 10?"}
+{"i": 76, "text": "How can I get data off my phone when the screen is dead?"}
+{"i": 77, "text": "How can I perform a full system dump/backup on a device when the screen is broken?"}
+{"i": 78, "text": "How can I recover photos and videos from a broken phone?"}
+{"i": 79, "text": "How can I retrieve the phonebook and photos from an Xperia V when the screen is broken?"}
+{"i": 80, "text": "How can I create a backup image of my Nexus 5 without root access?"}
+{"i": 81, "text": "How can I make a full nandroid backup from my PC?"}
+{"i": 82, "text": "Can I enable USB debugging without using the touchscreen?"}
+{"i": 83, "text": "How do I access data remotely on Android?"}
+{"i": 84, "text": "How can I enable USB debugging on my Nexus 7 if the digitizer is broken?"}
+{"i": 85, "text": "Can I transfer everything from one Nexus 5 to another?"}
+{"i": 86, "text": "How can I root my Android device without losing any data?"}
+{"i": 87, "text": "How can I get Contacts using only the command line?"}
+{"i": 88, "text": "Samsung Galaxy S3 LCD and screen are broken\u2014where can I find replacement contacts or connectors?"}
+{"i": 89, "text": "How can I recover contacts from a Galaxy S2 with a broken screen?"}
+{"i": 90, "text": "How do I back up a Galaxy S3 using Google?"}
+{"i": 91, "text": "How can I retrieve contacts from an Android phone, specifically a Sony Xperia Z?"}
+{"i": 92, "text": "How can I recover my files from a Xiaomi Mi 3 with a broken touchscreen?"}
+{"i": 93, "text": "How can I remotely enable USB Debugging on an Android device?"}
+{"i": 94, "text": "How can I access my phone via ADB when the screen is broken?"}
+{"i": 95, "text": "How can I back up my contacts on a Galaxy S3 using Google Play?"}
+{"i": 96, "text": "How can I recover the Handcent SMS/UPM password database from a working Razr Maxx with a broken screen?"}
+{"i": 97, "text": "How can I retrieve text messages from a broken Samsung Fame?"}
+{"i": 98, "text": "How can I enable ADB through recovery mode?"}
+{"i": 99, "text": "How can I unlock a Nexus 4 when the screen is cracked and unusable?"}
+{"i": 100, "text": "Is it possible to set up dual boot on an Android phone?"}
+{"i": 101, "text": "How do I set up dual booting on a mobile device?"}
+{"i": 102, "text": "How can I blacklist SSIDs?"}
+{"i": 103, "text": "Is it possible to charge a Samsung Galaxy Tab 10.1 via USB?"}
+{"i": 104, "text": "Why do I keep getting the message \"Local calendar cannot sync with Google calendar. You need a Google account\" even though I'm trying to sync my calendar?"}
+{"i": 105, "text": "How can I fix the \u201cUnknown reason -110\u201d error?"}
+{"i": 106, "text": "How can I fix error 110?"}
+{"i": 107, "text": "How can I set an MP3 file as the ringtone on Android, specifically on a Nexus S?"}
+{"i": 108, "text": "How can I add custom notification ringtones from MP3 files?"}
+{"i": 109, "text": "How do I set a song as a ringtone with the latest version of the Music app?"}
+{"i": 110, "text": "Why do Verizon 4G LTE handsets all experience a 3G connection drop issue?"}
+{"i": 111, "text": "How can I spoof Android USB reverse tethering so apps think the device has a normal network connection?"}
+{"i": 112, "text": "Why does the Play Store say \u201cno network connection\u201d when I\u2019m using reverse USB tethering?"}
+{"i": 113, "text": "What can I do to stop my Wi-Fi connection from glitching?"}
+{"i": 114, "text": "How can I annotate or write on a PDF using a tablet and stylus on Android\u2014basically, is there an alternative to Xournal for Android?"}
+{"i": 115, "text": "Is there any way to train Google Voice Actions to better recognize my voice?"}
+{"i": 116, "text": "How can I configure internet pass-through (reverse tethering) on Linux?"}
+{"i": 117, "text": "How can I print directly from my phone?"}
+{"i": 118, "text": "How do I print a webpage directly from my Android phone?"}
+{"i": 119, "text": "What screen recording tool is available for the Samsung Galaxy Tab?"}
+{"i": 120, "text": "How can I record a gameplay video on Android?"}
+{"i": 121, "text": "How can I create a movie or video demo of a mobile web application?"}
+{"i": 122, "text": "Is there an Android screen capture app that records video?"}
+{"i": 123, "text": "How do I rate something in the Market on a Honeycomb tablet?"}
+{"i": 124, "text": "How do I synchronize my browser bookmarks across devices?"}
+{"i": 125, "text": "What\u2019s the difference between an AOSP ROM and a stock ROM?"}
+{"i": 126, "text": "Which is better suited for a Samsung GT-B7722, Samsung Kies or PC Studio?"}
+{"i": 127, "text": "What are the minimum hardware requirements for running Android?"}
+{"i": 128, "text": "Is ARM9 supported by Android 2.1 and later?"}
+{"i": 129, "text": "What are the minimum hardware requirements for running Android?"}
+{"i": 130, "text": "What are the minimum hardware requirements, or recommended specs, for running Jelly Bean?"}
+{"i": 131, "text": "How can I change or set the browser\u2019s default search engine?"}
+{"i": 132, "text": "What app can I use to keep the screen on when USB debugging is enabled?"}
+{"i": 133, "text": "Why does Android Market disappear from the emulator after a reboot?"}
+{"i": 134, "text": "Is there any way to retrieve the phone number that was dialed while the phone was in airplane mode?"}
+{"i": 135, "text": "Why isn\u2019t Google\u2019s two-step verification working for me, and how can I fix it?"}
+{"i": 136, "text": "How can I prevent the battery from charging when the device is connected via USB?"}
+{"i": 137, "text": "How does Google Maps estimate my location when GPS isn't available?"}
+{"i": 138, "text": "How can I monitor Wi\u2011Fi usage?"}
+{"i": 139, "text": "How can I automatically reject certain types of calls?"}
+{"i": 140, "text": "How can I configure my Android phone to block calls from specific numbers?"}
+{"i": 141, "text": "How can I block individual phone numbers and text messages on Android phones?"}
+{"i": 142, "text": "How do I block an incoming number on Android 2.3?"}
+{"i": 143, "text": "What is the Android equivalent of an iPod Touch for portable media player use?"}
+{"i": 144, "text": "Can I connect a USB microphone to an Android phone or tablet?"}
+{"i": 145, "text": "What data does Google back up?"}
+{"i": 146, "text": "What does FTM mean on my phone?"}
+{"i": 147, "text": "How can I share WiFi to my computer?"}
+{"i": 148, "text": "How do I get VLC for Android tablets to work properly?"}
+{"i": 149, "text": "How can I extract and read the data from an HTC Desire SMS backup file?"}
+{"i": 150, "text": "How can I get a list of devices with their screen parameters?"}
+{"i": 151, "text": "What websites can I use to search for Android devices by features?"}
+{"i": 152, "text": "What happens to a running program when the Home button is pressed on an Android phone?"}
+{"i": 153, "text": "If I flash my ROM or wipe my device after purchasing an app, will I need to buy it again?"}
+{"i": 154, "text": "Is it possible to install apps on an SD card in Android 2.1?"}
+{"i": 155, "text": "Why does Android Market keep showing \"No connection: Retry\" all the time?"}
+{"i": 156, "text": "Has anyone figured out why the Droid X running Gingerbread powers itself back on?"}
+{"i": 157, "text": "Is there a good app that lets me update all my apps in one go?"}
+{"i": 158, "text": "How can I make Gmail on Android prompt for my Google account password every time instead of staying signed in?"}
+{"i": 159, "text": "How do I sign out of Gmail on my device?"}
+{"i": 160, "text": "How can I switch the Google account on my device without having to wipe it?"}
+{"i": 161, "text": "How do I sign out of Gmail on my Android device?"}
+{"i": 162, "text": "How can I delete my Google master account without doing a factory reset?"}
+{"i": 163, "text": "How can I get iOS running on an Android device?"}
+{"i": 164, "text": "How can I run an iOS emulator on an Android device?"}
+{"i": 165, "text": "What are some good free PDF readers for Android that reopen a document on the last page I was reading?"}
+{"i": 166, "text": "Where are Google Music offline songs stored on the device?"}
+{"i": 167, "text": "In Android 2.3, where is the music folder located?"}
+{"i": 168, "text": "Where can I find the Google Play Music files after they\u2019ve been downloaded?"}
+{"i": 169, "text": "Why does my browser open a file instead of saving it, and how can I make it download/save the file instead?"}
+{"i": 170, "text": "After rooting a phone, how does the \"root\" user account actually work, and do all apps automatically run with root privileges?"}
+{"i": 171, "text": "Is there any version of Android that supports ad-hoc Wi\u2011Fi connections?"}
+{"i": 172, "text": "Does the Samsung Galaxy Tab 10 really not support connecting to ad hoc Wi\u2011Fi networks?"}
+{"i": 173, "text": "Does Android support Ad-Hoc Wi-Fi connections?"}
+{"i": 174, "text": "How do I troubleshoot problems with downloading apps?"}
+{"i": 175, "text": "How can I delete a review I posted in the Android Market app?"}
+{"i": 176, "text": "Where in the file system are SMS messages stored?"}
+{"i": 177, "text": "How do I stop long SMS texts from being automatically converted into MMS messages?"}
+{"i": 178, "text": "How can I use an existing contact for \u201cMe\u201d in Ice Cream Sandwich?"}
+{"i": 179, "text": "Why do I see a Wi\u2011Fi icon next to some apps in the Android Market?"}
+{"i": 180, "text": "How can I make my Samsung Galaxy Nexus volume louder than the stock maximum allows?"}
+{"i": 181, "text": "How can I safely swap the SD card in my Android device without causing any issues?"}
+{"i": 182, "text": "Is there a web browser with a Java plugin available for Android?"}
+{"i": 183, "text": "How do I run a Java app on my Pandigital Planet tablet?"}
+{"i": 184, "text": "How do I enable Java on a Lenovo ThinkPad tablet?"}
+{"i": 185, "text": "How do I install stock Android on a Kindle Fire?"}
+{"i": 186, "text": "How can I root my Kindle Fire?"}
+{"i": 187, "text": "What is the privacy level of an anonymous account?"}
+{"i": 188, "text": "How do I install the Android app store on a Kindle Fire?"}
+{"i": 189, "text": "How do I change the default launcher on a Samsung Galaxy SII Epic?"}
+{"i": 190, "text": "I accidentally set another app as the default launcher and checked \u201cuse as default,\u201d and now I can\u2019t open ADW.Launcher anymore\u2014how can I switch back?"}
+{"i": 191, "text": "How can I view the top apps across all categories?"}
+{"i": 192, "text": "Why doesn\u2019t the front-facing camera on my Samsung Galaxy S work in the Camera app, Gtalk, or Skype, and how can I get it working?"}
+{"i": 193, "text": "How do I access and use the front-facing camera on my Galaxy S?"}
+{"i": 194, "text": "How can I read my Google Reader entries when I\u2019m offline?"}
+{"i": 195, "text": "How do I start or join a Google+ Hangout?"}
+{"i": 196, "text": "Did I accidentally erase my songs on my Samsung Galaxy S2?"}
+{"i": 197, "text": "How can I recover corrupt files from my SD card on my PC?"}
+{"i": 198, "text": "How can I recover photos from a Motorola Atrix HD?"}
+{"i": 199, "text": "How can I recover my photos?"}
+{"i": 200, "text": "When I move apps to the SD card, why do some of their data files still remain on internal storage?"}
+{"i": 201, "text": "How can I bypass the market compatibility check?"}
+{"i": 202, "text": "How can I remove the Google Account that's set for Android Market on my device?"}
+{"i": 203, "text": "How can I root the GT 10.1 running Android 3.2?"}
+{"i": 204, "text": "How can I track device locations within an office?"}
+{"i": 205, "text": "How can I disable or password-protect the factory reset function on my device?"}
+{"i": 206, "text": "How do I restore the IMEI code after a factory reset?"}
+{"i": 207, "text": "Is there a way to permanently suppress app updates?"}
+{"i": 208, "text": "How do I root a Nexus One?"}
+{"i": 209, "text": "How can I remotely control an Android device from my PC without root access\u2014is that possible?"}
+{"i": 210, "text": "What application or software can I use to remotely access a tablet or mobile device over the internet?"}
+{"i": 211, "text": "How can I remotely control my Android device from my PC using its IP address or MAC address?"}
+{"i": 212, "text": "How can I route all audio output to a Bluetooth headset?"}
+{"i": 213, "text": "What app can I use to share a calendar with others?"}
+{"i": 214, "text": "How do I get Facebook contact sync working in Ice Cream Sandwich?"}
+{"i": 215, "text": "Where can I find a list of ROMs available for the HTC Flyer?"}
+{"i": 216, "text": "How can I upgrade the firmware on my Samsung Galaxy S without using Windows?"}
+{"i": 217, "text": "How can I install Android on an iPhone 3G?"}
+{"i": 218, "text": "Is it possible to install Android on an HTC Tilt 2?"}
+{"i": 219, "text": "How can I install Android on an iPhone 4?"}
+{"i": 220, "text": "Is it possible to convert a Samsung Omnia running Windows Mobile into an Android OS phone?"}
+{"i": 221, "text": "Is there a custom GPS ROM available for the Samsung Galaxy 5?"}
+{"i": 222, "text": "How can I install the official Android 2.2 Froyo firmware on a Samsung Galaxy S without using Windows or Kies?"}
+{"i": 223, "text": "Is it possible to run Android on an iPad?"}
+{"i": 224, "text": "How can I find out when my phone will receive the Android 2.3 (Gingerbread) update?"}
+{"i": 225, "text": "Can Android be installed on a Nokia E65?"}
+{"i": 226, "text": "Can the operating system on a K599 Chinese iPhone be changed?"}
+{"i": 227, "text": "How do I obtain the official Froyo ROM for the SGS to flash with Heimdall?"}
+{"i": 228, "text": "When will Gingerbread be released for the UK HTC Desire?"}
+{"i": 229, "text": "Is it possible to install Android 2.2 or 2.3 on a Samsung Omnia 2?"}
+{"i": 230, "text": "What\u2019s the proper way to upgrade my device to a newer version of Android?"}
+{"i": 231, "text": "How can I run Android and another operating system at the same time?"}
+{"i": 232, "text": "How do I reset a Nexus One back to Android 2.2.1 or 2.3?"}
+{"i": 233, "text": "Is it possible to install Android on an HTC Touch HD?"}
+{"i": 234, "text": "Is it possible to boot Android on the LG Arena KM900?"}
+{"i": 235, "text": "How can I upgrade an unlocked Motorola Droid?"}
+{"i": 236, "text": "What are the best recommendations for flashing a specific ROM on a Nexus One?"}
+{"i": 237, "text": "How can I install Android on an iPAQ?"}
+{"i": 238, "text": "How can I install Android on an HTC Touch 2?"}
+{"i": 239, "text": "Is it possible to uninstall Symbian and install Android instead?"}
+{"i": 240, "text": "Is it possible to install Android on a device that doesn\u2019t originally run Android?"}
+{"i": 241, "text": "When will the Nexus S Android 2.3.3 update be released in the UK?"}
+{"i": 242, "text": "What was the original OS that shipped on the Samsung Galaxy S i9000?"}
+{"i": 243, "text": "How can I install or use Android on a Nokia 5230?"}
+{"i": 244, "text": "How can I upgrade the LG P500 (Optimus One/Maximo One) to a newer Android version?"}
+{"i": 245, "text": "Where can I download an HTC Hero ROM?"}
+{"i": 246, "text": "How can I install Android 2.3 on an HTC Wildfire?"}
+{"i": 247, "text": "Does anyone know if there is any custom firmware available for the LG Optimus U?"}
+{"i": 248, "text": "How can I upgrade a Samsung Galaxy Tab to Android 2.3.3?"}
+{"i": 249, "text": "How can I upgrade a Samsung Galaxy S from Android 2.2 to Android 2.3?"}
+{"i": 250, "text": "How can I upgrade my Dell XCD35 from Android 2.2 Froyo to 2.3 Gingerbread?"}
+{"i": 251, "text": "How can I upgrade Olivepad VT100 from Android 2.2 to Android 2.3?"}
+{"i": 252, "text": "Are there any known ROMs with full device encryption built in?"}
+{"i": 253, "text": "Is the Android 2.3.3 update available for Google Nexus S and Samsung Galaxy S2 phones in India?"}
+{"i": 254, "text": "How can I install Gingerbread on a Samsung Galaxy Mini?"}
+{"i": 255, "text": "Is there a Gingerbread upgrade available for the Samsung Galaxy Gio?"}
+{"i": 256, "text": "How can I upgrade my Android device from 2.2 to 2.3?"}
+{"i": 257, "text": "How can I install Android 2.3 on my Verizon Droid 2?"}
+{"i": 258, "text": "How do I upgrade my Desire S from Android 2.3.3 to Android 2.3.4?"}
+{"i": 259, "text": "How can I upgrade the Android OS on an HTC Desire from 2.2 to 2.3?"}
+{"i": 260, "text": "What\u2019s the proper way to update Android on my device?"}
+{"i": 261, "text": "What is the stock ROM for the HTC Desire Z?"}
+{"i": 262, "text": "How do I install an Android build compiled from source onto a bare device?"}
+{"i": 263, "text": "How can I install Android on an ARM tablet?"}
+{"i": 264, "text": "How can I find out when my device will receive the Android 4.0 Ice Cream Sandwich update?"}
+{"i": 265, "text": "How can I upgrade my Alcatel OT-990 from Android 2.2 Froyo to Android 2.4 Gingerbread?"}
+{"i": 266, "text": "How can I install a Honeycomb ROM on a Nook Color?"}
+{"i": 267, "text": "How can I upgrade my rooted LG Optimus-C to the latest Android version?"}
+{"i": 268, "text": "What\u2019s the best way to install a newer version of Android on my device?"}
+{"i": 269, "text": "How can I find a ROM listing for the Samsung Epic Touch 4G?"}
+{"i": 270, "text": "Is it possible to upgrade a Lenovo K1 to Ice Cream Sandwich?"}
+{"i": 271, "text": "Looking for a 2.3.6 stock ROM for the Nexus S (i9020) \u2014 where can I download one?"}
+{"i": 272, "text": "Where can I download stock or custom ROMs for my Android device?"}
+{"i": 273, "text": "What ROM/MOD should I use to get a pure Android experience?"}
+{"i": 274, "text": "Are there any custom ROMs available for the Pantech Crossover?"}
+{"i": 275, "text": "Can the Samsung Galaxy Tab P7300 be upgraded to Android 4?"}
+{"i": 276, "text": "How do I install ICS on a Desire HD?"}
+{"i": 277, "text": "How do I restore the stock ROM on a Galaxy S2?"}
+{"i": 278, "text": "Are there any custom ROMs available or ported for the ZTE Score?"}
+{"i": 279, "text": "Is it possible to install Android 2.3 on a Samsung Wave Y GT-S5380K?"}
+{"i": 280, "text": "How do I get Android running on an HTC Touch2/Mega?"}
+{"i": 281, "text": "When updating an Android OS, which is better: the official OTA update or a custom ROM update?"}
+{"i": 282, "text": "When will ICS be available for the Nexus S GT-I9020A (AT&T/Fido/Rogers)?"}
+{"i": 283, "text": "Can I upgrade my Galaxy to ICS, even if it requires rooting?"}
+{"i": 284, "text": "Why can\u2019t I upgrade my Samsung Galaxy S2 to Android 4.0?"}
+{"i": 285, "text": "How can I install Android on a Nokia phone?"}
+{"i": 286, "text": "Can I get the Ice Cream Sandwich OTA update on a Nexus S?"}
+{"i": 287, "text": "How do I install a custom ROM on a Sony Ericsson Xperia Pro (MK16i)?"}
+{"i": 288, "text": "How can I reinstall or upgrade the Android OS on my phone?"}
+{"i": 289, "text": "How can I install Android 4.0 ICS on a Samsung Galaxy R?"}
+{"i": 290, "text": "What\u2019s the proper way to upgrade my device to the latest Android version?"}
+{"i": 291, "text": "Is it possible to install Ice Cream Sandwich on my HTC Wildfire?"}
+{"i": 292, "text": "Is it possible to install Android OS on other mobile phones?"}
+{"i": 293, "text": "How do I install stock Android 4.0 on my rooted Galaxy S2?"}
+{"i": 294, "text": "What is the best alternative to CyanogenMod 5 for HTC Dream G1 running Android 2.1?"}
+{"i": 295, "text": "Can I install ICS on a BlackBerry PlayBook?"}
+{"i": 296, "text": "How can I update my Nexus One to Android 4.0, and what's the correct way to do it?"}
+{"i": 297, "text": "HTC Amaze 4G (Videotron) \u2014 is there a way to install Android 4.0 on it?"}
+{"i": 298, "text": "How can I get or install an ICS ROM for the Galaxy S?"}
+{"i": 299, "text": "Is it possible to install Android on a Samsung B3410W Ch@t?"}
+{"i": 300, "text": "How can I install Android 4 on a Galaxy S Advance (GT-I9070)?"}
+{"i": 301, "text": "When is my device expected to receive the Android 4.1 Jelly Bean update?"}
+{"i": 302, "text": "How can I install Android on a Nokia N96?"}
+{"i": 303, "text": "How do I update my Galaxy S?"}
+{"i": 304, "text": "How can I upgrade an ASUS Transformer TF300 or TF201 to Jelly Bean (Android 4.1)?"}
+{"i": 305, "text": "Where can I find a Gingerbread, Honeycomb, or ICS ROM for the Galaxy S?"}
+{"i": 306, "text": "Any unofficial ROMs based on Android 4.0 or 4.1 for the Galaxy Note?"}
+{"i": 307, "text": "Is there a vanilla ICS ROM available for the Galaxy Note?"}
+{"i": 308, "text": "How can I upgrade my Galaxy i5510 from Android 2.2 Froyo to Android 2.3 Gingerbread?"}
+{"i": 309, "text": "What ROMs are available for the HP TouchPad besides CM and MIUI?"}
+{"i": 310, "text": "How can I install Android 4.1 Jelly Bean on a Nook Color?"}
+{"i": 311, "text": "How do I install ICS or Jelly Bean on a Sony Xperia U?"}
+{"i": 312, "text": "Is it possible to install Froyo 2.2 or any newer Android OS on my Samsung Omnia i900 while keeping all phone features like Bluetooth, Wi\u2011Fi, CDMA, and the rest working properly?"}
+{"i": 313, "text": "Is there an Android version newer than 2.3 available for my Sony Xperia ST25i as of July 2012?"}
+{"i": 314, "text": "How can I update the firmware on my Vodafone 858 Smart?"}
+{"i": 315, "text": "Is there a well-known custom Android ROM that comes without bloatware or preinstalled apps?"}
+{"i": 316, "text": "How can I upgrade my Samsung Tab P7500 to Ice Cream Sandwich?"}
+{"i": 317, "text": "How do I upgrade my Galaxy Fit from 2.2 to 2.3 on Ubuntu?"}
+{"i": 318, "text": "Will the Samsung i9000 Galaxy S get an Android 4.0 Ice Cream Sandwich update?"}
+{"i": 319, "text": "How can I update Android on a non-mainstream manufacturer Android phone?"}
+{"i": 320, "text": "How do I flash a smartphone with a vanilla Android ROM?"}
+{"i": 321, "text": "How can I get the Jelly Bean update on an unlocked AT&T HTC One X?"}
+{"i": 322, "text": "Is it possible to install the latest Android version on my device if the manufacturer no longer provides updates?"}
+{"i": 323, "text": "How do I update an HTC Sensation running Android 2.3.4?"}
+{"i": 324, "text": "How can I find out when my device will receive the Android 4.2 Jelly Bean update?"}
+{"i": 325, "text": "Can Android be technically run on an MS Surface Windows RT tablet?"}
+{"i": 326, "text": "What\u2019s the safest way to upgrade the Android version on my phone?"}
+{"i": 327, "text": "How can I identify or fix a China copy of the Samsung Galaxy Note II?"}
+{"i": 328, "text": "How can I upgrade a Sony Tipo to Jelly Bean?"}
+{"i": 329, "text": "What\u2019s the proper way to update the firmware on a Samsung i9220?"}
+{"i": 330, "text": "How can I install an ICS ROM on a Samsung Galaxy Y?"}
+{"i": 331, "text": "What is the best-designed Android ROM for the LG Optimus 2X P990?"}
+{"i": 332, "text": "Has Android 4.1.2 Jelly Bean been officially released for the Samsung Galaxy SIII?"}
+{"i": 333, "text": "Is it possible to convert my Samsung Focus (SAMSUNG SGH-i917) to run Android?"}
+{"i": 334, "text": "What firmware options are available for the HTC Desire HD?"}
+{"i": 335, "text": "Does the Galaxy Ace Duos S6802 support Jelly Bean?"}
+{"i": 336, "text": "Does anyone know if there\u2019s a Jelly Bean ROM available for the Xoom 2 Media Edition?"}
+{"i": 337, "text": "Where can I find stock JB ROMs for Chinese-made devices?"}
+{"i": 338, "text": "Need a stable ROM recommendation for the Samsung SGH-T759\u2014what\u2019s the best one available?"}
+{"i": 339, "text": "What custom ROMs are available for the HTC Inspire 4G?"}
+{"i": 340, "text": "Is it possible to install stock Android on any phone?"}
+{"i": 341, "text": "How can I install Android on a Symbian phone?"}
+{"i": 342, "text": "What is the most stable custom ROM for gaming on an Xperia Neo V?"}
+{"i": 343, "text": "How can I install Android on a TouchPad?"}
+{"i": 344, "text": "How can I use an HTC One V without Sense 4?"}
+{"i": 345, "text": "How can I update my Galaxy Note to Jelly Bean in India?"}
+{"i": 346, "text": "Any idea when Android 4.2 will be available for my phone?"}
+{"i": 347, "text": "What's the best Android distro for a dedicated reading device?"}
+{"i": 348, "text": "How can I install a different ROM on a Chinese-made Android phone?"}
+{"i": 349, "text": "How can I update my Xperia Mini Pro (SK17i) to Jelly Bean?"}
+{"i": 350, "text": "How can I install Jelly Bean on a China-made tablet that currently runs Ice Cream Sandwich?"}
+{"i": 351, "text": "How can I install Android 4.0.4 on a STAR H3000+?"}
+{"i": 352, "text": "Is it possible to install Android on my Samsung Omnia W8350 Windows Phone 7 device?"}
+{"i": 353, "text": "How can I convert a Samsung Champ (GT-3303K) to Android?"}
+{"i": 354, "text": "How can I upgrade a Galaxy S Advance from Android 2.3 to Android 4.1?"}
+{"i": 355, "text": "Looking for a stable Android 4.x ROM for the HTC Desire GSM \u2014 any recommended builds?"}
+{"i": 356, "text": "How can I get Jelly Bean on an Xperia U?"}
+{"i": 357, "text": "Can the HTC Wildfire S operating system be upgraded?"}
+{"i": 358, "text": "How do I revert an Android phone back to the stock vanilla ROM from Google?"}
+{"i": 359, "text": "Why do I keep running into issues when installing incompatible ROMs?"}
+{"i": 360, "text": "Is it possible to upgrade the AT&T SAMSUNG-SGH-I897 Galaxy S to Android 4.1?"}
+{"i": 361, "text": "How can I convert a Galaxy S4 into a Nexus-like device?"}
+{"i": 362, "text": "How can I upgrade the Android version on a Spice Mi-350N?"}
+{"i": 363, "text": "How can I upgrade my HTC Wildfire S to Jelly Bean?"}
+{"i": 364, "text": "How can I find out when my device will receive the Android 4.3 Jelly Bean update?"}
+{"i": 365, "text": "How can I change the OS on a Samsung Rex 80?"}
+{"i": 366, "text": "How can I install Android on a Samsung Omnia M?"}
+{"i": 367, "text": "How can I upgrade my Samsung Galaxy Ace Plus GT-S7500 from Gingerbread to Jelly Bean?"}
+{"i": 368, "text": "Where can I download Android 4.0 ICS for my HTC Merge?"}
+{"i": 369, "text": "Where can I find the Android version for a Samsung Galaxy Y?"}
+{"i": 370, "text": "What is the simplest custom ROM available for the Samsung Galaxy Y?"}
+{"i": 371, "text": "How do I do a fresh installation of Jelly Bean 4.2?"}
+{"i": 372, "text": "How do I uninstall CyanogenMod 7 from my HTC Incredible 2?"}
+{"i": 373, "text": "How do I install Jelly Bean on a Zigo Nebula 6.9 tablet?"}
+{"i": 374, "text": "How do I flash an RUU on a rooted HTC One X (Evita) with TWRP?"}
+{"i": 375, "text": "Is Android Starshine compatible with Android 4.0.4?"}
+{"i": 376, "text": "How can I install Android on a Nokia C5-03?"}
+{"i": 377, "text": "Can an Orange Cool Tablet running Android 2.3 on a Cortex A8 be upgraded?"}
+{"i": 378, "text": "How can I get KitKat running on a Galaxy Nexus?"}
+{"i": 379, "text": "When is my device expected to receive the Android 4.4 KitKat update?"}
+{"i": 380, "text": "How can I upgrade Jelly Bean on an HCL ME device?"}
+{"i": 381, "text": "How do I create and install a custom Android update for my own device?"}
+{"i": 382, "text": "Is there a way to install an Android 4.4 ROM on the Galaxy S3?"}
+{"i": 383, "text": "How do I fix Android KitKat on a Nexus 4?"}
+{"i": 384, "text": "How can I tell if a ROM is compatible with my Android phone?"}
+{"i": 385, "text": "How do I revert a device running CyanogenMod back to the official Android firmware?"}
+{"i": 386, "text": "How do I manually update my device to Android 4.4?"}
+{"i": 387, "text": "How can I obtain Android KitKat 4.4?"}
+{"i": 388, "text": "Where can I find a custom ROM for my I.Onik tablet?"}
+{"i": 389, "text": "How do I update a Samsung tablet?"}
+{"i": 390, "text": "When can I expect the Android 4.4 KitKat update for a Nexus 4 in Romania?"}
+{"i": 391, "text": "How do I reinstall Android on my device?"}
+{"i": 392, "text": "How can I install the latest Samsung Galaxy Note 1 update through ADB?"}
+{"i": 393, "text": "How can I update my Samsung Galaxy Fit S5670 from Android 2.3.4 to Android 4.2.1?"}
+{"i": 394, "text": "Where can I find a custom ROM for my I.onik tablet?"}
+{"i": 395, "text": "How can I find the stock ROM and recovery for an HTC Desire 200 and flash/load it onto the device?"}
+{"i": 396, "text": "How can I upgrade the OS on my HiTech S200?"}
+{"i": 397, "text": "Is it possible to upgrade a Samsung Galaxy Tab 7\" with 2GB of storage to a newer version of Android?"}
+{"i": 398, "text": "How do I check or upgrade an S5380 to an Android version?"}
+{"i": 399, "text": "How can I install a vanilla Android ROM on the Epic 4G Touch?"}
+{"i": 400, "text": "What custom ROMs are available for the Micromax Funbook P300 on Android and iOS?"}
+{"i": 401, "text": "How do I restore my rooted phone back to the stock ROM?"}
+{"i": 402, "text": "Where can I download the latest firmware for the Galaxy Note II?"}
+{"i": 403, "text": "When will Android 4.3 Jelly Bean be available for the Samsung Galaxy S4 4G+ (I9506) in Finland?"}
+{"i": 404, "text": "Can I install Android on my device?"}
+{"i": 405, "text": "How can I upgrade a Motorola XT502 from Android 2.1 to Android 2.3.3?"}
+{"i": 406, "text": "How do I force an Android update?"}
+{"i": 407, "text": "How do I upgrade the Android version on my device or app?"}
+{"i": 408, "text": "What is the most stable KitKat ROM that is close to stock for the Samsung Galaxy S2 (i9100)?"}
+{"i": 409, "text": "Where can I find the official ROM for my Mi PADO tablet?"}
+{"i": 410, "text": "How can I recover a bricked GT-P1010?"}
+{"i": 411, "text": "Is there an Android 4.4 (KitKat) custom ROM available for the Atrix 4G?"}
+{"i": 412, "text": "How can I update my Samsung Galaxy S4 to Android 4.3?"}
+{"i": 413, "text": "How can I get KitKat on my Galaxy S4?"}
+{"i": 414, "text": "How can I force-install a custom ROM on an unsupported MT6575 device?"}
+{"i": 415, "text": "How can I upgrade Android from 4.2.2 to 4.4 KitKat on my XOLO Q1010?"}
+{"i": 416, "text": "How can I convert a Cherry Mobile W5 .vxp app into an .apk application?"}
+{"i": 417, "text": "Why is my Galaxy S4 not receiving the official update?"}
+{"i": 418, "text": "How can I install or run Android 4.2.2 on an MK802?"}
+{"i": 419, "text": "How can I install Stock Android on a Samsung Galaxy Ace 3 (GT-S7270)?"}
+{"i": 420, "text": "Why is my Samsung Galaxy S4 not receiving the 4.3 or 4.4 software updates?"}
+{"i": 421, "text": "Where can I find a multilanguage stock ROM for Jelly Bean 4.2.2 for a Hike X1 828 device?"}
+{"i": 422, "text": "How do I reinstall Windows Phone and switch it to Android?"}
+{"i": 423, "text": "How can I upgrade an old Samsung Vibrant from Android 2.1 to a newer OS version?"}
+{"i": 424, "text": "What\u2019s the proper way to carry out an upgrade?"}
+{"i": 425, "text": "How can I upgrade my Android device running v4.0.4 with Build Omega v13.1?"}
+{"i": 426, "text": "How can I install Android OS on an old Nokia phone?"}
+{"i": 427, "text": "Can I install Android on a Samsung Jet S8003?"}
+{"i": 428, "text": "How can I update a tablet from Android 4.0 to the latest Android OS when it\u2019s currently on Android 4.4?"}
+{"i": 429, "text": "Where can I find the stock untouched ROM for the HTC Desire C?"}
+{"i": 430, "text": "Where can I download the original stock ROM for a Q-Mobile A8?"}
+{"i": 431, "text": "How can I install Android OS 4.4 on my Micromax Canvas?"}
+{"i": 432, "text": "How can I update my Samsung Galaxy S Anycall from Gingerbread to Jelly Bean? Please help me."}
+{"i": 433, "text": "How can I update a Micromax Canvas HD A116i from Android 4.1.2 Jelly Bean to 4.4.1 KitKat?"}
+{"i": 434, "text": "How do I upgrade to Ice Cream Sandwich?"}
+{"i": 435, "text": "What custom ROM alternatives are available for Oppo Find 7a users?"}
+{"i": 436, "text": "How do I update the firmware on my Samsung Galaxy Europa?"}
+{"i": 437, "text": "Can I install an operating system on a mobile device using the Android SDK and Eclipse?"}
+{"i": 438, "text": "How can I change the OS on a Nokia Lumia 710 running Windows Phone 7.5 to Android?"}
+{"i": 439, "text": "How can I install the latest Android update on my phone?"}
+{"i": 440, "text": "How can I install a pure Android ROM on a Huawei Ascend P6?"}
+{"i": 441, "text": "Where can I find the original Android firmware version for the ALCATEL ONE TOUCH Idol Mini?"}
+{"i": 442, "text": "What is the most stable custom ROM available for the LG L3 E400?"}
+{"i": 443, "text": "Is there a stable Note 3 ROM/mod that fully supports the S Pen?"}
+{"i": 444, "text": "How can I update my Samsung Galaxy Note 7000 to KitKat?"}
+{"i": 445, "text": "Is it possible to remove TouchWiz and flash a stock Android ROM on my device?"}
+{"i": 446, "text": "How do I install Android on a Samsung Gear 2?"}
+{"i": 447, "text": "How do I update my phone to the latest version of Android?"}
+{"i": 448, "text": "How can I upgrade my Samsung Galaxy S Duos?"}
+{"i": 449, "text": "Which current major ROMs include permission management?"}
+{"i": 450, "text": "Can Android be installed on a Samsung GT-S5220?"}
+{"i": 451, "text": "Can I install a Samsung Galaxy S5 ROM on a Micromax Bolt A068?"}
+{"i": 452, "text": "How can I update my LG Lucid to KitKat?"}
+{"i": 453, "text": "How can I install a custom recovery on an Alcatel One Touch 5020D instead of the 5020X?"}
+{"i": 454, "text": "Do I need a custom ROM and custom recovery for this?"}
+{"i": 455, "text": "How can I update the Android version on my device when no official update is available for it?"}
+{"i": 456, "text": "How can I install a custom ROM on an Android tablet?"}
+{"i": 457, "text": "How can I upgrade from Gingerbread 2.3.4 to Gingerbread 2.3.5 or 2.3.6?"}
+{"i": 458, "text": "How can I provide the ZTE Blade file?"}
+{"i": 459, "text": "How do I upgrade my smartphone\u2019s OS?"}
+{"i": 460, "text": "What ROMs are compatible with the ZTE V7275?"}
+{"i": 461, "text": "How can I keep an old device up to date with the latest software and security updates?"}
+{"i": 462, "text": "How do I install Android on the Flame device?"}
+{"i": 463, "text": "How do I install Android on a Tungsten E2?"}
+{"i": 464, "text": "How can I remove an Android update?"}
+{"i": 465, "text": "How can I completely wipe all data from a smartphone, including the ROM, and do a fresh reinstall?"}
+{"i": 466, "text": "How can I find a custom ROM for the Karbonn Titanium S1 Plus?"}
+{"i": 467, "text": "How can I fix my Ainol Novo 7.8-inch Advanced Mini 8GB tablet PC that is stuck on the boot logo, and where can I find the correct firmware for it?"}
+{"i": 468, "text": "How can I update or upgrade any phone to Android 4.4?"}
+{"i": 469, "text": "How do I install CyanogenMod 11 on a Moto G running Android 4.4.4?"}
+{"i": 470, "text": "How can I install CyanogenMod on a Galaxy Y?"}
+{"i": 471, "text": "What are the specific ROMs available for the ZTE V7275?"}
+{"i": 472, "text": "How can I update the software on a Micromax A50 using Windows 8 32-bit?"}
+{"i": 473, "text": "Where can I find the stock ROM for a Samsung Captivate?"}
+{"i": 474, "text": "What ROM do I need for a device with an MT6582 processor?"}
+{"i": 475, "text": "Where can I find an Android 4.4.4 ROM for the ZTE Score?"}
+{"i": 476, "text": "Is there a working KitKat ROM for Rockchip 2918 tablets?"}
+{"i": 477, "text": "How can I transfer files over Wi\u2011Fi Direct between two Android ICS devices?"}
+{"i": 478, "text": "Is installing a custom ROM required if I root my device?"}
+{"i": 479, "text": "Does Android reserve or hide some amount of RAM from the user?"}
+{"i": 480, "text": "Is it possible to change the dalvik cache location, for example by using a symbolic link?"}
+{"i": 481, "text": "Why isn\u2019t my phone updating the Market app to Google Play?"}
+{"i": 482, "text": "How can I restore or re-download all market applications after installing a new ROM?"}
+{"i": 483, "text": "What is the best pre-stealing practice?"}
+{"i": 484, "text": "How can I block access to or remotely wipe my Google data on a lost or stolen phone?"}
+{"i": 485, "text": "How do I password-protect an Android mobile device?"}
+{"i": 486, "text": "How can I locate my lost MOTO E?"}
+{"i": 487, "text": "How do I remotely wipe a stolen phone?"}
+{"i": 488, "text": "How can I install an app on my stolen phone from my PC or laptop?"}
+{"i": 489, "text": "How can I back up all installed APKs from my phone to my PC?"}
+{"i": 490, "text": "Why are my apps unable to connect to the internet?"}
+{"i": 491, "text": "I\u2019ve rooted my tablet\u2014what\u2019s the safest way to remove the bloatware?"}
+{"i": 492, "text": "How do I clear the application cache on ICS?"}
+{"i": 493, "text": "Why does Google Play show a \u201cNo connection: Retry\u201d error?"}
+{"i": 494, "text": "What does the number in the top-right corner of the camera app mean?"}
+{"i": 495, "text": "What are the questions I should know about before purchasing from the Google Store?"}
+{"i": 496, "text": "Can I safely charge a Nexus S using an iPhone power adapter?"}
+{"i": 497, "text": "Can Android USB plug-in chargers be used interchangeably?"}
+{"i": 498, "text": "What\u2019s the maximum safe charger output current/voltage for a Galaxy Nexus?"}
+{"i": 499, "text": "What happens if I use a 2 amp charger instead of the 0.7 amp charger that came with it?"}
+{"i": 500, "text": "Can using a phone charger that wasn\u2019t designed for my phone harm the battery?"}
+{"i": 501, "text": "Is it safe to charge a Galaxy Nexus from a USB 2A port?"}
+{"i": 502, "text": "Can using one phone\u2019s charger to charge a different phone affect the device in any way?"}
+{"i": 503, "text": "How can I use red star and green cross icons?"}
+{"i": 504, "text": "Could this red star icon be malware, and how can I remove it?"}
+{"i": 505, "text": "How can I identify which app is showing ads in my notification bar?"}
+{"i": 506, "text": "How can I disable Google Play ads from appearing in the notification area?"}
+{"i": 507, "text": "Why am I seeing strange icons and notifications on my phone\u2014could this be malware?"}
+{"i": 508, "text": "How can I add an ad to the status bar?"}
+{"i": 509, "text": "How can I stop popup ads from appearing?"}
+{"i": 510, "text": "How can I identify which app is pushing ads into my notification bar?"}
+{"i": 511, "text": "I received a notification with a red star in my notification bar saying \u201c3 viruses have been detected, click now to remove\u201d \u2014 what is this, and is it legitimate?"}
+{"i": 512, "text": "How can I temporarily disable hosts and flush the DNS cache?"}
+{"i": 513, "text": "Why does Android seem to cache no-ip forever?"}
+{"i": 514, "text": "How do I create a gift app for Google Play?"}
+{"i": 515, "text": "How can I view the saved Wi\u2011Fi password on Android settings?"}
+{"i": 516, "text": "How can I set up VPN and password protection on a Transformer Prime?"}
+{"i": 517, "text": "How can I disable the lock screen in ICS when a VPN is configured?"}
+{"i": 518, "text": "Why can\u2019t I install Draw Something on my Galaxy Mini GT-S5570?"}
+{"i": 519, "text": "How can I download a free app for Android 1.6 on my Android 2.1 device? It says the app is not compatible."}
+{"i": 520, "text": "Why are some apps on the market incompatible with my device?"}
+{"i": 521, "text": "Why does my device show \u201cdevice isn\u2019t compatible with this item\u201d?"}
+{"i": 522, "text": "Why is the Tagged app for Android not compatible with the Mi320?"}
+{"i": 523, "text": "How do you download or purchase an Android app like \"Plants vs. Zombies Great Wall Edition\"?"}
+{"i": 524, "text": "How can I override the Android minimum version requirement for an app on Google Play Store?"}
+{"i": 525, "text": "How does Google Play determine whether an app is compatible with my device?"}
+{"i": 526, "text": "How can I determine why I can\u2019t install an app from Google Play?"}
+{"i": 527, "text": "Why is my Android app showing as not compatible?"}
+{"i": 528, "text": "Why am I unable to download an app from the Google Play Store?"}
+{"i": 529, "text": "How can I get Candy Crush to run on an HTC Desire?"}
+{"i": 530, "text": "Why can't I download Candy Crush Saga on my HTC Desire 500?"}
+{"i": 531, "text": "HTC Wildfire S won't boot after deleting Sense \u2014 how can I fix it?"}
+{"i": 532, "text": "How can I handle contacts both with and without international phone number extensions?"}
+{"i": 533, "text": "How can I install additional languages on Android?"}
+{"i": 534, "text": "How do I add or remove languages on an Android phone?"}
+{"i": 535, "text": "How can I set my Android phone (Samsung Galaxy Ace) to Swedish language?"}
+{"i": 536, "text": "How can I add more language options to a Chinese-bought Samsung Galaxy S2 that only has a very limited language list?"}
+{"i": 537, "text": "How do I install a different language on my phone?"}
+{"i": 538, "text": "How do I change the language from Chinese to another language?"}
+{"i": 539, "text": "How can I make Arabic123 appear as Arabic123 instead of the wrong text display?"}
+{"i": 540, "text": "How can I download a language pack?"}
+{"i": 541, "text": "How can I upgrade my Tab 3.0 7-inch to Android 4.2 Jelly Bean, and get the Polish OS/Polish language installed?"}
+{"i": 542, "text": "How can I add Amharic language support to an Android 2.3 device?"}
+{"i": 543, "text": "How can I add a new language on an HTC Desire 500?"}
+{"i": 544, "text": "How can I update my Nexus tablet to add support for other languages?"}
+{"i": 545, "text": "How can I add Hebrew language support on my Samsung S4?"}
+{"i": 546, "text": "How does Android GPS navigation actually work?"}
+{"i": 547, "text": "What\u2019s the easiest way to automatically back up photos from an Android phone to the cloud?"}
+{"i": 548, "text": "Why does the STORE button on Amazon Kindle open the website instead of the in-app store?"}
+{"i": 549, "text": "Is it possible to use my phone as an audio device over Wi\u2011Fi?"}
+{"i": 550, "text": "Can someone post a screenshot of the default SD card file structure for Android 2.3.5?"}
+{"i": 551, "text": "How do I install certificates?"}
+{"i": 552, "text": "How can I make or receive mobile phone calls on a Huawei MediaPad?"}
+{"i": 553, "text": "How do I disable the camera shutter sound on a Droid X running Android 2.2 Froyo?"}
+{"i": 554, "text": "How can I disable the shutter sound on the Android camera?"}
+{"i": 555, "text": "How can I disable the shutter sound on the camera of my Lenovo ThinkPad when taking a photo?"}
+{"i": 556, "text": "How can I disable the camera shutter sound on a Samsung Galaxy S2?"}
+{"i": 557, "text": "How can I disable the camera shutter sound on an i9220 without just lowering the device volume?"}
+{"i": 558, "text": "How do I disable the camera shutter sound on a Huawei Ascend G700?"}
+{"i": 559, "text": "How can I clear learned words?"}
+{"i": 560, "text": "On a free WiFi hotspot, how easy is it for someone to sniff my data?"}
+{"i": 561, "text": "How do I use the Amazon Android Appstore internationally?"}
+{"i": 562, "text": "How do I enable spell check in an app or setting when using the drop-down keyboard?"}
+{"i": 563, "text": "How can I watch YouTube videos in anaglyph mode?"}
+{"i": 564, "text": "How can I share a reverse-tethered connection over Wi\u2011Fi?"}
+{"i": 565, "text": "How can I enable multiple user accounts in Google Talk on Android 2.3.4?"}
+{"i": 566, "text": "Nexus S update fails and shows an error screen \u2014 how can I fix it?"}
+{"i": 567, "text": "Is it safe to delete the stock web browser, or could removing it cause any problems?"}
+{"i": 568, "text": "What does error code 495 mean in Google Play and the YouTube app?"}
+{"i": 569, "text": "What impact will a swap partition or swap file have on the system?"}
+{"i": 570, "text": "How can I run only one application while stopping all other applications?"}
+{"i": 571, "text": "How can I restrict a device to single-app mode so only one application runs full screen and users can\u2019t access anything else?"}
+{"i": 572, "text": "How can I make YouTube links open in the YouTube app instead of opening in a web browser?"}
+{"i": 573, "text": "How do I install or find the correct device drivers for an Aoson M19?"}
+{"i": 574, "text": "How can I determine how often an app is used?"}
+{"i": 575, "text": "How can I transfer apps from one SD card to another on an HTC Desire HD?"}
+{"i": 576, "text": "How can I switch to a higher-capacity SDHC card with minimal hassle and avoid problems?"}
+{"i": 577, "text": "How do I fix the \u201cUpdating GPlus Signature Error\u201d issue?"}
+{"i": 578, "text": "How can I prevent my Android 4.0.3 phone from going to sleep while it\u2019s connected via USB?"}
+{"i": 579, "text": "If I root my phone and install CyanogenMod, is it possible to revert everything back to the stock firmware later?"}
+{"i": 580, "text": "Is there a way to manually rotate my phone\u2019s screen when auto-rotation is turned off?"}
+{"i": 581, "text": "How can I lock the ringer volume so it can\u2019t be changed\u2014does it require a hack or app, or is there an easy built-in way?"}
+{"i": 582, "text": "How can I view the list of open ports on an Android device?"}
+{"i": 583, "text": "How can I root a Coby Kyros MID7016 tablet?"}
+{"i": 584, "text": "How can I upgrade a Samsung Galaxy II to Android 4.0?"}
+{"i": 585, "text": "How can I back up Angry Birds save files/data?"}
+{"i": 586, "text": "How can I transfer my game progress from an HTC Legend to a Samsung Galaxy S3?"}
+{"i": 587, "text": "How do I perform backup and restore using adb?"}
+{"i": 588, "text": "How can I restore app backups onto a Samsung Galaxy S3?"}
+{"i": 589, "text": "How can I back up locally stored game data?"}
+{"i": 590, "text": "How can I back up my Zombie Diary Survival save data, game progress, items, and related files?"}
+{"i": 591, "text": "Is it possible to use multiple Android devices with the same Google account?"}
+{"i": 592, "text": "What is this VPN setting used for?"}
+{"i": 593, "text": "How can I mount an SD card from Recovery Mode/ClockworkMod?"}
+{"i": 594, "text": "Why do smartphones come with default limited user rights and not full root access?"}
+{"i": 595, "text": "What does it mean to \u201croot\u201d a phone?"}
+{"i": 596, "text": "What does \u201crooting\u201d mean in the context of Android devices?"}
+{"i": 597, "text": "What are the benefits of rooting an Android device?"}
+{"i": 598, "text": "Why do most phone manufacturers not include root access by default on their devices?"}
+{"i": 599, "text": "Why are Android OSes unrooted by default?"}
+{"i": 600, "text": "What does rooting mean, and is it worth upgrading my Xperia U from Gingerbread to Ice Cream Sandwich?"}
+{"i": 601, "text": "How can I use an Android phone as a wireless webcam?"}
+{"i": 602, "text": "Does Android Froyo fix the GPS problem on the Samsung Galaxy S I9000?"}
+{"i": 603, "text": "How can I sync only a subset of my Google Contacts to my Android device?"}
+{"i": 604, "text": "How can I back up and restore SMS messages?"}
+{"i": 605, "text": "How can I transfer SMS messages from one Android phone to a new Android phone?"}
+{"i": 606, "text": "How can I save TXT messages from my phone to my PC?"}
+{"i": 607, "text": "How can I transfer my SMS message store to a new phone that doesn\u2019t have an SD card?"}
+{"i": 608, "text": "How can I save or back up entire SMS threads to my SIM card?"}
+{"i": 609, "text": "How can I pull the APKs from my Android phone?"}
+{"i": 610, "text": "Why can\u2019t I see my device in Dalvik Debug Monitor?"}
+{"i": 611, "text": "How can I child-proof an Android phone?"}
+{"i": 612, "text": "How can I make an Android text message trigger an alarm?"}
+{"i": 613, "text": "Where are clicked URLs stored, and is there a way to save them to a file?"}
+{"i": 614, "text": "How can I recover or repair a damaged microSD card?"}
+{"i": 615, "text": "How can I fix a damaged SD card?"}
+{"i": 616, "text": "How can I automatically turn off the onscreen keyboard whenever a Bluetooth keyboard is connected?"}
+{"i": 617, "text": "How can I enable Wi\u2011Fi on demand?"}
+{"i": 618, "text": "How can I extend standby time and battery life?"}
+{"i": 619, "text": "How can I improve the battery life on my Android device?"}
+{"i": 620, "text": "What are the best ways to improve battery life on my device?"}
+{"i": 621, "text": "How can I fix a slow Android 2.1 MyTouch Slide 3G and improve its poor battery life?"}
+{"i": 622, "text": "How can I extend and preserve my battery life?"}
+{"i": 623, "text": "How can I use battery saver apps/features on Android 4.0?"}
+{"i": 624, "text": "Why is my phone suddenly always running out of storage space even though I haven\u2019t installed any new apps or software?"}
+{"i": 625, "text": "How can I download files from an authenticated web server?"}
+{"i": 626, "text": "Is there an app that can read images of QR codes?"}
+{"i": 627, "text": "If I upgrade my phone\u2019s OS, will I lose any apps or data?"}
+{"i": 628, "text": "How can I access an Android phone\u2019s SMS and other features through a data cable?"}
+{"i": 629, "text": "How can I recover deleted content from the userdata partition?"}
+{"i": 630, "text": "Where can I find the \u201cStay Awake\u201d option in Ice Cream Sandwich on the Galaxy S3?"}
+{"i": 631, "text": "How do I run a script from the SD card and pass arguments to it?"}
+{"i": 632, "text": "How can I determine which variant of my Galaxy Nexus I have?"}
+{"i": 633, "text": "How can I tell whether my Galaxy Nexus is the maguro, toro, or toroplus model?"}
+{"i": 634, "text": "Why does my package file show as invalid?"}
+{"i": 635, "text": "Why does package installation via Market sometimes fail with seemingly random error messages?"}
+{"i": 636, "text": "Why am I getting \u201cPackage file is invalid\u201d when trying to use this package file?"}
+{"i": 637, "text": "How can I disable ads in applications?"}
+{"i": 638, "text": "How can I disable ads in an Android app most effectively?"}
+{"i": 639, "text": "How can I retrieve an SMS thread?"}
+{"i": 640, "text": "What are the best ways to recover deleted SMS messages?"}
+{"i": 641, "text": "How can I retrieve old or deleted messages?"}
+{"i": 642, "text": "How can I retrieve deleted messages on a Galaxy S3?"}
+{"i": 643, "text": "Is it possible to install Android on the new Windows 8 Intel Ultrabooks expected to be released in late 2012 or early 2013?"}
+{"i": 644, "text": "How can I locate a lost device if there\u2019s no Gmail account configured on it and no SIM card installed?"}
+{"i": 645, "text": "How can I capture Android boot loop logs without ADB, and is the emulator useful for diagnosing this issue?"}
+{"i": 646, "text": "Is it possible to install Google Play on an Android Virtual Device running API 10 (Android 2.3.3)?"}
+{"i": 647, "text": "How can I transfer all contacts from my phone and SIM card to Google Contacts?"}
+{"i": 648, "text": "How can I change existing contacts from \u201cphone\u201d to \u201cGmail\u201d?"}
+{"i": 649, "text": "Why is the \u201cExport to SD card\u201d option disabled?"}
+{"i": 650, "text": "On an Android device, where does Google Play store its ebooks?"}
+{"i": 651, "text": "How do I configure BlueStacks App Player to use proxy settings for network connections?"}
+{"i": 652, "text": "Why can\u2019t the `su` binary just be copied? Please explain the technical reasons."}
+{"i": 653, "text": "How can I set different notification sounds for different alerts?"}
+{"i": 654, "text": "How do I set up a Google Apps Gmail account on an Android phone?"}
+{"i": 655, "text": "Why does my Galaxy phone keep turning on by itself every minute for no reason?"}
+{"i": 656, "text": "Why is GPS never detected?"}
+{"i": 657, "text": "Why does my Samsung Fascinate keep getting stuck on \u201cSearching for GPS\u201d so often?"}
+{"i": 658, "text": "Does Bluetooth consume battery even when it\u2019s turned on but not actively connected or being used?"}
+{"i": 659, "text": "How do I turn off notification sounds while music is playing?"}
+{"i": 660, "text": "Why am I unable to move some apps to the SD card?"}
+{"i": 661, "text": "Why is the `Move to SD card` button disabled for some apps?"}
+{"i": 662, "text": "Why am I unable to move apps to the SD card on my device?"}
+{"i": 663, "text": "Why are some apps unable to be moved to the SD card?"}
+{"i": 664, "text": "Why does my Android phone shut down or discharge suddenly when the battery still shows around 20%?"}
+{"i": 665, "text": "Why am I unable to update Android 4.1 on my Galaxy Nexus?"}
+{"i": 666, "text": "Why won\u2019t Android connect to an ad hoc hotspot?"}
+{"i": 667, "text": "Why can\u2019t my Samsung GT-I5510 connect to my laptop\u2019s ad hoc Wi\u2011Fi network?"}
+{"i": 668, "text": "How can I share my laptop's internet connection over Wi\u2011Fi to my Android tablet?"}
+{"i": 669, "text": "Why is ICS not detecting an ad hoc network?"}
+{"i": 670, "text": "Why am I unable to turn a Windows XP SP2 PC into a hotspot for an Android device?"}
+{"i": 671, "text": "How can I quickly toggle Wi\u2011Fi, GPS, and other settings in HTC Sense?"}
+{"i": 672, "text": "How do I unregister a device from Google Play?"}
+{"i": 673, "text": "How do I disassociate a device I no longer have from my Market account?"}
+{"i": 674, "text": "How do I unlink my Android phone from the Google Play Store?"}
+{"i": 675, "text": "How can I root stock firmware on a Galaxy S II with NFC?"}
+{"i": 676, "text": "How can I find a lost Acer Android tablet if no tracker app was installed?"}
+{"i": 677, "text": "What\u2019s the best app for tracking a lost or stolen device?"}
+{"i": 678, "text": "What are the best ways to locate a lost phone or help someone return it to the owner?"}
+{"i": 679, "text": "My phone was stolen about an hour ago\u2014what options do I have for tracking it?"}
+{"i": 680, "text": "How can I track my stolen phone without using Wi\u2011Fi?"}
+{"i": 681, "text": "How can I locate my phone without using an app?"}
+{"i": 682, "text": "I\u2019ve lost my phone\u2014what apps can I use to track it down?"}
+{"i": 683, "text": "How can I locate my stolen Galaxy Ace Duos?"}
+{"i": 684, "text": "How can I track an Android phone using its IMEI number?"}
+{"i": 685, "text": "How can I track my stolen phone after the SIM cards have been removed?"}
+{"i": 686, "text": "How can I trace a lost mobile phone using its IMEI number?"}
+{"i": 687, "text": "Can a phone be tracked using its IMEI number?"}
+{"i": 688, "text": "How can I locate a stolen Galaxy S4 using its IMEI number?"}
+{"i": 689, "text": "How can I locate a lost phone?"}
+{"i": 690, "text": "Why doesn\u2019t USB charging work when the device is in host mode?"}
+{"i": 691, "text": "How can I increase the vibrate strength?"}
+{"i": 692, "text": "How can I use Outlook on Android without Google Calendar?"}
+{"i": 693, "text": "How can I set up a point-to-point VOIP call between two Android devices?"}
+{"i": 694, "text": "How can I determine which applications should be stopped?"}
+{"i": 695, "text": "How do I format a flash drive from a terminal emulator?"}
+{"i": 696, "text": "How can I set two languages simultaneously for the stock keyboard?"}
+{"i": 697, "text": "Can I change the emoticons in the default Android SMS app?"}
+{"i": 698, "text": "How can I disable emoticons?"}
+{"i": 699, "text": "How can I locate a lost Android device somewhere in my home?"}
+{"i": 700, "text": "How can I locate my Android phone using an app?"}
+{"i": 701, "text": "What\u2019s the best way to identify the make and model of the chips inside my device?"}
+{"i": 702, "text": "How do I partition an SD card properly?"}
+{"i": 703, "text": "How do I save a route for offline use in Google Maps?"}
+{"i": 704, "text": "How can I execute Linux commands on Android Froyo?"}
+{"i": 705, "text": "How can I find out what CPU, GPU, and RAM my phone or tablet has?"}
+{"i": 706, "text": "How can I connect to a Wi\u2011Fi AP and a 3G network at the same time?"}
+{"i": 707, "text": "Can I force a specific app to use cellular data rather than Wi\u2011Fi?"}
+{"i": 708, "text": "How can I make my device use mobile data automatically when Wi\u2011Fi is connected but has no internet access?"}
+{"i": 709, "text": "Can I use mobile data for internet access while I\u2019m connected to Wi\u2011Fi, or does Wi\u2011Fi completely override the cellular data connection?"}
+{"i": 710, "text": "How can I share my app list with friends?"}
+{"i": 711, "text": "How can I stop Google Services from using so much mobile data?"}
+{"i": 712, "text": "How can I record the system\u2019s Speaker-Out audio instead of the microphone?"}
+{"i": 713, "text": "What is the standard Android boot process, and how does it work?"}
+{"i": 714, "text": "What\u2019s the best way to track app usage in my app?"}
+{"i": 715, "text": "How do I access the Chrome Web Store on Google Chrome for Android?"}
+{"i": 716, "text": "How do I change the user agent string that Chrome sends on my Nexus 7?"}
+{"i": 717, "text": "What\u2019s the best way to stop applications and services from running?"}
+{"i": 718, "text": "How do I stop certain applications from launching automatically when my computer starts up?"}
+{"i": 719, "text": "Should I use a task killer app on Android?"}
+{"i": 720, "text": "How do I stop pre-installed Android apps from launching automatically in the background?"}
+{"i": 721, "text": "What\u2019s the best way to stop services from running in the background?"}
+{"i": 722, "text": "How do I quit Skype on Android?"}
+{"i": 723, "text": "Why are apps automatically starting on their own?"}
+{"i": 724, "text": "How can I view which applications are configured to run automatically at startup on Android 2.2?"}
+{"i": 725, "text": "Why do some apps start on their own, and how can I stop them from launching automatically?"}
+{"i": 726, "text": "How can I prevent certain applications and services from launching automatically at boot?"}
+{"i": 727, "text": "How can I stop pre-installed, non-removable Android apps/tasks from ever launching without rooting my phone?"}
+{"i": 728, "text": "Why do my applications keep restarting?"}
+{"i": 729, "text": "Why do apps/tasks keep restarting even after I kill them?"}
+{"i": 730, "text": "Do task killer apps actually work?"}
+{"i": 731, "text": "How can I stop apps from running in the background?"}
+{"i": 732, "text": "How can I prevent an application from starting up automatically?"}
+{"i": 733, "text": "How do I stop apps from running in the background?"}
+{"i": 734, "text": "How can I make apps force close automatically without opening Settings?"}
+{"i": 735, "text": "Are Android memory cleanup apps helpful, or do they do more harm than good?"}
+{"i": 736, "text": "How can I prevent an app from autostarting on a non-rooted device?"}
+{"i": 737, "text": "Why are my applications stopping from loading, and how can I fix it?"}
+{"i": 738, "text": "How can I bypass software that automatically loads on startup?"}
+{"i": 739, "text": "How can I disable autostart for specific apps?"}
+{"i": 740, "text": "Is it harmful to kill tasks in Android, for example by long-pressing the Home key and choosing \u201cClose all\u201d?"}
+{"i": 741, "text": "How can I prevent Skype from launching automatically at startup?"}
+{"i": 742, "text": "How can I prevent killed apps from reappearing?"}
+{"i": 743, "text": "How can I force certain apps to not launch at boot?"}
+{"i": 744, "text": "How do I fully shut down Skype?"}
+{"i": 745, "text": "How do I troubleshoot an app memory hog problem?"}
+{"i": 746, "text": "How can I stop an app from launching automatically at startup?"}
+{"i": 747, "text": "How can I move apps from my phone\u2019s internal storage to the SD card?"}
+{"i": 748, "text": "How can I develop Java Swing applications on Android?"}
+{"i": 749, "text": "How do I use a programming IDE on a Transformer?"}
+{"i": 750, "text": "How can I develop and test apps directly on an Android device?"}
+{"i": 751, "text": "How can I run a Java code/program on a Kindle Fire?"}
+{"i": 752, "text": "How can I find a lost Samsung Galaxy Ace phone?"}
+{"i": 753, "text": "How can I use my headphones to control both volume and track skipping on an Android device?"}
+{"i": 754, "text": "On my Samsung Galaxy S, under Settings > Status, why does the Phone number field show \u201cunknown\u201d?"}
+{"i": 755, "text": "How can I play a YouTube clip in the background or while the app/window is minimized?"}
+{"i": 756, "text": "How can I listen to YouTube videos with the screen turned off?"}
+{"i": 757, "text": "Does ClockworkMod Recovery\u2019s \u201cWipe Data\u201d option also erase the SD card?"}
+{"i": 758, "text": "How can I get full offline map support on Android?"}
+{"i": 759, "text": "How can I use offline maps and routes?"}
+{"i": 760, "text": "How can I fix the search button on Android Jelly Bean?"}
+{"i": 761, "text": "Why does my S3 device make a sound when a magnetic card is placed on its back?"}
+{"i": 762, "text": "What are some free applications available on Google Play?"}
+{"i": 763, "text": "Should I choose a device with more internal memory, or one with less memory plus an SD card?"}
+{"i": 764, "text": "How can I tether my WiFi internet connection from a Nexus 7 to a PC that has no WLAN adapter, using USB?"}
+{"i": 765, "text": "How can I share my phone\u2019s Wi\u2011Fi connection with a PC over USB tethering?"}
+{"i": 766, "text": "If I flash firmware on my phone, will it re-lock my unlocked bootloader?"}
+{"i": 767, "text": "If I factory reset my unlocked Galaxy i7500, will it remove the unlock?"}
+{"i": 768, "text": "How do I factory reset a T-Mobile ZTE V768 Concord?"}
+{"i": 769, "text": "Why is the `proc` folder using 35 MB?"}
+{"i": 770, "text": "How can I expand the internal storage on my Sony Ericsson Xperia Ray?"}
+{"i": 771, "text": "What is the difference between the capabilities and permissions of system apps, apps installed in phone memory, and apps stored on the SD card?"}
+{"i": 772, "text": "How do I root the latest version of the HTC One X?"}
+{"i": 773, "text": "How can I disable the Google Search open-on-swipe-up gesture from the home button?"}
+{"i": 774, "text": "How do I assign a Windows drive letter to my \u201cportable drive\u201d (Samsung Tab 10.1)?"}
+{"i": 775, "text": "How do I SSH into an Android device without rooting it?"}
+{"i": 776, "text": "Why did my app disappear from Google Play?"}
+{"i": 777, "text": "Why did Google Play disappear from my phone, and how can I get it back?"}
+{"i": 778, "text": "HTC Desire ran out of storage and I can't make sense of the suggested fixes \u2014 can someone help me understand what to do?"}
+{"i": 779, "text": "How do I factory reset my device if the factory reset option isn\u2019t listed anywhere in the settings?"}
+{"i": 780, "text": "Why are the internal hard disk partitions (sda2) not showing up in Android system?"}
+{"i": 781, "text": "How can I charge a Samsung Galaxy Tab through a USB cable?"}
+{"i": 782, "text": "How can I turn my cell phone into a Wi\u2011Fi hotspot using GPRS/3G?"}
+{"i": 783, "text": "Is it possible to use the HTC Desire HD Wi\u2011Fi Hotspot feature to share an existing wireless network instead of mobile data?"}
+{"i": 784, "text": "Is it possible to use an Android phone as a Wi-Fi repeater?"}
+{"i": 785, "text": "Can I use an existing WiFi network as the internet source and still enable WiFi tethering at the same time?"}
+{"i": 786, "text": "How can I use my Android phone as a hotspot while maintaining a wireless connection?"}
+{"i": 787, "text": "How can I turn a Nexus 4 into a Wi\u2011Fi access point or repeater without using mobile data?"}
+{"i": 788, "text": "How do I enable and troubleshoot Android tethering?"}
+{"i": 789, "text": "How do I access Developer options in Android 4.2?"}
+{"i": 790, "text": "Why are the USB debugging options missing in Jelly Bean, and how can I enable them?"}
+{"i": 791, "text": "How do I enable debugging mode on an Asus Zenfone 5?"}
+{"i": 792, "text": "Does Google audit all apps that are submitted to the marketplace?"}
+{"i": 793, "text": "How can I identify which app is using my GPS in the background?"}
+{"i": 794, "text": "How can I tell which app is accessing GPS on Jelly Bean?"}
+{"i": 795, "text": "How can I turn off only the email notification sound without disabling other notification sounds?"}
+{"i": 796, "text": "Why does Google Play fail to install an app with the error RPC:S-5:AEC-0?"}
+{"i": 797, "text": "How can I find the QR code for an app on the Google Play Store?"}
+{"i": 798, "text": "How can I move installed applications to a different user account without having to download and reinstall them?"}
+{"i": 799, "text": "Is there a mobile app for Stack Exchange?"}
+{"i": 800, "text": "How can I install Android Market or Google Play on a Binatone Kidzstar?"}
+{"i": 801, "text": "How do I add Market support to my device?"}
+{"i": 802, "text": "How can I manually install the Android Market app?"}
+{"i": 803, "text": "How can I use an Android HTC G7 without Google applications installed?"}
+{"i": 804, "text": "How can I install the official Google Marketplace on a Chinese Asus Eee Pad Transformer 101?"}
+{"i": 805, "text": "How do I sync my Android Market account if I already have the app installed but the Market account doesn\u2019t appear in my \u201cAdd account\u201d list?"}
+{"i": 806, "text": "How can I get the Android Market app on my tablet?"}
+{"i": 807, "text": "Does the China Mobile Galaxy S3 GT-I9308 come with the Google Play Store installed?"}
+{"i": 808, "text": "How can I get Google Play working on a Samsung Galaxy S3 (GT-I9300) bought from China Unicom?"}
+{"i": 809, "text": "I accidentally deleted the Google Play Store app \u2014 how can I reinstall it?"}
+{"i": 810, "text": "How do I install the Google Apps package (Play Store, etc.) on my Android device?"}
+{"i": 811, "text": "How can I install Gmail, the Play Store, and other Google apps on a cheap Android tablet?"}
+{"i": 812, "text": "Where can I download and install Google Apps on an Android 4.0.4 device?"}
+{"i": 813, "text": "How can I get the Google Play Store on a Craig 4.0.3 Android tablet?"}
+{"i": 814, "text": "Why is the Google Play Store not working, and how can I fix it?"}
+{"i": 815, "text": "How can I access Google Play in China?"}
+{"i": 816, "text": "How can I access the Android Marketplace from a desktop on Android-capable phones in the office?"}
+{"i": 817, "text": "How can I get Android Market or the Google Play Store on a black Pandigital Novel?"}
+{"i": 818, "text": "How can I install Google Play on CyanogenMod 10.1?"}
+{"i": 819, "text": "Why does my Chinese Galaxy Note not have a Google account option?"}
+{"i": 820, "text": "How do I flash the GApps package after installing CyanogenMod?"}
+{"i": 821, "text": "How do I install Google Play on my Android 4.0 tablet?"}
+{"i": 822, "text": "How do I reinstall the Google Play Store after uninstalling it?"}
+{"i": 823, "text": "How can I install Google Play apps on CyanogenMod?"}
+{"i": 824, "text": "Why is the Google Play Store not working, and how can I fix it?"}
+{"i": 825, "text": "How do I reinstall Google Play?"}
+{"i": 826, "text": "How can I fix an error when installing the Google Play Store on my tablet?"}
+{"i": 827, "text": "How can I install CM 11 KitKat RC2 on my HTC Explorer?"}
+{"i": 828, "text": "How can I install Google Play Store on my HCL Me tablet?"}
+{"i": 829, "text": "Can the MK802 III\u2019s memory be expanded or extended in any way?"}
+{"i": 830, "text": "How do I install RAM into an Android-powered tablet?"}
+{"i": 831, "text": "How can I increase the RAM memory on my Android device?"}
+{"i": 832, "text": "How can I upgrade the RAM memory in a Samsung Galaxy Y?"}
+{"i": 833, "text": "How do I type a real heart symbol in text on my HTC Inspire?"}
+{"i": 834, "text": "What are the length and width dimensions of just the screen on the Nexus 7?"}
+{"i": 835, "text": "If I factory reset my Android device, will it revert to Gingerbread?"}
+{"i": 836, "text": "If I upgraded my phone from Android 1.6 to 2.2, and then do a factory reset, which Android version will the phone restore to?"}
+{"i": 837, "text": "How do I factory reset a Nexus 4?"}
+{"i": 838, "text": "What happens to the operating system after a factory reset?"}
+{"i": 839, "text": "How do I change the position of an app inside the launcher?"}
+{"i": 840, "text": "Where can I find documentation or a list describing all \"/system/bin/service\" calls?"}
+{"i": 841, "text": "Why does Spotify keep saying there\u2019s no Internet connection available on my Samsung Galaxy S even though I\u2019m connected?"}
+{"i": 842, "text": "What does the status icon that looks like a house indicate?"}
+{"i": 843, "text": "Samsung Galaxy Ace: will connecting to my home Wi\u2011Fi incur any charges?"}
+{"i": 844, "text": "How can I make my Galaxy S3 silent and disable the LED and notifications at night?"}
+{"i": 845, "text": "Can I install Android on a PC?"}
+{"i": 846, "text": "How can I install Android on a PC?"}
+{"i": 847, "text": "How can I transfer apps on an LG Optimus Logic to the micro SD card instead of using internal memory?"}
+{"i": 848, "text": "Why did /sdcard/ become /sdcard/0/ in Android 4.2?"}
+{"i": 849, "text": "Why is there such a large difference in the amount of RAM being used?"}
+{"i": 850, "text": "Is there another way to get updates for frozen apps?"}
+{"i": 851, "text": "How can I change the timer sound in the stock Clock app?"}
+{"i": 852, "text": "How can I fix a false \u201cPhone storage full\u201d warning that prevents me from sending SMS messages?"}
+{"i": 853, "text": "How do I fix the \u201cYou don't have enough free space remaining in your phone's storage\u201d error?"}
+{"i": 854, "text": "LG L3: what\u2019s the difference between system memory and internal memory?"}
+{"i": 855, "text": "What\u2019s the difference between system memory and internal storage?"}
+{"i": 856, "text": "How is memory management handled on Android devices?"}
+{"i": 857, "text": "How can I install all apps on the SD card on a Micromax Unite 2?"}
+{"i": 858, "text": "How can I play and loop a video automatically on startup?"}
+{"i": 859, "text": "Can Google Play search results be filtered by app permissions?"}
+{"i": 860, "text": "What does \u201cManual Updates\u201d mean in the Google Play Store?"}
+{"i": 861, "text": "Why do some apps still require a manual update even though automatic updates are enabled?"}
+{"i": 862, "text": "How can I rename my Android device?"}
+{"i": 863, "text": "What are the hidden Android telephony dialer codes?"}
+{"i": 864, "text": "What special dialer codes or secret phone numbers can be used to view hidden information on Android phones?"}
+{"i": 865, "text": "What does the *#*#4636#*#* dialer code actually do?"}
+{"i": 866, "text": "What is the Android secret hidden code to open settings?"}
+{"i": 867, "text": "How do I close an application in Android?"}
+{"i": 868, "text": "What\u2019s the correct way to fully close an app on a Samsung Galaxy S3?"}
+{"i": 869, "text": "Why do my applications keep closing unexpectedly?"}
+{"i": 870, "text": "How do I properly exit an app?"}
+{"i": 871, "text": "Can I install two instances of the same app?"}
+{"i": 872, "text": "How can I install the same app more than once on the same device?"}
+{"i": 873, "text": "How do I set up and place 3G video calls?"}
+{"i": 874, "text": "How can I make a video call on Android over a 3G connection?"}
+{"i": 875, "text": "How can I make multiple files or an entire folder available offline in Google Drive?"}
+{"i": 876, "text": "How can I check whether a developer has replied to my comment on Google Play?"}
+{"i": 877, "text": "How can I change the default save location for camera photos and videos?"}
+{"i": 878, "text": "Can I manually upgrade my HTC Legend to Froyo without waiting for an over-the-air update?"}
+{"i": 879, "text": "When is Android 2.2 expected to be available for the HTC Wildfire with Sense in Germany?"}
+{"i": 880, "text": "How can I get HTC Hero running Android 2.2?"}
+{"i": 881, "text": "Is the Android 2.2 (Froyo) update available for the myTouch Slide?"}
+{"i": 882, "text": "How can I get OS 2.2 running on the Samsung Moment?"}
+{"i": 883, "text": "Is it possible to upgrade a Huawei U8220-6?"}
+{"i": 884, "text": "When is my phone expected to receive the Android 2.2 (FroYo) update?"}
+{"i": 885, "text": "How can I update a Samsung Galaxy 3 (I5801/I5800) to Android 2.2?"}
+{"i": 886, "text": "Can the SAMSUNG I5500 GALAXY 5 be upgraded to Android 2.2?"}
+{"i": 887, "text": "How can I get the Froyo update on a Samsung Galaxy 3 (GT-I5801), and why does it keep showing \u201cWaiting for Froyo Update\u201d?"}
+{"i": 888, "text": "How can I install Android 2.2 on a Samsung Galaxy 5 (I5500)?"}
+{"i": 889, "text": "Will the Samsung Galaxy 5 get the Android 2.2 update?"}
+{"i": 890, "text": "Is there an Android 2.2 update available for the Samsung Galaxy S?"}
+{"i": 891, "text": "How can I upgrade a Samsung Galaxy 5 I5503 to Android 2.2?"}
+{"i": 892, "text": "Has Android 2.2 Froyo been released in India for the Galaxy I5500?"}
+{"i": 893, "text": "How can I update the Android version on my Samsung Galaxy?"}
+{"i": 894, "text": "How can I legally upgrade my Galaxy 5 to Froyo, and where should I get the update from?"}
+{"i": 895, "text": "Has Samsung released any official Froyo update for the Galaxy 5 in India?"}
+{"i": 896, "text": "Is it possible to run Android 2.2 on a ZTE Racer that currently has Android 2.1?"}
+{"i": 897, "text": "How do I upgrade an Android device from 1.6 to 2.2?"}
+{"i": 898, "text": "How can I upgrade an HTC Tattoo G4 from Android 1.6 to 2.2?"}
+{"i": 899, "text": "Why does Android automatically add shortcuts to the home screen, and how can I stop it?"}
+{"i": 900, "text": "How can I figure out which app created a spam shortcut on my home screen?"}
+{"i": 901, "text": "Why does Flash Player not work on Android 4.0 and later versions?"}
+{"i": 902, "text": "How can I install Flash Player on an Android phone or tablet without rooting it?"}
+{"i": 903, "text": "Why am I having an issue with my TWD-MID?"}
+{"i": 904, "text": "Why do I have so little unused RAM available?"}
+{"i": 905, "text": "Why does my device show 0 RAM free on ICS?"}
+{"i": 906, "text": "How can I increase the RAM on my Karbonn S2?"}
+{"i": 907, "text": "Why does my free RAM keep decreasing over time?"}
+{"i": 908, "text": "How can I check the free RAM available on a new Galaxy S Duos 2?"}
+{"i": 909, "text": "Why doesn\u2019t my LG Lucid recognize the SD card as extra storage for photos?"}
+{"i": 910, "text": "How can I stop the \u201cMessage memory full\u201d warning when my internal phone storage is getting low?"}
+{"i": 911, "text": "Why am I getting an \u201cInsufficient storage\u201d error on the Google Play Store even though I still have free space available?"}
+{"i": 912, "text": "Android tablet won\u2019t reboot after I try rebooting it with the volume and power buttons\u2014what could be causing this?"}
+{"i": 913, "text": "Is there a Word Lens alternative or port available for Android?"}
+{"i": 914, "text": "Why does my USB storage show as blank or as an unsupported filesystem?"}
+{"i": 915, "text": "How can I change the lock screen on my phone to work like it does on a Kindle Fire?"}
+{"i": 916, "text": "How can I hide Developer Options in Android 4.2?"}
+{"i": 917, "text": "Why am I getting an Android 4.2.1 installation error on my N7000, and how can I fix it?"}
+{"i": 918, "text": "What\u2019s the best way to install additional fonts?"}
+{"i": 919, "text": "How do I do scripting on Android?"}
+{"i": 920, "text": "How can I check whether an Android phone is rooted?"}
+{"i": 921, "text": "How can I tell whether my device is rooted?"}
+{"i": 922, "text": "How can I move apps to the SD card on an LG Optimus Logic?"}
+{"i": 923, "text": "How do I fix the \u201cNot enough free space\u201d error?"}
+{"i": 924, "text": "How can I resolve Zeroconf-style \"hostname.local\" names?"}
+{"i": 925, "text": "Can anyone identify this icon?"}
+{"i": 926, "text": "What\u2019s the best way to back up an Android device?"}
+{"i": 927, "text": "How can I transfer apps and settings from my old Android phone to my new Android phone?"}
+{"i": 928, "text": "What happens to my configurations and app data in practice if I install custom firmware on my device?"}
+{"i": 929, "text": "What\u2019s the best way to back up and restore my phone before flashing a custom ROM?"}
+{"i": 930, "text": "What\u2019s the best way to back up my phone?"}
+{"i": 931, "text": "What\u2019s the best way to back up apps on Android?"}
+{"i": 932, "text": "Can I pre-download a YouTube video so I can watch it later offline?"}
+{"i": 933, "text": "Will the Nexus 4 work on Indian mobile networks?"}
+{"i": 934, "text": "Is my device carrier-locked, or can I use it with a different carrier?"}
+{"i": 935, "text": "How can I switch my HTC Merge from US Cellular to T-Mobile?"}
+{"i": 936, "text": "Is the LG Nexus 4 compatible with Airtel India network?"}
+{"i": 937, "text": "How can I use a Nexus 4 with Vodafone India?"}
+{"i": 938, "text": "Which Samsung Galaxy S3 model works better on T-Mobile: the GT-I9300 or the GT-I9305?"}
+{"i": 939, "text": "How can I fix an issue with a Verizon HTC Incredible 2?"}
+{"i": 940, "text": "Will a Google Nexus 4 work in India?"}
+{"i": 941, "text": "If I buy an unlocked phone from overseas, will I get 3G service or only EDGE?"}
+{"i": 942, "text": "How can I get a list of applications that have SMS permission?"}
+{"i": 943, "text": "What's the best way to scroll to the top of a list?"}
+{"i": 944, "text": "Why are apps requesting control over my settings?"}
+{"i": 945, "text": "How can I set custom permissions on a per-application basis?"}
+{"i": 946, "text": "How can I root a Samsung Galaxy Note 2?"}
+{"i": 947, "text": "Why is my phone registering erratic input when it\u2019s connected to a non-OEM charger or power source?"}
+{"i": 948, "text": "How can I prevent newly installed apps from automatically adding their icons to my home screen?"}
+{"i": 949, "text": "How can I disable apps from automatically creating shortcuts on my home screen when they\u2019re installed?"}
+{"i": 950, "text": "How do I turn off the volume warning that appears when I raise the volume too high?"}
+{"i": 951, "text": "How can I hide pictures so they don\u2019t appear in the Gallery?"}
+{"i": 952, "text": "How can I remove the second SIM signal icon from the notification bar?"}
+{"i": 953, "text": "Why does the Play Store say there isn\u2019t enough memory when I try to download apps?"}
+{"i": 954, "text": "Why am I unable to take screenshots on my Nexus 4?"}
+{"i": 955, "text": "Can I install stock, unmodified Android on a Sony Xperia S?"}
+{"i": 956, "text": "How can I use a phone without a data plan for multiplayer game development?"}
+{"i": 957, "text": "How can apps determine your location even when GPS is turned off?"}
+{"i": 958, "text": "Why is \"Android OS\" using so much data upload?"}
+{"i": 959, "text": "How can I change the default phone number?"}
+{"i": 960, "text": "How do I add a Skype call contact shortcut widget to the home screen?"}
+{"i": 961, "text": "What\u2019s the best way to replace CyanogenMod\u2019s dialer, contacts, and messaging (SMS) apps?"}
+{"i": 962, "text": "How can I add a user/personal dictionary to the Android stock keyboard for a language that isn\u2019t officially supported?"}
+{"i": 963, "text": "How do I stop this type of service on a Sony Xperia MT27i?"}
+{"i": 964, "text": "Why is `wpa_cli` not found on my rooted device?"}
+{"i": 965, "text": "How can I block specific apps from accessing the Internet on an Android device?"}
+{"i": 966, "text": "How do I configure a firewall application?"}
+{"i": 967, "text": "How can I use an Android tablet as a Wacom-style drawing tablet for my PC?"}
+{"i": 968, "text": "How do I remove previously downloaded apps from my Google Play account?"}
+{"i": 969, "text": "How can I clear my Google Play app history, not the search history?"}
+{"i": 970, "text": "How can I remove an app from the \u201cMy Android Apps\u201d page?"}
+{"i": 971, "text": "How can I remove apps from the \"Other apps in my library\" section in Google Play?"}
+{"i": 972, "text": "How can I remove apps from the apps list on the webpage?"}
+{"i": 973, "text": "How can I pin web sites to the Android home screen?"}
+{"i": 974, "text": "What's the quickest way to add Chrome or Internet shortcuts to the home screen?"}
+{"i": 975, "text": "How can I set up a home shortcut key to open my designated webpage?"}
+{"i": 976, "text": "How can I import PDF files into the Google Play Books app?"}
+{"i": 977, "text": "How can I remove the Status Bar on Android 4.1?"}
+{"i": 978, "text": "How can I unlock the bootloader and root a Sony Ericsson Xperia Ray ST18i running firmware 4.1.B.1.13?"}
+{"i": 979, "text": "How can I get root access on a Sony Xperia Ray?"}
+{"i": 980, "text": "Why has my HTC Desire Z home screen stopped rotating, and how can I fix it?"}
+{"i": 981, "text": "What\u2019s the best way to root a Galaxy S3 i9300 running Android 4.2.2 Jelly Bean?"}
+{"i": 982, "text": "What\u2019s the best way to root an Android phone?"}
+{"i": 983, "text": "How can I root my Verizon Galaxy S3 running Android 4.3?"}
+{"i": 984, "text": "Can I change the system language to Japanese?"}
+{"i": 985, "text": "How do I change the language settings on my phone?"}
+{"i": 986, "text": "How can I remotely log into my phone from a PC?"}
+{"i": 987, "text": "How do I set up MMS on my phone?"}
+{"i": 988, "text": "What is the \u201cGoogle Settings\u201d app?"}
+{"i": 989, "text": "How do I connect to an ad hoc Wi\u2011Fi network?"}
+{"i": 990, "text": "How can I fix the \"Application has stopped unexpectedly\" error when launching the Play Store or browser?"}
+{"i": 991, "text": "How do I set Android to install apps on the SD card by default?"}
+{"i": 992, "text": "Can I use adb backup to create a full clone of an Android tablet?"}
+{"i": 993, "text": "Should I use the Home button or the Back button to exit an app?"}
+{"i": 994, "text": "Why isn\u2019t Kies detecting my Galaxy S GT-I9000 on Windows 7, and how can I get it to recognize the device?"}
+{"i": 995, "text": "How can I set up double security for Gmail?"}
+{"i": 996, "text": "How can I make an app install to the SD card by default?"}
+{"i": 997, "text": "How can I set up Dropbox on my Galaxy S III so it won\u2019t automatically upload every photo or video I take?"}
+{"i": 998, "text": "Can an Android tablet read an external hard drive, and if so, which file systems are supported?"}
+{"i": 999, "text": "How can I decrypt TitaniumBackup files?"}
+{"i": 1000, "text": "Why is my Kannada Indic font not rendering correctly in Android ICS?"}
+{"i": 1001, "text": "How do I unlock a Coby tablet when the MicroSD card is not formatted?"}
+{"i": 1002, "text": "Why am I seeing \u201ctoo many password attempts\u201d when I try to log in?"}
+{"i": 1003, "text": "How can I unlock an LG Optimus P500?"}
+{"i": 1004, "text": "How can I unlock my Samsung Galaxy S2 after too many failed attempts?"}
+{"i": 1005, "text": "How can I unlock my Android device if I have no internet connection?"}
+{"i": 1006, "text": "How can I simulate touchscreen input on Android?"}
+{"i": 1007, "text": "How can I unlock my Android tablet if I\u2019m locked out and the device isn\u2019t connected to the internet?"}
+{"i": 1008, "text": "How can I unlock an Android phone after getting the \u201ctoo many patterns attempted\u201d message?"}
+{"i": 1009, "text": "My screen is broken\u2014how can I view and control my device from my computer?"}
+{"i": 1010, "text": "How can I bypass the lock screen on a Samsung Galaxy S3?"}
+{"i": 1011, "text": "How do I fix a locked screen on an ASUS TF300T?"}
+{"i": 1012, "text": "How can I control an Android phone with a broken screen from a PC?"}
+{"i": 1013, "text": "How can I access my phone screen from my laptop when the phone display is completely black?"}
+{"i": 1014, "text": "How can I unlock an Android phone that\u2019s locked after too many wrong PIN attempts?"}
+{"i": 1015, "text": "How do I recover or reset an Android security lock pattern?"}
+{"i": 1016, "text": "How can I regain access to my Android phone after forgetting the pattern lock?"}
+{"i": 1017, "text": "How can I unlock the pattern lock on a Nexus 4 with Developer Options enabled?"}
+{"i": 1018, "text": "How can I factory reset an Android phone that\u2019s locked, with USB debugging disabled and no access to recovery mode?"}
+{"i": 1019, "text": "How can I fix a Linsay F-10HD Cosmos that is locked?"}
+{"i": 1020, "text": "How can I recover access to my tablet if I forgot the lock screen pattern?"}
+{"i": 1021, "text": "What data and settings are erased when I perform a factory reset?"}
+{"i": 1022, "text": "How can I change the pattern unlock in phone settings if I don\u2019t know the current one?"}
+{"i": 1023, "text": "Why is my screen lock not working properly?"}
+{"i": 1024, "text": "How do I get help or support for a Samsung Galaxy Gio GT-S5660?"}
+{"i": 1025, "text": "How can I recover or save data from a phone that has been locked after too many incorrect pattern attempts?"}
+{"i": 1026, "text": "Locked out of my HTC Wildfire and need to retrieve some messages from the phone\u2014pretty much at the end of the line; how can I get them off?"}
+{"i": 1027, "text": "Is it safe to factory reset my tablet to improve performance, and will that remove the uninstallable apps?"}
+{"i": 1028, "text": "How can I control my PC when the screen/glass is broken and the device is turned off? Help?"}
+{"i": 1029, "text": "What is the process behind an Android factory reset?"}
+{"i": 1030, "text": "How can I unlock my Galaxy Mini after getting the \u201ctoo many pattern attempts\u201d message?"}
+{"i": 1031, "text": "How can I back up my SMS messages if I\u2019m locked out of my phone?"}
+{"i": 1032, "text": "How can I unlock a Samsung Ace Duos?"}
+{"i": 1033, "text": "How can I unlock an Android tablet that got locked after too many pattern unlock attempts?"}
+{"i": 1034, "text": "How do I unlock a tablet?"}
+{"i": 1035, "text": "How do I unlock my tablet if I\u2019ve forgotten the pattern lock?"}
+{"i": 1036, "text": "Why am I getting \u201cToo many attempts displayed,\u201d and how can I fix it?"}
+{"i": 1037, "text": "How do I unlock a Samsung Centura if I\u2019m locked out of the phone?"}
+{"i": 1038, "text": "How can I unlock my Samsung Galaxy S3 mini when mobile data is turned off?"}
+{"i": 1039, "text": "How can I get back in if I\u2019m locked out and Wi\u2011Fi is turned off?"}
+{"i": 1040, "text": "How can I unlock my phone if it's running Android 2.3 Gingerbread?"}
+{"i": 1041, "text": "How can I recover photos from a Samsung S2 that\u2019s locked after too many failed unlock attempts?"}
+{"i": 1042, "text": "How can I regain access to my Samsung Galaxy S Duos if I forgot the password and got locked out?"}
+{"i": 1043, "text": "How can I access data on my old Android device?"}
+{"i": 1044, "text": "How do I connect to an external display?"}
+{"i": 1045, "text": "How do I unlock my iCraig Jelly Bean netbook?"}
+{"i": 1046, "text": "How can I unlock a phone if it has no internet connection?"}
+{"i": 1047, "text": "How can I unlock a Samsung Galaxy S5 that\u2019s pattern-locked when the screen is broken?"}
+{"i": 1048, "text": "How can I recover data or fix a broken Android phone?"}
+{"i": 1049, "text": "How can I control a Nexus 7 tablet running Android 4.4.4 from a Windows PC?"}
+{"i": 1050, "text": "How do I fix a Google error on a locked phone?"}
+{"i": 1051, "text": "How can I access my Samsung Galaxy Tab 3 for Kids if my Google account is blocked?"}
+{"i": 1052, "text": "How can I run a phone screen runner program?"}
+{"i": 1053, "text": "How do I unlock the screen on a Samsung GT-S5360?"}
+{"i": 1054, "text": "How can I lower my screen brightness below the minimum without using an app?"}
+{"i": 1055, "text": "What percentage of users are on each Android version?"}
+{"i": 1056, "text": "Why is Google Maps Location History showing an incorrect location for me?"}
+{"i": 1057, "text": "Why is Google Location History so wildly inaccurate?"}
+{"i": 1058, "text": "Why is my GPS showing the wrong location and causing problems for me?"}
+{"i": 1059, "text": "Why is Google Maps Location History placing me at a different hotel than the one I was actually at?"}
+{"i": 1060, "text": "Why is Google Location History showing my account in another continent\u2014could my account have been hacked?"}
+{"i": 1061, "text": "Why would my Android phone detect that it was in Japan?"}
+{"i": 1062, "text": "HTC One Google Location History \u2014 should I be worried?"}
+{"i": 1063, "text": "How can I make Android recognize my Wi\u2011Fi Access Point as a valid network (blue?)"}
+{"i": 1064, "text": "Why is my Google Play Store still stuck in my old country, and how can I change the country setting?"}
+{"i": 1065, "text": "Why is Google Play showing the wrong country for my account, and how can I change it?"}
+{"i": 1066, "text": "How can I use 2G voice calls on a Nexus 7?"}
+{"i": 1067, "text": "How can I make voice calls from the SIM on a Nexus 7 without using the internet?"}
+{"i": 1068, "text": "Can a third-party app technically produce better photos?"}
+{"i": 1069, "text": "How can I monitor the amount of data traffic?"}
+{"i": 1070, "text": "How can I recover my Google Account password if I\u2019ve forgotten it?"}
+{"i": 1071, "text": "How do I show messages on the lock screen?"}
+{"i": 1072, "text": "Why am I getting multiple Gmail notifications for the same email?"}
+{"i": 1073, "text": "If I uninstall a game I downloaded from Google Play, can I reinstall it later?"}
+{"i": 1074, "text": "How can I root Android 2.3.3 on an HTC Desire?"}
+{"i": 1075, "text": "What\u2019s the best method for rooting an HTC Desire?"}
+{"i": 1076, "text": "Why is the camera on my Android tablet not letting me take pictures, and how can I fix it?"}
+{"i": 1077, "text": "Why is the Google \u201cPlay Music\u201d app constantly running in the background?"}
+{"i": 1078, "text": "Why am I getting double message notifications after upgrading Talk to Hangouts on CyanogenMod 7.2?"}
+{"i": 1079, "text": "How can I fix a broken icon on an Android phone?"}
+{"i": 1080, "text": "What does it mean when a phone\u2019s bootloader is unlocked?"}
+{"i": 1081, "text": "What should I do to my phone before shipping it to the buyer after selling it on eBay?"}
+{"i": 1082, "text": "Why is my Google+ photo backup failing?"}
+{"i": 1083, "text": "How can I download a paid app on a second device from Google Play?"}
+{"i": 1084, "text": "How can I use the same apps on multiple tablets?"}
+{"i": 1085, "text": "What happens to my apps when I switch phones?"}
+{"i": 1086, "text": "How can I transfer my contacts from iCloud to an Android phone?"}
+{"i": 1087, "text": "What\u2019s the easiest way to move contacts from an iPhone to an Android phone?"}
+{"i": 1088, "text": "How can I import my iPhone contacts into Gmail?"}
+{"i": 1089, "text": "How do I move my contacts from an iPhone to an Android phone?"}
+{"i": 1090, "text": "What\u2019s the best way to move contacts from an iPhone to a Samsung Android phone without using iTunes?"}
+{"i": 1091, "text": "How can I migrate contacts from iOS without using Gmail?"}
+{"i": 1092, "text": "How do I run a JAR file on a Samsung Galaxy P1000?"}
+{"i": 1093, "text": "Why is my Mini Calendar Widget not updating to today?"}
+{"i": 1094, "text": "Why are Android apps removing the \u201cQuit\u201d option?"}
+{"i": 1095, "text": "How do I configure the Screen Lock Timeout?"}
+{"i": 1096, "text": "How can I remove this sliding app section?"}
+{"i": 1097, "text": "How can I disable the auto-hidden bar?"}
+{"i": 1098, "text": "How do I disable the apps toolbar?"}
+{"i": 1099, "text": "How can I hide or show the pull-out drawer that comes preloaded on some Samsung devices?"}
+{"i": 1100, "text": "How do I disable SMS-to-email inbox syncing on a Samsung Galaxy S4?"}
+{"i": 1101, "text": "How can I create a symbolic link to a Dropbox folder?"}
+{"i": 1102, "text": "Is there an app or method that will let me use a cloud-synced folder on the SD card?"}
+{"i": 1103, "text": "How can I sync folders through the cloud in a Dropbox-style way?"}
+{"i": 1104, "text": "How can I enable automatic cloud app download?"}
+{"i": 1105, "text": "Why does my battery percentage keep dropping even though the device is plugged in and charging?"}
+{"i": 1106, "text": "How can I optimize my rooted Desire Bravo for gaming performance?"}
+{"i": 1107, "text": "How can I run an Android phone flawlessly?"}
+{"i": 1108, "text": "What are the differences between the Linux kernel and the Android kernel?"}
+{"i": 1109, "text": "How can I search for a contact using the numpad keypad?"}
+{"i": 1110, "text": "How can I fix an Android File Transfer issue on my computer?"}
+{"i": 1111, "text": "What\u2019s the Android equivalent of Find My iPhone?"}
+{"i": 1112, "text": "How do I access my Chrome-synced bookmarks on an Android device?"}
+{"i": 1113, "text": "Do there exist earphones that support inline buttons like the OEM earphones do?"}
+{"i": 1114, "text": "I edited vold.fstab and now I can\u2019t access my SD card anymore\u2014what did I break?"}
+{"i": 1115, "text": "Why are my SMS messages being converted to MMS and only sending when mobile data is turned on?"}
+{"i": 1116, "text": "Why does my phone sometimes switch to a multimedia message when I\u2019m trying to send a text message?"}
+{"i": 1117, "text": "How do I send an SMS instead of an MMS from a Motorola Atrix 4G?"}
+{"i": 1118, "text": "Samsung Galaxy Light: why are my email messages sending as MMS even when they\u2019re under the 160-character limit?"}
+{"i": 1119, "text": "How do I change the system language on Android?"}
+{"i": 1120, "text": "How do I fix the \u201cMissing input languages\u201d error?"}
+{"i": 1121, "text": "Will my phone get locked after upgrading to Jelly Bean?"}
+{"i": 1122, "text": "Why has my Samsung S4 suddenly started making calls through Skype instead of using the local network?"}
+{"i": 1123, "text": "How do I install games from APK Mania onto my MicroSD card?"}
+{"i": 1124, "text": "How can I install an app on the SD card on an Android phone?"}
+{"i": 1125, "text": "How do I transfer games from internal phone storage to the SD card?"}
+{"i": 1126, "text": "How can I install apps on the memory card of a Samsung Galaxy 3?"}
+{"i": 1127, "text": "Why is Android Market no longer working?"}
+{"i": 1128, "text": "Can tablets tell the difference between a standard Wi\u2011Fi network and a mobile hotspot?"}
+{"i": 1129, "text": "How can I sort the News Feed in Facebook version 3.5?"}
+{"i": 1130, "text": "Can an Android device get malware?"}
+{"i": 1131, "text": "Why do Android devices often get flagged by antivirus apps, and is that usually a real threat or just a false positive?"}
+{"i": 1132, "text": "Do I need to run an anti-virus app on my phone, or does my carrier already protect it?"}
+{"i": 1133, "text": "What are the best antivirus apps for Android?"}
+{"i": 1134, "text": "How can I change the default \u201cComplete Action With\u201d option?"}
+{"i": 1135, "text": "How do I change the default photo chooser in Kik?"}
+{"i": 1136, "text": "How do I change the default photo chooser on Kik?"}
+{"i": 1137, "text": "What is the native wallpaper resolution for the HTC One?"}
+{"i": 1138, "text": "How do I size wallpapers so they won\u2019t get cropped on a Motorola Xoom WiFi?"}
+{"i": 1139, "text": "What is the correct wallpaper size for a Samsung Galaxy Tab 2 7.0?"}
+{"i": 1140, "text": "How do I fix the wallpaper display problem on my HTC Explorer?"}
+{"i": 1141, "text": "How can I determine the unboxing date of an Android device?"}
+{"i": 1142, "text": "How can I check the total number of hours a phone has been powered on?"}
+{"i": 1143, "text": "How can I find when a device was activated?"}
+{"i": 1144, "text": "What does \u201cAndroid installation age\u201d mean, and how can I check when an Android app was installed?"}
+{"i": 1145, "text": "How can I remotely factory reset a device and change the associated Google password?"}
+{"i": 1146, "text": "Why does S-Voice on my Samsung Galaxy S4 keep saying \u201cNo response from server...\u201d ?"}
+{"i": 1147, "text": "Can the `Phone Calls` app permission let a developer read my contacts book?"}
+{"i": 1148, "text": "How does Android permission ProtectionLevel work, and what\u2019s the difference between the different ProtectionLevel values?"}
+{"i": 1149, "text": "What is the purpose of the `uses-permission` declaration for `android.permission.INTERNET` in Android?"}
+{"i": 1150, "text": "How can I copy my contacts from a phone with a broken touchscreen and nonworking buttons to a computer?"}
+{"i": 1151, "text": "How can I remove encryption from an Android device?"}
+{"i": 1152, "text": "Why does my Wi\u2011Fi disconnect when the screen locks?"}
+{"i": 1153, "text": "Why does WiFi disconnect when the device goes to sleep?"}
+{"i": 1154, "text": "How can I access a local computer using its machine name instead of its IP address?"}
+{"i": 1155, "text": "How can I decrypt files on an SD card that were encrypted on another device?"}
+{"i": 1156, "text": "How can I enable Tamil font support on my phone without rooting it?"}
+{"i": 1157, "text": "How can I fix a Tamil font problem on an Android device?"}
+{"i": 1158, "text": "How can I get fonts for another language to display correctly on Android, or at least in Instapaper?"}
+{"i": 1159, "text": "Why is my Tamil font not displaying properly on Facebook and Tamil websites?"}
+{"i": 1160, "text": "How can I install a Tamil font on a Samsung Android tablet?"}
+{"i": 1161, "text": "How can I enable real text prediction on the stock Android keyboard on an LG Optimus One?"}
+{"i": 1162, "text": "Why are the built-in alarm and calendar suddenly talking to me, and how do I turn off the voice announcements?"}
+{"i": 1163, "text": "How can I make sure an Android phone/device receives reliable updates?"}
+{"i": 1164, "text": "How do I upgrade from one version to another version?"}
+{"i": 1165, "text": "Can Android mount .iso files as a virtual optical drive?"}
+{"i": 1166, "text": "How can I tell if my phone has a virus when an Android app is showing a message that says it does?"}
+{"i": 1167, "text": "How can I build an Android app to decorate destination numbers?"}
+{"i": 1168, "text": "Why does my phone require 20MB of free storage before it can receive text messages, and is there anything I can do to fix it?"}
+{"i": 1169, "text": "How do I stop messages from being rejected when the system is low on memory?"}
+{"i": 1170, "text": "What's the proper way to close apps on Android so they stop using system resources?"}
+{"i": 1171, "text": "How do I extract or pull the boot.img file?"}
+{"i": 1172, "text": "What\u2019s the proper way to root my device, and what risks or consequences should I expect?"}
+{"i": 1173, "text": "Some apps require \u201croot access\u201d \u2014 what does that mean, what are the risks, and how can I enable it?"}
+{"i": 1174, "text": "Does rooting the new T-Mobile G2 offer any real advantages, and are there any legal concerns I should be aware of?"}
+{"i": 1175, "text": "What are the security risks of rooting an Android smartphone?"}
+{"i": 1176, "text": "What are the disadvantages of rooting an Android device?"}
+{"i": 1177, "text": "Can I root a Galaxy 5 in India, and will that void the warranty?"}
+{"i": 1178, "text": "What is the real risk of bricking my device when rooting it to install a new ROM?"}
+{"i": 1179, "text": "Does rooting a Samsung Galaxy S4 without installing a custom ROM void the warranty?"}
+{"i": 1180, "text": "How can I prevent my device from charging when I connect it with USB debugging enabled?"}
+{"i": 1181, "text": "How can I disable USB charging?"}
+{"i": 1182, "text": "How can I disable my phone from charging without rooting it?"}
+{"i": 1183, "text": "How do I download apps from Google Play on my tablet using my PC\u2019s Internet connection?"}
+{"i": 1184, "text": "How do I install an app when I only have its APK file?"}
+{"i": 1185, "text": "How can I install an .apk file on my Android phone?"}
+{"i": 1186, "text": "How do I download an APK file from the Google Play Store?"}
+{"i": 1187, "text": "How can I install and uninstall an APK app on my Android phone from my Mac?"}
+{"i": 1188, "text": "What\u2019s the easiest way to transfer an .apk file onto my Android phone?"}
+{"i": 1189, "text": "Is it possible to download Android apps on a computer and then transfer them to my phone?"}
+{"i": 1190, "text": "How can I add a Kindle Fire as a device in the Android Market?"}
+{"i": 1191, "text": "How can I download Google Play apps directly from my computer?"}
+{"i": 1192, "text": "How can I download an app\u2019s APK file from the Android Market to my desktop computer?"}
+{"i": 1193, "text": "How can I install my own software on my system?"}
+{"i": 1194, "text": "How can I install apps on an Android device without an internet connection?"}
+{"i": 1195, "text": "Is it possible to download APKs on my Linux PC and then install them onto an Android device from there?"}
+{"i": 1196, "text": "How can I install an Android media player without using the Google Play Store, if I plan to transfer the app to the smartphone via Bluetooth?"}
+{"i": 1197, "text": "How can I install a file manager on an Xperia L without an internet connection?"}
+{"i": 1198, "text": "How can I install an app from outside Google Play on Android?"}
+{"i": 1199, "text": "How can I install APKs from my computer onto an Android device?"}
+{"i": 1200, "text": "Why is my Galaxy Note becoming slower and less responsive over time?"}
+{"i": 1201, "text": "Why is my device slowing down and causing apps to misbehave or crash, and what troubleshooting steps can I take?"}
+{"i": 1202, "text": "Why are some apps closing or crashing, while others won\u2019t start and just flash briefly?"}
+{"i": 1203, "text": "Is my Galaxy Note II running slow because it doesn\u2019t have enough RAM?"}
+{"i": 1204, "text": "How can I display a message on my PC when my phone starts ringing?"}
+{"i": 1205, "text": "How do I move apps from internal memory to the SD card on an LG L5ii?"}
+{"i": 1206, "text": "How can I move an app to the SD card on my phone?"}
+{"i": 1207, "text": "Why are my thumbnails not displaying correctly in the gallery?"}
+{"i": 1208, "text": "How can I reduce the volume below the default minimum level?"}
+{"i": 1209, "text": "How can I use Internet tethering on an Android phone via Bluetooth or Wi\u2011Fi?"}
+{"i": 1210, "text": "How can I get internet access over Bluetooth?"}
+{"i": 1211, "text": "How do I root an Xperia Tipo Dual ST21i2x?"}
+{"i": 1212, "text": "Why does Google Play keep showing \u201cauthentication required,\u201d and how can I fix it?"}
+{"i": 1213, "text": "How do I troubleshoot an \"Authentication\" error?"}
+{"i": 1214, "text": "How do I get rid of stale notification icons in the notification bar?"}
+{"i": 1215, "text": "How can I turn on both Wi\u2011Fi and Wi\u2011Fi hotspot at the same time?"}
+{"i": 1216, "text": "How can I use Wi\u2011Fi hotspot tethering without consuming mobile data?"}
+{"i": 1217, "text": "How can I disable the prompt asking me to confirm the unlock passcode?"}
+{"i": 1218, "text": "What is DiskCacheIndex.tmp?"}
+{"i": 1219, "text": "How can I control the volume of a specific app?"}
+{"i": 1220, "text": "How can I check whether my app on Google Play will work on another phone that isn\u2019t my own?"}
+{"i": 1221, "text": "Is it possible to kill your phone programmatically?"}
+{"i": 1222, "text": "How can I fix Kies showing \u201cSoftware update is temporarily unavailable. Try again later.\u201d when trying to install official updates on a Samsung Galaxy S4 SCH-I545?"}
+{"i": 1223, "text": "Could this be a digitizer issue?"}
+{"i": 1224, "text": "What does the N-shaped icon on my HTC One mean?"}
+{"i": 1225, "text": "How can I add widgets to the lock screen in KitKat?"}
+{"i": 1226, "text": "How can I enable \u201cHaptic Feedback\u201d on my Samsung Galaxy Young GT-S5360T?"}
+{"i": 1227, "text": "Why am I getting Application downloading error (919) and how can I fix it?"}
+{"i": 1228, "text": "What does the 919 code error mean when downloading applications, and how can I fix it?"}
+{"i": 1229, "text": "Why am I getting unknown error code \"919\" during installation?"}
+{"i": 1230, "text": "How do I fix Google Play error 919 that appears when downloading apps?"}
+{"i": 1231, "text": "How do I fix application error code 919?"}
+{"i": 1232, "text": "Why am I failing to download applications, and how can I figure out the reason?"}
+{"i": 1233, "text": "Why am I still getting error code 919 even though I'm connected to my own network?"}
+{"i": 1234, "text": "Why do I get unknown error code 919 when installing an application?"}
+{"i": 1235, "text": "What does error code 919 mean?"}
+{"i": 1236, "text": "How can I troubleshoot error code 919?"}
+{"i": 1237, "text": "Why am I getting an error message while downloading the TrueCaller application?"}
+{"i": 1238, "text": "What are the different signal indicators available on the notification bar?"}
+{"i": 1239, "text": "Is there a way to take a screen save on a Nexus 4?"}
+{"i": 1240, "text": "How can I capture a screenshot of my application on an Android phone?"}
+{"i": 1241, "text": "How do I take screenshots on an Android phone?"}
+{"i": 1242, "text": "How can I take a screenshot on Android 2.3.5?"}
+{"i": 1243, "text": "How do I log in as root in order to take the screenshot?"}
+{"i": 1244, "text": "How do I take a screenshot on a Nexus 7?"}
+{"i": 1245, "text": "How do I take a screenshot on my Samsung Galaxy Fit?"}
+{"i": 1246, "text": "How can I take screenshots on a Micromax Ninja A89 running ICS?"}
+{"i": 1247, "text": "How can I take screenshots on a non-rooted Nexus 4?"}
+{"i": 1248, "text": "What are the alternative ways to take screenshots on a Galaxy device?"}
+{"i": 1249, "text": "How do I take a screenshot on an O+ 8.36 phone?"}
+{"i": 1250, "text": "How do I take a screenshot on a Samsung Galaxy Ace Duos?"}
+{"i": 1251, "text": "How can I make a complete backup of my Android phone before rooting it?"}
+{"i": 1252, "text": "How can I back up app data on Android 2.3.6 before rooting my device?"}
+{"i": 1253, "text": "Why does Google Drive crash immediately on startup?"}
+{"i": 1254, "text": "My new phone doesn\u2019t show up as a device in Android Device Manager\u2014how do I get it registered?"}
+{"i": 1255, "text": "Can an Android phone be used to send and receive faxes?"}
+{"i": 1256, "text": "What does the unknown error code \"920\" mean when installing Google Keyboard, and how can I fix it?"}
+{"i": 1257, "text": "How can I remotely update multiple Android tablets at once, push settings to them, and put them into device lock-down mode?"}
+{"i": 1258, "text": "How do I change the mount points for a storage device?"}
+{"i": 1259, "text": "How can I upgrade my rooted Nexus 4 to Android 4.4 while keeping my custom recovery and custom kernel, without losing any data?"}
+{"i": 1260, "text": "Why am I unable to apply the OTA update from 4.2.2 to 4.3 on my rooted device?"}
+{"i": 1261, "text": "How can I revert from PACman to the stock KitKat 4.4 ROM?"}
+{"i": 1262, "text": "Why is the sound on my Xperia J very low when using earphones or headphones?"}
+{"i": 1263, "text": "How can I disable PIN unlock while using certificates and WPA2-Enterprise authentication?"}
+{"i": 1264, "text": "How can I downgrade a Nexus 4 from Android 4.4 back to 4.2?"}
+{"i": 1265, "text": "How do I sign into a different account in the Gmail app on my phone?"}
+{"i": 1266, "text": "How can I completely disable the lockscreen?"}
+{"i": 1267, "text": "Can I disable cellular radio on a Lenovo K900 without turning off Wi\u2011Fi?"}
+{"i": 1268, "text": "Why isn\u2019t my Nexus 5 receiving the over-the-air update to Android 4.4.2?"}
+{"i": 1269, "text": "How is the rollout order determined for users receiving OTA updates?"}
+{"i": 1270, "text": "Is it safe to use my phone while it\u2019s charging from a portable power bank?"}
+{"i": 1271, "text": "What is the LOST.DIR folder, and what is it used for?"}
+{"i": 1272, "text": "Why does the Lost.Dir folder keep making my music disappear?"}
+{"i": 1273, "text": "How can I turn an Android phone with a broken screen into a dedicated web server?"}
+{"i": 1274, "text": "How can I root my Xperia Sola?"}
+{"i": 1275, "text": "Why can\u2019t I add an Exchange account on version 4.1.2?"}
+{"i": 1276, "text": "Why do app icons disappear from the home screen after an app update?"}
+{"i": 1277, "text": "Which Android handsets support in-line call recording?"}
+{"i": 1278, "text": "How can I record all of my phone calls automatically?"}
+{"i": 1279, "text": "Is there a voice recorder app available for the Nexus S?"}
+{"i": 1280, "text": "How do I record phone calls on a Motorola Atrix 4G?"}
+{"i": 1281, "text": "How do I record a call on a Micromax Unite 2 A106 running Android 4.4.2?"}
+{"i": 1282, "text": "How can I build or troubleshoot a call recording app?"}
+{"i": 1283, "text": "Why does my HTC Wildfire S have a storage issue, and how can I fix it?"}
+{"i": 1284, "text": "Can hot-swapping a SIM card while the phone is powered on damage the device?"}
+{"i": 1285, "text": "Why do I get the Play Store download error \u201cRPC: S-3\u201d when trying to download an app?"}
+{"i": 1286, "text": "How can I set my phone to install or download apps to the SD card instead of internal storage?"}
+{"i": 1287, "text": "How can I access a USB drive from an Android browser?"}
+{"i": 1288, "text": "How do I post a link to an Android Market app?"}
+{"i": 1289, "text": "Why am I unable to send a media file via WhatsApp?"}
+{"i": 1290, "text": "Why won\u2019t my iRola DX752 charge?"}
+{"i": 1291, "text": "Why does my Android robot show a red triangle and die when rebooting after a 4.2 install on a stock Samsung Galaxy Nexus?"}
+{"i": 1292, "text": "Is it possible to remotely install AndroidLost on my phone if the battery is dead?"}
+{"i": 1293, "text": "Is it possible to use an external touchscreen with the Nexus 4?"}
+{"i": 1294, "text": "How can I share my PC internet connection with my Android phone over Bluetooth?"}
+{"i": 1295, "text": "How can I reverse tether so I can transmit an Internet connection from my PC to an Android device over Bluetooth?"}
+{"i": 1296, "text": "How can I connect S3 with CM 10.2 to ADB?"}
+{"i": 1297, "text": "I accidentally deleted my images and need a way to recover them\u2014how can I get them back?"}
+{"i": 1298, "text": "Why am I unable to delete my messages?"}
+{"i": 1299, "text": "Is it possible for an app to make phone calls in the background?"}
+{"i": 1300, "text": "How can I back up a paid app I bought from Google Play?"}
+{"i": 1301, "text": "How can I prevent malicious ad scripts from redirecting users to the App Store or Google Play Store?"}
+{"i": 1302, "text": "How do I fix the Google Play Store \u201cNo connection\u201d error on a Galaxy Note 3?"}
+{"i": 1303, "text": "How can I set the default keyboard without needing to long-press in a text input field?"}
+{"i": 1304, "text": "Can I use 2.1 as a secure access point?"}
+{"i": 1305, "text": "How can I implement undo functionality while editing text?"}
+{"i": 1306, "text": "Is there an Android equivalent to Microsoft\u2019s CTRL+Z?"}
+{"i": 1307, "text": "How can I identify which app is making my notification sounds?"}
+{"i": 1308, "text": "Why can\u2019t I see my friends\u2019 profile pictures when they message me from an unknown number?"}
+{"i": 1309, "text": "Why can\u2019t I see my friends\u2019 WhatsApp profile pictures on my Galaxy Note 2?"}
+{"i": 1310, "text": "Why are my WhatsApp friends\u2019 profile pictures not showing?"}
+{"i": 1311, "text": "Samsung Galaxy Note WhatsApp pictures disappeared \u2014 how can I recover or find them?"}
+{"i": 1312, "text": "Why are pictures disappearing from WhatsApp?"}
+{"i": 1313, "text": "How can I change the update schedule time for my Android apps?"}
+{"i": 1314, "text": "What are the alternatives to the Android Market?"}
+{"i": 1315, "text": "Is there a Cydia-like app store for Android?"}
+{"i": 1316, "text": "How can I disable the screen lock on a Samsung Galaxy Pocket GT-S5300?"}
+{"i": 1317, "text": "How do I reset my lock pattern if I forgot it?"}
+{"i": 1318, "text": "How can I recover access to my Android phone if I forgot the lock pattern?"}
+{"i": 1319, "text": "How can I unlock an Android tablet after too many pattern attempts?"}
+{"i": 1320, "text": "Why does my phone reboot whenever the screen turns off?"}
+{"i": 1321, "text": "What are the common issues when running Android x86, and how can they be fixed?"}
+{"i": 1322, "text": "Can I assign custom ringtones to contact groups on a Nexus 5?"}
+{"i": 1323, "text": "Why is my Wi\u2011Fi connectivity so poor and unstable?"}
+{"i": 1324, "text": "Why are my network icons showing up blue?"}
+{"i": 1325, "text": "What does a grey Wi\u2011Fi icon indicate?"}
+{"i": 1326, "text": "Why is the CM network connection icon greyed out?"}
+{"i": 1327, "text": "Why is my Wi-Fi icon gray, and what does that indicate?"}
+{"i": 1328, "text": "How can I retrieve data from a Galaxy S2?"}
+{"i": 1329, "text": "Is there a workaround for Android 4.4's inability to write to SD cards?"}
+{"i": 1330, "text": "How can I stop Android from assuming every Wi\u2011Fi connection has internet access?"}
+{"i": 1331, "text": "Can I \u201chard-wire\u201d an app so it\u2019s the only thing users can access on a device?"}
+{"i": 1332, "text": "Why is mm-qcamera-daemon causing such massive battery drain on my device?"}
+{"i": 1333, "text": "How do AOSP, CM, and AOKP differ from each other?"}
+{"i": 1334, "text": "How can I tell whether my Nexus 7 is the 2012 model or the 2013 model?"}
+{"i": 1335, "text": "How can I restrict market updates so they only happen over a WiFi network?"}
+{"i": 1336, "text": "Are custom ROMs actually necessary?"}
+{"i": 1337, "text": "What are the effects of using a custom ROM and unlocking the bootloader?"}
+{"i": 1338, "text": "How do I restore the default button style in Android 4.4?"}
+{"i": 1339, "text": "Why am I getting the error that an application has been force stopped?"}
+{"i": 1340, "text": "What\u2019s the best resource for rooting my phone?"}
+{"i": 1341, "text": "What\u2019s the safest way to root my Android device?"}
+{"i": 1342, "text": "How can I install a custom ROM on a Samsung Galaxy 5?"}
+{"i": 1343, "text": "What does \"Root Access Required\" mean?"}
+{"i": 1344, "text": "What are the recommended best practices or checklist items to ideally follow when rooting?"}
+{"i": 1345, "text": "How do I root my device, and which apps should I use?"}
+{"i": 1346, "text": "What\u2019s the best way to root an LG Optimus M?"}
+{"i": 1347, "text": "How do I root my Android phone with Framaroot 1.6.0 using the Boromir exploit?"}
+{"i": 1348, "text": "How can I root an LG MS690 running Android 2.2.1?"}
+{"i": 1349, "text": "Why is my system advertising 1GB/8GB but showing only 967.5 MB / 5564.6 MB actual? HELP"}
+{"i": 1350, "text": "What should I know about internal storage?"}
+{"i": 1351, "text": "Why does my Samsung Galaxy S2 only show 2GB of device memory?"}
+{"i": 1352, "text": "Why is Android 4.1.1 using 4GB of my memory?"}
+{"i": 1353, "text": "Why does my 8GB Nextbook 8 only show about 0.98GB of internal storage?"}
+{"i": 1354, "text": "How can I connect a PS3 controller to an Xperia P?"}
+{"i": 1355, "text": "How can I install TextSecure if Google Play is missing on my device?"}
+{"i": 1356, "text": "How can I move apps from internal phone storage to an external SD card?"}
+{"i": 1357, "text": "How can I encrypt my external SD card?"}
+{"i": 1358, "text": "How do I view messages on my computer?"}
+{"i": 1359, "text": "Can Gmail notifications be customized based on labels?"}
+{"i": 1360, "text": "How can I mirror my Android screen in full-screen mode on a laptop?"}
+{"i": 1361, "text": "How can I uninstall GApps from CyanogenMod?"}
+{"i": 1362, "text": "How can I change the IP pool used by Wi\u2011Fi tethering on a Nexus 5?"}
+{"i": 1363, "text": "Why is Inkpad Notepad failing to install?"}
+{"i": 1364, "text": "Getting an \"Insufficient storage\" error and unable to install any apps\u2014how can I fix this?"}
+{"i": 1365, "text": "How can I stop Android from automatically syncing Gmail contacts and photos?"}
+{"i": 1366, "text": "Should I reboot my HTC Desire periodically?"}
+{"i": 1367, "text": "What are the voice commands for dictating punctuation, capitalization, and line breaks?"}
+{"i": 1368, "text": "How can I clear the space left behind by a failed Google Play download?"}
+{"i": 1369, "text": "Why won\u2019t my Android tablet PC connect to my router\u2019s Wi\u2011Fi?"}
+{"i": 1370, "text": "How can I avoid a poor connection on my Android tablet?"}
+{"i": 1371, "text": "How do I disable the \u201cBad Internet Connection\u201d warning on my Cubot S208?"}
+{"i": 1372, "text": "How can I support multiple users on the same device?"}
+{"i": 1373, "text": "Why is the WhatsApp last seen status not visible?"}
+{"i": 1374, "text": "How can I download something I previously purchased?"}
+{"i": 1375, "text": "What impact does the Heartbleed security vulnerability have on my Android device?"}
+{"i": 1376, "text": "Can an Android Nexus tablet stream audio to an Apple Airport Express?"}
+{"i": 1377, "text": "How can I stream audio from my laptop to an Android device?"}
+{"i": 1378, "text": "Why do smartphones tend to get laggy and slow over time?"}
+{"i": 1379, "text": "How can I find Android version distribution by country?"}
+{"i": 1380, "text": "How can I reformat a damaged SD card?"}
+{"i": 1381, "text": "Why does my 32GB SD card keep getting corrupted?"}
+{"i": 1382, "text": "Why is my memory card not working?"}
+{"i": 1383, "text": "Why does my SD card say it was removed unexpectedly and now won\u2019t work in any device?"}
+{"i": 1384, "text": "What Android tool can I use to find what\u2019s taking up storage space and delete it?"}
+{"i": 1385, "text": "My HTC Desire is running very low on internal storage and I\u2019m not sure what to do\u2014any advice?"}
+{"i": 1386, "text": "What are some good ways to clear internal space?"}
+{"i": 1387, "text": "Why has my HTC Desire suddenly run out of storage and started showing the \u201cDisk Space Low!\u201d message?"}
+{"i": 1388, "text": "Why does my HTC keep showing \u201cStatus: Internal memory low\u201d even though I have an SD card installed?"}
+{"i": 1389, "text": "Is there an app that can give me a clear overview of exactly what\u2019s taking up space on my phone?"}
+{"i": 1390, "text": "Motorola Triumph: how can I free up internal memory by clearing log files?"}
+{"i": 1391, "text": "What could be secretly taking up space on my Acer Iconia A500 internal storage, and how can I find it?"}
+{"i": 1392, "text": "Why is my Android phone's internal storage being used up, and what else could be taking up the space?"}
+{"i": 1393, "text": "Why am I getting an \u201cinsufficient storage\u201d error when trying to update installed apps?"}
+{"i": 1394, "text": "How can I figure out what is using my internal storage?"}
+{"i": 1395, "text": "Why is my device showing low internal storage while the local storage and SD card still have plenty of free space?"}
+{"i": 1396, "text": "Why is my phone storage getting low so quickly, and what can I do to free up space?"}
+{"i": 1397, "text": "Why is the Android phone\u2019s system data constantly eating up storage space?"}
+{"i": 1398, "text": "How do I fix insufficient storage space?"}
+{"i": 1399, "text": "How do I free up storage space when my device is running low?"}
+{"i": 1400, "text": "How can I make external memory the default?"}
+{"i": 1401, "text": "How can I retrieve information from SMS data?"}
+{"i": 1402, "text": "What is this fingerprint bar on my phone?"}
+{"i": 1403, "text": "Why am I getting Google Play error -24 when trying to install eBay, and how can I fix it?"}
+{"i": 1404, "text": "How do I fix the \"Unknown error code during application install -24\" error when trying to install an app?"}
+{"i": 1405, "text": "How can I fix the \u201cUnknown error during application install -24\u201d when installing an app?"}
+{"i": 1406, "text": "Getting an unknown error code while installing the Skype application\u2014how can I identify and fix it?"}
+{"i": 1407, "text": "Why am I getting `ERROR: Unknown error when installing the application \"-24\"` during app installation, and what does error `-24` mean?"}
+{"i": 1408, "text": "Why am I unable to install the WordWeb dictionary?"}
+{"i": 1409, "text": "How do I fix the \u201cunknown error code -24\u201d that appears during app installation?"}
+{"i": 1410, "text": "CyanogenMod soft buttons stop working correctly after applying a theme\u2014has anyone else run into this?"}
+{"i": 1411, "text": "How do I remove or bypass a remote lock set by Google Device Manager on my device?"}
+{"i": 1412, "text": "How can I recover my files from Memo and Mobile Notes after using Format Factory?"}
+{"i": 1413, "text": "How can I get Wi-Fi tethering working on an HTC Magic?"}
+{"i": 1414, "text": "Why won\u2019t my Nexus 5 connect to my car radio over Bluetooth?"}
+{"i": 1415, "text": "What does the error `Error retrieving information from server [RPC:S-7:AEC-0]` mean, and how can I fix it?"}
+{"i": 1416, "text": "Why are Android ROMs device-specific?"}
+{"i": 1417, "text": "How can I download the pure Android version?"}
+{"i": 1418, "text": "Why can I install any Windows version on my PC, but I can't install any Android version on my phone?"}
+{"i": 1419, "text": "Why does my device need to be compatible with a specific ROM before I flash it onto it?"}
+{"i": 1420, "text": "Why don\u2019t we have generic phone OS installers?"}
+{"i": 1421, "text": "Is there any custom ROM that can be installed on any Android device?"}
+{"i": 1422, "text": "Can Nexus factory reset images be installed on other Android devices?"}
+{"i": 1423, "text": "Is it possible to install a generic ROM on any device?"}
+{"i": 1424, "text": "Is it possible to use ADB without a USB connection?"}
+{"i": 1425, "text": "How can I use ADB over Wi\u2011Fi on Android 2.3.7?"}
+{"i": 1426, "text": "What\u2019s the best way to open Microsoft Excel files?"}
+{"i": 1427, "text": "How do I unassociate an app from a file extension?"}
+{"i": 1428, "text": "How can I change file associations in Android?"}
+{"i": 1429, "text": "How can I view a list of all the applications I\u2019ve set as my default apps?"}
+{"i": 1430, "text": "Is it always possible to restart a phone without taking out the battery?"}
+{"i": 1431, "text": "How do I delete WhatsApp?"}
+{"i": 1432, "text": "How can I delete a message from a WhatsApp group chat?"}
+{"i": 1433, "text": "How can I change the default Hotspot IP address (192.168.43.1) or MAC address?"}
+{"i": 1434, "text": "How can I set up Markdown note taking with Dropbox sync?"}
+{"i": 1435, "text": "Does the Nexus S camera have zoom and timer functionality?"}
+{"i": 1436, "text": "Is there any iptables-like firewall available for Android?"}
+{"i": 1437, "text": "What\u2019s the difference between the Super LCD display on the Nexus S and the Super AMOLED display on the Samsung Galaxy S, and which one is better?"}
+{"i": 1438, "text": "How do I disable voice command for blind and low vision users?"}
+{"i": 1439, "text": "How can I restore access using my recovery contact after a factory reset?"}
+{"i": 1440, "text": "How do I make a call to a Genymotion emulator?"}
+{"i": 1441, "text": "Do I need to charge a new LG G2 for 6 hours before using it for the first time?"}
+{"i": 1442, "text": "Can Froyo be configured to change the way it hyphenates phone numbers?"}
+{"i": 1443, "text": "How can I share a USB reverse tethering connection over a WiFi hotspot on Windows?"}
+{"i": 1444, "text": "How can I configure an Android phablet to act as a wireless router?"}
+{"i": 1445, "text": "Will an Android phone unroot itself after a factory reset?"}
+{"i": 1446, "text": "Will resetting my device to factory settings unroot it and remove Superuser?"}
+{"i": 1447, "text": "If I factory reset a rooted Android phone, will it remove root access or does it stay rooted?"}
+{"i": 1448, "text": "Does a factory reset remove root access?"}
+{"i": 1449, "text": "How can I access my intranet site on mobile devices?"}
+{"i": 1450, "text": "ADB shell: why does changing the IME method return the error \"Unknown ID: null\"?"}
+{"i": 1451, "text": "How can I block text messages from a specific phone number?"}
+{"i": 1452, "text": "How can I block messages from a specific contact?"}
+{"i": 1453, "text": "How do I apply SMS rules?"}
+{"i": 1454, "text": "How can I deactivate cell broadcast on my HTC One Max Dual SIM (AT860)?"}
+{"i": 1455, "text": "How do I enable the Cell Broadcast option on an HTC Raider running Ice Cream Sandwich?"}
+{"i": 1456, "text": "How do I disable Cell Broadcast SMS on an HTC Desire X Dual SIM?"}
+{"i": 1457, "text": "Can apps be installed on the SD card in KitKat 4.4?"}
+{"i": 1458, "text": "How do I save an Android phone that fell into salt water?"}
+{"i": 1459, "text": "Why does my Android device hang on the boot image after I changed the boot image?"}
+{"i": 1460, "text": "How do I install APK files in BlueStacks?"}
+{"i": 1461, "text": "What is the difference between `/storage/emulated/0/` and `/storage/emulated/legacy/`?"}
+{"i": 1462, "text": "Are there any apps that can change the region in the Google Play Store?"}
+{"i": 1463, "text": "How can I access and use the US Android Market while I'm in Europe?"}
+{"i": 1464, "text": "How can I download an app from the app store that\u2019s restricted in my region?"}
+{"i": 1465, "text": "Why is Android access restricted in some countries?"}
+{"i": 1466, "text": "How can I install apps that are only available in another country?"}
+{"i": 1467, "text": "Why am I unable to install the app in my country?"}
+{"i": 1468, "text": "How can I bypass regional restrictions in the Google Play Store?"}
+{"i": 1469, "text": "How can I make Android Market \u201cglobal\u201d?"}
+{"i": 1470, "text": "How can I change the country/region setting on my device?"}
+{"i": 1471, "text": "How can I change Google Play from French to English?"}
+{"i": 1472, "text": "How can I rent movies in a different language?"}
+{"i": 1473, "text": "How can I bypass Google Market localization restrictions so I can install an app?"}
+{"i": 1474, "text": "How can I override country-locked apps?"}
+{"i": 1475, "text": "How can I download apps that aren\u2019t available in my region?"}
+{"i": 1476, "text": "Why is my Android app unavailable for download in the Isle of Man?"}
+{"i": 1477, "text": "How can I connect USB devices to an Android phone?"}
+{"i": 1478, "text": "How do I set up reverse tethering?"}
+{"i": 1479, "text": "Is it worth switching to ART?"}
+{"i": 1480, "text": "Why am I having trouble deleting files after upgrading to Android 4.4.2?"}
+{"i": 1481, "text": "Will the Nexus 5 be eligible for the Android L update?"}
+{"i": 1482, "text": "How can I get Android 5.0 running on a Samsung Galaxy S4?"}
+{"i": 1483, "text": "When will Android 4.5 be released, and will my phone receive the update?"}
+{"i": 1484, "text": "How do I transfer my WhatsApp chat history to a new phone?"}
+{"i": 1485, "text": "What\u2019s the difference between Odin and ClockworkMod, and when would I use one instead of the other?"}
+{"i": 1486, "text": "Is there a way to change how photos are numbered?"}
+{"i": 1487, "text": "How do I resolve issues with the Android Play Store?"}
+{"i": 1488, "text": "How can I switch the Gmail account linked to the Google Play Store?"}
+{"i": 1489, "text": "How can I switch the Gmail account on Google Play without losing access to my installed apps?"}
+{"i": 1490, "text": "How can I change the default username in Google Play?"}
+{"i": 1491, "text": "How do I change the primary Google account on Android?"}
+{"i": 1492, "text": "How can I switch Google Play Store accounts on a Blu Studio handset?"}
+{"i": 1493, "text": "Why wasn\u2019t my Google Play account transferred when I swapped SIMs and moved to a new phone?"}
+{"i": 1494, "text": "How can I remotely access files on my PC from my Android device?"}
+{"i": 1495, "text": "How do I use a QR-code reader as a keyboard input device?"}
+{"i": 1496, "text": "How can I monitor outgoing web requests in real time as they happen?"}
+{"i": 1497, "text": "How can I monitor which URLs an app is trying to connect to?"}
+{"i": 1498, "text": "How can I track down which app is making HTTP requests?"}
+{"i": 1499, "text": "Why hasn't my device received the Android 3.x Honeycomb update yet, and when can I expect it?"}
+{"i": 1500, "text": "How can I upgrade a Samsung Galaxy Tab to Android 3.0 Honeycomb?"}
+{"i": 1501, "text": "How do I install an app as a system app?"}
+{"i": 1502, "text": "What\u2019s the best way to understand external memory in this context?"}
+{"i": 1503, "text": "Why does my tablet keep showing 0 MB of available space no matter what I do?"}
+{"i": 1504, "text": "How can I encrypt an Android device if it doesn\u2019t have a screen lock set?"}
+{"i": 1505, "text": "How can I create an application that blocks icon movements on home screen pages?"}
+{"i": 1506, "text": "What is an \u201cEmergency Call,\u201d and is it possible to set a number for it?"}
+{"i": 1507, "text": "How can I use a Bluetooth headset with Android?"}
+{"i": 1508, "text": "How can I use my Android phone as a Bluetooth headset for my PC?"}
+{"i": 1509, "text": "How can I use an Android phone as a PC headset?"}
+{"i": 1510, "text": "How can I use one Android phone as a Bluetooth handsfree device for another Android phone?"}
+{"i": 1511, "text": "Why does `adb devices` show my device as `unauthorized`, and how can I fix it?"}
+{"i": 1512, "text": "How can I freeze or hibernate system apps on a non-root Android phone?"}
+{"i": 1513, "text": "How can I remove the stock browser on Jelly Bean?"}
+{"i": 1514, "text": "How can I disable system apps on Android 4.x.x and later?"}
+{"i": 1515, "text": "What application can I use for automatic synchronization of remote folders?"}
+{"i": 1516, "text": "How can I charge a Nexus 5 to 100% without damaging the battery?"}
+{"i": 1517, "text": "How can I use USB tethering to get internet on my HTC Desire through my PC?"}
+{"i": 1518, "text": "How can I use USB to provide network access to an Android device, i.e. reverse tethering?"}
+{"i": 1519, "text": "How can I share my PC\u2019s network connection with my phone when it\u2019s connected via USB?"}
+{"i": 1520, "text": "How can I make Android think it\u2019s connected to the internet?"}
+{"i": 1521, "text": "How can I get internet access on my Samsung Galaxy II through my office PC\u2019s network over USB?"}
+{"i": 1522, "text": "How can I share internet from Ubuntu to an Android device over USB?"}
+{"i": 1523, "text": "How can I use my laptop\u2019s internet connection on my Android phone?"}
+{"i": 1524, "text": "How can I enable USB tethering on a Jelly Bean device?"}
+{"i": 1525, "text": "Can I use my Android device to connect through my computer\u2019s internet connection?"}
+{"i": 1526, "text": "How can I share my PC\u2019s internet connection with my Android phone?"}
+{"i": 1527, "text": "How can I share my computer\u2019s internet connection with my Google Nexus One?"}
+{"i": 1528, "text": "How can I use my phone as a USB Wi\u2011Fi adapter?"}
+{"i": 1529, "text": "How do I enable wired tethering from a Galaxy Rush to a Windows XP PC?"}
+{"i": 1530, "text": "How can I get internet access on my PC?"}
+{"i": 1531, "text": "How can I share my PC\u2019s WiFi connection with my Android device so it can access the Internet?"}
+{"i": 1532, "text": "How can I share my PC\u2019s internet connection with my Android phone?"}
+{"i": 1533, "text": "How can I set up reverse USB tethering without using an extra app?"}
+{"i": 1534, "text": "What are some good alternatives to Google for syncing data with someone else\u2014would Funambol be a good option?"}
+{"i": 1535, "text": "Is there a Google-free personal cloud solution for syncing contacts, calendar, tasks, and photos?"}
+{"i": 1536, "text": "How can I sync contacts, SMS, and notes to my own server?"}
+{"i": 1537, "text": "Has anyone managed to set up a home server as a replacement for Google Sync?"}
+{"i": 1538, "text": "How can I determine the release date of an app on Google Play?"}
+{"i": 1539, "text": "How can I find out when an app was first released on the Google Play Store?"}
+{"i": 1540, "text": "How can I determine when an app was first published on the Google Play Store?"}
+{"i": 1541, "text": "How do I back up my calendar events on a Galaxy Ace Duos?"}
+{"i": 1542, "text": "How do I install CyanogenMod 11?"}
+{"i": 1543, "text": "What does \u201cOTG cable shaport\u201d mean, and how does an OTG cable support USB OTG?"}
+{"i": 1544, "text": "If I power off my device, will my alarm still go off at the scheduled time?"}
+{"i": 1545, "text": "Does a powered-off Android phone have any alarm wake-up capability like a feature phone?"}
+{"i": 1546, "text": "How can I set an alarm on an Android phone when it\u2019s powered off?"}
+{"i": 1547, "text": "How can I stop an app from upgrading automatically?"}
+{"i": 1548, "text": "Can I hide an app from Google Play?"}
+{"i": 1549, "text": "Why is Google Play using the wrong account for in-app purchases?"}
+{"i": 1550, "text": "Why do USB cables from two different OEMs differ?"}
+{"i": 1551, "text": "Why is my phone sending messages to an international number?"}
+{"i": 1552, "text": "How can I stop my phone from automatically sending a text message to +917760971500 without my consent?"}
+{"i": 1553, "text": "How does rooting a device programmatically grant access?"}
+{"i": 1554, "text": "Why are unwanted folders showing up in Gallery, and can I remove them?"}
+{"i": 1555, "text": "How can I ignore the icons in the Camera Album?"}
+{"i": 1556, "text": "How can I hide audio, video, or image files in the Gallery?"}
+{"i": 1557, "text": "Why is my Samsung Galaxy Grand 2 showing less RAM than expected?"}
+{"i": 1558, "text": "Why isn\u2019t my device using all of its available RAM?"}
+{"i": 1559, "text": "How do I enable or activate RAM memory when the installed size is different from the 512 MB I expected at purchase?"}
+{"i": 1560, "text": "Samsung Galaxy S2 GT-I900G updated to Ice Cream Sandwich \u2014 after checking the task manager, why is the RAM only showing 688 MB instead of the usual 985 MB?"}
+{"i": 1561, "text": "Why does Apps -> Running show 686 MB total RAM instead of 1 GB?"}
+{"i": 1562, "text": "How can I find and install an older version of the Plenty of Fish (POF) application?"}
+{"i": 1563, "text": "Where can I download a specific version of an app?"}
+{"i": 1564, "text": "Where can I find and install old Android software versions?"}
+{"i": 1565, "text": "How do I install an older version of the YouTube app on a Samsung Galaxy Tab 2?"}
+{"i": 1566, "text": "How can I install an older version of Google Chrome on Android?"}
+{"i": 1567, "text": "How can I find the version numbers for older updates of a Google Play Store app?"}
+{"i": 1568, "text": "Why is my Nexus 4 not connecting to Google servers, even though I haven\u2019t cleared the Google Services Framework?"}
+{"i": 1569, "text": "How do I get notifications to appear in my app on desktop?"}
+{"i": 1570, "text": "How can I display app notifications with the number of messages?"}
+{"i": 1571, "text": "How do I unlock the bootloader on a Nexus 7 (2013) when it won\u2019t unlock?"}
+{"i": 1572, "text": "Why can\u2019t my Nexus 7 (2013) complete a data wipe/factory reset?"}
+{"i": 1573, "text": "How can I recover data from an HTC One Mini after rooting it?"}
+{"i": 1574, "text": "How do I recover a deleted file on Android?"}
+{"i": 1575, "text": "How can I retrieve a deleted file on Android Droid 2?"}
+{"i": 1576, "text": "Can deleted photos be recovered, and if so, what\u2019s the best way to do it?"}
+{"i": 1577, "text": "How can I restore deleted photos from the internal SD card on a Samsung S3?"}
+{"i": 1578, "text": "How can I recover sound recorder files that were overwritten?"}
+{"i": 1579, "text": "How can I recover a deleted photo from an Xperia P phone?"}
+{"i": 1580, "text": "What\u2019s the best way to recover deleted files on an Android phone?"}
+{"i": 1581, "text": "How can I recover photos from a Nexus 4 running Android 4.3?"}
+{"i": 1582, "text": "How can I restore wiped files?"}
+{"i": 1583, "text": "How can I recover deleted pictures?"}
+{"i": 1584, "text": "How can I recover a deleted cache?"}
+{"i": 1585, "text": "How can I recover a deleted photo album that was saved on internal memory on a Note 3?"}
+{"i": 1586, "text": "How can I re-root a Nexus 4 after updating to KTU84P?"}
+{"i": 1587, "text": "How do I change the language in Opera Mini 6?"}
+{"i": 1588, "text": "What\u2019s the difference between jailbreaking and unlocking an Android device?"}
+{"i": 1589, "text": "What does \u201cflashing a custom ROM\u201d mean?"}
+{"i": 1590, "text": "What do the terms \u201croot,\u201d \u201cflash,\u201d and \u201cROM\u201d mean in this context?"}
+{"i": 1591, "text": "What do \u201cNAND,\u201d \u201cROM,\u201d and \u201cto flash\u201d mean in a technical context?"}
+{"i": 1592, "text": "What are the technical differences between a bootloader, recovery, kernel, and ROM?"}
+{"i": 1593, "text": "How can I explain rooting, recovery, and custom ROMs to someone new to Android in a simple way?"}
+{"i": 1594, "text": "On Android, what\u2019s the difference between rooting and unlocking the boot loader?"}
+{"i": 1595, "text": "Is it possible to use the Google Market without syncing other Google data?"}
+{"i": 1596, "text": "Why does my Galaxy S2 keep running out of storage space?"}
+{"i": 1597, "text": "How do I change the sort order of items in a gallery?"}
+{"i": 1598, "text": "My HTC Butterfly won\u2019t boot into an OS and in recovery mode it shows no OS installed\u2014how can I fix this?"}
+{"i": 1599, "text": "What\u2019s the best way to check the Android OS version on a device?"}
+{"i": 1600, "text": "I just got a Galaxy a few hours ago and have two questions."}
+{"i": 1601, "text": "How do I root an Android device?"}
+{"i": 1602, "text": "Why is \u201cCell standby\u201d using around 35\u201350% of my total battery?"}
+{"i": 1603, "text": "How do I display \u201cUser 0\u201d on the notification screen?"}
+{"i": 1604, "text": "What does it mean when my LG Nexus 4 E960 shows the red light of death, and how can I fix it?"}
+{"i": 1605, "text": "Nexus 4 has a flashing red light and is completely unresponsive \u2014 what could be causing this?"}
+{"i": 1606, "text": "I installed a Comodo SSL certificate, but it\u2019s not appearing under User > Trusted credentials\u2014what could be wrong?"}
+{"i": 1607, "text": "Why does installing a self-signed certificate report success, but Android still behaves as if the certificate isn\u2019t installed?"}
+{"i": 1608, "text": "Is it feasible to implement a captive portal on Android?"}
+{"i": 1609, "text": "Is it necessary to manually update GApps?"}
+{"i": 1610, "text": "How can I send a group message to iPhone users?"}
+{"i": 1611, "text": "Does having CWM indicate that the bootloader is unlocked?"}
+{"i": 1612, "text": "Why can\u2019t I open the menu in apps that don\u2019t have a menu button or physical key?"}
+{"i": 1613, "text": "How can I connect two Bluetooth devices simultaneously, like a keyboard and a mouse?"}
+{"i": 1614, "text": "How do I boot my Xperia Go into Recovery Mode?"}
+{"i": 1615, "text": "What\u2019s causing my charging issue and how can I fix it?"}
+{"i": 1616, "text": "Is it safe to keep my Samsung Galaxy Ace plugged in and charging all the time?"}
+{"i": 1617, "text": "Is my phone being overcharged?"}
+{"i": 1618, "text": "Can overcharging damage a battery?"}
+{"i": 1619, "text": "Why does constant USB tethering cause charging issues?"}
+{"i": 1620, "text": "Is it safe to leave an Android phone charging over USB all day?"}
+{"i": 1621, "text": "Should I unplug my charger once my Android device reaches 100% charge?"}
+{"i": 1622, "text": "Can overcharging damage or destroy an Xperia J or any Android phone?"}
+{"i": 1623, "text": "Why do I get \u201cIncompatible with other application(s) using the same shared user ID\u201d when installing Google Play services?"}
+{"i": 1624, "text": "How can I install Google Play Services when I get the \u201cIncompatible with other applications\u201d error?"}
+{"i": 1625, "text": "How can I fix the Google Play Services installation error: \u201cIncompatible with other application(s) using the same shared user ID\u201d?"}
+{"i": 1626, "text": "Can someone help me understand the fault I'm getting with Google Play services?"}
+{"i": 1627, "text": "Why am I having trouble installing apps on my Karbonn A5i?"}
+{"i": 1628, "text": "Why do I get an \u201cinsufficient space\u201d error when downloading Go Launcher EX?"}
+{"i": 1629, "text": "How do I fix \u201cInsufficient storage\u201d when using Link2SD?"}
+{"i": 1630, "text": "Why am I getting an \u201cInsufficient storage\u201d error, and how can I fix it?"}
+{"i": 1631, "text": "Why do I get an \u201cInsufficient space\u201d message when downloading applications?"}
+{"i": 1632, "text": "Why does my device keep saying \u201cinsufficient storage\u201d when I try to download apps, even though I have plenty of free storage and an SD card installed?"}
+{"i": 1633, "text": "I have 500 MB of free space, but I still can\u2019t install a 2 MB app\u2014what could be causing this?"}
+{"i": 1634, "text": "Why am I getting a \u201cLow Memory Space\u201d warning even though I have plenty of storage available?"}
+{"i": 1635, "text": "How do I fix memory issues on my Huawei G610s?"}
+{"i": 1636, "text": "How can I view my Android device screen on a PC over ADB?"}
+{"i": 1637, "text": "How can I verify whether GPS is functioning properly on Android 2.1 on a Samsung Galaxy 5?"}
+{"i": 1638, "text": "Which Tasker profiles do you use most often?"}
+{"i": 1639, "text": "How can I uninstall pre-installed Android apps from an HTC Desire?"}
+{"i": 1640, "text": "How do I uninstall an app on my Droid that I never installed myself?"}
+{"i": 1641, "text": "How can I uninstall Sprint apps without rooting my phone?"}
+{"i": 1642, "text": "How can I uninstall HTC applications and widgets?"}
+{"i": 1643, "text": "How can I uninstall applications that are locked by the phone vendor?"}
+{"i": 1644, "text": "Is it possible to uninstall built-in apps?"}
+{"i": 1645, "text": "How can I remove all these bloatware/garbage apps without rooting the phone?"}
+{"i": 1646, "text": "How can I uninstall the native Samsung email app from a Galaxy S2?"}
+{"i": 1647, "text": "How can I uninstall locked apps without root access, using the Android SDK?"}
+{"i": 1648, "text": "How can I delete pre-installed apps/programs on a Samsung Galaxy 551?"}
+{"i": 1649, "text": "How do I uninstall apps like Crayon Physics?"}
+{"i": 1650, "text": "How do I delete the Hotels.com app?"}
+{"i": 1651, "text": "How do I uninstall the applications provided by my company?"}
+{"i": 1652, "text": "How can I uninstall system apps or stock apps?"}
+{"i": 1653, "text": "How can I remove ATT apps from my device?"}
+{"i": 1654, "text": "How do I uninstall default apps?"}
+{"i": 1655, "text": "How can I uninstall a system app on a rooted device?"}
+{"i": 1656, "text": "How can I remove a system app from my device?"}
+{"i": 1657, "text": "How can I remove bloatware from a Samsung Galaxy S4?"}
+{"i": 1658, "text": "How can I remove apps like Browser?"}
+{"i": 1659, "text": "How can I remove the pre-installed bookmarks on a Samsung Galaxy Note 3?"}
+{"i": 1660, "text": "How can I uninstall a pre-loaded app from a Micromax Unite 2 A106?"}
+{"i": 1661, "text": "Where is the Dropbox folder located on Android?"}
+{"i": 1662, "text": "How do I enable Wi\u2011Fi calling on an Android phone so I can receive phone calls over Wi\u2011Fi?"}
+{"i": 1663, "text": "How do I restrict access to device settings?"}
+{"i": 1664, "text": "How can I fix the \"Invalid IMEI\" error after performing a factory reset?"}
+{"i": 1665, "text": "How can I fix an invalid IMEI issue on my phone when it displays \u201cInvalid IMEI\u201d?"}
+{"i": 1666, "text": "How can I set a different ringtone for incoming calls from numbers that aren\u2019t in my contacts list?"}
+{"i": 1667, "text": "Is it possible to use a different default browser for specific websites?"}
+{"i": 1668, "text": "Is there an app for running a simple web server on Android?"}
+{"i": 1669, "text": "What are some apps suitable for advanced Japanese learners?"}
+{"i": 1670, "text": "How can I study or prepare for an exam using my Android device?"}
+{"i": 1671, "text": "How can I disable HTML emails in Composer?"}
+{"i": 1672, "text": "How can I get the MS Office client for Android?"}
+{"i": 1673, "text": "Why does taking a screenshot require root access?"}
+{"i": 1674, "text": "How do I create and use icons for an Android app?"}
+{"i": 1675, "text": "How can I change the dashboard icons?"}
+{"i": 1676, "text": "How can I automatically log in to Wi\u2011Fi networks?"}
+{"i": 1677, "text": "How can I automate the login process for a Hotspot?"}
+{"i": 1678, "text": "How can I automatically accept the Wi\u2011Fi policy webpage on a free Wi\u2011Fi network, like with a robotic click?"}
+{"i": 1679, "text": "How can I complete an HTTP POST request after a wireless network connection is established?"}
+{"i": 1680, "text": "How can I download unsupported files using the default browser?"}
+{"i": 1681, "text": "What\u2019s the best way to download a Windows executable file?"}
+{"i": 1682, "text": "On Android, where can I find the log files?"}
+{"i": 1683, "text": "How do I view and inspect the Android log?"}
+{"i": 1684, "text": "How do I find the Android log file to check whether an app installed correctly?"}
+{"i": 1685, "text": "How do I capture a Logcat output?"}
+{"i": 1686, "text": "How can I view a trace/log of all activity on my Android device?"}
+{"i": 1687, "text": "How do I reinstall apps I previously purchased on a new phone?"}
+{"i": 1688, "text": "If I purchase software and then switch smartphones, do I need to buy the app again?"}
+{"i": 1689, "text": "Why does adb incorrectly report \u201cinsufficient storage\u201d when I try to install an .apk?"}
+{"i": 1690, "text": "Why am I getting an \"out of storage\" error when trying to install an app on Android?"}
+{"i": 1691, "text": "How can I fix an \u201cInsufficient storage\u201d error when updating my Android app?"}
+{"i": 1692, "text": "Why does my Android OS say \u201cNot enough free space to install the program\u201d even though there appears to be plenty of free space available?"}
+{"i": 1693, "text": "What security drawbacks come with rooting an Android phone?"}
+{"i": 1694, "text": "Besides portability, what other advantages or disadvantages are there to storing apps on external storage?"}
+{"i": 1695, "text": "How can I lock the screen on a Nexus S without using the power button on the right side?"}

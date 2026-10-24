@@ -14,7 +14,7 @@ for it in $(seq 1 $MAXIT); do
   if [ "${CTRL:-1}" = "1" ]; then for s in $SUBS; do $PY embed_control.py $s 2>&1 | grep -E "^control|Error|Traceback"; done; fi
   miss=0
   for s in $SUBS; do
-    NPROC=${NPROC:-12} $PY sim_gen.py 10 10 $s bge,minilm,bm25 $RT$s | tail -1
+    NPROC=${NPROC:-12} $PY sim_gen.py ${ROUNDS:-10} 10 $s bge,minilm,bm25 $RT$s | tail -1
     m=$($PY -c "import json;print(json.load(open('results/sim_gen_$RT$s.json'))['missing_keys'])" 2>/dev/null || echo 999999); miss=$((miss + m))
   done
   echo "missing keys after iteration $it: $miss"

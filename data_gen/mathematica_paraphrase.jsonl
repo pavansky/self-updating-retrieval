@@ -1,0 +1,1358 @@
+{"i": 0, "text": "How do I use `\\[InvisibleApplication]` and other related invisible characters in Mathematica?"}
+{"i": 1, "text": "How do I define a function that takes an expression as an argument?"}
+{"i": 2, "text": "Why does Mathematica matrix multiplication with a matrix and its inverse seem to give the wrong result?"}
+{"i": 3, "text": "How can I pipe a stream to a different notebook?"}
+{"i": 4, "text": "How can I avoid nesting `With[]` in my code?"}
+{"i": 5, "text": "How can I reuse a local variable in its declaration within a `With` statement?"}
+{"i": 6, "text": "How can I handle local variables whose definitions depend on each other?"}
+{"i": 7, "text": "How can I plot discontinuous functions without getting spurious vertical line segments between the discontinuities?"}
+{"i": 8, "text": "How can I sort strings in natural order, so that values like \"file2\" come before \"file10\"?"}
+{"i": 9, "text": "How can I create a `Line[]` that extends indefinitely and has no end?"}
+{"i": 10, "text": "How do I find the equation of the tangent line at a given point?"}
+{"i": 11, "text": "Why does Mathematica crash when I rotate a 3D plot?"}
+{"i": 12, "text": "How do I plot the complex roots of unity on the complex plane?"}
+{"i": 13, "text": "How do I plot the cubic root function so that it includes the negative part of the graph?"}
+{"i": 14, "text": "How can I make Mathematica run in real-only mode?"}
+{"i": 15, "text": "How can I obtain the real roots of negative numbers when they appear inside a long expression?"}
+{"i": 16, "text": "Is it possible to move the toolbar into the code editor window?"}
+{"i": 17, "text": "How can I get a list of compilable functions?"}
+{"i": 18, "text": "How do I compile `gather`?"}
+{"i": 19, "text": "How do I concatenate two `Style[]`-formatted strings?"}
+{"i": 20, "text": "How can I highlight a specific string pattern?"}
+{"i": 21, "text": "How can I combine a DistributionChart and a ListPlot in the same Mathematica graphics output?"}
+{"i": 22, "text": "What\u2019s the most efficient way to combine multiple lists when they share common elements?"}
+{"i": 23, "text": "What\u2019s the most efficient way to navigate the Mathematica command-line interface?"}
+{"i": 24, "text": "Why is FullSimplify not simplifying my expression\u2014am I missing something, or is it just too complicated?"}
+{"i": 25, "text": "How can I determine the page count programmatically?"}
+{"i": 26, "text": "How can I create a dynamically self-updating table of contents for a notebook?"}
+{"i": 27, "text": "How can I combine multiple ArrayPlots into a single plot?"}
+{"i": 28, "text": "How do I read a file that\u2019s in the same directory as my program?"}
+{"i": 29, "text": "How do I use Map-Thread-Through-Apply to apply a list of functions to a list of values, or a list of lists of values?"}
+{"i": 30, "text": "How do I use \u201cCopy as Unicode\u201d from a notebook?"}
+{"i": 31, "text": "Is there a way to remove the banner in the Home Edition?"}
+{"i": 32, "text": "How can I download a binary file without using the Import/Export feature?"}
+{"i": 33, "text": "Why do Arrowheads interfere with ImagePadding?"}
+{"i": 34, "text": "How can I customize `FrameTicks` in `DistributionChart`?"}
+{"i": 35, "text": "How can I save data created or modified inside a Mathematica notebook so it persists after closing and reopening the notebook?"}
+{"i": 36, "text": "What is discrete convolution, and how is it used in signal processing or computing?"}
+{"i": 37, "text": "How can I detect circular objects in an image?"}
+{"i": 38, "text": "How do I derive or obtain the polynomial interpolation formula?"}
+{"i": 39, "text": "What are some strategies to avoid the NIntegrate::slwcon error?"}
+{"i": 40, "text": "Why does Permutations[Range[12]] return an error instead of generating a list?"}
+{"i": 41, "text": "How do I refer to the i-th element of a permutation?"}
+{"i": 42, "text": "How can I make a `ListPlot` where each point has a different color and the plot includes a legend bar?"}
+{"i": 43, "text": "How can I represent a triplet dataset using color on a 2D plot?"}
+{"i": 44, "text": "How do I use `ColorFunction` with `ListPlot`?"}
+{"i": 45, "text": "How can I estimate the uncertainty in the slope of a linear regression when the data points each have associated measurement errors?"}
+{"i": 46, "text": "How can I perform data fitting with both xerrors and yerrors using `FindFit`?"}
+{"i": 47, "text": "How do I run a Mathematica program from the command line on Windows?"}
+{"i": 48, "text": "How can I obtain the imaginary part from known real data using Kramers-Kronig relations?"}
+{"i": 49, "text": "How can I customize syntax highlighting for private cell styles?"}
+{"i": 50, "text": "How can I create a plot with legends and markers?"}
+{"i": 51, "text": "How do I explain PlotMarker?"}
+{"i": 52, "text": "How can I display a legend for a 3D `ListPlot`?"}
+{"i": 53, "text": "Why does my ParametricPlot show extra lines in the legend?"}
+{"i": 54, "text": "How can I configure a custom magnification setting?"}
+{"i": 55, "text": "How can I modify the MagnificationPopUp menu values in notebooks?"}
+{"i": 56, "text": "Why does DSolve return no result for my equation?"}
+{"i": 57, "text": "How do I use DSolve to solve a system of differential equations?"}
+{"i": 58, "text": "Why do plot markers disappear when I set ListPlot options with SetOptions instead of passing them directly to ListPlot?"}
+{"i": 59, "text": "Why is the composition of mappings not working as expected in my code?"}
+{"i": 60, "text": "Why does Mathematica fail to solve the equation \\(x = \\cos x\\) correctly?"}
+{"i": 61, "text": "Why is Mathematica unable to solve this equation?"}
+{"i": 62, "text": "How can I wrap an EventHandler with a Table?"}
+{"i": 63, "text": "How do I plot an even piecewise function?"}
+{"i": 64, "text": "How can I evaluate a process while an external command is running?"}
+{"i": 65, "text": "How can I create a 3D solid volume from a set of images?"}
+{"i": 66, "text": "Is there a way to save an Interpolation function?"}
+{"i": 67, "text": "How can I save and then call matrices with large output in Mathematica?"}
+{"i": 68, "text": "How do I export and import function values?"}
+{"i": 69, "text": "How can I transfer a list from one notebook to another?"}
+{"i": 70, "text": "What\u2019s the best way to export arrays for storage?"}
+{"i": 71, "text": "How can I export a large expression without running into issues?"}
+{"i": 72, "text": "How do I store a SparseArray?"}
+{"i": 73, "text": "How can I import and export a Cluster object?"}
+{"i": 74, "text": "How do I append Mathematica variables to an output file while preserving both their variable names and values?"}
+{"i": 75, "text": "How can I save a list of analytic expressions to a file?"}
+{"i": 76, "text": "Why is my plot showing a discontinuity where there shouldn\u2019t be one?"}
+{"i": 77, "text": "Why does Mathematica show a discontinuity in my piecewise function plot when the function is actually continuous?"}
+{"i": 78, "text": "Why is my piecewise function producing inaccurate results?"}
+{"i": 79, "text": "How can I plot a time-varying equation?"}
+{"i": 80, "text": "How do I use `map` with multiple arguments?"}
+{"i": 81, "text": "How do I use `Map` with functions that take a parameter?"}
+{"i": 82, "text": "How can I write a function that evaluates an expression?"}
+{"i": 83, "text": "How can I plot graphics as ASCII plots?"}
+{"i": 84, "text": "How can I generate a RandomVariate for a custom distribution?"}
+{"i": 85, "text": "How can I generate random numbers from a specified distribution?"}
+{"i": 86, "text": "How can I generate random real numbers that follow a given probability distribution?"}
+{"i": 87, "text": "How can I remove the unwanted appearance of the underlying mesh?"}
+{"i": 88, "text": "How can I combine Mesh and ParametricPlot in Mathematica?"}
+{"i": 89, "text": "What\u2019s the correct way to conditionally add elements to a list?"}
+{"i": 90, "text": "Why is my if-statement not evaluating the condition as true when it should?"}
+{"i": 91, "text": "How can I eliminate a specific value from a matrix?"}
+{"i": 92, "text": "How can I use IF statements inside a table?"}
+{"i": 93, "text": "How can I plot an infinite series?"}
+{"i": 94, "text": "How do I plot a function together with its partial sums?"}
+{"i": 95, "text": "Could someone help me identify a coding mistake in my implementation?"}
+{"i": 96, "text": "Why is DeleteCases in Mathematica behaving unexpectedly in my code?"}
+{"i": 97, "text": "How do I solve an equation over \\(\\mathbb{R}^+\\)?"}
+{"i": 98, "text": "How can I trigger a standard system file save dialog from a Button to export a file?"}
+{"i": 99, "text": "Why is Mathematica imposing a time limit on my calculation?"}
+{"i": 100, "text": "What\u2019s the best way to distinguish between Mathematica, Player Pro, and CDF Player?"}
+{"i": 101, "text": "How do I set the width of two plots?"}
+{"i": 102, "text": "How can I align the axis labels across multiple plots?"}
+{"i": 103, "text": "How do I stack plots so they\u2019re nicely aligned?"}
+{"i": 104, "text": "How do I plot stacked curves that share the same horizontal axis?"}
+{"i": 105, "text": "How can I define a shared \u201cpacket\u201d of plot options so that changing its definition updates the appearance of all plots using that packet?"}
+{"i": 106, "text": "How do I determine the local extrema of discrete data points?"}
+{"i": 107, "text": "How do I set the cursor focus to a specific position?"}
+{"i": 108, "text": "How do I get syntax highlighting for my own functions?"}
+{"i": 109, "text": "How can I make my function behave more like Plot?"}
+{"i": 110, "text": "How can I determine which method Mathematica chose to use?"}
+{"i": 111, "text": "How can I teach Mathematica to perform functional differentiation?"}
+{"i": 112, "text": "How can I read a specific line number from a text file?"}
+{"i": 113, "text": "How do I retrieve information about a style\u2019s properties?"}
+{"i": 114, "text": "How can I enable antialiasing for horizontal lines?"}
+{"i": 115, "text": "Why does my function behave differently when it\u2019s defined inside a package compared to when it\u2019s run outside the package?"}
+{"i": 116, "text": "How can I stop `Part[]` from attempting to extract parts of symbolic expressions?"}
+{"i": 117, "text": "Why is the matrix product not being computed?"}
+{"i": 118, "text": "How do I perform matrix multiplication when using `MatrixForm` in Mathematica?"}
+{"i": 119, "text": "How do I invert a matrix?"}
+{"i": 120, "text": "Why isn\u2019t `Eigenvalues[matrix I defined]` working on the matrix I defined?"}
+{"i": 121, "text": "What is the difference between matrix representation and the actual matrix?"}
+{"i": 122, "text": "Having trouble with a List dimension outer map \u2014 what could be causing this issue?"}
+{"i": 123, "text": "Why won\u2019t my function simplify when I pass functions as inputs to another function?"}
+{"i": 124, "text": "How does the SVM algorithm work in machine learning?"}
+{"i": 125, "text": "How can I insert $+$, $-$, $\\times$, $/$, and parentheses into $123456789$ so that the expression evaluates to $100$?"}
+{"i": 126, "text": "Why does my multivariable Taylor expansion not work as expected?"}
+{"i": 127, "text": "How can I speed up a series expansion?"}
+{"i": 128, "text": "How do I simplify function notation?"}
+{"i": 129, "text": "How can I connect to a remote Mathematica Kernel using J/Link?"}
+{"i": 130, "text": "How can I get precise timing for nested functions?"}
+{"i": 131, "text": "How do I square both sides of an equation correctly?"}
+{"i": 132, "text": "Does Mathematica have something equivalent to MATLAB\u2019s Workspace window?"}
+{"i": 133, "text": "How can I remove an ordered pair from a list of ordered pairs when the second element is less than a given value?"}
+{"i": 134, "text": "Why does exporting graphics to PDF produce a huge file?"}
+{"i": 135, "text": "How can I make Mathematica graphics exported as PDF perform better and be more usable?"}
+{"i": 136, "text": "How can I create an adaptive frame that automatically fits auto-wrapped text?"}
+{"i": 137, "text": "How can I input abbreviated units correctly?"}
+{"i": 138, "text": "How can I set the default font for PlotLegends?"}
+{"i": 139, "text": "How can I preserve labels when using graph functions?"}
+{"i": 140, "text": "What\u2019s the difference between function definitions?"}
+{"i": 141, "text": "How can I distribute proprietary Mathematica code while keeping the source closed?"}
+{"i": 142, "text": "How can I add read/write protection to a script?"}
+{"i": 143, "text": "In a function, can I use the value of one parameter as the default for another optional parameter?"}
+{"i": 144, "text": "How can I stream data into Mathematica from a serial port?"}
+{"i": 145, "text": "How do I convert between different ItemSize and ImageSize units?"}
+{"i": 146, "text": "How can I generate bifurcation diagrams for systems with multiple equations?"}
+{"i": 147, "text": "How can I combine two lists with different dimensions into a list containing all possible combinations of points?"}
+{"i": 148, "text": "Why are graphics exported from Mathematica 9 so large, even when using standard fonts that get embedded?"}
+{"i": 149, "text": "How can I implement objects that behave like FittedModel?"}
+{"i": 150, "text": "How can I manage resources in Mathematica effectively?"}
+{"i": 151, "text": "How can I make text movable along a curve?"}
+{"i": 152, "text": "How can I create functions that take an arbitrary number of variables?"}
+{"i": 153, "text": "How can I make a function accept a variable number of inputs?"}
+{"i": 154, "text": "How do I define a function that can accept different sets of arguments?"}
+{"i": 155, "text": "How can I define a function that works for vectors of arbitrary dimension?"}
+{"i": 156, "text": "How can I define a function in a programming language when the number of variables it takes changes dynamically?"}
+{"i": 157, "text": "How can I define a Mathematica function that accepts a variable number of input arguments and returns a variable number of output arguments?"}
+{"i": 158, "text": "How can I handle a varying number of function arguments?"}
+{"i": 159, "text": "How do I write this function with many arguments?"}
+{"i": 160, "text": "How do I plot complex numbers on the complex plane?"}
+{"i": 161, "text": "How do I draw the image of a complex region under a given complex function?"}
+{"i": 162, "text": "How can I plot the image region \\(f(S)\\) for a given complex function \\(f\\) and subset \\(S \\subseteq \\mathbb{C}\\)?"}
+{"i": 163, "text": "How do I plot data with complex numbers?"}
+{"i": 164, "text": "How can I create dynamic chart elements in a bar chart?"}
+{"i": 165, "text": "How can I import a .zip file?"}
+{"i": 166, "text": "What is the Mathematica equivalent of MATLAB\u2019s `logspace`?"}
+{"i": 167, "text": "How do I distribute a given range logarithmically across a fixed number of elements?"}
+{"i": 168, "text": "How do loops and subroutines work?"}
+{"i": 169, "text": "What are the alternatives to procedural loops and iterating over lists in Mathematica?"}
+{"i": 170, "text": "Is there a faster way to do this without combining Table and If?"}
+{"i": 171, "text": "What are some good ways to start writing more functional, list-based code?"}
+{"i": 172, "text": "What\u2019s a good explanation of when different looping constructs are appropriate to use?"}
+{"i": 173, "text": "How can I improve the efficiency of a for loop?"}
+{"i": 174, "text": "What is the correct way to format data for use with ListVectorPlot[]?"}
+{"i": 175, "text": "How can I partition a list into sublists and keep the last sublist even if it has a different length?"}
+{"i": 176, "text": "Can the Suggestions Bar be customized?"}
+{"i": 177, "text": "Why does using `Text[]` inside `Graphics[]` affect the dimensions of the output, and how can I determine the resulting size?"}
+{"i": 178, "text": "How do I simplify or interpret the expression `Exp[I \u03b8] + b Exp[-I \u03b8]`?"}
+{"i": 179, "text": "How can I use RSolve to solve a system of recurrence relations?"}
+{"i": 180, "text": "Why does changing the order of integration change the result of an indefinite multiple integral in Mathematica 7?"}
+{"i": 181, "text": "Can I change the color of a plot in Show?"}
+{"i": 182, "text": "How can I edit a plot after it has already been created?"}
+{"i": 183, "text": "How can I search for initialization cells?"}
+{"i": 184, "text": "How can I get the Mathematica equivalent of LaTeX\u2019s `\\tag{}` command?"}
+{"i": 185, "text": "How can I get past the \u201cDo you really want to quit the kernel? Yes!\u201d prompt?"}
+{"i": 186, "text": "How can I expand a sum again?"}
+{"i": 187, "text": "How can I distribute elements across a list of lists?"}
+{"i": 188, "text": "How do I use the symbol I for electrical current?"}
+{"i": 189, "text": "How do I sort a list of dates formatted as DD/MM/YYYY?"}
+{"i": 190, "text": "How can I set the output form of a symbol to TraditionalForm?"}
+{"i": 191, "text": "How can I make Mathematica generate higher-quality Fortran code?"}
+{"i": 192, "text": "How can I import data from a Blender or 3DS Max file?"}
+{"i": 193, "text": "How can I automate the generation of image files?"}
+{"i": 194, "text": "How can I use a Do loop to export 100 frames from a plot while changing the plot bounds each time?"}
+{"i": 195, "text": "How can I export multiple graphics from a Do loop?"}
+{"i": 196, "text": "What should I do to troubleshoot a Part::partd or Part::partw error?"}
+{"i": 197, "text": "How can I remove the flat sections in Plot3D that aren\u2019t actually part of the function?"}
+{"i": 198, "text": "How should I interpret the FullForm of a SparseArray?"}
+{"i": 199, "text": "How do I slide a tangent line along a curve?"}
+{"i": 200, "text": "How can I create a tangent line that moves along the curve of a line?"}
+{"i": 201, "text": "Why is adding three integer sparse matrices so much slower than adding just two of them?"}
+{"i": 202, "text": "How can I separate specific elements from a list?"}
+{"i": 203, "text": "How do I access an element of a matrix?"}
+{"i": 204, "text": "Why does `;` suppress Dynamic output?"}
+{"i": 205, "text": "Why am I getting `Nest::intnm` even though I'm definitely passing an integer?"}
+{"i": 206, "text": "How do I reuse a dynamic list without recreating it each time?"}
+{"i": 207, "text": "How can I install the Wolfram Workbench plugin in Eclipse Kepler?"}
+{"i": 208, "text": "How do I use balanced shortest[] and string-patterns?"}
+{"i": 209, "text": "How can I interpolate 2D data that contains missing values?"}
+{"i": 210, "text": "Why does Plotting Inverse Functions with ParametricPlot produce an error message?"}
+{"i": 211, "text": "How can I integrate Mathematica with Python?"}
+{"i": 212, "text": "What are the differences between using a PatternTest versus a Condition for pattern matching?"}
+{"i": 213, "text": "How do I improve Mathematica's display resolution on a MacBook Retina screen?"}
+{"i": 214, "text": "How can I import an Excel sheet into a 3D array?"}
+{"i": 215, "text": "What built-in unit strings are recognized by `Quantity`?"}
+{"i": 216, "text": "Where can I find a complete list of all units available in Mathematica?"}
+{"i": 217, "text": "Why is `::usage` behaving strangely in version 9?"}
+{"i": 218, "text": "Why am I getting consistently annoying error messages in Mathematica 9?"}
+{"i": 219, "text": "Why am I having package problems with version 9 on OS X?"}
+{"i": 220, "text": "How can I determine whether an expression evaluates to a real-valued number?"}
+{"i": 221, "text": "How do I swap the x and y axes on a plot?"}
+{"i": 222, "text": "How do I get started with Mathematica using Paul Wellin\u2019s *Programming Mathematica - Introduction*?"}
+{"i": 223, "text": "Which Mathematica book would you recommend buying?"}
+{"i": 224, "text": "What are some good introductory tutorial books for Mathematica?"}
+{"i": 225, "text": "What\u2019s the best place to start debugging this issue?"}
+{"i": 226, "text": "Is Mathematica a good tool for learning?"}
+{"i": 227, "text": "How do I manipulate tutorials?"}
+{"i": 228, "text": "How do I change the brackets used in `TraditionalForm` output?"}
+{"i": 229, "text": "How can I query Mathematica to find out how much RAM is installed on the machine?"}
+{"i": 230, "text": "In Mathematica, what does the `#` symbol mean?"}
+{"i": 231, "text": "How do I use Root objects?"}
+{"i": 232, "text": "What\u2019s the difference between `Reduce` and `Solve`?"}
+{"i": 233, "text": "How can I compute the eigenvalues of a large matrix without solving the characteristic polynomial directly?"}
+{"i": 234, "text": "What do the hash marks in the output of `Solve` mean, and how am I supposed to use them?"}
+{"i": 235, "text": "Why does `solve` not return all solutions?"}
+{"i": 236, "text": "Why does Mathematica return different results when using Reduce versus Solve?"}
+{"i": 237, "text": "How do the eigenvalues of a matrix relate to the rhombus/hash sign notation?"}
+{"i": 238, "text": "How can I get the absolute value of the Root[#] expression?"}
+{"i": 239, "text": "How should I interpret the Roots syntax when computing the eigenvalues of a matrix?"}
+{"i": 240, "text": "How can I verify the \"Type\" of a solution?"}
+{"i": 241, "text": "What does the Root[...] notation in the answer represent?"}
+{"i": 242, "text": "What\u2019s the quickest method to find a smaller image within a larger image?"}
+{"i": 243, "text": "How can I fill in a closed curve?"}
+{"i": 244, "text": "How can I generate a 3D simple cubic lattice of length 4 in each dimension?"}
+{"i": 245, "text": "How do I plot a lattice QCD visualization figure?"}
+{"i": 246, "text": "How can I initiate a queued evaluation from a Dynamic GUI without using a Button?"}
+{"i": 247, "text": "How can I embed the Mathematica Console into a Java/.NET application?"}
+{"i": 248, "text": "Why does plotting a 3D list crash my kernel when the x and y axes have vastly different scales?"}
+{"i": 249, "text": "How can I convert a list of replacement rules into a list of actual values?"}
+{"i": 250, "text": "How do I set up an integral over a region defined by an inequality?"}
+{"i": 251, "text": "How do I use implicit differentiation to find the equation of the tangent line to a curve at a given point?"}
+{"i": 252, "text": "How do I find the most likely path through a Markov process?"}
+{"i": 253, "text": "How can I test properties of a symbol from its string name without fully evaluating the symbol?"}
+{"i": 254, "text": "How can I create a DensityPlot on a spherical surface?"}
+{"i": 255, "text": "How can I visualize a 3D vector field on the surface of a sphere?"}
+{"i": 256, "text": "How can I plot a velocity profile in the x-y plane?"}
+{"i": 257, "text": "How do I copy one symbol into another?"}
+{"i": 258, "text": "How can I plot 4D data so that color represents the fourth dimension?"}
+{"i": 259, "text": "How can I rewrite my equation so it takes the form $(x-a)^2 + (y-b)^2 + (z-c)^2 - d = 0$?"}
+{"i": 260, "text": "Why does the syntax highlighter color a local symbol red inside DynamicModule?"}
+{"i": 261, "text": "How can I precisely control the bar color in a BarChart?"}
+{"i": 262, "text": "What\u2019s an efficient way to determine whether 3D points lie inside a surface made up of polygons?"}
+{"i": 263, "text": "How can I use the `Drop` function to remove rows and columns from a matrix in an arbitrary way?"}
+{"i": 264, "text": "Why does my TabView reset to the default tab whenever I select data with a Control object?"}
+{"i": 265, "text": "How do I work with the EndOfFile symbol?"}
+{"i": 266, "text": "Why doesn\u2019t the else branch of my if expression print output?"}
+{"i": 267, "text": "How do I test whether a List inside a Table is not equal to 0?"}
+{"i": 268, "text": "How can I use Select to exclude a single element that I can control?"}
+{"i": 269, "text": "How can I define a vector of arbitrary length?"}
+{"i": 270, "text": "How can I extract variables from an expression?"}
+{"i": 271, "text": "How can I generate a list of symbolic coefficients?"}
+{"i": 272, "text": "How can I perform numerical integration on numeric data that is stored as a nested list?"}
+{"i": 273, "text": "How can I export plot data from a graph in Mathematica?"}
+{"i": 274, "text": "How can I extract data points from a plot?"}
+{"i": 275, "text": "How can I collapse matching brackets in my code editor or IDE?"}
+{"i": 276, "text": "Can I enclose code in collapsible/expandable regions?"}
+{"i": 277, "text": "How can I set up automated testing to check compatibility with older Mathematica versions?"}
+{"i": 278, "text": "How can I define a function with custom Options and also modify the default Options for built-in Symbols?"}
+{"i": 279, "text": "What are the best practices for kernel management, and how should I handle kernel updates and version control?"}
+{"i": 280, "text": "How can I keep a function\u2019s range as a variable?"}
+{"i": 281, "text": "How can I remove tick labels while keeping tick marks in RegionPlot and similar functions?"}
+{"i": 282, "text": "How can I plot latitude and longitude coordinate pairs onto a geographic map?"}
+{"i": 283, "text": "How can I enforce correct variable bindings and prevent renaming of conflicting variables in nested scoping constructs?"}
+{"i": 284, "text": "Is there a good summary or reference for Q-functions?"}
+{"i": 285, "text": "What is the correspondence between eigenvectors and eigenvalues?"}
+{"i": 286, "text": "What determines the order of eigenvectors, and how can I ensure they are sorted consistently?"}
+{"i": 287, "text": "How can I graph the amount of time a function takes to run?"}
+{"i": 288, "text": "How can I read a CSV file and strip out comments from it?"}
+{"i": 289, "text": "How can I compile a `ColorFunction` that uses `Blend`?"}
+{"i": 290, "text": "How can I plot an array of data onto a sphere?"}
+{"i": 291, "text": "How can I make a Pane always scroll to the end of its content?"}
+{"i": 292, "text": "Why is the AxesLabel in Histogram3D unreadable?"}
+{"i": 293, "text": "How do I format axis labels in Plot3D?"}
+{"i": 294, "text": "How do I convert data into a string format?"}
+{"i": 295, "text": "Why does `show` not display all the plots?"}
+{"i": 296, "text": "How can I construct file names using a numeric value and a string prefix?"}
+{"i": 297, "text": "How can I use variables in file names during import/export?"}
+{"i": 298, "text": "Why does my Plot3D graph have a gap or break in the center of the surface?"}
+{"i": 299, "text": "How can I remove the gaps in a 3D plot when using a Max or Min function?"}
+{"i": 300, "text": "Why can\u2019t I see the updates made by `NMinimize[..., StepMonitor -> (...)]` outside the `Button` where it is called?"}
+{"i": 301, "text": "Why does using buttons with ChoiceDialog cause the front end to freeze?"}
+{"i": 302, "text": "Why is my dynamic button so slow that it doesn\u2019t print anything when clicked?"}
+{"i": 303, "text": "Why am I not seeing dynamic updates when my function is evaluated inside `Dynamic`?"}
+{"i": 304, "text": "How can I manipulate the time limit on calculations?"}
+{"i": 305, "text": "Why does my evaluator seem to confuse efficiency with evaluation when returning pure functions?"}
+{"i": 306, "text": "How can I customize the front end to show a notification when an evaluation finishes?"}
+{"i": 307, "text": "How can I prevent tick marks from shrinking when using ImageResolution?"}
+{"i": 308, "text": "Why are my fractions misaligned when I export a plot to JPG?"}
+{"i": 309, "text": "How can I export large numbers to a text file without losing precision?"}
+{"i": 310, "text": "How can I derive a closed-form expression for the coefficients in a series expansion?"}
+{"i": 311, "text": "How can I derive a general expression for the n-th derivative of a function?"}
+{"i": 312, "text": "How can I extract Facebook managed accounts (pages) in Mathematica?"}
+{"i": 313, "text": "How can I define a Plot3D function with custom options?"}
+{"i": 314, "text": "How can I save standard plot settings so I can reuse them later?"}
+{"i": 315, "text": "Why does Mathematica 9 launch two separate MathKernel processes when I start it up?"}
+{"i": 316, "text": "Mathematica: what's the best way to map a function over a list of tuples?"}
+{"i": 317, "text": "How do I generate equidistant points along a polyline?"}
+{"i": 318, "text": "How can I make a `ListPoint` equidistant or split it evenly?"}
+{"i": 319, "text": "How can I change the default range for the x- and y-axis in `ListPlot3D`?"}
+{"i": 320, "text": "Is there a convenient way to localize all variables in a new notebook?"}
+{"i": 321, "text": "How can I limit global variables so they\u2019re only visible inside a specific notebook?"}
+{"i": 322, "text": "Why are point renderings slightly off in Mathematica?"}
+{"i": 323, "text": "Can someone help identify what these plots are?"}
+{"i": 324, "text": "How can I improve debuggability in Mathematica?"}
+{"i": 325, "text": "How do I debug code in Mathematica?"}
+{"i": 326, "text": "How can I use Mathematica to teach orthographic projection?"}
+{"i": 327, "text": "How can I benchmark expressions?"}
+{"i": 328, "text": "How can I enable autocomplete for short symbol names in a non-global context?"}
+{"i": 329, "text": "How do I apply a transformation rule to an image?"}
+{"i": 330, "text": "How do I simplify expressions involving logarithms?"}
+{"i": 331, "text": "How do I factorize a multivariable polynomial and determine its null space?"}
+{"i": 332, "text": "How can I perform symbolic calculations with formal matrices?"}
+{"i": 333, "text": "Why is my rule matching a pattern behaving unexpectedly?"}
+{"i": 334, "text": "How do I avoid this ReplaceAll trap?"}
+{"i": 335, "text": "How can I manipulate named patterns inside replacement rules?"}
+{"i": 336, "text": "What\u2019s wrong with my rule?"}
+{"i": 337, "text": "Why is `ReplaceAll` behaving this way?"}
+{"i": 338, "text": "How can I use DeleteCases with inequalities in Wolfram Language?"}
+{"i": 339, "text": "How can I define a function that completes the square for a quadratic polynomial expression?"}
+{"i": 340, "text": "How do I create a StreamPlot in polar coordinates?"}
+{"i": 341, "text": "How can I find the maximum root?"}
+{"i": 342, "text": "How do I find the poles of a Gamma function?"}
+{"i": 343, "text": "Why is my application bogging down on the first query, and what could be causing the initial request to be so slow?"}
+{"i": 344, "text": "How do I calculate the Taylor polynomial of an implicit function defined by an equation?"}
+{"i": 345, "text": "How do I implement a `set` method?"}
+{"i": 346, "text": "Why doesn\u2019t PatternSequence work with Cases?"}
+{"i": 347, "text": "Why are there conflicts between Permutations and Graph utilities after loading Combinatorica?"}
+{"i": 348, "text": "How can I render axes correctly in my graphics application?"}
+{"i": 349, "text": "What\u2019s the best way to plot an ellipse?"}
+{"i": 350, "text": "How can I color a shape based on a function?"}
+{"i": 351, "text": "How can I plot a rainbow circle?"}
+{"i": 352, "text": "How do I plot and animate a hyperbola?"}
+{"i": 353, "text": "How do I set the AspectRatio so that pixels have equal length on all axes?"}
+{"i": 354, "text": "How can I force uniform axis scaling on a ListPlot?"}
+{"i": 355, "text": "Why does plotting a perfect-looking circle with two functions always end up looking like an ellipse?"}
+{"i": 356, "text": "How do I plot a 2D color function on the plane?"}
+{"i": 357, "text": "How can I plot multiple 3D contour graphs in a single figure?"}
+{"i": 358, "text": "How do I plot a curve in 3D?"}
+{"i": 359, "text": "How can I produce traditional notation output for derivatives?"}
+{"i": 360, "text": "How do I import an audio file from my computer?"}
+{"i": 361, "text": "How can I manipulate a Plot that contains a variable which itself contains a symbol?"}
+{"i": 362, "text": "How do I force evaluation inside Manipulate?"}
+{"i": 363, "text": "How can I abridge a list of equations inside NDSolve and Manipulate?"}
+{"i": 364, "text": "How can I use and modify a variable defined outside a `Manipulate` function?"}
+{"i": 365, "text": "How do I manipulate values and perform global assignments?"}
+{"i": 366, "text": "How can I use Manipulate together with ListPlot to dynamically update a plotted list in Mathematica?"}
+{"i": 367, "text": "Why am I having a scoping problem with `Manipulate`?"}
+{"i": 368, "text": "Why does Manipulate return a blank plot?"}
+{"i": 369, "text": "How do I pass an iterator?"}
+{"i": 370, "text": "How can I use NIntegrate for a function with an arbitrary number of variables?"}
+{"i": 371, "text": "How can I create a teaching plan for high school students?"}
+{"i": 372, "text": "How can I store the local variables for a Block in a variable?"}
+{"i": 373, "text": "How do I add GUI controls inside a Grid?"}
+{"i": 374, "text": "What does \u201cselect performance\u201d mean in this context, and how can I improve the performance of a SELECT query?"}
+{"i": 375, "text": "How can I import a large amount of data with timestamps efficiently?"}
+{"i": 376, "text": "How can I track the progress of file importing?"}
+{"i": 377, "text": "Is there an open-source IntelliJ IDEA plugin for supporting Mathematica development?"}
+{"i": 378, "text": "How can I plot the heat equation inside a Manipulate expression?"}
+{"i": 379, "text": "How can I arrange images that all have the same dimensions into a grid layout?"}
+{"i": 380, "text": "Can someone explain the `Inner` concept and how it works?"}
+{"i": 381, "text": "How can I dynamically label a family of curves?"}
+{"i": 382, "text": "How can I add labels to each curve in a multi-curve plot using an efficient method without writing a large amount of code?"}
+{"i": 383, "text": "How can I combine a Plot and a ListPlot in the same graphic and make their legends appear together correctly?"}
+{"i": 384, "text": "How do I add labels to a graph?"}
+{"i": 385, "text": "Why do strange line artifacts appear in plots when using certain PlotRanges?"}
+{"i": 386, "text": "How can I output a set of 3D graphics objects when their positions are defined in one array and their colors are defined in another array?"}
+{"i": 387, "text": "How can I identify the design patterns used in Mathematica?"}
+{"i": 388, "text": "How can I plot a few 2D curves inside a 3D plot?"}
+{"i": 389, "text": "How can I create 3D plots when my data has one continuous input and one discrete input?"}
+{"i": 390, "text": "What is the Plot3D equivalent of LogLinearPlot?"}
+{"i": 391, "text": "How can I make large tables easier to read by using frozen headings and scrollbars?"}
+{"i": 392, "text": "How can I insert a submatrix of zeros into a larger matrix?"}
+{"i": 393, "text": "How can I crop graphics outside PlotRange when using Show?"}
+{"i": 394, "text": "How do I assign EdgeCost to the edges of a graph?"}
+{"i": 395, "text": "How do I use NDSolve with a vector-valued function?"}
+{"i": 396, "text": "How can I visualize a plot of a function of 3 variables using color and contours?"}
+{"i": 397, "text": "How can I prevent a cell\u2019s height from adjusting when rotating 3D graphics?"}
+{"i": 398, "text": "How can I generate all partitions of a set where each part has a specified size?"}
+{"i": 399, "text": "How can I modify my program to prevent the \"No more memory available\" error?"}
+{"i": 400, "text": "How can I generate a list of Tribonacci polynomials in Mathematica?"}
+{"i": 401, "text": "How can I estimate the system resource usage of a SparseArray?"}
+{"i": 402, "text": "How do I display the distribution above a pointplot?"}
+{"i": 403, "text": "How can I specify assumptions in Mathematica?"}
+{"i": 404, "text": "How can I state that all quantities must be positive and real?"}
+{"i": 405, "text": "How can I add a condition to a formula so that it won\u2019t show up in the result?"}
+{"i": 406, "text": "How can I exclude a parameter interval when using `Integrate`?"}
+{"i": 407, "text": "How do I tell Mathematica that a variable is an integer?"}
+{"i": 408, "text": "How do I plot the partial sums of a Fourier series?"}
+{"i": 409, "text": "Why does anti-aliasing stop working when I use the `PlotStyle` command?"}
+{"i": 410, "text": "How do I type a capital \"E\" in Mathematica 9 using `ToExpression` and `TeXForm`?"}
+{"i": 411, "text": "When I resize a plot, does it generate new data or just change how the existing data is displayed?"}
+{"i": 412, "text": "How can I get the {Xi, Zi} coordinate points generated by ContourPlot?"}
+{"i": 413, "text": "What are the standard orbital parameters used to describe bodies in the Solar System, and how are they defined?"}
+{"i": 414, "text": "What are the orbit and perigee of the Flamsteed comet?"}
+{"i": 415, "text": "How can I automatically trim the bounding box of a Graphics3D output?"}
+{"i": 416, "text": "How do I test function definition overloading and argument passing behavior?"}
+{"i": 417, "text": "How can I use Function[] inside MatchQ[] and control the evaluation of the argument?"}
+{"i": 418, "text": "Why isn\u2019t my function defined with pattern constraints working as expected?"}
+{"i": 419, "text": "How can I define a function that only accepts lists of pairs?"}
+{"i": 420, "text": "How can I enforce multiple/complex requirements on a pattern for a function argument?"}
+{"i": 421, "text": "How safe is it to use `Block` and `Internal\\`InheritedBlock`?"}
+{"i": 422, "text": "Is it possible to use Google Maps or other GPS data when creating graphs?"}
+{"i": 423, "text": "Is it a bad idea to use anonymous functions instead of a module or block?"}
+{"i": 424, "text": "How can I numerically solve a Schr\u00f6dinger-type equation in Mathematica?"}
+{"i": 425, "text": "How can I use Combined NonlinearModelFit in Mathematica?"}
+{"i": 426, "text": "How do I perform a fit for multiple datasets in Mathematica?"}
+{"i": 427, "text": "How can I add a shadow effect to my resulting figure?"}
+{"i": 428, "text": "How can I export HTML code to a .html file?"}
+{"i": 429, "text": "What does the construct `f[x_] := f[x] = ...` mean in Wolfram Language?"}
+{"i": 430, "text": "How can I create a table of data points from a function and then add random noise to the values?"}
+{"i": 431, "text": "How can I pass a symbol name to a function that has one of the Hold attributes?"}
+{"i": 432, "text": "How can I create a ListVectorPlot3D from data stored in an external file?"}
+{"i": 433, "text": "How can I label a bar chart and change how rotated labels are centered?"}
+{"i": 434, "text": "How can I decompose a complex expression that contains repeated subexpressions?"}
+{"i": 435, "text": "How do I extract the common subexpression from two expressions?"}
+{"i": 436, "text": "How can I reduce the number of operations required to evaluate an expression?"}
+{"i": 437, "text": "How can I identify repeated groups in a long algebraic expression?"}
+{"i": 438, "text": "How do I evaluate a function using a list?"}
+{"i": 439, "text": "How can I use memoization to reduce the running time of a recursive function?"}
+{"i": 440, "text": "How do I implement \u201cGo back\u201d and \u201cGo forward\u201d functionality in a help system?"}
+{"i": 441, "text": "How can I add arrows along a parametric curve inside a Manipulate in Mathematica?"}
+{"i": 442, "text": "How do I find the unit tangent, normal, and binormal vectors for a given r(t)?"}
+{"i": 443, "text": "How do I define the tangent gradient operator?"}
+{"i": 444, "text": "How can I add arrows along a parametric curve inside a `Manipulate` function?"}
+{"i": 445, "text": "How can I add tangent (velocity) vectors to a plot of a space curve?"}
+{"i": 446, "text": "How can I create a 3D phase portrait with direction fields and sample solution curves?"}
+{"i": 447, "text": "How do I draw a vector tangent to a point on a parameterized curve?"}
+{"i": 448, "text": "In Mathematica, how can I use `Manipulate` to show the points on a curve along with the tangent vector?"}
+{"i": 449, "text": "How can I obtain all possible Rules and Elements for functions like ExportString?"}
+{"i": 450, "text": "What's the most efficient way to append the result of an operation on each element of a list back onto that same list?"}
+{"i": 451, "text": "Why are my plots rendering behind the axes?"}
+{"i": 452, "text": "How do I move the axes back in a plot?"}
+{"i": 453, "text": "How can I control the placement of controls in Manipulate?"}
+{"i": 454, "text": "How can I apply a free-form input Function with InputField?"}
+{"i": 455, "text": "I'm getting a \"string expected\" message for a pattern\u2014what does this error mean and how do I fix it?"}
+{"i": 456, "text": "Why do animated 3D graphics appear low resolution?"}
+{"i": 457, "text": "How can I make a plot using `Manipulate` or `Animate` in Mathematica?"}
+{"i": 458, "text": "How can I keep a smooth surface in CDFs while playing?"}
+{"i": 459, "text": "What is a simple way to use macros or metaprogramming for data analysis?"}
+{"i": 460, "text": "How do I add scrollbars to an InputField?"}
+{"i": 461, "text": "How do I create an input text field in a GUI?"}
+{"i": 462, "text": "How can I make the Enter key insert a new line break inside an InputField?"}
+{"i": 463, "text": "How do I solve an unresolved differential equation?"}
+{"i": 464, "text": "How can I safely fill global arrays in parallel calculations?"}
+{"i": 465, "text": "How can I generate graphs interactively in a GUI?"}
+{"i": 466, "text": "How can I simulate samples from a user-specified bivariate continuous probability distribution?"}
+{"i": 467, "text": "How can I use an InterpolatingFunction as a probability density function?"}
+{"i": 468, "text": "How can I perform sort + union on a list?"}
+{"i": 469, "text": "How can I remove duplicate sublists from a list?"}
+{"i": 470, "text": "How do I fix an ordering problem in my code or data?"}
+{"i": 471, "text": "How can I list all subgraphs of a graph G that are isomorphic to a given subgraph SubG?"}
+{"i": 472, "text": "How do I calculate the volume between two surfaces of revolution?"}
+{"i": 473, "text": "How do I fix an NDSolve problem in Mathematica?"}
+{"i": 474, "text": "What's an elegant way to construct this tensor-product-like list?"}
+{"i": 475, "text": "What is an elegant way to obtain the envelope of an oscillating function?"}
+{"i": 476, "text": "Why am I getting indeterminate results, and how can I ignore them?"}
+{"i": 477, "text": "How can I combine items from two lists by matching their common available dates?"}
+{"i": 478, "text": "How do I combine two lists into one?"}
+{"i": 479, "text": "How does the coordinate system work for `ImageTake`?"}
+{"i": 480, "text": "How can I abort an evaluation once memory usage exceeds a specified limit?"}
+{"i": 481, "text": "How can I fix an issue with ListVectorPlot3D?"}
+{"i": 482, "text": "How can I import only specific columns from a .txt file?"}
+{"i": 483, "text": "How do I generate a generalized product of two lists in a special way?"}
+{"i": 484, "text": "How can I use Through to evaluate complex expressions?"}
+{"i": 485, "text": "How can I extract function variables from a list?"}
+{"i": 486, "text": "Is there advanced indexing in Mathematica?"}
+{"i": 487, "text": "How do I do MATLAB-style logical indexing in Mathematica?"}
+{"i": 488, "text": "What is the equivalent of this in Mathematica?"}
+{"i": 489, "text": "Has FEM been integrated into NDSolve yet?"}
+{"i": 490, "text": "How do I unwrap a list when calling a function?"}
+{"i": 491, "text": "How can I use Dynamic to import the chronologically newest file in a directory?"}
+{"i": 492, "text": "How can I embed text onto an opaque plane in 3D?"}
+{"i": 493, "text": "How do I avoid a name collision between a list element and an iterator variable?"}
+{"i": 494, "text": "How do I create phase portraits and use StreamPlot?"}
+{"i": 495, "text": "What is a phase space vector field, and how is it defined?"}
+{"i": 496, "text": "How do I plot this specific phase diagram in Mathematica?"}
+{"i": 497, "text": "How do I create a phase diagram in Mathematica?"}
+{"i": 498, "text": "How do I plot phase space for a dynamical system?"}
+{"i": 499, "text": "How can I create a list of the roots of a polynomial equation without including the `x ==` part in each entry?"}
+{"i": 500, "text": "How do I get ArrayPlot to render each data point as exactly one pixel?"}
+{"i": 501, "text": "Is there a way to make the subsection CounterBox keep counting across section boundaries?"}
+{"i": 502, "text": "What\u2019s the fastest way to add a constant column to an array?"}
+{"i": 503, "text": "What\u2019s the most elegant way to append to a list of lists?"}
+{"i": 504, "text": "How can I split a dataset based on the values in the first column?"}
+{"i": 505, "text": "How do short-circuit logical operators work?"}
+{"i": 506, "text": "Why does MathKernel not return all Messages?"}
+{"i": 507, "text": "Is there a function in SQL similar to ISERROR?"}
+{"i": 508, "text": "How can I create a ListPlot from two lists?"}
+{"i": 509, "text": "How can I evaluate a Button inside a DynamicModule?"}
+{"i": 510, "text": "How can I define a polygon by clicking points on an image?"}
+{"i": 511, "text": "How can I interactively select points within a specific region of a plot?"}
+{"i": 512, "text": "How can I use an arbitrary closed region to extract an image region of interest?"}
+{"i": 513, "text": "How can I use Select on a list of vectors?"}
+{"i": 514, "text": "How do I filter lists in Mathematica?"}
+{"i": 515, "text": "How can I select specific pairs based on a given condition?"}
+{"i": 516, "text": "How can I filter a list to select only the {x, y} pairs where x conforms to a specific rule?"}
+{"i": 517, "text": "How can I filter elements from a dataset based on function constraints?"}
+{"i": 518, "text": "How do I disable or suppress rotation in 3D graphics?"}
+{"i": 519, "text": "How do I convert a list into an expression?"}
+{"i": 520, "text": "What\u2019s the best way to export large graphics?"}
+{"i": 521, "text": "Why does LibraryLink never return the memory, and where is my memory going?"}
+{"i": 522, "text": "How can I create a C++ callable .lib or .dll from a Mathematica notebook?"}
+{"i": 523, "text": "How can I create a Mathematica executable that uses JLink?"}
+{"i": 524, "text": "Why is my function wrong?"}
+{"i": 525, "text": "How do I use $Assumptions correctly?"}
+{"i": 526, "text": "How do I solve inequalities when there are assumptions and additional constraints on the variables?"}
+{"i": 527, "text": "How can I simplify integrals that depend on a parameter?"}
+{"i": 528, "text": "In what situations are \u201cAssuming\u201d and \u201cAssumptions\u201d not equivalent, and why?"}
+{"i": 529, "text": "Why am I getting a strange result with a trigonometric triple integral?"}
+{"i": 530, "text": "How can I detect a more general pattern?"}
+{"i": 531, "text": "How can I plot a list-valued InterpolatingFunction in Mathematica?"}
+{"i": 532, "text": "Is it possible to create a plot with gradient filling?"}
+{"i": 533, "text": "How can I create a simple cross-eyed 3D plot?"}
+{"i": 534, "text": "Is there an analogue of the `Variables` command for general expressions?"}
+{"i": 535, "text": "What is the order of the polynomial result \\(x^2 \\left(b-\\frac{a}{2}\\right)+(a-2)x^3+\\left(2-\\frac{b}{2}\\right)x+4x^4-1\\)?"}
+{"i": 536, "text": "How can I use the same scale for two ListContourPlot graphs?"}
+{"i": 537, "text": "How can I use the same color bar across multiple DensityPlot figures?"}
+{"i": 538, "text": "How can I use or interpret the Scaled ColorData function?"}
+{"i": 539, "text": "How do I scale a density plot correctly?"}
+{"i": 540, "text": "How do I control the color scaling in `ListDensityPlot`?"}
+{"i": 541, "text": "How can I create multiple density plots that all use the same color range?"}
+{"i": 542, "text": "How can I check for duplicates within sublists?"}
+{"i": 543, "text": "How can I create a new window from a CDF that contains a Manipulate and force that Manipulate to work properly?"}
+{"i": 544, "text": "Why is NonLinearModelFit not generating a model unless I use \"BestFit\"?"}
+{"i": 545, "text": "Why does my code use expressions like `<<1>>`?"}
+{"i": 546, "text": "How can I partition a list of 2D points into sublists so that each sublist fits within a non-overlapping square of the same size?"}
+{"i": 547, "text": "How can I coarse-grain and/or sort a list of arbitrary triads {x, y, z} in the (x, y) plane?"}
+{"i": 548, "text": "How can I partition a set of 2D coordinates into subsets corresponding to the points underlying non-overlapping tiles within a bounding box?"}
+{"i": 549, "text": "What is the complement of a pre-sorted list, and how can I compute it efficiently?"}
+{"i": 550, "text": "How can I quickly restore the original order of a standard sequence after applying Complement?"}
+{"i": 551, "text": "How can I use RevolutionPlot3D to revolve a curve around an arbitrary line rather than a coordinate axis?"}
+{"i": 552, "text": "How can I revolve a surface around an arbitrary line that is not one of the x, y, or z axes?"}
+{"i": 553, "text": "How do I revolve a function around the y-axis?"}
+{"i": 554, "text": "How can I graph the solid of revolution bounded by two points on the x-axis?"}
+{"i": 555, "text": "How can I blend code for built-in ColorData schemes?"}
+{"i": 556, "text": "What RGB values should I use for pastel colors?"}
+{"i": 557, "text": "How can I encrypt the password used by SendMail?"}
+{"i": 558, "text": "How do I manipulate a circular region of an image?"}
+{"i": 559, "text": "How can I write to a file incrementally as data is generated, instead of waiting until the entire output is finished?"}
+{"i": 560, "text": "How can I write to the nth line of a file?"}
+{"i": 561, "text": "How can I normalize a matrix so that each row is divided by its own row sum?"}
+{"i": 562, "text": "Why isn\u2019t a function I defined in a package visible after I load the package?"}
+{"i": 563, "text": "How do I create Mathematica packages?"}
+{"i": 564, "text": "How can I continuously collect results from parallel calculations while the computation is still running and can be interrupted?"}
+{"i": 565, "text": "How can I turn an existing notebook into a package?"}
+{"i": 566, "text": "How do I implement this simple product rule in Mathematica?"}
+{"i": 567, "text": "How can I make printed output conditional?"}
+{"i": 568, "text": "Weird behavior when plotting a high-degree polynomial with large coefficients?"}
+{"i": 569, "text": "How do I create a relative error plot?"}
+{"i": 570, "text": "Why doesn't setting $MinPrecision increase precision in my calculation?"}
+{"i": 571, "text": "Why do I get strange behavior when I replace variables with numerical values?"}
+{"i": 572, "text": "Why am I seeing numerical instability when using `cosh` and `sinh` in integral functions?"}
+{"i": 573, "text": "How do I deal with square roots in my calculations?"}
+{"i": 574, "text": "How can I handle the hypergeometric function when its parameters are large?"}
+{"i": 575, "text": "How can I make the front and back colors of a Polygon in Graphics3D stay the same all the time?"}
+{"i": 576, "text": "How do I use a variable in `Get`?"}
+{"i": 577, "text": "How do I compute the exponential of very large negative numbers?"}
+{"i": 578, "text": "How can I flush machine underflows to zero and avoid conversion to arbitrary precision?"}
+{"i": 579, "text": "Finite precision: how can I eliminate \u201cnear zero\u201d values?"}
+{"i": 580, "text": "How can I replace very small numbers written in scientific notation in my output with 0.0?"}
+{"i": 581, "text": "How can I perform calculations using only double-precision floating point numbers?"}
+{"i": 582, "text": "What methods are available to capture Twitter feeds and analyze them?"}
+{"i": 583, "text": "How can I import tweets from Twitter?"}
+{"i": 584, "text": "How do I join two Lists that are being held?"}
+{"i": 585, "text": "How do I use `Method -> {\"AxesInFront\" -> False}` with `Graphics3D`?"}
+{"i": 586, "text": "How can I get the name of a variable as a string?"}
+{"i": 587, "text": "How do I perform mapping with a Trace[]?"}
+{"i": 588, "text": "How do I find the eigenenergies of the time-independent Schr\u00f6dinger equation?"}
+{"i": 589, "text": "How do I plot intersecting lines produced by a single function?"}
+{"i": 590, "text": "How do I apply a logarithm to both sides of an equation?"}
+{"i": 591, "text": "How can I map a function onto two lists simultaneously?"}
+{"i": 592, "text": "How can I perform logical operations on a list?"}
+{"i": 593, "text": "How do I map a pure function that takes multiple arguments/slots?"}
+{"i": 594, "text": "Is there a function or method like `Factor` for vectors and dot products that can simplify vector expressions automatically?"}
+{"i": 595, "text": "How can I combine two 2D images that are perpendicular to each other?"}
+{"i": 596, "text": "What function can I use to subdivide an interval into n evenly spaced points?"}
+{"i": 597, "text": "Is there a way to display a TreeForm sideways instead of the default orientation?"}
+{"i": 598, "text": "How can I discover hidden treasure, i.e. undocumented functions, in a codebase or library?"}
+{"i": 599, "text": "How can I inspect the code behind a built-in Mathematica function?"}
+{"i": 600, "text": "How can I obtain the coordinates of a point by clicking on it?"}
+{"i": 601, "text": "How can I remove the `\"->\"` from my output so I can use it with `ListPlot`?"}
+{"i": 602, "text": "How can I remove the `->` token from a list of numbers?"}
+{"i": 603, "text": "How can I run MathLink external commands in parallel?"}
+{"i": 604, "text": "How do I extract the coefficient matrix from a system of linear equations?"}
+{"i": 605, "text": "How do I extract a matrix and a vector from a vector?"}
+{"i": 606, "text": "How can I generate an arbitrary number of integration bounds?"}
+{"i": 607, "text": "How do I write the syntax for integrating with limits that are given by a Table?"}
+{"i": 608, "text": "How can I extract the real part of a complex expression more effectively than using `Re`?"}
+{"i": 609, "text": "How can I extract the real part of my expression?"}
+{"i": 610, "text": "How do I combine conditions and options in the correct syntax?"}
+{"i": 611, "text": "Can I use PatternTest and an Optional value together in the same pattern at the same time?"}
+{"i": 612, "text": "How do I plot a piecewise parametric curve?"}
+{"i": 613, "text": "How can I handle failed FindRoot calls gracefully?"}
+{"i": 614, "text": "Why does `AbsoluteOptions` return the wrong values for `ListPlot`?"}
+{"i": 615, "text": "What are the best ways to improve the quality of 3D rendering?"}
+{"i": 616, "text": "How can I convert a list of pairs into the form $(x, y)$?"}
+{"i": 617, "text": "How can I evaluate just a single step of an expression without fully reducing it?"}
+{"i": 618, "text": "How can I evaluate only the arguments while keeping the outermost expression unevaluated?"}
+{"i": 619, "text": "How do I replace a subexpression inside a Held expression?"}
+{"i": 620, "text": "What is the purpose of using `With[{var = myComputation[...]} , var /; True]` in Mathematica?"}
+{"i": 621, "text": "How many integral solutions are there to the equation a+b+c+d+e+f = 18?"}
+{"i": 622, "text": "How can I remove background noise from a single audio file?"}
+{"i": 623, "text": "How do I classify a linear system of equations that depends on a parameter?"}
+{"i": 624, "text": "How do I properly shift the zero frequency component to the center of a Fourier transform?"}
+{"i": 625, "text": "Why does plotting a defined function produce different results than plotting the function directly?"}
+{"i": 626, "text": "Why is my while loop not breaking even after the condition is met?"}
+{"i": 627, "text": "How can I include both plain text and variables inside Input[]?"}
+{"i": 628, "text": "How can I get a value for a variable from the user inside a module?"}
+{"i": 629, "text": "Why are the arguments to `If[]` not being evaluated?"}
+{"i": 630, "text": "How can I \"explode\" a list within a function call's argument list?"}
+{"i": 631, "text": "How do I evaluate or estimate a double sum over primes?"}
+{"i": 632, "text": "How do partial products behave in prime steps?"}
+{"i": 633, "text": "How do I evaluate contour integrals in Mathematica?"}
+{"i": 634, "text": "How can I conditionally gather lists?"}
+{"i": 635, "text": "How can I identify the pattern in a sequence of rising numbers?"}
+{"i": 636, "text": "In which library or language can I find the functional programming constructs `every` and `some`?"}
+{"i": 637, "text": "Why does putting `DialogInput` inside a `ButtonBar` freeze Mathematica?"}
+{"i": 638, "text": "Why does ContourPlot of an implicit function stop working when I square the equation?"}
+{"i": 639, "text": "Why are my equipotential plots coming out wrong?"}
+{"i": 640, "text": "Why does ContourPlot only display part of the contour lines?"}
+{"i": 641, "text": "How can I plot the contour line of `f[x, y] == 0` when `f[x, y]` is always `>= 0`?"}
+{"i": 642, "text": "How do I plot a line segment when an ellipse degenerates into a line?"}
+{"i": 643, "text": "Why does `NIntegrate` fail when I pass it a function constrained with `NumericQ` that returns a list?"}
+{"i": 644, "text": "How can I pattern match list elements inside pure functions?"}
+{"i": 645, "text": "How do I use Esc-esc to insert special characters and trigger autocomplete in Mathematica 9?"}
+{"i": 646, "text": "How do I map a rational number?"}
+{"i": 647, "text": "How can I plot a 3D graph along with its projection onto a plane?"}
+{"i": 648, "text": "Why can\u2019t System Modeler find g++ on Mac OS X Mavericks?"}
+{"i": 649, "text": "How can I replace the style of an inline cell in a StyleSheet?"}
+{"i": 650, "text": "How can I create inline TraditionalForm expressions and control their formatting?"}
+{"i": 651, "text": "How can I monitor the progress of long-running calculations?"}
+{"i": 652, "text": "Why does using `PlotLegends` with `Show` mess up my graphics?"}
+{"i": 653, "text": "How do I compare very large numbers accurately in code?"}
+{"i": 654, "text": "How can I define functions with optional arguments?"}
+{"i": 655, "text": "How can I change a specific option of a function when calling it?"}
+{"i": 656, "text": "What\u2019s the best approach to select compatible options?"}
+{"i": 657, "text": "Why does `Assuming[x > 0, TrueQ[x > 0]]` evaluate to `False`?"}
+{"i": 658, "text": "How can I use `TrueQ` to test whether an inequality is true?"}
+{"i": 659, "text": "How do I use Automorphisms[] on a graph?"}
+{"i": 660, "text": "How does Mathematica's ArcTan function work?"}
+{"i": 661, "text": "How can I execute several input cells simultaneously using parallelization?"}
+{"i": 662, "text": "How can I add a vertical line to a plot?"}
+{"i": 663, "text": "How can I plot $x = c$ using a different color scheme?"}
+{"i": 664, "text": "How can I estimate the volume of a sphere using a Monte Carlo algorithm?"}
+{"i": 665, "text": "How can I create a 3D globe?"}
+{"i": 666, "text": "How can I compute the center of a circle from three given points in 2D?"}
+{"i": 667, "text": "How can I get the plot range I want when using `Show` to combine function plots?"}
+{"i": 668, "text": "Why is Mathematica function autocomplete not working correctly?"}
+{"i": 669, "text": "How can I fill a polygon with a pattern of inset shapes?"}
+{"i": 670, "text": "How do I display an exclusion limit?"}
+{"i": 671, "text": "Is there a way to speed up rule replace?"}
+{"i": 672, "text": "How can I convert the individual digits of a number into an array?"}
+{"i": 673, "text": "How can I make Manipulator control elements display on a single line?"}
+{"i": 674, "text": "How do I calculate a limit step by step?"}
+{"i": 675, "text": "Is there an equivalent of `show` steps?"}
+{"i": 676, "text": "How does Mathematica perform integration?"}
+{"i": 677, "text": "How can I reduce a statement in Mathematica step by step?"}
+{"i": 678, "text": "What substitutions were used to evaluate the Integrate[]?"}
+{"i": 679, "text": "How can I display detailed output in Mathematica?"}
+{"i": 680, "text": "How can I see the intermediate steps Mathematica uses when evaluating `Resolve[ForAll[...]]`?"}
+{"i": 681, "text": "What is the underlying process that Mathematica\u2019s `Integrate[]` uses to compute integrals?"}
+{"i": 682, "text": "Can Mathematica show the step-by-step procedure used by the `Reduce` command?"}
+{"i": 683, "text": "How can I determine how Mathematica carried out a particular integration?"}
+{"i": 684, "text": "How can I show each step of my calculations in the output?"}
+{"i": 685, "text": "How do I solve an equation step by step?"}
+{"i": 686, "text": "Why am I getting annoying errors in certain sections of my plot?"}
+{"i": 687, "text": "How can I change the coordinate axes' origin and direction?"}
+{"i": 688, "text": "Is Mathematica an implementation of the Wolfram Language?"}
+{"i": 689, "text": "How can I use Wolfram Language without a Raspberry Pi?"}
+{"i": 690, "text": "What is the best way to make a ListPlot of two series that share the same x-axis?"}
+{"i": 691, "text": "How do I remove the singleton dimensions from an array?"}
+{"i": 692, "text": "How do I clear variables represented as a list of strings?"}
+{"i": 693, "text": "How can I use an interpolating function outside of Mathematica?"}
+{"i": 694, "text": "How can I determine the convex hull of a given piece of text?"}
+{"i": 695, "text": "Why am I unable to solve exponential equations?"}
+{"i": 696, "text": "How can I treat all variables as local within a module?"}
+{"i": 697, "text": "How can I export the data from a SmoothHistogram plot?"}
+{"i": 698, "text": "How do I create an arrowed circular arc?"}
+{"i": 699, "text": "How do I create a control array of buttons or toggles?"}
+{"i": 700, "text": "How can I pull constants out of an integral?"}
+{"i": 701, "text": "How can I import and run a notebook?"}
+{"i": 702, "text": "How do I solve an initial value problem using the Runge-Kutta method?"}
+{"i": 703, "text": "How can I exit the innermost enclosing pure function?"}
+{"i": 704, "text": "Why isn\u2019t `Return` forcing my function to exit?"}
+{"i": 705, "text": "How can I get the name associated with the value returned by the MAX function?"}
+{"i": 706, "text": "How do I find the minimum value in a nested list?"}
+{"i": 707, "text": "How can I use `reduce` on a table?"}
+{"i": 708, "text": "How do I define an operator without built-in meanings that contains a Power function?"}
+{"i": 709, "text": "How can I use an actual subscript as a variable when defining symbols with the Notation package and Symbolize?"}
+{"i": 710, "text": "How can I plot the contours of a function for different values of a parameter?"}
+{"i": 711, "text": "How do I save an indexed function?"}
+{"i": 712, "text": "What are the limits of the Prime-functions?"}
+{"i": 713, "text": "What are the internals of the Prime function?"}
+{"i": 714, "text": "What are the limits of PrimeNu?"}
+{"i": 715, "text": "In Mathematica, how can I plot objects with labels in a 3D plot?"}
+{"i": 716, "text": "Can Mathematica recognize formulas or sequences of numbers?"}
+{"i": 717, "text": "How do I plot error bars on a logarithmic scale?"}
+{"i": 718, "text": "How can I export images from a Mathematica array to a PDF so that each image is exactly n \u00d7 m millimeters in size?"}
+{"i": 719, "text": "How can I specify the size of a plot?"}
+{"i": 720, "text": "How do I loop a function over a list?"}
+{"i": 721, "text": "How can I evaluate a function using the arguments from a sliding window over a list?"}
+{"i": 722, "text": "How do I reference the next element in a list while iterating with `Map`?"}
+{"i": 723, "text": "How can I keep data in memory inside a notebook so I don\u2019t have to evaluate it again?"}
+{"i": 724, "text": "How can I return \"true\" if a point lies inside the convex hull?"}
+{"i": 725, "text": "How can I determine whether a point lies inside the interior of a closed curve or not?"}
+{"i": 726, "text": "How do I perform subtraction on multisets where the elements have multiplicity counts?"}
+{"i": 727, "text": "How can I define new 3D graphics primitives in Mathematica 9?"}
+{"i": 728, "text": "How can I use several anonymous functions mixed together without running into issues?"}
+{"i": 729, "text": "How can I project a list of strings from one collection to another so I can use it for ChartLabels?"}
+{"i": 730, "text": "Why is my slot not working inside an if statement?"}
+{"i": 731, "text": "How can I reconstruct a 3D curve from given torsion and curvature using NDSolve?"}
+{"i": 732, "text": "How can I generate a random snowflake?"}
+{"i": 733, "text": "Why does usage display correctly only after the second call?"}
+{"i": 734, "text": "How can I use one fill color for a curve when it is above the x-axis and a different fill color when it is below it?"}
+{"i": 735, "text": "How do I find the area between two curves?"}
+{"i": 736, "text": "How can I fill the area between two curves, but only in the regions where the second curve lies above the first one?"}
+{"i": 737, "text": "How can I automatically interrupt `FactorInteger` if it runs for too long?"}
+{"i": 738, "text": "How can I exclude certain numbers from a series and still plot the graph?"}
+{"i": 739, "text": "How do I plot a complex Fourier series in Mathematica?"}
+{"i": 740, "text": "How do I create a new infix operator?"}
+{"i": 741, "text": "How do I use relative paths in a notebook?"}
+{"i": 742, "text": "Is it possible to use a predefined directory with SetDirectory?"}
+{"i": 743, "text": "How can I embed one plot inside another plot?"}
+{"i": 744, "text": "How can I insert one plot into another as an overlay plot?"}
+{"i": 745, "text": "How can I add a subplot in the corner of a plot?"}
+{"i": 746, "text": "How can I enlarge one part of a figure and then combine it back with the rest of the figure to make the complete image?"}
+{"i": 747, "text": "How can I save high-quality graphics using commands?"}
+{"i": 748, "text": "How can I evaluate a string that contains the name of a variable?"}
+{"i": 749, "text": "How can I make `Symbol[\"x\"] = 3` work?"}
+{"i": 750, "text": "Why does FindFit return an Infinity::indet error when my data includes {0, 0}?"}
+{"i": 751, "text": "How can I minimize a function of many coordinates?"}
+{"i": 752, "text": "Can I change the options of one cell from a different cell?"}
+{"i": 753, "text": "How can I fill only part of a plot?"}
+{"i": 754, "text": "How can I compute and plot a spectrogram in Mathematica?"}
+{"i": 755, "text": "How can I map and apply a function to a nested list?"}
+{"i": 756, "text": "How do I express one variable in terms of another?"}
+{"i": 757, "text": "How can I simplify an expression into a form that uses my own custom definitions?"}
+{"i": 758, "text": "How can I simplify a symbolic expression in terms of constants?"}
+{"i": 759, "text": "How do I introduce new variables implicitly in a mathematical derivation or proof?"}
+{"i": 760, "text": "How can I rewrite one expression in terms of a variable that represents another expression?"}
+{"i": 761, "text": "How can I reduce the output length by introducing new variables?"}
+{"i": 762, "text": "How should I write expressions so that replacement rules are correctly applied to exponents?"}
+{"i": 763, "text": "How can I derive the reflected Polya-Aeppli distribution?"}
+{"i": 764, "text": "How can I obtain Mathematica output from Python?"}
+{"i": 765, "text": "How can I call Mathematica code from Python?"}
+{"i": 766, "text": "How can I stop Mathematica from automatically converting a string of letters into roman style formatting?"}
+{"i": 767, "text": "How can I compile a Visual Studio C++ program so it runs on machines that do not have Mathematica installed?"}
+{"i": 768, "text": "How does order of operations and operator precedence work in Mathematica?"}
+{"i": 769, "text": "How do I apply the Gram-Schmidt process to functions?"}
+{"i": 770, "text": "How can I use the Graphics command to restrict the output to a specified region, such as a disk?"}
+{"i": 771, "text": "In Mathematica 9, how can I switch back and forth between two open notebooks in the interface?"}
+{"i": 772, "text": "How can I find a path between two vertices that is not the shortest path?"}
+{"i": 773, "text": "How can I color the points in a `ListPlot` using the values of another function?"}
+{"i": 774, "text": "How can I extend an existing TagSetDelayed rule by prepending or appending to it?"}
+{"i": 775, "text": "How do I sort lists element by element?"}
+{"i": 776, "text": "How do I create a basic plot in Python?"}
+{"i": 777, "text": "How can I dynamically zoom in and out with the mouse when using MatrixPlot?"}
+{"i": 778, "text": "Is there an easy way to zoom or magnify a selected region of a plot, similar to what gnuplot or xmgrace offers?"}
+{"i": 779, "text": "How do I export an animated GIF?"}
+{"i": 780, "text": "Why do Plot and ParametricPlot produce different results for the same function?"}
+{"i": 781, "text": "How can I make a Mathematica Semilog plot with LogLinearPlot from x,y points stored in a table?"}
+{"i": 782, "text": "How can I overlay a `densityplot` on top of a world map?"}
+{"i": 783, "text": "How can I make my code return only one numeric solution to an equation?"}
+{"i": 784, "text": "How can I vary the thickness of a line in a plot?"}
+{"i": 785, "text": "How can I optimize my bubble art code?"}
+{"i": 786, "text": "How can I draw a shape on the mesh of a Plot3D?"}
+{"i": 787, "text": "How do I remove list elements that contain NaN symbols?"}
+{"i": 788, "text": "How can I color specific elements in a list generated with Table?"}
+{"i": 789, "text": "How can I enter a derivative in traditional form in typesetting?"}
+{"i": 790, "text": "How can I derive the closed-form stiffness matrix for a triangular prism element in Mathematica?"}
+{"i": 791, "text": "Why am I getting a problem with `with`?"}
+{"i": 792, "text": "What\u2019s the difference between a Block and a Module?"}
+{"i": 793, "text": "How can I return a function from a module?"}
+{"i": 794, "text": "How can I use `With` in combination with `Graphics`?"}
+{"i": 795, "text": "Can someone explain the difference between a Block, a With, and a Module?"}
+{"i": 796, "text": "Why does RandomReal behave differently inside a Block environment?"}
+{"i": 797, "text": "How do I define piecewise functions?"}
+{"i": 798, "text": "How can I place tick labels above the axis?"}
+{"i": 799, "text": "How can I change the position of the numbers on a plot?"}
+{"i": 800, "text": "How do I format output to show a specific number of decimal places?"}
+{"i": 801, "text": "What is the difference between `0.` and `0`?"}
+{"i": 802, "text": "How can I round a result to a 64-bit double-precision number?"}
+{"i": 803, "text": "Why is my frontend displaying the wrong number of digits?"}
+{"i": 804, "text": "How can I improve precision in a small calculation?"}
+{"i": 805, "text": "Why does a very small number display as \"0.\" instead of its actual value, and how can I show the full number?"}
+{"i": 806, "text": "How can I restore a Mathematica session without using the notebook interface?"}
+{"i": 807, "text": "How can I automatically run a cell when a notebook is opened?"}
+{"i": 808, "text": "How can I run an initialization cell automatically when Mathematica starts up?"}
+{"i": 809, "text": "Beginner: How do I save and reload a model while preserving its input/output behavior?"}
+{"i": 810, "text": "How can I automate running Mathematica scripts?"}
+{"i": 811, "text": "How can I save all variables currently in the workspace to a file?"}
+{"i": 812, "text": "Is there a way to make the value of a variable persist between front-end sessions?"}
+{"i": 813, "text": "How can I automatically restore the state of a previous session?"}
+{"i": 814, "text": "How can I define a tensor in terms of another tensor using summation notation?"}
+{"i": 815, "text": "How can I invert or rearrange formulas in Mathematica?"}
+{"i": 816, "text": "How do I find the InverseFunction of a polynomial function when it\u2019s restricted to a specific interval?"}
+{"i": 817, "text": "How can I use Map with OptionValue?"}
+{"i": 818, "text": "How can I visualize a complex vector field near poles?"}
+{"i": 819, "text": "How can I perform a join on matrices based on specific conditions?"}
+{"i": 820, "text": "Why does `N[number, 100]` not return 100 decimal places?"}
+{"i": 821, "text": "How can I improve the working precision of LegendreP[n, x]?"}
+{"i": 822, "text": "How can I create a ParametricPlot with a shaded gray family of lines and/or varying line sizes?"}
+{"i": 823, "text": "Why isn\u2019t ContourPlot displaying this curve?"}
+{"i": 824, "text": "Why does my plot draw a list of curves in the same color when I don't use Evaluate?"}
+{"i": 825, "text": "How can I change the plot variable from inside `Plot`?"}
+{"i": 826, "text": "Why can\u2019t I use `D[]` here instead?"}
+{"i": 827, "text": "Why do I need to wrap this in Evaluate[] here?"}
+{"i": 828, "text": "How do I define a function that works with a pandas Series?"}
+{"i": 829, "text": "How do I plot a list of functions?"}
+{"i": 830, "text": "How can I assign different colors to each curve in a `ParametricPlot` list?"}
+{"i": 831, "text": "Why doesn\u2019t PlotStyle work when I plot a non-evaluated list of functions?"}
+{"i": 832, "text": "How can I use `ContourPlot` on a `Table`?"}
+{"i": 833, "text": "When do I need to use `Evaluate` inside function arguments?"}
+{"i": 834, "text": "How does expression evaluation behave in Plot?"}
+{"i": 835, "text": "How do I use `Plot[]` with a substitution rule?"}
+{"i": 836, "text": "Why does ContourPlot not accept a variable as an argument?"}
+{"i": 837, "text": "How is the argument to `Plot` evaluated?"}
+{"i": 838, "text": "How do I plot the derivative of an integral when the limits of integration are changing?"}
+{"i": 839, "text": "Why does Mathematica Plot not evaluate correctly when using D and SetDelayed together?"}
+{"i": 840, "text": "How can I fix issues when creating functions?"}
+{"i": 841, "text": "How do I use `Plot` with `D[Sin[x]]`, and what does `Evaluate[]` do here?"}
+{"i": 842, "text": "How do I graph the characteristic polynomial?"}
+{"i": 843, "text": "Why do I get an error when plotting delayed expressions?"}
+{"i": 844, "text": "How can I reproduce a plot generated in WolframAlpha?"}
+{"i": 845, "text": "Why is my plot behaving strangely here\u2014am I missing something obvious?"}
+{"i": 846, "text": "Why am I failing to get colors in my plot?"}
+{"i": 847, "text": "How can I color multiple data sets in DiscretePlot?"}
+{"i": 848, "text": "How can I extract the coordinates from a polygon?"}
+{"i": 849, "text": "How do I make Mathematica display explicit multiplication signs (`*`) instead of using implicit multiplication or centered dots?"}
+{"i": 850, "text": "How can I get Times to be displayed as $\\cdot$, $*$, or $\\times$ in the output form?"}
+{"i": 851, "text": "Why is my Stream code not plotting multiple solution curves?"}
+{"i": 852, "text": "How can I plot a periodic function using the Dirac delta function?"}
+{"i": 853, "text": "How can I plot the Fourier transform of \\( \\sin(2t) \\)?"}
+{"i": 854, "text": "How do I save data in a parallel table?"}
+{"i": 855, "text": "Why does updating a list inside `Do` work, but the same code fails when I use `ParallelDo` instead?"}
+{"i": 856, "text": "How can I plot a 3D point in the epilog of `Plot3D`?"}
+{"i": 857, "text": "How do I contract a Levi-Civita tensor, i.e. a totally antisymmetric tensor, correctly?"}
+{"i": 858, "text": "How do I compute a sum involving the Levi-Civita symbol?"}
+{"i": 859, "text": "How can I create a dot shading, also known as stippling, effect?"}
+{"i": 860, "text": "How do I work with symmetric polynomials?"}
+{"i": 861, "text": "How can I graph the relationships between functions and variables?"}
+{"i": 862, "text": "How can I set the image size and page orientation when exporting to PDF?"}
+{"i": 863, "text": "How do I extract the second value from each sublist?"}
+{"i": 864, "text": "What\u2019s the best way to extract data from a list?"}
+{"i": 865, "text": "What are some convenient methods to sum selected rows or columns of a matrix?"}
+{"i": 866, "text": "How can I construct matrix B from the columns of matrix A?"}
+{"i": 867, "text": "How do I perform arithmetic operations on columns?"}
+{"i": 868, "text": "How do I swap the elements at indices i and j in a list?"}
+{"i": 869, "text": "How do I perform list operations on specific elements?"}
+{"i": 870, "text": "How do I subtract one list from another when both lists have the same dimensions?"}
+{"i": 871, "text": "How can I manipulate lists while keeping constant values unchanged?"}
+{"i": 872, "text": "How can I swap elements in a list without making a copy?"}
+{"i": 873, "text": "How can I use a column operation to subtract part of one nested list from part of another nested list?"}
+{"i": 874, "text": "How can I plot parametric solutions with Manipulate?"}
+{"i": 875, "text": "Is the introduction to Context in Wagner\u2019s book outdated?"}
+{"i": 876, "text": "How do I perform \\(H_{\\infty}\\) optimization for a transfer function matrix?"}
+{"i": 877, "text": "How can I add graphics primitives to a plot?"}
+{"i": 878, "text": "How can I accumulate 2D points that share the same first component?"}
+{"i": 879, "text": "How do I count the total number of elements in a list that share the same first element?"}
+{"i": 880, "text": "How can I combine the second elements of a set of ordered pairs according to their first element?"}
+{"i": 881, "text": "Why is re-arranging/selecting rows from a data table so slow inside a for loop?"}
+{"i": 882, "text": "How can I filter through a list and lump the data together?"}
+{"i": 883, "text": "How can I average the second elements of pairs when the first elements match in a list of pairs?"}
+{"i": 884, "text": "How can I sort a table of vectors by their associated weights?"}
+{"i": 885, "text": "How can I take a list of `(x, y)` pairs and produce a new list of `(x, ymean)` pairs, where `ymean` is the average of all `y` values that share the same `x` in the original list?"}
+{"i": 886, "text": "How can I merge two lists and include only the common elements?"}
+{"i": 887, "text": "How do I perform this matrix operation?"}
+{"i": 888, "text": "Can I define a custom binary operator?"}
+{"i": 889, "text": "How can I hide the MathKernel tab from the Windows taskbar when launching it from C++?"}
+{"i": 890, "text": "What is the threading behavior difference between SameQ and Equals?"}
+{"i": 891, "text": "How do I connect to a database using 32-bit ODBC on a Windows 7 64-bit machine?"}
+{"i": 892, "text": "How can I eliminate `ConditionalExpression` from my code or query output?"}
+{"i": 893, "text": "How can I adjust the spacing between labels on a BarChart?"}
+{"i": 894, "text": "Why does integrating any interpolation generate invalid comparison errors?"}
+{"i": 895, "text": "How can I modify the `KeyEventTranslations.tr` file so that pressing Enter evaluates the current cell?"}
+{"i": 896, "text": "How can I export equations from Mathematica to Matlab format?"}
+{"i": 897, "text": "How do I export an expression to Matlab?"}
+{"i": 898, "text": "How do I convert a matrix into a MATLAB-formatted string?"}
+{"i": 899, "text": "How do I use the N@ operator with a table?"}
+{"i": 900, "text": "How do I modify a list in place inside a function without creating a new list?"}
+{"i": 901, "text": "How can I assign the results from a Solve to variable(s)?"}
+{"i": 902, "text": "How can I use FindMinimum, NMinimize, etc. with an external process?"}
+{"i": 903, "text": "How do I assign the result of `Solve` to a list?"}
+{"i": 904, "text": "How can I extract the results from Solve into variables?"}
+{"i": 905, "text": "How can I modify a function argument inside the function?"}
+{"i": 906, "text": "What are the most common pitfalls that new users typically run into?"}
+{"i": 907, "text": "What\u2019s the difference between using `:=` and `=` when defining a function?"}
+{"i": 908, "text": "In Mathematica, how do I handle a nested optimization problem?"}
+{"i": 909, "text": "Why isn\u2019t my plot displaying?"}
+{"i": 910, "text": "Why am I getting an error when extracting a column?"}
+{"i": 911, "text": "How can I use NIntegrate and NSum with parameters in Mathematica?"}
+{"i": 912, "text": "How do I use the output from a previous line in a plot?"}
+{"i": 913, "text": "Having trouble with NMinimize and FindRoot for a system of equations \u2014 what could be causing the issue?"}
+{"i": 914, "text": "Why do my nested for loops produce no output?"}
+{"i": 915, "text": "How do I reimplement the `Select` function?"}
+{"i": 916, "text": "How can I convert the output of variable assignments into a usable array format?"}
+{"i": 917, "text": "How can I check whether an inequality holds among the solutions returned by Solve?"}
+{"i": 918, "text": "How can I define a function using the output returned by `DSolve`?"}
+{"i": 919, "text": "How do I simplify expressions involving square roots?"}
+{"i": 920, "text": "What does the `/.` syntax mean in numerical methods?"}
+{"i": 921, "text": "Why does my Do loop variable not change as expected?"}
+{"i": 922, "text": "How can I estimate the coefficients of an ODE, similar to how one would use NMinimize for parameter fitting?"}
+{"i": 923, "text": "How do I use the output of one process as the input to another?"}
+{"i": 924, "text": "How can I manipulate lists to extract only part of a value?"}
+{"i": 925, "text": "How can I access the numerical values of variables returned by Solve?"}
+{"i": 926, "text": "Why is my function evaluating its input at definition time instead of when I call it?"}
+{"i": 927, "text": "Why does `replace` not replace the denominator in my expression?"}
+{"i": 928, "text": "How can I fit a function when the model includes a numerical integral?"}
+{"i": 929, "text": "How do I assign the result of `Solve` to a variable?"}
+{"i": 930, "text": "How can I store the result of an inequality comparison?"}
+{"i": 931, "text": "How can I convert the expression `{a->a0, b->b0}` into `a=a0; b=b0`?"}
+{"i": 932, "text": "How can I assign a variable inside a function while bypassing the default scoping rules?"}
+{"i": 933, "text": "Why do I get an error when solving equations constructed with Table?"}
+{"i": 934, "text": "Why does FindRoot give strange results when I use it on an interpolating function with vector output?"}
+{"i": 935, "text": "How can I extract a numeric value from `Solve`?"}
+{"i": 936, "text": "Why is Mathematica unable to minimize my function?"}
+{"i": 937, "text": "How do I find the x-axis intersections/zeros of a parametrized integral?"}
+{"i": 938, "text": "How can I store the solution values for x and y?"}
+{"i": 939, "text": "Why is Mathematica\u2019s \"Insert\" function not working?"}
+{"i": 940, "text": "How can I minimize the roots of a transcendental equation?"}
+{"i": 941, "text": "How can I change an input variable inside a function?"}
+{"i": 942, "text": "Why does assigning one list to another inside a function not update the original list as I expected?"}
+{"i": 943, "text": "How can I save all inputs as a list?"}
+{"i": 944, "text": "How can I find the minimum value of a function that calls NDSolve?"}
+{"i": 945, "text": "How do I create a table of values for a function that involves random variables?"}
+{"i": 946, "text": "Why does applying MatrixForm prevent evaluation of m.v?"}
+{"i": 947, "text": "Why is NMinimize not starting?"}
+{"i": 948, "text": "What does it mean when I get the error message \u201cnot a list of numbers\u201d and \u201ccannot be used for replacing\u201d when trying to replace values?"}
+{"i": 949, "text": "How do I add a tree to a list of trees inside a loop?"}
+{"i": 950, "text": "Why does this function only work when I create a copy of the variable?"}
+{"i": 951, "text": "How do I define a function that updates a variable?"}
+{"i": 952, "text": "How can I use the solution from FindRoot as a numeric value inside a function?"}
+{"i": 953, "text": "How can I assign a formula to a variable?"}
+{"i": 954, "text": "Why am I getting the message NIntegrate::inumr in Mathematica V10, when the same code did not produce it in V9?"}
+{"i": 955, "text": "How do I determine the precision of a number?"}
+{"i": 956, "text": "How can I change the default font?"}
+{"i": 957, "text": "How can I make a fraction display taller without changing its mathematical meaning?"}
+{"i": 958, "text": "How can I prevent TraditionalForm from getting \u201csquished\u201d?"}
+{"i": 959, "text": "How do I format fractions in a Column/Grid?"}
+{"i": 960, "text": "How can I prevent fraction boxes from shrinking in size when rendering multi-level fractions?"}
+{"i": 961, "text": "How can I safely open and execute notebooks without running malicious code?"}
+{"i": 962, "text": "How can I add vectors of unequal length?"}
+{"i": 963, "text": "How do I chop pure imaginary numbers in a way that preserves the same behavior for numerical precision?"}
+{"i": 964, "text": "How can I find the coordinates of points equally spaced on a circle?"}
+{"i": 965, "text": "How do I find the intersection of a surface with a family of parallel planes?"}
+{"i": 966, "text": "How do I convert epoch seconds into a date?"}
+{"i": 967, "text": "How can I find the local maximum in a list?"}
+{"i": 968, "text": "How do I use `Needs`, `Get`, and `<<` in my code, and what is the difference between them?"}
+{"i": 969, "text": "How do I set the standard plot thickness?"}
+{"i": 970, "text": "How can I get a notification when an evaluation completes?"}
+{"i": 971, "text": "How can I export a notebook to PDF while preserving syntax highlighting?"}
+{"i": 972, "text": "How can I get the index of each iteration inside `NestList`?"}
+{"i": 973, "text": "How can I rotate a 3D plot and export it as an animated GIF?"}
+{"i": 974, "text": "How can I import LaTeX content from Wikipedia into Mathematica?"}
+{"i": 975, "text": "How do I read long numbers?"}
+{"i": 976, "text": "Why does the filling on my ListPlot not extend all the way to the axis for certain values?"}
+{"i": 977, "text": "How can I numerically compute the real part of $\\zeta^2$?"}
+{"i": 978, "text": "How do I plot a complex function?"}
+{"i": 979, "text": "At what values on the critical line does the real part of the Riemann zeta function vanish?"}
+{"i": 980, "text": "How can I plot a function in the complex plane?"}
+{"i": 981, "text": "How do I plot a complex-valued function in Mathematica?"}
+{"i": 982, "text": "How do I plot the image of a complex function over a specified domain?"}
+{"i": 983, "text": "Why is an integral evaluated inside a Plot expression so slow?"}
+{"i": 984, "text": "How can I find the full set of solutions for an underdetermined system?"}
+{"i": 985, "text": "Am I overlooking anything in my approach to solving equations?"}
+{"i": 986, "text": "Can vector differentiation results be expressed directly in terms of vectors instead of component-wise expressions?"}
+{"i": 987, "text": "How do I perform symbolic vector differentiation in Mathematica?"}
+{"i": 988, "text": "How do I extract a numeric value from a dynamic variable in `Manipulate`?"}
+{"i": 989, "text": "How do I extract a value from a dynamic list?"}
+{"i": 990, "text": "How do I get the current value of the clock?"}
+{"i": 991, "text": "How do I return values from a DynamicModule?"}
+{"i": 992, "text": "How can I reduce the file size of a notebook or CDF that contains many images?"}
+{"i": 993, "text": "How can I generate a polyhedron from a set of coordinates?"}
+{"i": 994, "text": "How can I efficiently draw a convex polyhedron from a given set of points?"}
+{"i": 995, "text": "How can I draw an arbitrary convex polyhedron?"}
+{"i": 996, "text": "I keep running into the same issue with conjugate\u2014what could be causing it?"}
+{"i": 997, "text": "In a Mathematica package, how are relative directory paths resolved, and what directory is considered the package\u2019s \u201clocal\u201d working directory?"}
+{"i": 998, "text": "How can I simplify a polynomial and control the order of the terms in the output?"}
+{"i": 999, "text": "How can I programmatically create if statements?"}
+{"i": 1000, "text": "How do I implement iterative programming?"}
+{"i": 1001, "text": "How can I calculate sectional averages for a list?"}
+{"i": 1002, "text": "How do I handle vector calculus problems?"}
+{"i": 1003, "text": "Why does the front-end group backslashes into pairs?"}
+{"i": 1004, "text": "How do I generate slope fields in Mathematica?"}
+{"i": 1005, "text": "How can I order the terms in an expression?"}
+{"i": 1006, "text": "How can I change the order of variables in the output?"}
+{"i": 1007, "text": "How can I stop expressions like `b-a` from being rewritten as `-a+b`?"}
+{"i": 1008, "text": "How do I add up these values in a list?"}
+{"i": 1009, "text": "Why does `With`, `Compile`, and `Break` behave bizarrely together in my code?"}
+{"i": 1010, "text": "How can I make the integer/rational eigenvectors and the real eigenvectors come out the same?"}
+{"i": 1011, "text": "How can I automatically choose the best method for NDSolve?"}
+{"i": 1012, "text": "Why are little triangles appearing in my Mathematica RegionPlot when I use opacity and export it to a PDF file?"}
+{"i": 1013, "text": "How can I visualize Dynamic Time Warping (DTW) alignment between two time series?"}
+{"i": 1014, "text": "How can I append a subscript to a variable name?"}
+{"i": 1015, "text": "How are variables scoped inside a Mathematica `Manipulate` expression?"}
+{"i": 1016, "text": "How can I prevent computation in a DynamicModule when an input field is undefined?"}
+{"i": 1017, "text": "Why does this simple subtraction calculation give the wrong result?"}
+{"i": 1018, "text": "How can I extend listability to coordinates?"}
+{"i": 1019, "text": "How can I generalize \u201cList-of-numbers-with-number\u201d arithmetic to \u201cList-of-X-with-X\u201d arithmetic?"}
+{"i": 1020, "text": "Is there a simple way to plot complex numbers that satisfy a given criterion?"}
+{"i": 1021, "text": "How can I automatically load the documentation for the current function?"}
+{"i": 1022, "text": "How can I plot a function that returns multiple values?"}
+{"i": 1023, "text": "Why does importing a .dat table cause the decimal values to be lost?"}
+{"i": 1024, "text": "How can I place the x-label below the x-axis?"}
+{"i": 1025, "text": "How can I plot two functions of two variables against each other?"}
+{"i": 1026, "text": "How can I thread a single abscissa through a list of ordinates?"}
+{"i": 1027, "text": "What does the backtick mean when used together with units?"}
+{"i": 1028, "text": "How can I export the data to a text file?"}
+{"i": 1029, "text": "How do I determine the precision of this number?"}
+{"i": 1030, "text": "What does the backtick symbol in `ClearAll[\"Global`*\"]` mean?"}
+{"i": 1031, "text": "How can I automatically change $n$ variables using $n$ buttons?"}
+{"i": 1032, "text": "How do I append an element to a sublist?"}
+{"i": 1033, "text": "How can I quickly combine two Lists with different structures into a single List with a different structure?"}
+{"i": 1034, "text": "How can I add columns of data to a matrix?"}
+{"i": 1035, "text": "How can I merge two lists for use with List3DPlot?"}
+{"i": 1036, "text": "How do if statements work with a Boolean value?"}
+{"i": 1037, "text": "How can I filter sublists to keep only the ones that contain a specific value?"}
+{"i": 1038, "text": "How do I select a row from a table based on a column value?"}
+{"i": 1039, "text": "How can I take the values/points generated in a loop and plot them?"}
+{"i": 1040, "text": "How do I assign the output of a loop to a variable?"}
+{"i": 1041, "text": "How can I store the output of a while loop in a list?"}
+{"i": 1042, "text": "How do I specify an array that may have an unknown number of entries?"}
+{"i": 1043, "text": "How can I create a (possibly nested) list of `NMinimize` solutions inside a loop?"}
+{"i": 1044, "text": "How can I update the third element of a triplet in a list when that triplet contains a specific value?"}
+{"i": 1045, "text": "How can I use SmoothHistogram while still preserving a sharp boundary?"}
+{"i": 1046, "text": "How do I add labels to ArrayPlot charts?"}
+{"i": 1047, "text": "Why aren\u2019t my custom FrameTicks being applied?"}
+{"i": 1048, "text": "How can I prevent trigonometric simplification from being applied automatically?"}
+{"i": 1049, "text": "Does Mathematica support variable frame rate for any video format, analogous to GIF-style \"DisplayDurations\"?"}
+{"i": 1050, "text": "How can I create a movie at a specific frame rate from a series of `ListPlot` outputs?"}
+{"i": 1051, "text": "How can I export this animation as a GIF file for a PowerPoint presentation?"}
+{"i": 1052, "text": "How can I apply some kind of timing function to AutoRunSequence?"}
+{"i": 1053, "text": "How can I create a .gif file from a complex `Manipulate` function?"}
+{"i": 1054, "text": "How can I lower the animation playback speed in an exported GIF?"}
+{"i": 1055, "text": "Why is exporting as GIF not working?"}
+{"i": 1056, "text": "How can I format numbers so they always show at least one digit after the decimal point?"}
+{"i": 1057, "text": "How are negative exponents represented?"}
+{"i": 1058, "text": "How can I force a decimal output?"}
+{"i": 1059, "text": "How do I fix a precision problem?"}
+{"i": 1060, "text": "How can I make Mathematica display a number in non-exponential notation instead of scientific form?"}
+{"i": 1061, "text": "How can I compute a Voronoi diagram for line segments in Mathematica?"}
+{"i": 1062, "text": "Why does GridBox behave differently with a packed array?"}
+{"i": 1063, "text": "How can I drop the last element from each part of a list?"}
+{"i": 1064, "text": "How can I do symbolic linear algebra when the variables are non-commutative?"}
+{"i": 1065, "text": "How do I remove a single item from a List?"}
+{"i": 1066, "text": "How can I use `ListDensityPlot` to display data in discrete bins instead of smooth interpolation?"}
+{"i": 1067, "text": "How can I compute the matrix exponential using the Cayley-Hamilton theorem?"}
+{"i": 1068, "text": "How can I view the source code for the CDF demonstration?"}
+{"i": 1069, "text": "How can I view the source code for a demo in a notebook?"}
+{"i": 1070, "text": "How can I plot a single function with different colors for different parts of the graph?"}
+{"i": 1071, "text": "How can I plot multiple curves with different colors?"}
+{"i": 1072, "text": "Why doesn\u2019t evaluation fail when the arguments are invalid?"}
+{"i": 1073, "text": "How do I find the maximum value and its index in a list?"}
+{"i": 1074, "text": "How can I find the index of the maximum element in a table?"}
+{"i": 1075, "text": "How can I find the index in a list where the maximum or minimum value occurs?"}
+{"i": 1076, "text": "How can I remove the margin between the figure and the frame in a DensityPlot?"}
+{"i": 1077, "text": "How can I convert a Graphics3D object containing Tube[BSplineCurve[...]] into polygons?"}
+{"i": 1078, "text": "How can I use the output of `Dsolve` and then take its derivative?"}
+{"i": 1079, "text": "Why does my Mathematica code work in Mathematica, but fail to display correctly in CDF Preview or when embedded in a web CDF?"}
+{"i": 1080, "text": "How can I get .cdf format to work with functions?"}
+{"i": 1081, "text": "How can I fit an NDSolve result to experimental data?"}
+{"i": 1082, "text": "How can I use FindFit to estimate nonlinear ODE parameters under a constraint in an inverse problem?"}
+{"i": 1083, "text": "How can I fit data using the numerical solution of a system of parametric ODEs?"}
+{"i": 1084, "text": "How can I extract a variable name from a string and then reassign its value?"}
+{"i": 1085, "text": "Why did my \u201cN\u201d suddenly turn red at random?"}
+{"i": 1086, "text": "How can I apply the riffle function in reverse?"}
+{"i": 1087, "text": "How does `$IterationLimit` interact with parallel computing in Mathematica?"}
+{"i": 1088, "text": "How can I export pictures at their correct size when using a Grid layout?"}
+{"i": 1089, "text": "How can I convert strings like `\"1.34e5\"` into real numbers?"}
+{"i": 1090, "text": "What\u2019s the fastest way to convert string values that represent real numbers into numeric types?"}
+{"i": 1091, "text": "Why does `ReadList` with type `Expression` fail to read numbers written in scientific notation?"}
+{"i": 1092, "text": "How can I create a matrix of matrices with Band and ArrayFlatten?"}
+{"i": 1093, "text": "What is the direct sum of matrices, and how is it constructed?"}
+{"i": 1094, "text": "How can I select duplicate values from a list?"}
+{"i": 1095, "text": "How can I plot data points that have very small differences so the variation is still visible?"}
+{"i": 1096, "text": "Why does PlotRange not work for this set of values?"}
+{"i": 1097, "text": "How do I put rounded parentheses in a label?"}
+{"i": 1098, "text": "Why is the text in my Math graphics reversed when using Graphics3D?"}
+{"i": 1099, "text": "How can I use TeX formatting inside a Graphics object?"}
+{"i": 1100, "text": "How can I hide the controls inside `Manipulate`?"}
+{"i": 1101, "text": "How do I extract specific columns from a matrix?"}
+{"i": 1102, "text": "How can I implement an RK4 gravity simulator?"}
+{"i": 1103, "text": "How can I find the values of 3 variables that best fit 6 equations?"}
+{"i": 1104, "text": "How can I use ListDensityPlot and ListPlot3D efficiently with very large datasets?"}
+{"i": 1105, "text": "How can I efficiently generate 3D histograms from a large set of 2D coordinates?"}
+{"i": 1106, "text": "How does the timing of `ParallelDo` compare to `Do` in a simple example?"}
+{"i": 1107, "text": "Why doesn\u2019t Parallelize make my code run faster?"}
+{"i": 1108, "text": "Could a shared variable be affecting performance?"}
+{"i": 1109, "text": "How do I compute this derivative?"}
+{"i": 1110, "text": "How can I combine symbolic expressions together?"}
+{"i": 1111, "text": "How can I verify the decimal precision of a result?"}
+{"i": 1112, "text": "How can I write fast code in Mathematica?"}
+{"i": 1113, "text": "How can I speed up the evaluation of an expression when using brute-force optimization?"}
+{"i": 1114, "text": "How can I automatically switch between CUDA and CPU code to make my program run faster?"}
+{"i": 1115, "text": "How can I use Fold with 3 variables?"}
+{"i": 1116, "text": "How can I compute eigenvectors without phase jumps?"}
+{"i": 1117, "text": "How can I find these two intersection points?"}
+{"i": 1118, "text": "How can I add PlotLegends to a Show function?"}
+{"i": 1119, "text": "How can I save many plots to files efficiently?"}
+{"i": 1120, "text": "How can I stop Mathematica from reordering expressions automatically?"}
+{"i": 1121, "text": "How can I get the names of all folders in a directory?"}
+{"i": 1122, "text": "How can I customize the distance between plot frame tick labels and the frame?"}
+{"i": 1123, "text": "Why doesn\u2019t `Evaluate` seem to work in this `RegionPlot` example with `MatchQ`?"}
+{"i": 1124, "text": "Why does combining two programs with event handlers cause problems?"}
+{"i": 1125, "text": "How do I evaluate a integral over a geometric region?"}
+{"i": 1126, "text": "Why do I get an error when changing a Dataset using a Part?"}
+{"i": 1127, "text": "How can I import every file in a folder at the same time?"}
+{"i": 1128, "text": "How can I import multiple DCM images at once?"}
+{"i": 1129, "text": "How do I solve complex equations?"}
+{"i": 1130, "text": "How should I place condition /; expressions correctly?"}
+{"i": 1131, "text": "How can I extract the current viewing parameters from a 3D view?"}
+{"i": 1132, "text": "What are the available viewpoint options for a 3D plot?"}
+{"i": 1133, "text": "How do I create interdependent controls in `Manipulate`?"}
+{"i": 1134, "text": "How can I use the D function in Wolfram Mathematica to compute a symbolic derivative?"}
+{"i": 1135, "text": "How is a differential operator defined in the context of calculus or differential equations?"}
+{"i": 1136, "text": "How should I interpret an output derivative expression?"}
+{"i": 1137, "text": "How do I explicitly define the Box operator, also known as the D\u2019Alembert operator?"}
+{"i": 1138, "text": "How can I define a function for arbitrary-order derivatives?"}
+{"i": 1139, "text": "How do I convert expressions into functions and evaluate them properly?"}
+{"i": 1140, "text": "Is this a bug in NDSolve in Mathematica 9.0.1?"}
+{"i": 1141, "text": "Why is there a systematic increase in runtime over repeated executions?"}
+{"i": 1142, "text": "How can I access the new colour schemes in version 10?"}
+{"i": 1143, "text": "How can I implement bookmarks in the front end while editing a package?"}
+{"i": 1144, "text": "In Mathematica 10, does Dataset fail to format display properly when there are more than 4 columns?"}
+{"i": 1145, "text": "Why doesn\u2019t simplifying `(A+B) * C` work?"}
+{"i": 1146, "text": "Where did the \u201cFunction Navigator\u201d and \u201cVirtual Book\u201d go?"}
+{"i": 1147, "text": "How do I compute the sum of all elements in two sets combined?"}
+{"i": 1148, "text": "How can I find the intersection points between two curves in Mathematica?"}
+{"i": 1149, "text": "How can I find the intersection point between a curve and an interpolation function?"}
+{"i": 1150, "text": "How can I invert a multivariate interpolating function?"}
+{"i": 1151, "text": "How can I name and manipulate multiple InputFields?"}
+{"i": 1152, "text": "Why doesn\u2019t Mathematica 10 support file paths that contain Chinese characters?"}
+{"i": 1153, "text": "How can I substitute a variable in a polynomial?"}
+{"i": 1154, "text": "How can I transform an expression using algebraic rules instead of pattern-matching rules?"}
+{"i": 1155, "text": "How do I solve a problem involving the function N?"}
+{"i": 1156, "text": "How do I round a number to the nearest decimal place?"}
+{"i": 1157, "text": "Why isn\u2019t `DeleteDuplicatesBy` working the way I expected\u2014am I overlooking something?"}
+{"i": 1158, "text": "How can I remove duplicate elements from a list while preserving the original order?"}
+{"i": 1159, "text": "How can I use pattern matching to delete items from a list?"}
+{"i": 1160, "text": "How do I perform operations on a set of sets?"}
+{"i": 1161, "text": "What is a faster alternative to DeleteDuplicates for removing elements from a list?"}
+{"i": 1162, "text": "Why isn\u2019t LegendLayout working as expected?"}
+{"i": 1163, "text": "How can I mark certain detected points on an image?"}
+{"i": 1164, "text": "How can I generate a table with a certain density?"}
+{"i": 1165, "text": "Why is Refresh not behaving as expected?"}
+{"i": 1166, "text": "How can I simulate 1-D particle motion with constant acceleration?"}
+{"i": 1167, "text": "How can I solve an integral equation using the iteration method?"}
+{"i": 1168, "text": "Why is my ContourPlot not working correctly?"}
+{"i": 1169, "text": "How can I improve a DensityPlot?"}
+{"i": 1170, "text": "Why won\u2019t Append add a record (association) to a dataset?"}
+{"i": 1171, "text": "How can I find all local minima and maxima within a given range?"}
+{"i": 1172, "text": "How can I construct a Lorenz map for the R\u00f6ssler system?"}
+{"i": 1173, "text": "How can I find all the minima?"}
+{"i": 1174, "text": "What\u2019s the best way to understand floating point arithmetic and avoid the weird precision issues it causes?"}
+{"i": 1175, "text": "In a language with multiple function definitions, which definition is used to evaluate an expression that matches the left-hand side of more than one definition?"}
+{"i": 1176, "text": "How do I specify the order of rules in a rules specification?"}
+{"i": 1177, "text": "How can I create a floating image with no window background?"}
+{"i": 1178, "text": "Potential bug involving Dataset/Query and RightComposition"}
+{"i": 1179, "text": "Why does `DeleteMissing` behave differently at the `LevelSpec` level than I expect, and how should I specify the levels correctly?"}
+{"i": 1180, "text": "How can I modify a Dataset?"}
+{"i": 1181, "text": "How can I partition a string into chunks?"}
+{"i": 1182, "text": "How can I generalize characters to n-character substrings?"}
+{"i": 1183, "text": "Why does Plot3D behave strangely when using large numbers?"}
+{"i": 1184, "text": "How can I generate all strings of a fixed length over a given alphabet?"}
+{"i": 1185, "text": "How can I list all combinations formed by selecting one element from each of several sets?"}
+{"i": 1186, "text": "How can I enable file-name completion for custom functions?"}
+{"i": 1187, "text": "How can I completely remove curly brackets when mapping a function over the elements of a list?"}
+{"i": 1188, "text": "How can I test the vibration mode of a wooden board?"}
+{"i": 1189, "text": "How do I use `MapAt` to apply a function at a specific depth in a nested expression using `LevelSpec`?"}
+{"i": 1190, "text": "How can I prevent a function from substituting part of a parameter name when the name contains a subscript?"}
+{"i": 1191, "text": "Is it possible to use a letter with a subscript as a variable in Mathematica?"}
+{"i": 1192, "text": "How can I clear all variables that have subscripts?"}
+{"i": 1193, "text": "How can I clear a symbol with a subscript in Mathematica?"}
+{"i": 1194, "text": "How can I solve this with v9 when I\u2019m having issues with Subscript, Overscript, Superscript, and similar formatting elements?"}
+{"i": 1195, "text": "How can I systematically print a variable name with an index as a subscript?"}
+{"i": 1196, "text": "How can I assign and retrieve variables with subscripts?"}
+{"i": 1197, "text": "Why can\u2019t I use subscripts with a variable?"}
+{"i": 1198, "text": "How can I plot semi-hollow spheres?"}
+{"i": 1199, "text": "How can I add coordinate axes to a 3D plot of concentric spheres?"}
+{"i": 1200, "text": "What are the values of an algebraic curve?"}
+{"i": 1201, "text": "How do I plot weather data?"}
+{"i": 1202, "text": "Does Dataset perform rounding?"}
+{"i": 1203, "text": "How can I implement a continuous phase/Arg function?"}
+{"i": 1204, "text": "How can I disable the Input Assistant in Mathematica 10?"}
+{"i": 1205, "text": "How can I disable Mathematica 10's help tooltips?"}
+{"i": 1206, "text": "How can I automatically generate a Jacobian in Mathematica?"}
+{"i": 1207, "text": "How can I use `ToExpression` from the command line?"}
+{"i": 1208, "text": "How can I delete duplicates from a list based on the order of the numbers in the sequence?"}
+{"i": 1209, "text": "How can I create a region plot for multiple functions?"}
+{"i": 1210, "text": "How can I create a region plot that highlights which function is the largest at each point among a given set of functions?"}
+{"i": 1211, "text": "How do derivatives transform under a change of coordinates?"}
+{"i": 1212, "text": "How can I display a movie without showing the playback controls?"}
+{"i": 1213, "text": "How can I add text labels to a ListLogLinearPlot in Mathematica?"}
+{"i": 1214, "text": "How do I use `DelaunayTriangulation` in Mathematica version 7.01.0?"}
+{"i": 1215, "text": "How do I create a game board?"}
+{"i": 1216, "text": "Why does Mathematica 10 take so long to load?"}
+{"i": 1217, "text": "How can I disable the Dashed graphics directive?"}
+{"i": 1218, "text": "Why is `DSolve` not returning the \u201ctrivial\u201d solutions?"}
+{"i": 1219, "text": "What is a reliable method to compute the Hurst dimension of a time series?"}
+{"i": 1220, "text": "How do edge weights affect graph embeddings?"}
+{"i": 1221, "text": "How do I obtain GridEmbedding for my graph?"}
+{"i": 1222, "text": "How can I solve equations within a given range and plot the results?"}
+{"i": 1223, "text": "How can I determine the area, algebraic curve, and jaggedness of an arbitrary shape?"}
+{"i": 1224, "text": "How can I calculate the enclosed area of this specific parametric plot?"}
+{"i": 1225, "text": "How do I calculate the area enclosed by a listplot?"}
+{"i": 1226, "text": "How can I measure the area of non-analytical regions in a plot?"}
+{"i": 1227, "text": "How can I plot the result of this singular integral?"}
+{"i": 1228, "text": "How can I create a multi-line plot from a list of lists?"}
+{"i": 1229, "text": "Can I customize the colors used for syntax highlighting in the Mathematica front end?"}
+{"i": 1230, "text": "How can I remove the unit \"pm\" from atomic positions?"}
+{"i": 1231, "text": "How do I perform binning on a list plot?"}
+{"i": 1232, "text": "How do I bin events with weights correctly?"}
+{"i": 1233, "text": "How can I pattern match an association?"}
+{"i": 1234, "text": "Why can\u2019t `Association` be replaced with `List` for `Head`?"}
+{"i": 1235, "text": "How can I make the tick marks larger?"}
+{"i": 1236, "text": "How can I suppress the warnings that appear when using `Solve` on an equation with inexact coefficients?"}
+{"i": 1237, "text": "How can I generate a heatmap from a list of coordinates?"}
+{"i": 1238, "text": "How can I use `MapThread` when the input lists are non-rectangular?"}
+{"i": 1239, "text": "How can I use Thread or MapThread on multi-level, ragged lists?"}
+{"i": 1240, "text": "Why is my formula formatting appearing small and chunky?"}
+{"i": 1241, "text": "Is there a memory leak in the FE?"}
+{"i": 1242, "text": "What do the `ShowLegend` values mean?"}
+{"i": 1243, "text": "How can I define a prefix operator with low precedence?"}
+{"i": 1244, "text": "How can I set custom precedence for a custom infix operator using `InfixNotation`?"}
+{"i": 1245, "text": "How can I estimate a time series from a plot?"}
+{"i": 1246, "text": "How can I define a variable as positive throughout an entire notebook?"}
+{"i": 1247, "text": "How can I set an assumption that applies to the entire notebook?"}
+{"i": 1248, "text": "How can I show an intermediate display similar to `PrintTemporary`?"}
+{"i": 1249, "text": "How do I implement object-oriented programming in Mathematica?"}
+{"i": 1250, "text": "How do I make a rectangular graphic with rounded corners?"}
+{"i": 1251, "text": "How can I use the result of Solve in later calculations?"}
+{"i": 1252, "text": "How do I plot a complex sine function?"}
+{"i": 1253, "text": "How can I edit a Mathematica plot in Illustrator without the fonts going missing?"}
+{"i": 1254, "text": "Can I pass arguments to a function when using it with `Function@` or the `// Function` postfix syntax?"}
+{"i": 1255, "text": "What is the undocumented form for `FilledCurve[]`?"}
+{"i": 1256, "text": "Why does `JoinedCurve` only work with a list, and how can I use it properly?"}
+{"i": 1257, "text": "How can I use SetOptions so that it automatically applies to every new notebook I create?"}
+{"i": 1258, "text": "How can I implement union and intersection functions for non-convex polygons?"}
+{"i": 1259, "text": "How do I set specific parts of an indexed list?"}
+{"i": 1260, "text": "How can I exchange the axes in a ListLinePlot?"}
+{"i": 1261, "text": "How do I evaluate a continued fraction?"}
+{"i": 1262, "text": "How can I make a `ListPlot` where the `PlotMarkers` are determined individually by each point?"}
+{"i": 1263, "text": "Why is the font size so small, and how can I increase it?"}
+{"i": 1264, "text": "How can I keep the text size consistent throughout an entire notebook file?"}
+{"i": 1265, "text": "How can I make the output size persist?"}
+{"i": 1266, "text": "How can I get better control over fonts?"}
+{"i": 1267, "text": "How can I permanently set the font size for all notebooks and future sessions?"}
+{"i": 1268, "text": "How can I set the font size to 18 points globally?"}
+{"i": 1269, "text": "Is this the most efficient way to round approximate integers to integers while leaving other reals unchanged?"}
+{"i": 1270, "text": "How do I add labels to a ListDensityPlot using a color bar?"}
+{"i": 1271, "text": "How can I input matrices using block matrix format?"}
+{"i": 1272, "text": "What\u2019s the simplest way to flatten an array of arrays to the highest level?"}
+{"i": 1273, "text": "How do I interpret or work with a matrix whose entries are themselves matrices?"}
+{"i": 1274, "text": "Why does Mathematica fail to solve a system of two equations for a single variable?"}
+{"i": 1275, "text": "How can I sort one list according to the order defined by another list?"}
+{"i": 1276, "text": "How can I use pure functions in a table context?"}
+{"i": 1277, "text": "How can I define functions inside a loop without them all ending up using the same loop variable value?"}
+{"i": 1278, "text": "How can I create a list of delayed rules?"}
+{"i": 1279, "text": "How can I append functions to a list?"}
+{"i": 1280, "text": "How can I combine 2D and 3D plots in the same visualization?"}
+{"i": 1281, "text": "How can I project an image or contour plot onto the xy-plane of a Histogram3D?"}
+{"i": 1282, "text": "How can I easily remove a stylesheet\u2019s dependency on a non-built-in stylesheet?"}
+{"i": 1283, "text": "Why does evaluation inside a Button stop after a few seconds?"}
+{"i": 1284, "text": "How can I get a Button to evaluate an expression containing Get?"}
+{"i": 1285, "text": "How can I perform asynchronous evaluation of a button's action?"}
+{"i": 1286, "text": "What\u2019s causing this button to malfunction?"}
+{"i": 1287, "text": "How can I randomly select elements from a list without repetition?"}
+{"i": 1288, "text": "How can I nest my own `times` function to compute powers?"}
+{"i": 1289, "text": "How do I define a function that operates recursively with a base case?"}
+{"i": 1290, "text": "How can I prepend information to warning messages?"}
+{"i": 1291, "text": "Why are local variables in a Module leaking into the Global context?"}
+{"i": 1292, "text": "How can I use the Mathematica front end efficiently for editing notebooks?"}
+{"i": 1293, "text": "How do I handle front-end editing?"}
+{"i": 1294, "text": "Why doesn\u2019t this sum of integrals and summations come out equal?"}
+{"i": 1295, "text": "Why is the sum rule in integration not working?"}
+{"i": 1296, "text": "Why is my plot not showing the full range of my function?"}
+{"i": 1297, "text": "What is the least-effort way to integrate C++ functions into Mathematica?"}
+{"i": 1298, "text": "How can I clear all user-defined symbols?"}
+{"i": 1299, "text": "How can I prevent restarts during development?"}
+{"i": 1300, "text": "How do I clear variables?"}
+{"i": 1301, "text": "How do I plot fitted functions?"}
+{"i": 1302, "text": "How can I manage exclusions in Plot[]?"}
+{"i": 1303, "text": "How can I prevent Mathematica from automatically joining the data points when plotting MathieuCharacteristicA?"}
+{"i": 1304, "text": "How is pattern specificity determined?"}
+{"i": 1305, "text": "How can I insert guide lines in a graphic without specifying a range?"}
+{"i": 1306, "text": "How can I plot multiple horizontal lines in a graph?"}
+{"i": 1307, "text": "How do I make Mathematica automatically load packages when I reopen it?"}
+{"i": 1308, "text": "How can I make the kernel load a user-defined function by default?"}
+{"i": 1309, "text": "How can I develop Mathematica applications in IntelliJ IDEA?"}
+{"i": 1310, "text": "How can I easily add time tick marks to a parametric plot?"}
+{"i": 1311, "text": "How can I get the AbsoluteOptions of a Histogram while preserving the PlotRange?"}
+{"i": 1312, "text": "What\u2019s the difference between `Set` and `SetDelayed` in Mathematica?"}
+{"i": 1313, "text": "How do I graph the direction field of a differential equation?"}
+{"i": 1314, "text": "How can I pass a function or formula as a function parameter?"}
+{"i": 1315, "text": "How can I find the position of a sequence of elements in a list?"}
+{"i": 1316, "text": "Why do some FrameStyle graphic directives not seem to work when using Formatting Framed?"}
+{"i": 1317, "text": "How can I use the output from Solve or Reduce?"}
+{"i": 1318, "text": "How can I control the 2D x\u2013y aspect ratio in a 3D plot?"}
+{"i": 1319, "text": "Why is ListPlot3D behaving strangely in this case?"}
+{"i": 1320, "text": "How can I plot a \u201cpressed\u201d hemisphere?"}
+{"i": 1321, "text": "How do I compute a sum or product when certain terms need to be excluded?"}
+{"i": 1322, "text": "How can I omit part of a 2D plot?"}
+{"i": 1323, "text": "How can I combine plots in one figure? I\u2019m almost there but not quite sure how to finish it."}
+{"i": 1324, "text": "Do I need to code every case of this grid full of plots separately?"}
+{"i": 1325, "text": "How can I generate a broken or snipped axis in ListPlot?"}
+{"i": 1326, "text": "How can I plot multiple functions sharing the same x-axis but using different y-axes?"}
+{"i": 1327, "text": "How can I plot multiple ranges on a single graph?"}
+{"i": 1328, "text": "How can I share the same axis between two plots?"}
+{"i": 1329, "text": "How can I create a plot with a varying scale?"}
+{"i": 1330, "text": "How do I create a grid of plots?"}
+{"i": 1331, "text": "How can I overlay multiple graphics on a single plot?"}
+{"i": 1332, "text": "How can I combine multiple plots into a single non-rasterized graphic with no spacing between them?"}
+{"i": 1333, "text": "How can I plot two functions with different ranges on the same graph?"}
+{"i": 1334, "text": "How can I create a drop-shadow effect for Graphics3D objects?"}
+{"i": 1335, "text": "How can I make sure that `Polygon[list]` draws a simple polygon?"}
+{"i": 1336, "text": "How can I retrieve the list of defined values for an indexed variable?"}
+{"i": 1337, "text": "How can I arrange terms in lexicographic order?"}
+{"i": 1338, "text": "How can I supply my own example data to a custom package?"}
+{"i": 1339, "text": "How do I troubleshoot an issue with financial data?"}
+{"i": 1340, "text": "What is the best way to solve an integro-differential equation?"}
+{"i": 1341, "text": "How do I represent ticks in scientific notation?"}
+{"i": 1342, "text": "How do I control the number of decimal places shown in the frame ticks?"}
+{"i": 1343, "text": "How can I handle plot ticks when there are too many digits?"}
+{"i": 1344, "text": "What\u2019s the difference between DownValues, UpValues, SubValues, and OwnValues in Mathematica?"}
+{"i": 1345, "text": "What\u2019s the difference between these definitions?"}
+{"i": 1346, "text": "How can I create hollow polyhedra?"}
+{"i": 1347, "text": "How can I find subsequences with a constant increase?"}
+{"i": 1348, "text": "How can I replace values that meet certain criteria?"}
+{"i": 1349, "text": "How can I replace all the values in a table \\(T\\)?"}
+{"i": 1350, "text": "How do I replace a value in a list while manipulating it?"}
+{"i": 1351, "text": "How can I replace values above a threshold with 1?"}
+{"i": 1352, "text": "How can I determine whether a given expression contains a specific symbol?"}
+{"i": 1353, "text": "How do I tell Mathematica to generate a histogram from nominal data?"}
+{"i": 1354, "text": "How can I find palindromic numbers for Project Euler problem #4?"}
+{"i": 1355, "text": "How can I modify the style definitions in Default.nb?"}
+{"i": 1356, "text": "How can I share styles between notebooks in Mathematica v9?"}
+{"i": 1357, "text": "How can I change the default color for titles, sections, subsections, and list items, including the bullet color?"}

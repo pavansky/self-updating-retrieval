@@ -207,6 +207,10 @@ def plan():
     for cond in ("prov", "provdepth"):
         for lam in PROV_LAM:
             for pw in PW_GRID: P.append(("askgen", cond, pw, lam, "content"))
+    if os.environ.get("PLAN") == "fac":        # 2x2 prompt factorial: main design, content-aware user
+        P = [("askgen", "static", 0.0, 0.0, "root")] + [("askgen", "naive", pw, 0.0, "content") for pw in PW_GRID]
+    if os.environ.get("PLAN") == "long":       # long stream: main design, content-aware user, naive and delayed reopen
+        P = [("askgen", "static", 0.0, 0.0, "root")] + [("askgen", c, pw, 0.0, "content") for c in ("naive", "reopen_d1") for pw in PW_GRID]
     if os.environ.get("PLAN") == "min":        # external-validity runs (other prompt): main design and user models only
         P = [("askgen", "static", 0.0, 0.0, "root")] + [(v, "naive", pw, 0.0, u) for v in ("askgen", "gen") for u in ("root", "content") for pw in PW_GRID] \
             + [("askgen", "reopen_d1", pw, 0.0, "content") for pw in PW_GRID]

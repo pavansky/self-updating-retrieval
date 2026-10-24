@@ -15,6 +15,10 @@ SUBS = T["meta"]["subs"]; RETS = T["meta"]["rets"]; CONFIGS = [(s, r) for s in S
 NAME = {"bge": "bge", "minilm": "MiniLM", "bm25": "BM25"}
 M = {}
 def mac(name, v): M[name] = v
+def holm_adj(ps):
+    ps = np.asarray(ps, float); o = np.argsort(ps); m = len(ps); adj = np.empty(m); run = 0.0
+    for rank, i in enumerate(o): run = max(run, min(1.0, (m - rank) * ps[i])); adj[i] = run
+    return adj
 def f1(x): return f"{x:.1f}"
 def f2(x): return f"{x:.2f}"
 def pm(v): return f"{v[0]:+.2f} $\\pm$ {v[1]:.2f}"
@@ -134,6 +138,7 @@ write("tab3_h1ctrl.tex", L)
 
 # user models
 U = T["users"]
+U = {k: v for k, v in U.items() if "root" in v and "content" in v}
 mac("nUserEarlier", str(sum(1 for v in U.values() if (v["content"]["cross"]["p"] if v["content"]["cross"]["kind"] != ">" else 1.0) < (v["root"]["cross"]["p"] if v["root"]["cross"]["kind"] != ">" else 1.0) - 1e-9)))
 mac("dHighRoot", f"{np.mean([v['root']['d95'][0] for v in U.values()]):+.2f}"); mac("dHighContent", f"{np.mean([v['content']['d95'][0] for v in U.values()]):+.2f}")
 mac("dLowRoot", f"{np.mean([v['root']['d01'][0] for v in U.values()]):+.2f}"); mac("dLowContent", f"{np.mean([v['content']['d01'][0] for v in U.values()]):+.2f}")
@@ -252,6 +257,65 @@ for k, v in T["h2"].items():
 yy = [100 * cc[d]["YES"] / max(sum(cc[d][x] for x in ("YES", "PARTLY", "NO", "ABSTAIN")), 1) for d in ("0", "1", "2")]
 mac("yesDZeroAW", f"{yy[0]:.0f}"); mac("yesDTwoAW", f"{yy[2]:.0f}")
 oth = [v["ceil0.95"]["other"] for v in E.values()]; mac("otherHighMean", f1(np.mean(oth)))
+# ---- 2x2 prompt factorial (instruction x length limit), all four forums ----------------------------------------------
+CELLS = [("main", "", "evidence-only", "120 words"), ("enl", "_enl", "evidence-only", "no limit"), ("ol", "_ol", "open", "120 words"), ("open", "_open", "open", "no limit")]
+TF = {c: (T if suf == "" else (json.load(open(os.path.join(RES, f"tables_gen3{suf}.json"))) if os.path.exists(os.path.join(RES, f"tables_gen3{suf}.json")) else None)) for c, suf, _, _ in CELLS}
+if all(TF.values()) and all(len(TF[c]["meta"]["subs"]) == 4 for c in TF):
+    def cellcfg(tab, s, r):
+        L_ = tab["h2"][f"{s}|{r}|0.95"]["labels"]; out = []
+        for d in ("0", "2"):
+            n_ = sum(L_[d].get(x, 0) for x in ("YES", "PARTLY", "NO", "ABSTAIN")); out.append(100 * L_[d].get("YES", 0) / n_ if n_ else np.nan)
+        u = tab["users"][f"{s}|{r}"]["content"]
+        return dict(y0=out[0], y2=out[1], drop=out[0] - out[1], d01=u["d01"][0], d95=u["d95"][0], safe=u["cross"]["kind"] == ">")
+    F = {c: [cellcfg(TF[c], s, r) for s, r in CONFIGS] for c in TF}
+    Lf = [r"\begin{table}[t]\centering\small", r"\caption{Prompt factorial, content-aware user, question and generated answer entries, all twelve configurations. Yes: share of served answers that state the root thread's solution, from a thread and from an entry of depth 2 or more; drop: their difference in points (mean over configurations). Harm: change in correct answers per 1{,}000 questions from answers served at depth 2 or more, with a joint bootstrap 95\% interval.}\label{tab:factorial}",
+          r"\begin{adjustbox}{max width=\linewidth}", r"\begin{tabular}{llrrrrrrr}", r"\toprule", r"instruction & length & yes, thread & yes, depth $\geq2$ & drop & $\Delta$ at 0.1 & $\Delta$ at 0.95 & safe & harm at depth 2 \\", r"\midrule"]
+    for c, suf, ins, lim in CELLS:
+        X = F[c]; hp = TF[c].get("h2_harm_pool")
+        Lf.append(f"{ins} & {lim} & {np.nanmean([x['y0'] for x in X]):.0f}\\% & {np.nanmean([x['y2'] for x in X]):.0f}\\% & {np.nanmean([x['drop'] for x in X]):.1f} & "
+                  f"{np.mean([x['d01'] for x in X]):+.2f} & {np.mean([x['d95'] for x in X]):+.2f} & {sum(x['safe'] for x in X)}/12 & "
+                  + (f"{hp['est'][1]:+.2f} [{hp['lo'][1]:+.2f}, {hp['hi'][1]:+.2f}]" if hp else "--") + r" \\")
+    # main effects, paired over the 12 configurations: instruction (open - evidence) averaged over length, and length (none - 120)
+    def eff(key, a1, a2, b1, b2): return [(F[a1][i][key] + F[a2][i][key]) / 2 - (F[b1][i][key] + F[b2][i][key]) / 2 for i in range(12)]
+    Lf += [r"\midrule"]
+    FACT = []
+    for nm, (a1, a2, b1, b2) in (("i", ("ol", "open", "main", "enl")), ("l", ("enl", "open", "main", "ol"))):
+        for key in ("y0", "y2", "drop", "d01", "d95"):
+            e = np.array(eff(key, a1, a2, b1, b2)); e = e[~np.isnan(e)]
+            FACT.append(stats.wilcoxon(e).pvalue if len(e) > 5 and not np.allclose(e, 0) else 1.0)
+    QH = list(holm_adj(FACT)); qi = iter(QH)
+    for nm, (a1, a2, b1, b2) in (("instruction (open $-$ evidence-only)", ("ol", "open", "main", "enl")), ("length (no limit $-$ 120 words)", ("enl", "open", "main", "ol"))):
+        row = [nm, ""]
+        for key in ("y0", "y2", "drop", "d01", "d95"):
+            e = np.array(eff(key, a1, a2, b1, b2)); e = e[~np.isnan(e)]
+            pv = next(qi)
+            ps = "$<$0.001" if pv < 0.001 else f"{pv:.3f}"
+            row.append(f"{e.mean():+.1f} ($q$={ps})" if key in ("y0", "y2", "drop") else f"{e.mean():+.2f} ($q$={ps})")
+            mac(f"fac{'Instr' if nm.startswith('instr') else 'Len'}{ {'y0': 'YZero', 'y2': 'YTwo', 'drop': 'Drop', 'd01': 'Low', 'd95': 'High'}[key] }", f"{e.mean():+.1f}" if key in ("y0", "y2", "drop") else f"{e.mean():+.2f}")
+            mac(f"fac{'Instr' if nm.startswith('instr') else 'Len'}{ {'y0': 'YZero', 'y2': 'YTwo', 'drop': 'Drop', 'd01': 'Low', 'd95': 'High'}[key] }P", ps)
+        Lf.append(" & ".join(row) + r" & & \\")
+    Lf += [r"\bottomrule", r"\end{tabular}", r"\end{adjustbox}", r"\end{table}"]
+    write("tab3_factorial.tex", Lf)
+    for c, suf, ins, lim in CELLS:
+        X = F[c]; C = {"main": "Main", "enl": "Enl", "ol": "Ol", "open": "Open"}[c]
+        mac(f"facYZero{C}", f"{np.nanmean([x['y0'] for x in X]):.0f}"); mac(f"facYTwo{C}", f"{np.nanmean([x['y2'] for x in X]):.0f}")
+        mac(f"facSafe{C}", str(sum(x["safe"] for x in X))); mac(f"facHigh{C}", f"{np.mean([x['d95'] for x in X]):+.2f}")
+        hp = TF[c].get("h2_harm_pool")
+        if hp: mac(f"facHarm{C}", f"{hp['est'][1]:+.2f}"); mac(f"facHarmLo{C}", f"{hp['lo'][1]:+.2f}"); mac(f"facHarmHi{C}", f"{hp['hi'][1]:+.2f}")
+# ---- long stream ------------------------------------------------------------------------------------------------------
+TLg = json.load(open(os.path.join(RES, "tables_gen3_long.json"))) if os.path.exists(os.path.join(RES, "tables_gen3_long.json")) else None
+if TLg:
+    Hl = {k: v for k, v in TLg["h2"].items() if k.endswith("|0.95")}
+    last = [100 * v["self_d2_by_round"][-1] for v in Hl.values()]; mid = [100 * v["self_d2_by_round"][len(v["self_d2_by_round"]) // 2 - 1] for v in Hl.values()]
+    mac("longDeepMid", f1(np.mean(mid))); mac("longDeepEnd", f1(np.mean(last))); mac("longDeepEndMax", f1(max(last)))
+    hp = TLg["h2_harm_pool"]
+    for j, D in enumerate(("One", "Two", "Three")):
+        mac(f"longHarm{D}", f"{hp['est'][j]:+.2f}"); mac(f"longHarm{D}Lo", f"{hp['lo'][j]:+.2f}"); mac(f"longHarm{D}Hi", f"{hp['hi'][j]:+.2f}")
+    ct = TLg["h2_cfg_test"]; mac("longYesLower", str(ct["lower"])); mac("longYesN", str(ct["n"])); mac("longYesZero", f"{100 * ct['mean0']:.0f}"); mac("longYesTwo", f"{100 * ct['mean2']:.0f}")
+    deep = [100 * (v["ent_d"][1] + v["ent_d"][2]) / max(sum(v["ent_d"]), 1) for v in Hl.values()]; mac("longDeepShareMax", f"{max(deep):.0f}"); mac("longDeepShareMin", f"{min(deep):.0f}")
+    S4l = TLg["h4_summary"]
+    if "reopen_d1" in S4l: mac("longReopenHigh", f"{S4l['reopen_d1']['d95']:+.2f}"); mac("longNaiveHigh", f"{S4l['naive']['d95']:+.2f}"); mac("longReopenBetter", str(S4l["reopen_d1"]["better95"]))
+    mac("nLongCfg", str(len(Hl)))
 DF = json.load(open(os.path.join(RES, "drift_floor.json"))); mac("driftFloor", f2(np.mean([v["floor"] for v in DF.values()])))
 open(os.path.join(OUTD, "macros.tex"), "w").write("\n".join(f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in sorted(M.items())) + "\n")
 print(len(M), "macros written")

@@ -209,7 +209,8 @@ for user in ("root", "content"):
 for s, r in CONFIGS:
     if HAS(*rkey(s, r, "askgen", "naive", 0.95, 0.0, "content")):
         T["users"][f"{s}|{r}"] = {u: dict(cross=cross(s, r, "askgen", "naive", 0.0, u), d95=ci(delta(s, r, "askgen", "naive", 0.95, 0.0, u)),
-                                          d01=ci(delta(s, r, "askgen", "naive", 0.1, 0.0, u))) for u in ("root", "content")}
+                                          d01=ci(delta(s, r, "askgen", "naive", 0.1, 0.0, u))) for u in ("root", "content")
+                                  if HAS(*rkey(s, r, "askgen", "naive", 0.95, 0.0, u))}
 
 # ---- H2: depth ------------------------------------------------------------------------------------------------------
 LABS = ("YES", "PARTLY", "NO", "ABSTAIN", "NOREF")
